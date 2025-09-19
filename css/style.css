@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
     display: flex;
@@ -23,7 +24,7 @@ body {
     width: 100%;
     text-align: center;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .container::before {
@@ -56,6 +57,7 @@ h1 {
     margin-bottom: 30px;
     width: 100%;
     max-width: 400px;
+    text-align: left;
 }
 
 .dropdown-btn {
@@ -87,10 +89,11 @@ h1 {
     min-width: 100%;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    z-index: 1;
+    z-index: 1000;
     margin-top: 5px;
     max-height: 300px;
     overflow-y: auto;
+    border: 1px solid #e2e8f0;
 }
 
 .dropdown-content a {
@@ -196,6 +199,7 @@ h1 {
     cursor: pointer;
     transition: all 0.3s ease;
     text-align: left;
+    font-size: 20px;
 }
 
 .answer:hover {
@@ -270,6 +274,10 @@ h1 {
 
 .arrow.rotate {
     transform: rotate(180deg);
+}
+
+#home-page {
+    overflow: visible;
 }
 
 @keyframes fadeIn {
