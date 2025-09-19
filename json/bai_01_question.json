@@ -1,0 +1,14 @@
+{
+    "questions": [
+        {
+            "question": "Đâu KHÔNG là chức năng của hệ điều hành các máy tính nói chung?",
+            "answers": [
+                "Tổ chức thực hiện các chương trình, điều phối tài nguyên cho các tiến trình xử lý trên máy tính",
+                "Cung cấp môi trường giao tiếp với người sử dụng",
+                "Cung cấp một số tiện ích giúp nâng cao hiệu quả sử dụng máy tính",
+                "Luôn cung cấp sẵn các chương trình ứng dụng cần thiết"
+            ],
+            "correct": 3
+        }
+    ]
+}
