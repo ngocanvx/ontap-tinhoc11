@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn Tập Tin Học Lớp 11</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Trang chủ -->
+        <div id="home-page">
+            <h1>🖥️ Ôn Tập Tin Học Lớp 11</h1>
+            <p class="intro">
+                Chào mừng bạn đến với hệ thống ôn tập Tin học lớp 11!
+                Đây là nơi giúp bạn củng cố kiến thức và luyện tập các khái niệm quan trọng
+                trong chương trình Tin học THPT.
+                <br>
+                Hãy chọn bài học và bắt đầu ôn tập ngay!
+            </p>
+
+            <div class="dropdown">
+                <button class="dropdown-btn" onclick="toggleDropdown()">
+                    <span id="selected-lesson">Chọn bài học</span>
+                    <span class="arrow">▼</span>
+                </button>
+                <div class="dropdown-content" id="dropdown-content">
+                    <!-- Danh sách bài học sẽ được tạo tự động -->
+                </div>
+            </div>
+
+            <button class="start-btn" id="start-btn" onclick="startQuiz()" disabled>
+                Bắt Đầu
+            </button>
+        </div>
+
+        <!-- Giao diện làm bài tập -->
+        <div id="quiz-page" class="quiz-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+
+            <div class="quiz-info">
+                <div>
+                    <strong>Câu hỏi:</strong>
+                    <span id="current-question">1</span>/<span id="total-questions">10</span>
+                </div>
+                <div>
+                    <strong>Thời gian:</strong>
+                    <span id="timer">00:00</span>
+                </div>
+            </div>
+
+            <div class="question" id="question-container">
+                <!-- Câu hỏi sẽ được hiển thị ở đây -->
+            </div>
+
+            <div id="message-container"></div>
+
+            <div style="text-align: center;">
+                <button class="next-btn" id="next-btn" onclick="nextQuestion()" disabled>
+                    Câu tiếp theo
+                </button>
+                <button class="end-btn" onclick="endQuiz()">
+                    Kết thúc
+                </button>
+            </div>
+        </div>
+
+        <!-- Trang kết quả -->
+        <div id="result-page" class="result-container">
+            <h1>🎉 Hoàn thành!</h1>
+            <p class="intro" id="result-message"></p>
+
+            <div class="result-stats">
+                <div class="stat-card">
+                    <div class="stat-number" id="correct-answers">0</div>
+                    <div class="stat-label">Câu đúng</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="total-time">00:00</div>
+                    <div class="stat-label">Thời gian</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="accuracy">0%</div>
+                    <div class="stat-label">Độ chính xác</div>
+                </div>
+            </div>
+
+            <button class="back-btn" onclick="goHome()">
+                Quay lại
+            </button>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
