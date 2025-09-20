@@ -1,0 +1,184 @@
+{
+    "questions": [
+        {
+            "question": "Để khởi động công cụ tìm kiếm thì em cần?",
+            "answers": [
+                "Mở trình duyệt internet trên máy tính của em",
+                "Gõ địa chỉ LUR máy tìm kiếm",
+                "Gõ tìm word",
+                "Nhấn Enter"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Đâu là địa chỉ URL tìm kiếm?",
+            "answers": [
+                "Tech12h.com",
+                "newocr.com",
+                "Google.com",
+                "Trình soạn thảo web"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Nếu kết quả tìm kiếm chưa được như ý muốn của em thì?",
+            "answers": [
+                "Em sử dụng máy tìm kiếm khác",
+                "Em sử dụng trình duyệt khác",
+                "Em quay lại nhập từ khóa khác",
+                "Sử dụng một phần mềm khác"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Để thực hiện tìm kiếm bằng tiếng nói thì cần có?",
+            "answers": [
+                "Bàn phím",
+                "Con chuột",
+                "Micro",
+                "Loa"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Khi tìm kiếm thông tin tuyển sinh của một trường đại học thì em nên yêu cầu tìm dưới dạng nào dưới đây?",
+            "answers": [
+                "Tệp .pdf",
+                "Hình ảnh",
+                "Bài báo",
+                "Tin tức"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Khi muốn tìm kiếm ảnh về hoa hồng thì em nên chọn tìm kiếm thông tin dạng?",
+            "answers": [
+                "Bài viết",
+                "Tin tức",
+                "Hình ảnh",
+                "Âm thanh"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Để tìm kiếm thông tin dưới dạng tệp tin pdf thì em cần?",
+            "answers": [
+                "Nhập từ khóa tìm kiếm và bổ sung cụm từ filetype.docx",
+                "Nhập từ khóa tìm kiếm và bổ sung cụm từ filetype.jpg",
+                "Nhập từ khóa tìm kiếm và bổ sung cụm từ filetype:pdf",
+                "Nhập từ khóa tìm kiếm và bổ sung cụm từ filetype.mp3"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Để thu hẹp phạm vi tìm kiếm thì?",
+            "answers": [
+                "Đặt từ khóa cần tìm trong dấu nháy kép",
+                "Đặt từ khóa trong dấu ngoặc đơn",
+                "Đặt từ khóa trong dấu ngoặc vuông",
+                "Rút gọn từ khóa"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Đặt từ khóa cần tìm trong dấu nháy kép có tác dụng?",
+            "answers": [
+                "Không thu hẹp phạm vi tìm kiếm",
+                "Không cho kết quả tìm kiếm chính xác hơn",
+                "Cho kết quả tìm kiếm chính xác hơn",
+                "Thiếu chính xác"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Chọn đáp án sai?",
+            "answers": [
+                "Người không biết cách tìm kiếm tài liệu đúng sẽ không tìm kiếm được tài liệu nhanh và chính xác",
+                "Người biết cách tìm kiếm sẽ tìm được rất nhanh và chính xác",
+                "Người không biết xây dựng từ khóa tìm kiếm sẽ tìm kiếm nhanh hơn",
+                "Ngày nay, tất cả mọi thông tin đều có thể tìm thấy trên Internet"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Đâu là cách tìm kiếm thông tin hiệu quả?",
+            "answers": [
+                "Đặt từ khóa trong dấu ngoặc đơn",
+                "Từ khóa tìm kiếm chưa đầy đủ",
+                "Cách tìm kiếm tài liệu không đúng",
+                "Chưa biết cách xây dựng từ khóa"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Khi em muốn tìm kiếm thông tin về tình hình dịch bệnh thì em nên tìm kiếm thông tin dưới dạng?",
+            "answers": [
+                "Tin tức",
+                "Hình ảnh",
+                "File pfd",
+                "Âm thanh"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Tên nào sau đây là tên của máy tìm kiếm?",
+            "answers": [
+                "Word",
+                "Google",
+                "Window Explorer",
+                "Excel"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Từ khóa là gì?",
+            "answers": [
+                "Là từ mô tả chiếc chìa khóa",
+                "Là một biểu tượng trong máy tìm kiếm",
+                "Là tập hợp các từ mà máy tìm kiếm quy định trước",
+                "Là một từ hoặc cụm từ liên quan đến nội dung cần tìm kiếm do người sử dụng cung cấp"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Máy tìm kiếm là công cụ hỗ trợ….. trên Internet theo yêu cầu của người sử dụng",
+            "answers": [
+                "Tìm kiếm thông tin",
+                "Liên kết",
+                "Từ khóa",
+                "Danh sách liên kết"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Cách nhanh nhất để tìm thông tin trên WWW mà không biết địa chỉ là?",
+            "answers": [
+                "Nhờ người khác tìm hộ",
+                "Sử dụng máy tìm kiếm để tìm kiếm với từ khóa",
+                "Di chuyển lần theo đường liên kết của các trang web",
+                "Hỏi địa chỉ người khác rồi ghi ra giấy, sau đó nhập địa chỉ vào thanh địa chỉ"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Máy tìm kiếm là gì?",
+            "answers": [
+                "Một động cơ cung cấp sức mạnh cho Internet",
+                "Một chương trình bảo vệ máy tính khỏi virus",
+                "Một chương trình sắp xếp dữ liệu trên máy tính của bạn",
+                "Một website đặc biệt hỗ trợ người sử dụng tìm kiếm thông tin trên Internet"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Ý kiến nào sau đây là sai?",
+            "answers": [
+                "Kho thông tin trên Internet là khổng lồ",
+                "Chúng ta có thể sử dụng bất kỳ thông tin nào trên Internet mà không cần xin phép",
+                "Internet cung cấp môi trường làm việc trực tuyến, giải trí từ xa",
+                "Người sử dụng có thể tìm kiếm, trao đổi thông tin trên Internet"
+            ],
+            "correct": 1
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "questions": [
+        {
+            "question": "Internet giúp khắc phục giới hạn lưu trữ bằng?",
+            "answers": [
+                "Phân phối bán lẻ bộ nhớ",
+                "Cho người dùng thuê bộ nhớ",
+                "Bắt người dùng mua phần mềm thứ 3",
+                "Các dịch vụ chia sẻ tệp tin trực tuyến"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Đâu không phải là các nhà cung cấp dịch vụ lưu trữ thông tin, dữ liệu ngày nay?",
+            "answers": [
+                "Google",
+                "Microsoft",
+                "Apple",
+                "Hệ điều hành"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Khi đăng ký sử dụng dịch vụ lưu trữ thông tin, dữ liệu trực tuyến thì người dùng sẽ được?",
+            "answers": [
+                "Cung cấp các dịch vụ xử lý dữ liệu",
+                "Cung cấp phần mềm chỉnh sửa dữ liệu trực tuyến",
+                "Cung cấp một không gian nhớ trực tuyến",
+                "Trao đổi như một kênh chat"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Trên nơi lưu trữ trực tuyến cho phép người dùng…?",
+            "answers": [
+                "Không được quyền nhận xét",
+                "Tạo thư mục mới, quản lý ổ đĩa",
+                "Không được chỉnh sửa trực tuyến",
+                "Không được quyền đổi tên"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Ưu điểm của việc lưu trữ thông tin trực tuyến là?",
+            "answers": [
+                "Cho phép chia sẻ thư mục, tệp cho người dùng khác",
+                "Không cho phép chia sẻ thư mục, tệp cho người dùng khác",
+                "Bán được thông tin cho nhau để kiếm tiền",
+                "Thích vào thư mục của ai cũng được"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Chủ sở hữu quyết định quyền của người được chia sẻ với ba chế độ?",
+            "answers": [
+                "Xem, xóa, khôi phục",
+                "Xem, nhận xét, chỉnh sửa",
+                "Xem, mua, bán",
+                "Xem, tải về, lấy tài khoản"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Quyền chỉnh sửa là?",
+            "answers": [
+                "Là quyền chỉ cho xóa",
+                "Là quyền lấy được tài khoản lưu trữ",
+                "Là quyền chỉ cho xem",
+                "Quyền cao nhất cho phép thao tác với thư mục và tệp"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Đâu là dịch vụ lưu trữ và chia sẻ thông tin trực tuyến của Google?",
+            "answers": [
+                "One Drive",
+                "iCloud",
+                "Dropbox",
+                "Google Drive"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Sau khi chia sẻ thư mục, tệp người dùng có thể?",
+            "answers": [
+                "Xóa bỏ tệp đã chia sẻ",
+                "Hủy bỏ hoặc thay đổi chế độ chia sẻ",
+                "Làm mới tệp chia sẻ",
+                "Tạo một tệp mới"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Internet giúp khắc phục giới hạn lưu trữ bằng?",
+            "answers": [
+                "Các dịch vụ chia sẻ tệp tin trực tuyến",
+                "Phân phối bán lẻ bộ nhớ",
+                "Cho người dùng thuê bộ nhớ",
+                "Bắt người dùng mua phần mềm thứ 3"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Người dùng đăng ký sử dụng dịch vụ và được cấp một không gian lưu trữ trực tuyến gọi là?",
+            "answers": [
+                "Cầu kết nối",
+                "Nhà lưu trữ",
+                "Đĩa trực tuyến",
+                "Bát online"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Ưu điểm của việc lưu trữ thông tin trực tuyến là?",
+            "answers": [
+                "Cho phép chia sẻ thư mục, tệp cho người dùng khác",
+                "Không cho phép chia sẻ thư mục, tệp cho người dùng khác",
+                "Bán được thông tin cho nhau để kiếm tiền",
+                "Thích vào thư mục của ai cũng được"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Người dùng có thể xem và nhận xét là quyền?",
+            "answers": [
+                "Chỉ xem",
+                "Chỉnh sửa",
+                "Được nhận xét",
+                "Đổi tên"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Người dùng có thể xem là quyền?",
+            "answers": [
+                "Chỉ xem",
+                "Chỉnh sửa",
+                "Được nhận xét",
+                "Được xóa"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Trong quyền được chỉnh sửa thì người dùng có thể?",
+            "answers": [
+                "Chỉnh sửa thư mục, xóa thư mục, đổi tên",
+                "Quyền chỉ xem",
+                "Nhận xét",
+                "Quyền chia sẻ"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Khi nào thì người dùng được cung cấp một ổ đĩa trực tuyến?",
+            "answers": [
+                "Cài đặt hệ điều hành mới",
+                "Mua các phần mềm nguồn mở",
+                "Sử dụng dịch vụ lưu trữ thư mục và tệp trực tuyến",
+                "Bán được thông tin cho nhau để kiếm tiền"
+            ],
+            "correct": 2
+        }
+    ]
+}
