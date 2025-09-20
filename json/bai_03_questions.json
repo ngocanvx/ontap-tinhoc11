@@ -1,0 +1,254 @@
+{
+    "questions": [
+        {
+            "question": "Với ngôn ngữ lập trình bậc cao thì chương trình được viết dưới dạng?",
+            "answers": [
+                "Văn bản khác với ngôn ngữ tự nhiên",
+                "Kí tự gần giống với văn bản",
+                "Văn bản gần với ngôn ngữ tự nhiên",
+                "Văn bản gồm các kí hiệu 0 và 1"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Văn bản gần với ngôn ngữ tự nhiên trong ngôn ngữ lập trình bậc cao được gọi là?",
+            "answers": [
+                "Mã máy",
+                "Phần mềm",
+                "Mã nguồn",
+                "Kí hiệu"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Để máy tính có thể chạy trực tiếp thì?",
+            "answers": [
+                "Chương trình được dịch thành ngôn ngữ lập trình",
+                "Chương trình được dịch thành mã nguồn",
+                "Chương trình được dịch thành dãy lệnh máy",
+                "Không cần phải dịch"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Việc dịch chương trình sang mã máy giúp?",
+            "answers": [
+                "Máy có thể hiểu được và chống đánh cắp ý tưởng",
+                "Máy có thể hiểu được và giúp sửa đổi phần mềm",
+                "Bảo vệ chống đánh cắp ý tưởng và giúp sửa đổi phần mềm",
+                "Bảo vệ chống đánh cắp ý tưởng, sửa đổi phần mềm"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Vì sao việc dịch sang mã máy giúp chống sửa đổi phần mềm và chống đánh cắp ý tưởng?",
+            "answers": [
+                "Mã máy dễ đọc",
+                "Mã máy có tính bảo mật cao",
+                "Mã máy rất khó đọc",
+                "Mã máy có nhiều kí tự đặc biệt"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Nguyên nhân dẫn đến sự ra đời của phần mềm nguồn mở là?",
+            "answers": [
+                "Không chia sẻ mã nguồn",
+                "Cùng nhau tạo ra mã nguồn",
+                "Chia sẻ mã nguồn để cùng phát triển",
+                "Vì mục đích thương mại"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Cách thức chuyển giao phần mềm cho người sử dụng theo chiều hướng?",
+            "answers": [
+                "Ngăn dần",
+                "Đóng dần",
+                "Bí mật dần",
+                "Mở dần"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Phần mềm thương mại là?",
+            "answers": [
+                "Phần mềm để bán, loại nguồn mở",
+                "Phần mềm để bán, loại nguồn đóng",
+                "Phần mềm không bán, loại nguồn mở",
+                "Phần mềm không bán, loại nguồn đóng"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Phần mềm nào dưới đây là phần mềm thương mại?",
+            "answers": [
+                "Inkscape",
+                "GIMP",
+                "Microsoft Word",
+                "Môi trường lập trình cho ngôn ngữ Python"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Phần mềm tự do KHÔNG có đặc điểm?",
+            "answers": [
+                "Là phần mềm miễn phí",
+                "Được tự do sử dụng mà không cần xin phép",
+                "Có thể ở dạng mã máy hoặc mã nguồn",
+                "Mã nguồn đóng"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Phần mềm nguồn mở KHÔNG có đặc điểm?",
+            "answers": [
+                "Phần mềm được cung cấp cả mã nguồn để người dùng có thể tự sửa đổi, cải tiến, phát triển, phân phối lại theo một quy định",
+                "Phần mềm nguồn mở là tự do",
+                "Phần mềm nguồn mở không được bảo hành",
+                "Phần mềm để bán"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Đâu KHÔNG là phần mềm nguồn mở?",
+            "answers": [
+                "Inkscape",
+                "GIMP",
+                "Môi trường lập trình cho ngôn ngữ Python",
+                "Photoshop"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Phần mềm thương mại thường được dùng để?",
+            "answers": [
+                "Bán",
+                "Trao đổi",
+                "Tạo ra các chương trình mới lạ",
+                "Hỗ trợ các phần mềm khác"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Hầu hết, phần mềm thương mại được bán ở dạng?",
+            "answers": [
+                "Mã nguồn",
+                "Mã máy",
+                "Mã code",
+                "Mã vạch"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Giấy phép công cộng GNU GPL là?",
+            "answers": [
+                "Giấy phép điển hình với phần nguồn mở",
+                "Giấy phép điển hình với phần nguồn đóng",
+                "Giấy phép điển hình với phần nguồn mở và đóng",
+                "Giấy phép kinh doanh"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Chọn đáp án Sai. Giấy phép công cộng GNU GPL bảo đảm?",
+            "answers": [
+                "Quyền tiếp cận của người sử dụng đối với mã nguồn để dùng, thay đổi hoặc phân phối lại",
+                "Quyền miễn trừ của tác giả về hậu quả sử dụng phần mềm",
+                "Quyền đứng tên của các tác giả tham gia phát triển",
+                "Có thể không công bố rõ ràng các thay đổi của các phiên bản"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Giấy phép công cộng GNU GPL bảo đảm sự phát triển của các phần mềm nguồn mở bằng cách?",
+            "answers": [
+                "Công bố rõ ràng các thay đổi của các phiên bản, buộc phần phát triển dựa trên phần mềm nguồn mở theo giấy phép GPL cũng phải mở theo GPL",
+                "Công bố rõ ràng các thay đổi của các phiên bản, buộc phần phát triển dựa trên phần mềm nguồn mở theo giấy phép GPL không cần phải mở theo GPL",
+                "Công bố có thể không rõ ràng các thay đổi của các phiên bản, buộc phần phát triển dựa trên phần mềm nguồn mở theo giấy phép GPL cũng phải mở theo GPL",
+                "Công bố có thể không rõ ràng các thay đổi của các phiên bản, buộc phần phát triển dựa trên phần mềm nguồn mở theo giấy phép GPL không cần phải mở theo GPL"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Đâu KHÔNG phải là ý nghĩa của yêu cầu “người sửa đổi, nâng cấp phần mềm nguồn mở phải công bố rõ ràng phần nào đã sửa, sửa thế nào so với bản gốc”?",
+            "answers": [
+                "Đảm bảo tính minh bạch, trung thực và đáng tin cậy của phần mềm nguồn mở",
+                "Công bố các thay đổi giúp người dùng hiểu rõ về những thay đổi trong phần mềm, giúp họ quyết định xem có nên cập nhật hay không và giúp họ biết được nguồn gốc và lịch sử của phần mềm",
+                "Giúp đảm bảo tính tương thích của phần mềm giữa các phiên bản",
+                "Để xem và định giá bán cho phù hợp"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Ưu điểm của phần mềm nguồn mở là?",
+            "answers": [
+                "Miễn phí, mã nguồn đóng, hỗ trợ nhiều hệ điều hành và định dạng tệp khác nhau",
+                "Miễn phí, mã nguồn mở, hỗ trợ nhiều hệ điều hành và định dạng tệp khác nhau",
+                "Bán, mã nguồn mở, hỗ trợ nhiều hệ điều hành và định dạng tệp khác nhau",
+                "Bán, mã nguồn đóng, hỗ trợ nhiều hệ điều hành và định dạng tệp khác nhau"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Do mã nguồn của phần mềm nguồn mở có thể được tùy chỉnh nên?",
+            "answers": [
+                "Nhiều phiên bản phần mềm khác nhau có thể được phát triển và sử dụng theo nhu cầu của người dùng, đem lại sự đa dạng và lựa chọn cho người dùng khi lựa chọn phần mềm",
+                "Nhiều phiên bản phần mềm khác nhau có thể được phát triển và sử dụng theo nhu cầu của người dùng, đem lại sự đa dạng và lựa chọn cho người dùng khi lựa chọn phần mềm",
+                "Nhiều phiên bản phần mềm khác nhau có thể được phát triển và sử dụng theo nhu cầu của người dùng, đem lại sự đa dạng và lựa chọn cho người dùng khi lựa chọn phần mềm",
+                "Nhiều phiên bản phần mềm khác nhau có thể được phát triển và sử dụng theo nhu cầu của người dùng, đem lại sự đa dạng và lựa chọn cho người dùng khi lựa chọn phần mềm"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Phần mềm nào dưới đây thuộc phần mềm thương mại?",
+            "answers": [
+                "Phần mềm đặt hàng",
+                "Phần mềm miễn phí",
+                "Phần mềm tự do",
+                "Phần mềm nguồn mở"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Phần mềm thương mại bị phụ thuộc vào?",
+            "answers": [
+                "Nhà sáng tạo ra phần mềm",
+                "Nhà cung cấp về giải pháp kỹ thuật",
+                "Nhà kiểm soát phần mềm",
+                "Trình độ người sử dụng"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Phần mềm nào có thể thay thế hệ Windows?",
+            "answers": [
+                "Android",
+                "Writer",
+                "LINUX",
+                "My SQL"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Hệ quản trị cơ sở dữ liệu mở nào có thể thay thế so Oracle, SQL Server?",
+            "answers": [
+                "Android",
+                "Writer, Calc và Impress",
+                "LINUX",
+                "My SQL, postGreSQL"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Phần mềm đặt hàng được thiết kế?",
+            "answers": [
+                "Dựa trên những yêu cầu chung của nhiều người",
+                "Theo yêu cầu của từng khách hàng",
+                "Dựa trên phần mềm nguồn mở",
+                "Theo đặc điểm vùng miền"
+            ],
+            "correct": 1
+        }
+    ]
+}
