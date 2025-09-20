@@ -19,8 +19,7 @@
     <div id="quiz-page" class="page">
         <h2 id="lesson-title"></h2>
         <div id="quiz-container">
-            <p id="question-counter"></p>
-            <p id="time-spent"></p>
+            <p><span id="question-counter"></span> - <span id="time-spent"></span></p>
             <h3 id="question-text"></h3>
             <div id="answers-container" class="answers"></div>
         </div>
@@ -33,8 +32,10 @@
 
     <div id="result-page" class="page">
         <h2>Kết quả của bạn</h2>
-        <p>Số câu đúng: <span id="correct-count"></span></p>
-        <p>Số câu sai: <span id="incorrect-count"></span></p>
+        <p>Số câu hoàn thành: <span id="complete-count"></span></p>
+        <p>Số câu đúng lần đầu: <span id="correct-count"></span></p>
+        <p>Số câu chọn lại: <span id="incorrect-count"></span></p>
+        <p>Tỉ lệ đúng lần đầu: <span id="percent-correct-first"></span></p>
         <p>Tổng thời gian: <span id="total-time"></span></p>
         <button id="restart-button">Quay về</button>
     </div>

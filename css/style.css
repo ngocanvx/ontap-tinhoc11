@@ -96,6 +96,7 @@ body {
 .answer-option {
     display: block;
     width: 100%;
+    font-size: 18px;
     text-align: left;
     padding: 12px;
     margin: 8px 0;
@@ -108,8 +109,6 @@ body {
 
 .answer-option:hover {
     background-color: #e9ecef;
-    transform: translateY(-2px);
-    /* Di chuyển nút lên 2px */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* Thêm đổ bóng nhẹ */
 }

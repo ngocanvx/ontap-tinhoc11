@@ -14,16 +14,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const feedbackMessage = document.getElementById('feedback-message');
     const nextButton = document.getElementById('next-button');
     const finishButton = document.getElementById('finish-button');
+
+    // Các nhãn thống kê cuối bài ôn tập
+    const completeCountSpan = document.getElementById('complete-count');
     const correctCountSpan = document.getElementById('correct-count');
     const incorrectCountSpan = document.getElementById('incorrect-count');
+    const percentCorrectFirst = document.getElementById('percent-correct-first');
     const totalTimeSpan = document.getElementById('total-time');
+
+    // Nút nhấn quay về trang chủ
     const restartButton = document.getElementById('restart-button');
 
     // Global variables
     let lessons = [];
     let currentQuestions = [];
+    let totalQuestions = 0;
     let currentQuestionIndex = 0;
-    let correctAnswers = 0;
+    let completeAnswers = 0;
     let incorrectAnswers = 0;
     let quizStartTime;
     let quizTimer;
@@ -51,8 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const response = await fetch(`./json/${fileName}`);
             const data = await response.json();
             currentQuestions = data.questions;
+            totalQuestions = currentQuestions.length;
             currentQuestionIndex = 0;
-            correctAnswers = 0;
+            completeAnswers = 0;
             incorrectAnswers = 0;
             displayQuestion();
         } catch (error) {
@@ -101,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
             feedbackMessage.classList.remove('incorrect');
             feedbackMessage.style.display = 'block';
             nextButton.disabled = false;
-            correctAnswers++;
+            completeAnswers++;
         } else {
             selectedOption.classList.add('incorrect');
             feedbackMessage.textContent = 'Câu trả lời sai. Vui lòng chọn lại.';
@@ -160,8 +168,10 @@ document.addEventListener('DOMContentLoaded', () => {
         quizPage.classList.remove('active');
         resultPage.classList.add('active');
 
-        correctCountSpan.textContent = correctAnswers;
+        completeCountSpan.textContent = completeAnswers + "/" + totalQuestions;
+        correctCountSpan.textContent = completeAnswers - incorrectAnswers;
         incorrectCountSpan.textContent = incorrectAnswers;
+        percentCorrectFirst.textContent = ((completeAnswers - incorrectAnswers) / completeAnswers * 100).toFixed(2) + "%";
         totalTimeSpan.textContent = `${minutes} phút ${seconds} giây`;
     }
 
