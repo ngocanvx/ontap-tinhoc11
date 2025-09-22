@@ -28,6 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Global variables
     let lessons = [];
     let currentQuestions = [];
+
+    let questions_part_1 = [];
+    let questions_part_2 = [];
+    let questions_part_3 = [];
+
     let totalQuestions = 0;
     let currentQuestionIndex = 0;
     let completeAnswers = 0;
