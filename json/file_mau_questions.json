@@ -1,0 +1,62 @@
+[
+    {
+        "part_1": [
+            {
+                "question": "Nội dung câu hỏi 1",
+                "answers": [
+                    "Phương án A",
+                    "Phương án B",
+                    "Phương án C",
+                    "Phương án D"
+                ],
+                "correct": 0
+            },
+            {
+                "question": "Nội dung câu hỏi 2",
+                "answers": [
+                    "Phương án A",
+                    "Phương án B",
+                    "Phương án C",
+                    "Phương án D"
+                ],
+                "correct": 3
+            }
+        ]
+    },
+    {
+        "part_2": [
+            {
+                "question": "Nội dung câu hỏi 1",
+                "answers": [
+                    "Phương án A",
+                    "Phương án B",
+                    "Phương án C",
+                    "Phương án D"
+                ],
+                "correct": "dssd"
+            },
+            {
+                "question": "Nội dung câu hỏi 2",
+                "answers": [
+                    "Phương án A",
+                    "Phương án B",
+                    "Phương án C",
+                    "Phương án D"
+                ],
+                "correct": "ddss"
+            }
+        ]
+    },
+    {
+        "part_3": [
+            {
+                "question": "Nội dung câu hỏi 1",
+                "correct": 1.25
+            },
+            {
+                "question": "Nội dung câu hỏi 1",
+                "correct": 0.25
+            }
+        ]
+    }
+]
