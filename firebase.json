@@ -1,10 +1,11 @@
 {
   "hosting": {
-    "public": "ontap-tinhoc11",
+    "public": ".",
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**"
+      "**/node_modules/**",
+      ".github"
     ]
   }
 }
