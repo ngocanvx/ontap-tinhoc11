@@ -3,7 +3,7 @@ name: Deploy to Firebase Hosting
 on:
   push:
     branches:
-      - main # Hoặc tên nhánh chính của bạn (master)
+      - master # Hoặc tên nhánh chính của bạn (master)
 
 jobs:
   build_and_deploy:
