@@ -21,11 +21,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const finishButton = document.getElementById('finish-button');
 
     // Các nhãn thống kê cuối bài ôn tập
-    const completeCountSpan = document.getElementById('complete-count');
-    const correctCountSpan = document.getElementById('correct-count');
-    const incorrectCountSpan = document.getElementById('incorrect-count');
-    const percentCorrectFirst = document.getElementById('percent-correct-first');
-    const totalTimeSpan = document.getElementById('total-time');
+    const complete_count_part1 = document.getElementById('complete-count-part1');
+    const complete_count_part2 = document.getElementById('complete-count-part2');
+    const complete_count_part3 = document.getElementById('complete-count-part3');
+
+    const correct_count_part1 = document.getElementById('correct-count-part1');
+    const correct_count_part2 = document.getElementById('correct-count-part2');
+    const correct_count_part3 = document.getElementById('correct-count-part3');
+
+    const incorrect_count_part1 = document.getElementById('incorrect-count-part1');
+    const incorrect_count_part2 = document.getElementById('incorrect-count-part2');
+    const incorrect_count_part3 = document.getElementById('incorrect-count-part3');
+
+    const total_time_part1 = document.getElementById('total-time-part1');
+    const total_time_part2 = document.getElementById('total-time-part2');
+    const total_time_part3 = document.getElementById('total-time-part3');
 
     // Nút nhấn quay về trang chủ
     const restartButton = document.getElementById('restart-button');
