@@ -32,6 +32,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let questions_part_1 = [];
     let questions_part_2 = [];
     let questions_part_3 = [];
+    let total_Questions_1 = 0;
+    let total_Questions_2 = 0;
+    let total_Questions_3 = 0;
 
     let totalQuestions = 0;
     let currentQuestionIndex = 0;
@@ -43,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Load lessons from baihoc.json
     async function loadLessons() {
         try {
-            const response = await fetch('./json/baihoc.json');
+            const response = await fetch('./json/baihoc2.json');
             const data = await response.json();
             lessons = data.lessons;
             lessons.forEach((lesson, index) => {
@@ -62,12 +65,22 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await fetch(`./json/${fileName}`);
             const data = await response.json();
-            currentQuestions = data.questions;
-            totalQuestions = currentQuestions.length;
+
+            // Đọc danh sách câu hỏi các phần
+            questions_part_1 = data.part_1;
+            questions_part_2 = data.part_2;
+            questions_part_3 = data.part_3;
+
+            // Đếm số lượng câu hỏi từng phần
+            total_Questions_1 = questions_part_1.length;
+            total_Questions_2 = questions_part_2.length;
+            total_Questions_3 = questions_part_3.length;
+
             currentQuestionIndex = 0;
             completeAnswers = 0;
             incorrectAnswers = 0;
-            displayQuestion();
+            displayQuestion_1();
+
         } catch (error) {
             console.error('Lỗi khi tải câu hỏi:', error);
             alert('Không thể tải câu hỏi cho bài học này.');
@@ -75,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Display current question
-    function displayQuestion() {
+    function displayQuestion(part) {
         if (currentQuestionIndex >= currentQuestions.length) {
             endQuiz();
             return;
@@ -181,6 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Event Listeners
+    // Gán sự kiện cho đối tượng
     startButton.addEventListener('click', startQuiz);
     nextButton.addEventListener('click', nextQuestion);
     finishButton.addEventListener('click', endQuiz);
