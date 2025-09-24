@@ -17,21 +17,45 @@
     </div>
 
     <div id="quiz-page" class="page">
+        <!-- Tiêu đề bài học -->
         <h2 id="lesson-title"></h2>
+
+        <!-- Thêm các nút chọn phần câu hỏi -->
+        <button id="part1-button" disabled>Phần 1</button>
+        <button id="part2-button">Phần 2</button>
+        <button id="part3-button">Phần 3</button>
+
+        <!-- Thêm các nội dung số câu hỏi hiện tại, nội dung câu hỏi và phương án trả lời -->
         <div id="quiz-container">
             <p><span id="question-counter"></span> - <span id="time-spent"></span></p>
             <h3 id="question-text"></h3>
             <div id="answers-container" class="answers"></div>
         </div>
+
+        <!-- Phản hồi kết quả đã chọn là đúng hay sai -->
         <div id="feedback-message"></div>
+
+        <!-- Thêm các nút điều khiển -->
         <div class="controls">
             <button id="next-button" disabled>Câu kế tiếp</button>
             <button id="finish-button">Kết thúc</button>
+
         </div>
     </div>
 
+    <!-- Thống kê kết quả -->
     <div id="result-page" class="page">
         <h2>Kết quả của bạn</h2>
+
+        <table>
+            <tr>
+                <th></th>
+                <th>Phần 1</th>
+                <th>Phần 2</th>
+                <th>Phần 3</th>
+            </tr>
+        </table>
+
         <p>Số câu hoàn thành: <span id="complete-count"></span></p>
         <p>Số câu đúng lần đầu: <span id="correct-count"></span></p>
         <p>Số câu chọn lại: <span id="incorrect-count"></span></p>

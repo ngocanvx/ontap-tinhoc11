@@ -1,9 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
     // DOM Elements
+    // Khai báo các biến DOM (Document Object Model) cần thiết
+    // Nhằm truy cập và thao tác với các phần tử HTML
+
+    // Các trang chính
     const homePage = document.getElementById('home-page');
     const quizPage = document.getElementById('quiz-page');
     const resultPage = document.getElementById('result-page');
 
+    // Các phần tử trong trang quiz
     const lessonSelect = document.getElementById('lesson-select');
     const startButton = document.getElementById('start-button');
     const lessonTitle = document.getElementById('lesson-title');
@@ -26,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const restartButton = document.getElementById('restart-button');
 
     // Global variables
+    // Lưu danh sách bài học và danh sách câu hỏi hiện tại
     let lessons = [];
     let currentQuestions = [];
 
@@ -39,24 +45,47 @@ document.addEventListener('DOMContentLoaded', () => {
     let total_questions_2 = 0;
     let total_questions_3 = 0;
 
-    let currentQuestionIndex = 0;
-    let completeAnswers = 0;
-    let incorrectAnswers = 0;
+    // Lưu số câu hỏi đã hoàn thành của từng phần
+    let completed_questions_1 = 0;
+    let completed_questions_2 = 0;
+    let completed_questions_3 = 0;
+
+    // Lưu số câu hỏi sai của từng phần
+    let incorrect_questions_1 = 0;
+    let incorrect_questions_2 = 0;
+    let incorrect_questions_3 = 0;
+
+    // Đánh dấu phần câu hỏi hiện tại đang ở phần nào
+    let current_question_part = 0;
+
+    // Đánh dấu thứ tự câu hỏi hiện tại trong phần đang làm
+    let current_question_index = 0;
+
+    // Lưu thời gian thực hiện bài quiz
     let quizStartTime;
     let quizTimer;
 
     // Load lessons from baihoc.json
+    // Tải danh sách bài học từ file JSON
     async function loadLessons() {
         try {
+            // Đọc nội dung file JSON
             const response = await fetch('./json/baihoc2.json');
+
+            // Phân tích nội dung JSON
             const data = await response.json();
+
+            // Lưu danh sách bài học và hiển thị trong thẻ select
             lessons = data.lessons;
+
+            // Duyệt danh sách bài học, add vào select
             lessons.forEach((lesson, index) => {
                 const option = document.createElement('option');
                 option.value = lesson.file;
                 option.textContent = lesson.name;
                 lessonSelect.appendChild(option);
             });
+
         } catch (error) {
             console.error('Lỗi khi tải danh sách bài học:', error);
         }
@@ -79,6 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Load questions for a selected lesson
+    // Tải danh sách câu hỏi từ file JSON
     async function loadQuestions(fileName) {
         try {
             const response = await fetch(`./json/${fileName}`);
@@ -94,10 +124,14 @@ document.addEventListener('DOMContentLoaded', () => {
             total_Questions_2 = questions_part_2.length;
             total_Questions_3 = questions_part_3.length;
 
-            currentQuestionIndex = 0;
+
+            current_question_part = 0; // Bắt đầu từ phần 1
+            current_question_index = 0;
+            currentQuestions = questions_part_1; // Bắt đầu với phần 1
+
             completeAnswers = 0;
             incorrectAnswers = 0;
-            displayQuestion_1(); // Giả sử bạn bắt đầu với phần 1
+            displayQuestion(); // Giả sử bạn bắt đầu với phần 1
 
         } catch (error) {
             console.error('Lỗi khi tải câu hỏi:', error);
@@ -107,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // Display current question
-    function displayQuestion(part_number) {
+    function displayQuestion() {
         if (currentQuestionIndex >= currentQuestions.length) {
             endQuiz();
             return;
