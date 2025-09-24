@@ -32,11 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let questions_part_1 = [];
     let questions_part_2 = [];
     let questions_part_3 = [];
-    let total_Questions_1 = 0;
-    let total_Questions_2 = 0;
-    let total_Questions_3 = 0;
+    let total_questions_1 = 0;
+    let total_questions_2 = 0;
+    let total_questions_3 = 0;
 
-    let totalQuestions = 0;
     let currentQuestionIndex = 0;
     let completeAnswers = 0;
     let incorrectAnswers = 0;
@@ -88,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Display current question
-    function displayQuestion(part) {
+    function displayQuestion(part_number) {
         if (currentQuestionIndex >= currentQuestions.length) {
             endQuiz();
             return;
