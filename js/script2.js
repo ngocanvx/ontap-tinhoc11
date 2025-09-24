@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let current_question_index = 0;
 
     // Lưu thời gian thực hiện bài quiz
-    let quiz_start_time = [0, 0, 0];
+    let quiz_start_time;
     let quiz_timer;
 
     // Load lessons from baihoc.json
@@ -125,18 +125,14 @@ document.addEventListener('DOMContentLoaded', () => {
             questions_part_3 = shuffleArray(data.part_3);
 
             // Đếm số lượng câu hỏi từng phần
-            total_Questions_1 = questions_part_1.length;
-            total_Questions_2 = questions_part_2.length;
-            total_Questions_3 = questions_part_3.length;
+            total_questions = [questions_part_1.length, questions_part_2.length, questions_part_3.length];
 
             // Cập nhật vị trí bắt đầu ôn tập
             current_question_part = 1; // Bắt đầu từ phần 1
             current_questions = questions_part_1; // Bắt đầu với phần 1
             current_question_index = 0; // Bắt đầu từ câu hỏi đầu tiên của phần 1
 
-
-            completeAnswers = 0;
-            incorrectAnswers = 0;
+            // Hiển thị câu hỏi
             displayQuestion(); // Giả sử bạn bắt đầu với phần 1
 
         } catch (error) {
@@ -148,82 +144,82 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Display current question
     function displayQuestion() {
-        if (currentQuestionIndex >= currentQuestions.length) {
+        if (current_question_index >= current_questions.length) {
             endQuiz();
             return;
         }
 
-        const questionData = currentQuestions[currentQuestionIndex];
+        const questionData = current_questions[current_question_index];
 
         // Reset UI
-        answersContainer.innerHTML = '';
-        feedbackMessage.style.display = 'none';
-        nextButton.disabled = true;
+        answers_container.innerHTML = '';
+        feedback_message.style.display = 'none';
+        next_button.disabled = true;
 
         // Update question info
-        questionCounter.textContent = `Câu ${currentQuestionIndex + 1}/${currentQuestions.length}`;
-        questionText.textContent = questionData.question;
+        question_counter.textContent = `Câu ${current_question_index + 1}/${current_questions.length}`;
+        question_text.textContent = questionData.question;
 
         // Create answer options
         questionData.answers.forEach((answer, index) => {
-            const answerOption = document.createElement('button');
-            answerOption.className = 'answer-option';
-            answerOption.textContent = answer;
-            answerOption.addEventListener('click', () => handleAnswerClick(answerOption, index, questionData.correct));
-            answersContainer.appendChild(answerOption);
+            const answer_option = document.createElement('button');
+            answer_option.className = 'answer-option';
+            answer_option.textContent = answer;
+            answer_option.addEventListener('click', () => handleAnswerClick(answer_option, index, questionData.correct));
+            answers_container.appendChild(answer_option);
         });
     }
 
     // Handle user's answer
-    function handleAnswerClick(selectedOption, selectedIndex, correctIndex) {
-        const allOptions = answersContainer.querySelectorAll('.answer-option');
-        allOptions.forEach(option => option.disabled = true); // Disable all buttons after a choice
+    function handleAnswerClick(selected_option, selected_index, correct_index) {
+        const all_options = answers_container.querySelectorAll('.answer-option');
+        all_options.forEach(option => option.disabled = true); // Disable all buttons after a choice
 
-        if (selectedIndex === correctIndex) {
-            selectedOption.classList.add('correct');
-            feedbackMessage.textContent = 'Chính xác! Chúc mừng bạn!';
-            feedbackMessage.classList.add('correct');
-            feedbackMessage.classList.remove('incorrect');
-            feedbackMessage.style.display = 'block';
-            nextButton.disabled = false;
-            completeAnswers++;
+        if (selected_index === correct_index) {
+            selected_option.classList.add('correct');
+            feedback_message.textContent = 'Chính xác! Chúc mừng bạn!';
+            feedback_message.classList.add('correct');
+            feedback_message.classList.remove('incorrect');
+            feedback_message.style.display = 'block';
+            next_button.disabled = false;
+            completed_questions[current_question_part]++;
         } else {
-            selectedOption.classList.add('incorrect');
-            feedbackMessage.textContent = 'Câu trả lời sai. Vui lòng chọn lại.';
-            feedbackMessage.classList.add('incorrect');
-            feedbackMessage.classList.remove('correct');
-            feedbackMessage.style.display = 'block';
+            selected_option.classList.add('incorrect');
+            feedback_message.textContent = 'Chưa đúng! Vui lòng chọn lại.';
+            feedback_message.classList.add('incorrect');
+            feedback_message.classList.remove('correct');
+            feedback_message.style.display = 'block';
 
             // Re-enable options for a new attempt
-            allOptions.forEach(option => option.disabled = false);
-            selectedOption.disabled = true; // Keep the incorrect option disabled
-            incorrectAnswers++;
+            all_options.forEach(option => option.disabled = false);
+            selected_option.disabled = true; // Keep the incorrect option disabled
+            incorrect_questions[current_question_part]++;
         }
     }
 
     // Start the quiz
     function startQuiz() {
-        const selectedLessonFile = lessonSelect.value;
-        const selectedLessonName = lessonSelect.options[lessonSelect.selectedIndex].text;
+        const selected_lesson_file = lesson_select.value;
+        const selected_lesson_name = lesson_select.options[lesson_select.selectedIndex].text;
 
-        if (!selectedLessonFile) {
+        if (!selected_lesson_file) {
             alert('Vui lòng chọn một bài học.');
             return;
         }
 
-        homePage.classList.remove('active');
-        quizPage.classList.add('active');
-        lesson_title.textContent = selectedLessonName;
+        home_page.classList.remove('active');
+        quiz_page.classList.add('active');
+        lesson_title.textContent = selected_lesson_name;
 
         quiz_start_time = Date.now();
         quiz_timer = setInterval(updateTimer, 1000);
 
-        loadQuestions(selectedLessonFile);
+        loadQuestions(selected_lesson_file);
     }
 
     // Update the timer
     function updateTimer() {
-        const timeElapsed = Math.floor((Date.now() - quizStartTime) / 1000);
+        const timeElapsed = Math.floor((Date.now() - quiz_start_time) / 1000);
         const minutes = Math.floor(timeElapsed / 60);
         const seconds = timeElapsed % 60;
         timeSpent.textContent = `Thời gian: ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
@@ -254,12 +250,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Event Listeners
     // Gán sự kiện cho đối tượng
-    startButton.addEventListener('click', startQuiz);
-    nextButton.addEventListener('click', nextQuestion);
-    finishButton.addEventListener('click', endQuiz);
-    restartButton.addEventListener('click', () => {
-        resultPage.classList.remove('active');
-        homePage.classList.add('active');
+    start_button.addEventListener('click', startQuiz);
+    next_button.addEventListener('click', nextQuestion);
+    finish_button.addEventListener('click', endQuiz);
+    restart_button.addEventListener('click', () => {
+        result_page.classList.remove('active');
+        home_page.classList.add('active');
     });
 
     // Initial load
