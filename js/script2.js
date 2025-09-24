@@ -4,21 +4,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // Nhằm truy cập và thao tác với các phần tử HTML
 
     // Các trang chính
-    const homePage = document.getElementById('home-page');
-    const quizPage = document.getElementById('quiz-page');
-    const resultPage = document.getElementById('result-page');
+    const home_page = document.getElementById('home-page');
+    const quiz_page = document.getElementById('quiz-page');
+    const result_page = document.getElementById('result-page');
 
     // Các phần tử trong trang quiz
-    const lessonSelect = document.getElementById('lesson-select');
-    const startButton = document.getElementById('start-button');
-    const lessonTitle = document.getElementById('lesson-title');
-    const questionCounter = document.getElementById('question-counter');
-    const timeSpent = document.getElementById('time-spent');
-    const questionText = document.getElementById('question-text');
-    const answersContainer = document.getElementById('answers-container');
-    const feedbackMessage = document.getElementById('feedback-message');
-    const nextButton = document.getElementById('next-button');
-    const finishButton = document.getElementById('finish-button');
+    const lesson_select = document.getElementById('lesson-select');
+    const start_button = document.getElementById('start-button');
+    const lesson_title = document.getElementById('lesson-title');
+    const question_counter = document.getElementById('question-counter');
+    const time_spent = document.getElementById('time-spent');
+    const question_text = document.getElementById('question-text');
+    const answers_container = document.getElementById('answers-container');
+    const feedback_message = document.getElementById('feedback-message');
+    const next_button = document.getElementById('next-button');
+    const finish_button = document.getElementById('finish-button');
 
     // Các nhãn thống kê cuối bài ôn tập
     const complete_count_part1 = document.getElementById('complete-count-part1');
@@ -38,12 +38,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const total_time_part3 = document.getElementById('total-time-part3');
 
     // Nút nhấn quay về trang chủ
-    const restartButton = document.getElementById('restart-button');
+    const restart_button = document.getElementById('restart-button');
 
     // Global variables
     // Lưu danh sách bài học và danh sách câu hỏi hiện tại
     let lessons = [];
-    let currentQuestions = [];
+    let current_questions = [];
 
     // Biến lưu danh sách câu hỏi từng phần
     let questions_part_1 = [];
@@ -51,19 +51,13 @@ document.addEventListener('DOMContentLoaded', () => {
     let questions_part_3 = [];
 
     // Lưu tổng số câu hỏi từng phần
-    let total_questions_1 = 0;
-    let total_questions_2 = 0;
-    let total_questions_3 = 0;
+    let total_questions = [0, 0, 0];
 
     // Lưu số câu hỏi đã hoàn thành của từng phần
-    let completed_questions_1 = 0;
-    let completed_questions_2 = 0;
-    let completed_questions_3 = 0;
+    let completed_questions = [0, 0, 0];
 
-    // Lưu số câu hỏi sai của từng phần
-    let incorrect_questions_1 = 0;
-    let incorrect_questions_2 = 0;
-    let incorrect_questions_3 = 0;
+    // Lưu số câu hỏi chọn sai của từng phần
+    let incorrect_questions = [0, 0, 0];
 
     // Đánh dấu phần câu hỏi hiện tại đang ở phần nào
     let current_question_part = 0;
@@ -72,8 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let current_question_index = 0;
 
     // Lưu thời gian thực hiện bài quiz
-    let quizStartTime;
-    let quizTimer;
+    let quiz_start_time = [0, 0, 0];
+    let quiz_timer;
 
     // Load lessons from baihoc.json
     // Tải danh sách bài học từ file JSON
@@ -93,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const option = document.createElement('option');
                 option.value = lesson.file;
                 option.textContent = lesson.name;
-                lessonSelect.appendChild(option);
+                lesson_select.appendChild(option);
             });
 
         } catch (error) {
@@ -110,6 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Lặp ngược từ cuối mảng về đầu
         for (let i = array.length - 1; i > 0; i--) {
             // Chọn một vị trí ngẫu nhiên từ 0 đến i
+            // Làm tròn số nguyên xuống thành số nguyên
             const j = Math.floor(Math.random() * (i + 1));
             // Hoán đổi phần tử ở vị trí i và j
             [array[i], array[j]] = [array[j], array[i]];
@@ -134,10 +129,11 @@ document.addEventListener('DOMContentLoaded', () => {
             total_Questions_2 = questions_part_2.length;
             total_Questions_3 = questions_part_3.length;
 
+            // Cập nhật vị trí bắt đầu ôn tập
+            current_question_part = 1; // Bắt đầu từ phần 1
+            current_questions = questions_part_1; // Bắt đầu với phần 1
+            current_question_index = 0; // Bắt đầu từ câu hỏi đầu tiên của phần 1
 
-            current_question_part = 0; // Bắt đầu từ phần 1
-            current_question_index = 0;
-            currentQuestions = questions_part_1; // Bắt đầu với phần 1
 
             completeAnswers = 0;
             incorrectAnswers = 0;
@@ -217,10 +213,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         homePage.classList.remove('active');
         quizPage.classList.add('active');
-        lessonTitle.textContent = selectedLessonName;
+        lesson_title.textContent = selectedLessonName;
 
-        quizStartTime = Date.now();
-        quizTimer = setInterval(updateTimer, 1000);
+        quiz_start_time = Date.now();
+        quiz_timer = setInterval(updateTimer, 1000);
 
         loadQuestions(selectedLessonFile);
     }
@@ -241,8 +237,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // End the quiz and show results
     function endQuiz() {
-        clearInterval(quizTimer);
-        const totalTimeElapsed = Math.floor((Date.now() - quizStartTime) / 1000);
+        clearInterval(quiz_timer);
+        const totalTimeElapsed = Math.floor((Date.now() - quiz_start_time) / 1000);
         const minutes = Math.floor(totalTimeElapsed / 60);
         const seconds = totalTimeElapsed % 60;
 
