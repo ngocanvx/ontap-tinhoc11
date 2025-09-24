@@ -29,9 +29,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let lessons = [];
     let currentQuestions = [];
 
+    // Biến lưu danh sách câu hỏi từng phần
     let questions_part_1 = [];
     let questions_part_2 = [];
     let questions_part_3 = [];
+
+    // Lưu tổng số câu hỏi từng phần
     let total_questions_1 = 0;
     let total_questions_2 = 0;
     let total_questions_3 = 0;
@@ -59,16 +62,32 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    /**
+    * Xáo trộn một mảng sử dụng thuật toán Fisher-Yates.
+    * @param {Array} array Mảng cần xáo trộn.
+    * @returns {Array} Mảng đã được xáo trộn.
+    */
+    function shuffleArray(array) {
+        // Lặp ngược từ cuối mảng về đầu
+        for (let i = array.length - 1; i > 0; i--) {
+            // Chọn một vị trí ngẫu nhiên từ 0 đến i
+            const j = Math.floor(Math.random() * (i + 1));
+            // Hoán đổi phần tử ở vị trí i và j
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
     // Load questions for a selected lesson
     async function loadQuestions(fileName) {
         try {
             const response = await fetch(`./json/${fileName}`);
             const data = await response.json();
 
-            // Đọc danh sách câu hỏi các phần
-            questions_part_1 = data.part_1;
-            questions_part_2 = data.part_2;
-            questions_part_3 = data.part_3;
+            // Đọc và XÁO TRỘN danh sách câu hỏi các phần
+            questions_part_1 = shuffleArray(data.part_1);
+            questions_part_2 = shuffleArray(data.part_2);
+            questions_part_3 = shuffleArray(data.part_3);
 
             // Đếm số lượng câu hỏi từng phần
             total_Questions_1 = questions_part_1.length;
@@ -78,13 +97,14 @@ document.addEventListener('DOMContentLoaded', () => {
             currentQuestionIndex = 0;
             completeAnswers = 0;
             incorrectAnswers = 0;
-            displayQuestion_1();
+            displayQuestion_1(); // Giả sử bạn bắt đầu với phần 1
 
         } catch (error) {
             console.error('Lỗi khi tải câu hỏi:', error);
             alert('Không thể tải câu hỏi cho bài học này.');
         }
     }
+
 
     // Display current question
     function displayQuestion(part_number) {
