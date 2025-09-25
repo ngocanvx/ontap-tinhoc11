@@ -43,27 +43,28 @@ document.addEventListener('DOMContentLoaded', () => {
     // Global variables
     // Lưu danh sách bài học và danh sách câu hỏi hiện tại
     let lessons = [];
-    let current_questions = [];
+
+    // Đánh dấu phần câu hỏi hiện tại đang ở phần nào
+    let current_question_part_number = 0;
+
+    // Lưu danh sách câu hỏi hiện tại đang làm
+    let current_questions_list = [];
+
+    // Đánh dấu thứ tự câu hỏi hiện tại trong phần đang làm
+    let current_question_index = 0;
 
     // Biến lưu danh sách câu hỏi từng phần
-    let questions_part_1 = [];
-    let questions_part_2 = [];
-    let questions_part_3 = [];
-
-    // Lưu tổng số câu hỏi từng phần
-    let total_questions = [0, 0, 0];
+    let question_part = {
+        part_1: [],
+        part_2: [],
+        part_3: []
+    }
 
     // Lưu số câu hỏi đã hoàn thành của từng phần
     let completed_questions = [0, 0, 0];
 
     // Lưu số câu hỏi chọn sai của từng phần
     let incorrect_questions = [0, 0, 0];
-
-    // Đánh dấu phần câu hỏi hiện tại đang ở phần nào
-    let current_question_part = 0;
-
-    // Đánh dấu thứ tự câu hỏi hiện tại trong phần đang làm
-    let current_question_index = 0;
 
     // Lưu thời gian thực hiện bài quiz
     let quiz_start_time;
@@ -120,16 +121,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json();
 
             // Đọc và XÁO TRỘN danh sách câu hỏi các phần
-            questions_part_1 = shuffleArray(data.part_1);
-            questions_part_2 = shuffleArray(data.part_2);
-            questions_part_3 = shuffleArray(data.part_3);
-
-            // Đếm số lượng câu hỏi từng phần
-            total_questions = [questions_part_1.length, questions_part_2.length, questions_part_3.length];
+            question_part.part_1 = shuffleArray(data.part_1);
+            question_part.part_2 = shuffleArray(data.part_2);
+            question_part.part_3 = shuffleArray(data.part_3);
 
             // Cập nhật vị trí bắt đầu ôn tập
-            current_question_part = 1; // Bắt đầu từ phần 1
-            current_questions = questions_part_1; // Bắt đầu với phần 1
+            current_question_part_number = 1; // Bắt đầu từ phần 1
+            current_questions_list = question_part.part_1; // Bắt đầu với phần 1
             current_question_index = 0; // Bắt đầu từ câu hỏi đầu tiên của phần 1
 
             // Hiển thị câu hỏi
@@ -144,12 +142,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Display current question
     function displayQuestion() {
-        if (current_question_index >= current_questions.length) {
-            endQuiz();
-            return;
+        if (current_question_index >= current_questions_list.length) {
+            if (current_question_part_number >= 3) {
+
+                // Nếu đã hoàn thành phần 3, kết thúc bài ôn tập
+                endQuiz();
+                return;
+            } else {
+                // Chuyển sang phần tiếp theo
+                // Tăng biến đếm theo dõi phần câu hỏi hiện tại
+                current_question_part_number++;
+
+                // Cập nhật danh sách câu hỏi hiện tại sang phần mới
+                current_questions_list = question_part[`part_${current_question_part_number}`];
+
+                // Đặt lại chỉ số câu hỏi về 0 để bắt đầu từ câu đầu tiên của phần mới
+                current_question_index = 0;
+            }
         }
 
-        const questionData = current_questions[current_question_index];
+        // Lấy câu hỏi hiện tại để hiển thị
+        const question_data = current_questions_list[current_question_index];
 
         // Reset UI
         answers_container.innerHTML = '';
@@ -157,15 +170,16 @@ document.addEventListener('DOMContentLoaded', () => {
         next_button.disabled = true;
 
         // Update question info
-        question_counter.textContent = `Câu ${current_question_index + 1}/${current_questions.length}`;
-        question_text.textContent = questionData.question;
+        // Cập nhật thông tin câu hỏi
+        question_counter.textContent = `Câu ${current_question_index + 1}/${current_questions_list.length}`;
+        question_text.textContent = question_data.question;
 
         // Create answer options
-        questionData.answers.forEach((answer, index) => {
+        question_data.answers.forEach((answer, index) => {
             const answer_option = document.createElement('button');
             answer_option.className = 'answer-option';
             answer_option.textContent = answer;
-            answer_option.addEventListener('click', () => handleAnswerClick(answer_option, index, questionData.correct));
+            answer_option.addEventListener('click', () => handleAnswerClick(answer_option, index, question_data.correct));
             answers_container.appendChild(answer_option);
         });
     }
