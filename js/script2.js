@@ -14,6 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const lesson_title = document.getElementById('lesson-title');
     const question_counter = document.getElementById('question-counter');
     const time_spent = document.getElementById('time-spent');
+
+    // Các nút bấm chuyển phần câu hỏi
+    const part1_button = document.getElementById('part1-button');
+    const part2_button = document.getElementById('part2-button');
+    const part3_button = document.getElementById('part3-button');
+
     const question_text = document.getElementById('question-text');
     const answers_container = document.getElementById('answers-container');
     const feedback_message = document.getElementById('feedback-message');
@@ -156,6 +162,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Cập nhật danh sách câu hỏi hiện tại sang phần mới
                 current_questions_list = question_part[`part_${current_question_part_number}`];
 
+                // Cập nhật nút bấm từng phần
+                part1_button.disabled = current_question_part_number === 1;
+                part2_button.disabled = current_question_part_number === 2;
+                part3_button.disabled = current_question_part_number === 3;
+
                 // Đặt lại chỉ số câu hỏi về 0 để bắt đầu từ câu đầu tiên của phần mới
                 current_question_index = 0;
             }
@@ -175,13 +186,39 @@ document.addEventListener('DOMContentLoaded', () => {
         question_text.textContent = question_data.question;
 
         // Create answer options
-        question_data.answers.forEach((answer, index) => {
-            const answer_option = document.createElement('button');
-            answer_option.className = 'answer-option';
-            answer_option.textContent = answer;
-            answer_option.addEventListener('click', () => handleAnswerClick(answer_option, index, question_data.correct));
-            answers_container.appendChild(answer_option);
-        });
+        switch (current_question_part_number) {
+            case 1:
+                question_data.answers.forEach((answer, index) => {
+                    const answer_option = document.createElement('button');
+                    answer_option.className = 'answer-option';
+                    answer_option.textContent = answer;
+                    answer_option.addEventListener('click', () => handleAnswerClick(answer_option, index, question_data.correct));
+                    answers_container.appendChild(answer_option);
+                });
+            //break;
+            case 2:
+                question_data.answers.forEach((answer, index) => {
+                    const answer_option = document.createElement('input');
+                    answer_option.type = 'checkbox';
+                    answer_option.className = 'answer-option';
+                    answer_option.text = answer;
+                    answer_option.addEventListener('click', () => handleAnswerClick(answer_option, index, question_data.correct));
+                    answers_container.appendChild(answer_option);
+                });
+            //break;
+            case 3:
+                const answer_option = document.createElement('input');
+                answer_option.className = 'answer-option';
+                answer_option.type = 'number';
+                answer_option.addEventListener('click', () => handleAnswerClick(answer_option, index, question_data.correct));
+                answers_container.appendChild(answer_option);
+            //break;
+            default:
+                // Mệnh đề default sẽ chạy nếu không có case nào khớp [7]
+                // Bạn có thể thêm xử lý cho trường hợp mặc định nếu cần
+                console.log("Loại câu hỏi không hợp lệ.");
+                break;
+        }
     }
 
     // Handle user's answer
