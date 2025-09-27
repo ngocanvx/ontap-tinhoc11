@@ -102,21 +102,93 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // /**
+    // * Xáo trộn một mảng sử dụng thuật toán Fisher-Yates.
+    // * @param {Array} array Mảng cần xáo trộn.
+    // * @returns {Array} Mảng đã được xáo trộn.
+    // */
+    // function shuffleArray(array, answer_part1 = null, answer_part2 = null) {
+    //     // Lặp ngược từ cuối mảng về đầu
+    //     for (let i = array.length - 1; i > 0; i--) {
+    //         // Chọn một vị trí ngẫu nhiên từ 0 đến i
+    //         // Làm tròn số nguyên xuống thành số nguyên
+    //         const j = Math.floor(Math.random() * (i + 1));
+    //         // Hoán đổi phần tử ở vị trí i và j
+    //         [array[i], array[j]] = [array[j], array[i]];
+
+    //         // Câp nhật mảng câu trả lời đúng (dành cho phần 1),
+    //         // nếu có mảng câu trả lời đúng được truyền vào
+    //         if (answer_part1 != null) {
+    //             // Nếu câu trả lời đúng bị hoán đổi, cập nhật lại chỉ số câu trả lời đúng
+    //             if (answer_part1 === i) {
+    //                 answer_part1 = j;
+    //             } else if (answer_part1 === j) {
+    //                 answer_part1 = i;
+    //             }
+    //         }
+
+    //         // Nếu có mảng câu trả lời đúng (dành cho phần 2),
+    //         // thực hiện hoán đổi tương ứng các phương án đúng
+    //         if (answer_part2 != null) {
+    //             // Nếu câu trả lời đúng bị hoán đổi, cập nhật lại chỉ số câu trả lời đúng
+    //             [answer_part2[i], answer_part2[j]] = [answer_part2[j], answer_part2[i]];
+    //         }
+    //     }
+
+    //     // Trả về mảng đã xáo trộn
+    //     if (answer_part1 != null) {
+    //         return [array, answer_part1];
+    //     }
+
+    //     if (answer_part2 != null) {
+    //         return [array, answer_part2];
+    //     }
+    // }
+
     /**
-    * Xáo trộn một mảng sử dụng thuật toán Fisher-Yates.
-    * @param {Array} array Mảng cần xáo trộn.
-    * @returns {Array} Mảng đã được xáo trộn.
-    */
-    function shuffleArray(array) {
-        // Lặp ngược từ cuối mảng về đầu
-        for (let i = array.length - 1; i > 0; i--) {
-            // Chọn một vị trí ngẫu nhiên từ 0 đến i
-            // Làm tròn số nguyên xuống thành số nguyên
+ * Xáo trộn một mảng và cập nhật đồng bộ chỉ số hoặc mảng đáp án tương ứng.
+ * Hàm này an toàn, không làm thay đổi dữ liệu gốc.
+ *
+ * @param {Array} array - Mảng cần xáo trộn.
+ * @param {Object} [options] - Các tùy chọn.
+ * @param {number} [options.correctIndex=null] - Chỉ số của câu trả lời đúng cần theo dõi.
+ * @param {Array} [options.answersArray=null] - Mảng đáp án cần xáo trộn đồng bộ.
+ * @returns {Object} Một đối tượng chứa kết quả.
+ */
+    function shuffleArray(array, options = {}) {
+        // Lấy các tùy chọn ra, đặt giá trị mặc định là null
+        let { correctIndex = null, answersArray = null } = options;
+
+        // 1. TẠO BẢN SAO -> An toàn, không có side effect
+        const shuffledArray = [...array];
+        const shuffledAnswers = answersArray ? [...answersArray] : null;
+
+        // Thuật toán xáo trộn Fisher-Yates
+        for (let i = shuffledArray.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
-            // Hoán đổi phần tử ở vị trí i và j
-            [array[i], array[j]] = [array[j], array[i]];
+            [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+
+            // 2. XỬ LÝ CHỈ SỐ (nếu có)
+            if (correctIndex !== null) {
+                if (correctIndex === i) {
+                    correctIndex = j;
+                } else if (correctIndex === j) {
+                    correctIndex = i;
+                }
+            }
+
+            // 3. XỬ LÝ MẢNG ĐÁP ÁN (nếu có)
+            if (shuffledAnswers !== null) {
+                [shuffledAnswers[i], shuffledAnswers[j]] = [shuffledAnswers[j], shuffledAnswers[i]];
+            }
         }
-        return array;
+
+        // 4. TRẢ VỀ MỘT ĐỐI TƯỢNG KẾT QUẢ -> Rõ ràng và xử lý được mọi trường hợp
+        return {
+            shuffledArray: shuffledArray,      // Mảng đã xáo trộn
+            newCorrectIndex: correctIndex,     // Chỉ số mới (nếu có)
+            shuffledAnswers: shuffledAnswers   // Mảng đáp án mới (nếu có)
+        };
     }
 
     // Load questions for a selected lesson
@@ -127,9 +199,20 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json();
 
             // Đọc và XÁO TRỘN danh sách câu hỏi các phần
-            question_part.part_1 = shuffleArray(data.part_1);
+            //question_part.part_1 = shuffleArray(data.part_1);
+            question_part.part_1 = data.part_1;
             question_part.part_2 = shuffleArray(data.part_2);
             question_part.part_3 = shuffleArray(data.part_3);
+
+            // Xáo trộn danh sách câu trả lời trong từng câu hỏi của phần 1
+            question_part.part_1.forEach(question => {
+                [question.answers, question.correct] = shuffleArray(question.answers, question.correct, null);
+            });
+
+            // Xáo trộn danh sách câu trả lời trong từng câu hỏi của phần 2
+            question_part.part_2.forEach(question => {
+                [question.answers, question.correct] = shuffleArray(question.answers, null, question.correct);
+            });
 
             // Cập nhật vị trí bắt đầu ôn tập
             current_question_part_number = 1; // Bắt đầu từ phần 1
