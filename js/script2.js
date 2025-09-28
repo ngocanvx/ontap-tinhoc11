@@ -157,37 +157,38 @@ document.addEventListener('DOMContentLoaded', () => {
  */
     function shuffleArray(array, options = {}) {
         // Lấy các tùy chọn ra, đặt giá trị mặc định là null
-        let { correctIndex = null, answersArray = null } = options;
+        let { correct_index = null, answers_array = null } = options;
 
         // 1. TẠO BẢN SAO -> An toàn, không có side effect
-        const shuffledArray = [...array];
-        const shuffledAnswers = answersArray ? [...answersArray] : null;
+        // Không làm thay đổi mảng gốc
+        const shuffled_array = [...array];
+        const shuffled_answers = answers_array ? [...answers_array] : null;
 
         // Thuật toán xáo trộn Fisher-Yates
-        for (let i = shuffledArray.length - 1; i > 0; i--) {
+        for (let i = shuffled_array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
-            [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+            [shuffled_array[i], shuffled_array[j]] = [shuffled_array[j], shuffled_array[i]];
 
             // 2. XỬ LÝ CHỈ SỐ (nếu có)
-            if (correctIndex !== null) {
-                if (correctIndex === i) {
-                    correctIndex = j;
-                } else if (correctIndex === j) {
-                    correctIndex = i;
+            if (correct_index !== null) {
+                if (correct_index === i) {
+                    correct_index = j;
+                } else if (correct_index === j) {
+                    correct_index = i;
                 }
             }
 
             // 3. XỬ LÝ MẢNG ĐÁP ÁN (nếu có)
-            if (shuffledAnswers !== null) {
-                [shuffledAnswers[i], shuffledAnswers[j]] = [shuffledAnswers[j], shuffledAnswers[i]];
+            if (shuffled_answers !== null) {
+                [shuffled_answers[i], shuffled_answers[j]] = [shuffled_answers[j], shuffled_answers[i]];
             }
         }
 
         // 4. TRẢ VỀ MỘT ĐỐI TƯỢNG KẾT QUẢ -> Rõ ràng và xử lý được mọi trường hợp
         return {
-            shuffledArray: shuffledArray,      // Mảng đã xáo trộn
-            newCorrectIndex: correctIndex,     // Chỉ số mới (nếu có)
-            shuffledAnswers: shuffledAnswers   // Mảng đáp án mới (nếu có)
+            shuffled_array: shuffled_array,      // Mảng đã xáo trộn
+            new_correct_index: correct_index,     // Chỉ số mới (nếu có)
+            shuffled_answers: shuffled_answers   // Mảng đáp án mới (nếu có)
         };
     }
 
@@ -199,19 +200,31 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json();
 
             // Đọc và XÁO TRỘN danh sách câu hỏi các phần
-            //question_part.part_1 = shuffleArray(data.part_1);
-            question_part.part_1 = data.part_1;
-            question_part.part_2 = shuffleArray(data.part_2);
-            question_part.part_3 = shuffleArray(data.part_3);
+            //question_part.part_1 = data.part_1;
+            question_part.part_1 = shuffleArray(data.part_1).shuffled_array;
+            question_part.part_2 = shuffleArray(data.part_2).shuffled_array;
+            question_part.part_3 = shuffleArray(data.part_3).shuffled_array;
 
             // Xáo trộn danh sách câu trả lời trong từng câu hỏi của phần 1
             question_part.part_1.forEach(question => {
-                [question.answers, question.correct] = shuffleArray(question.answers, question.correct, null);
+                // Tạo biến tạm để nhận kết quả trả về từ hàm shuffleArray
+                // Vì hàm này trả về một object
+                const temp = shuffleArray(question.answers, { correct_index: question.correct });
+
+                // Sau đó trích xuất thông tin từ biến tạm này
+                question.answers = temp.shuffled_array;
+                question.correct = temp.new_correct_index;
             });
 
             // Xáo trộn danh sách câu trả lời trong từng câu hỏi của phần 2
             question_part.part_2.forEach(question => {
-                [question.answers, question.correct] = shuffleArray(question.answers, null, question.correct);
+                // Tạo biến tạm để nhận kết quả trả về từ hàm shuffleArray
+                // Vì hàm này trả về một object
+                const temp = shuffleArray(question.answers, { answers_array: question.correct });
+
+                // Sau đó trích xuất thông tin từ biến tạm này
+                question.answers = temp.shuffled_array;
+                question.correct = temp.shuffled_answers;
             });
 
             // Cập nhật vị trí bắt đầu ôn tập
@@ -238,6 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 endQuiz();
                 return;
             } else {
+
                 // Chuyển sang phần tiếp theo
                 // Tăng biến đếm theo dõi phần câu hỏi hiện tại
                 current_question_part_number++;
@@ -245,7 +259,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Cập nhật danh sách câu hỏi hiện tại sang phần mới
                 current_questions_list = question_part[`part_${current_question_part_number}`];
 
-                // Cập nhật nút bấm từng phần
+                // Cập nhật nút bấm từng phần dựa trên biến theo dõi phần câu hỏi hiện tại
+                // Nếu đang ở phần 1, disable nút phần 1, enable nút phần 2 và 3
+                // Nếu đang ở phần 2, disable nút phần 2, enable nút phần 1 và 3
+                // Nếu đang ở phần 3, disable nút phần 3, enable nút phần 1 và 2
                 part1_button.disabled = current_question_part_number === 1;
                 part2_button.disabled = current_question_part_number === 2;
                 part3_button.disabled = current_question_part_number === 3;
