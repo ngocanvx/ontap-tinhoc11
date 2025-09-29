@@ -2,21 +2,77 @@
     "part_1": [
         {
             "question": "Nội dung câu hỏi 1",
+            "image": {
+                "scr": "",
+                "alt": ""
+            },
             "answers": [
-                "Phương án A",
-                "Phương án B",
-                "Phương án C",
-                "Phương án D"
+                {
+                    "text": "Phương án A",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    }
+                },
+                {
+                    "text": "Phương án A",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    }
+                },
+                {
+                    "text": "Phương án A",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    }
+                },
+                {
+                    "text": "Phương án A",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    }
+                }
             ],
             "correct": 0
         },
         {
             "question": "Nội dung câu hỏi 2",
+            "image": {
+                "scr": "",
+                "alt": ""
+            },
             "answers": [
-                "Phương án A",
-                "Phương án B",
-                "Phương án C",
-                "Phương án D"
+                {
+                    "text": "Phương án A",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    }
+                },
+                {
+                    "text": "Phương án B",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    }
+                },
+                {
+                    "text": "Phương án C",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    }
+                },
+                {
+                    "text": "Phương án D",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    }
+                }
             ],
             "correct": 3
         }
@@ -24,32 +80,84 @@
     "part_2": [
         {
             "question": "Nội dung câu hỏi 1",
+            "image": {
+                "scr": "",
+                "alt": ""
+            },
             "answers": [
-                "Phương án A",
-                "Phương án B",
-                "Phương án C",
-                "Phương án D"
-            ],
-            "correct": [
-                true,
-                true,
-                false,
-                false
+                {
+                    "text": "Phương án A",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phương án B",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phương án C",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phương án D",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
             ]
         },
         {
             "question": "Nội dung câu hỏi 2",
+            "image": {
+                "scr": "",
+                "alt": ""
+            },
             "answers": [
-                "Phương án A",
-                "Phương án B",
-                "Phương án C",
-                "Phương án D"
-            ],
-            "correct": [
-                true,
-                false,
-                true,
-                false
+                {
+                    "text": "Phương án A",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phương án B",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phương án C",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phương án D",
+                    "image": {
+                        "scr": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
             ]
         }
     ],
