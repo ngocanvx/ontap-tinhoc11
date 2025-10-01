@@ -32,9 +32,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const complete_count_part2 = document.getElementById('complete-count-part2');
     const complete_count_part3 = document.getElementById('complete-count-part3');
 
-    const correct_count_part1 = document.getElementById('correct-count-part1');
-    const correct_count_part2 = document.getElementById('correct-count-part2');
-    const correct_count_part3 = document.getElementById('correct-count-part3');
+    const first_correct_count_part1 = document.getElementById('correct-count-part1');
+    const first_correct_count_part2 = document.getElementById('correct-count-part2');
+    const first_correct_count_part3 = document.getElementById('correct-count-part3');
 
     const incorrect_count_part1 = document.getElementById('incorrect-count-part1');
     const incorrect_count_part2 = document.getElementById('incorrect-count-part2');
@@ -145,6 +145,17 @@ document.addEventListener('DOMContentLoaded', () => {
             question_part.part_2 = shuffleArray(data.part_2).shuffled_array;
             question_part.part_3 = shuffleArray(data.part_3).shuffled_array;
 
+            // Xáo trộn danh sách đáp án của từng câu hỏi trong phần 1
+            question_part.part_1.forEach(question => {
+                const result = shuffleArray(question.answers);
+                question.answers = result.shuffled_array;
+            });
+            // Xáo trộn danh sách đáp án của từng câu hỏi trong phần 2
+            question_part.part_2.forEach(question => {
+                const result = shuffleArray(question.answers);
+                question.answers = result.shuffled_array;
+            });
+
             // Cập nhật vị trí bắt đầu ôn tập
             current_question_part_number = 1; // Bắt đầu từ phần 1
             current_questions_list = question_part.part_1; // Bắt đầu với phần 1
@@ -197,6 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const question_data = current_questions_list[current_question_index];
 
         // Reset UI
+        // Đặt lại giao diện người dùng
         answers_container.innerHTML = '';
         feedback_message.style.display = 'none';
         next_button.disabled = true;
@@ -240,7 +252,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Dòng textContent cũ không còn cần thiết
                     // answer_option.textContent = answer.text;
 
-                    answer_option.addEventListener('click', () => handleAnswerClick(answer_option, index, question_data.correct));
+                    answer_option.addEventListener('click', () => handleAnswerClick_Part1(answer_option, answer));
                     answers_container.appendChild(answer_option);
                 });
                 break;
@@ -251,7 +263,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     answer_option.type = 'checkbox';
                     answer_option.className = 'answer-option';
                     answer_option.textContent = answer;
-                    answer_option.addEventListener('click', () => handleAnswerClick(answer_option, index, question_data.correct));
+                    answer_option.addEventListener('click', () => handleAnswerClick_Part1(answer_option, index, question_data.correct));
                     answers_container.appendChild(answer_option);
                 });
                 break;
@@ -260,7 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const answer_option = document.createElement('input');
                 answer_option.className = 'answer-option';
                 answer_option.type = 'number';
-                answer_option.addEventListener('click', () => handleAnswerClick(answer_option, index, question_data.correct));
+                answer_option.addEventListener('click', () => handleAnswerClick(answer_option, question_data.answer));
                 answers_container.appendChild(answer_option);
                 break;
 
@@ -273,7 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Handle user's answer
-    function handleAnswerClick(selected_option, answer) {
+    function handleAnswerClick_Part1(selected_option, answer) {
         const all_options = answers_container.querySelectorAll('.answer-option');
         all_options.forEach(option => option.disabled = true); // Disable all buttons after a choice
 
@@ -297,11 +309,12 @@ document.addEventListener('DOMContentLoaded', () => {
             // Re-enable options for a new attempt
             all_options.forEach(option => option.disabled = false);
             selected_option.disabled = true; // Keep the incorrect option disabled
-            incorrect_questions[current_question_part]++;
+            incorrect_questions[current_question_part_number]++;
         }
     }
 
     // Start the quiz
+    // Bắt đầu bài ôn tập
     function startQuiz() {
         const selected_lesson_file = lesson_select.value;
         const selected_lesson_name = lesson_select.options[lesson_select.selectedIndex].text;
@@ -322,16 +335,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Update the timer
+    // Cập nhật bộ đếm thời gian
     function updateTimer() {
         const timeElapsed = Math.floor((Date.now() - quiz_start_time) / 1000);
         const minutes = Math.floor(timeElapsed / 60);
         const seconds = timeElapsed % 60;
-        timeSpent.textContent = `Thời gian: ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        time_spent.textContent = `Thời gian: ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
     }
 
     // Move to the next question
     function nextQuestion() {
-        currentQuestionIndex++;
+        current_question_index++;
         displayQuestion();
     }
 
@@ -342,12 +356,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const minutes = Math.floor(totalTimeElapsed / 60);
         const seconds = totalTimeElapsed % 60;
 
-        quizPage.classList.remove('active');
-        resultPage.classList.add('active');
+        quiz_page.classList.remove('active');
+        result_page.classList.add('active');
 
-        completeCountSpan.textContent = completeAnswers + "/" + totalQuestions;
-        correctCountSpan.textContent = completeAnswers - incorrectAnswers;
-        incorrectCountSpan.textContent = incorrectAnswers;
+        complete_count_part1.textContent = completeAnswers + "/" + total_time_part1;
+        correct_count_part1.textContent = completeAnswers - incorrectAnswers;
+        incorrect_count_part1.textContent = incorrectAnswers;
         percentCorrectFirst.textContent = ((completeAnswers - incorrectAnswers) / completeAnswers * 100).toFixed(2) + "%";
         totalTimeSpan.textContent = `${minutes} phút ${seconds} giây`;
     }
