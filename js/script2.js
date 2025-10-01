@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const part3_button = document.getElementById('part3-button');
 
     const question_text = document.getElementById('question-text');
+    const question_image = document.getElementById('question-image');
     const answers_container = document.getElementById('answers-container');
     const feedback_message = document.getElementById('feedback-message');
     const next_button = document.getElementById('next-button');
@@ -135,6 +136,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const response = await fetch(`./json/${fileName}`);
             const data = await response.json();
 
+            //alert(fileName);
+            console.log("File câu hỏi: ", fileName);
+
             // Đọc và XÁO TRỘN danh sách câu hỏi các phần
             //question_part.part_1 = data.part_1;
             question_part.part_1 = shuffleArray(data.part_1).shuffled_array;
@@ -202,34 +206,64 @@ document.addEventListener('DOMContentLoaded', () => {
         question_counter.textContent = `Câu ${current_question_index + 1}/${current_questions_list.length}`;
         question_text.textContent = question_data.question;
 
+        // Kiểm tra xem đối tượng image có tồn tại không VÀ src có giá trị hay không
+        if (!question_data.image || !question_data.image.src) {
+            // Nếu không có image hoặc không có src, ẩn phần tử đi
+            question_image.style.display = "none";
+        } else {
+            question_image.src = question_data.image.src;
+        }
+
         // Create answer options
         switch (current_question_part_number) {
             case 1:
                 question_data.answers.forEach((answer, index) => {
                     const answer_option = document.createElement('button');
                     answer_option.className = 'answer-option';
-                    answer_option.textContent = answer;
+
+                    // BƯỚC 1: Thêm phần văn bản vào nút
+                    // Chúng ta tạo một Text Node để đảm bảo văn bản không bị ảnh hưởng bởi HTML
+                    const textNode = document.createTextNode(answer.text);
+                    answer_option.appendChild(textNode);
+
+                    // BƯỚC 2 & 3: Kiểm tra nếu có ảnh và tạo thẻ <img>
+                    if (answer.image && answer.image.src) {
+                        const imgElement = document.createElement('img');
+
+                        // BƯỚC 4: Gán thuộc tính cho ảnh
+                        imgElement.src = answer.image.src;
+                        imgElement.alt = answer.image.alt || 'Ảnh phương án'; // Giá trị alt dự phòng
+
+                        // BƯỚC 5: Thêm ảnh vào nút
+                        answer_option.appendChild(imgElement);
+                    }
+                    // Dòng textContent cũ không còn cần thiết
+                    // answer_option.textContent = answer.text;
+
                     answer_option.addEventListener('click', () => handleAnswerClick(answer_option, index, question_data.correct));
                     answers_container.appendChild(answer_option);
                 });
-            //break;
+                break;
+
             case 2:
                 question_data.answers.forEach((answer, index) => {
                     const answer_option = document.createElement('input');
                     answer_option.type = 'checkbox';
                     answer_option.className = 'answer-option';
-                    answer_option.text = answer;
+                    answer_option.textContent = answer;
                     answer_option.addEventListener('click', () => handleAnswerClick(answer_option, index, question_data.correct));
                     answers_container.appendChild(answer_option);
                 });
-            //break;
+                break;
+
             case 3:
                 const answer_option = document.createElement('input');
                 answer_option.className = 'answer-option';
                 answer_option.type = 'number';
                 answer_option.addEventListener('click', () => handleAnswerClick(answer_option, index, question_data.correct));
                 answers_container.appendChild(answer_option);
-            //break;
+                break;
+
             default:
                 // Mệnh đề default sẽ chạy nếu không có case nào khớp [7]
                 // Bạn có thể thêm xử lý cho trường hợp mặc định nếu cần
@@ -239,21 +273,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Handle user's answer
-    function handleAnswerClick(selected_option, selected_index, correct_index) {
+    function handleAnswerClick(selected_option, answer) {
         const all_options = answers_container.querySelectorAll('.answer-option');
         all_options.forEach(option => option.disabled = true); // Disable all buttons after a choice
 
-        if (selected_index === correct_index) {
+        // Kiểm tra phương án chọn có đúng không
+        if (answer.correct === true) {
             selected_option.classList.add('correct');
-            feedback_message.textContent = 'Chính xác! Chúc mừng bạn!';
+            feedback_message.textContent = '👏 Chính xác! Chúc mừng bạn!';
             feedback_message.classList.add('correct');
             feedback_message.classList.remove('incorrect');
             feedback_message.style.display = 'block';
             next_button.disabled = false;
-            completed_questions[current_question_part]++;
+            completed_questions[current_question_part_number]++;
+
         } else {
             selected_option.classList.add('incorrect');
-            feedback_message.textContent = 'Chưa đúng! Vui lòng chọn lại.';
+            feedback_message.textContent = '🤗 Chưa đúng! Vui lòng chọn lại.';
             feedback_message.classList.add('incorrect');
             feedback_message.classList.remove('correct');
             feedback_message.style.display = 'block';

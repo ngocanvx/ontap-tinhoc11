@@ -27,6 +27,16 @@ body {
     display: none;
 }
 
+#question-image {
+    max-width: 300px;
+    max-height: 300px;
+    /* Các thuộc tính tùy chọn khác */
+    display: block;
+    /* Giúp căn giữa dễ hơn */
+    margin: 0 auto;
+    /* Tự động căn giữa ảnh */
+}
+
 .page.active {
     display: block;
 }
@@ -131,6 +141,14 @@ tr:nth-child(even) {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.2s, border-color 0.2s;
+}
+
+.answer-option img {
+    /* Giới hạn kích thước của ảnh bên trong nút */
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: contain;
+    /* Đảm bảo ảnh không bị méo */
 }
 
 .answer-option:hover {
