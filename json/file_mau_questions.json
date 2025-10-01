@@ -12,31 +12,34 @@
                     "image": {
                         "scr": "",
                         "alt": ""
-                    }
+                    },
+                    "correct": true
                 },
                 {
                     "text": "Phương án A",
                     "image": {
                         "scr": "",
                         "alt": ""
-                    }
+                    },
+                    "correct": false
                 },
                 {
                     "text": "Phương án A",
                     "image": {
                         "scr": "",
                         "alt": ""
-                    }
+                    },
+                    "correct": false
                 },
                 {
                     "text": "Phương án A",
                     "image": {
                         "scr": "",
                         "alt": ""
-                    }
+                    },
+                    "correct": false
                 }
-            ],
-            "correct": 0
+            ]
         },
         {
             "question": "Nội dung câu hỏi 2",
@@ -50,31 +53,34 @@
                     "image": {
                         "scr": "",
                         "alt": ""
-                    }
+                    },
+                    "correct": false
                 },
                 {
                     "text": "Phương án B",
                     "image": {
                         "scr": "",
                         "alt": ""
-                    }
+                    },
+                    "correct": false
                 },
                 {
                     "text": "Phương án C",
                     "image": {
                         "scr": "",
                         "alt": ""
-                    }
+                    },
+                    "correct": false
                 },
                 {
                     "text": "Phương án D",
                     "image": {
                         "scr": "",
                         "alt": ""
-                    }
+                    },
+                    "correct": true
                 }
-            ],
-            "correct": 3
+            ]
         }
     ],
     "part_2": [
@@ -164,10 +170,18 @@
     "part_3": [
         {
             "question": "Nội dung câu hỏi 1",
+            "image": {
+                "scr": "",
+                "alt": ""
+            },
             "correct": 1.25
         },
         {
             "question": "Nội dung câu hỏi 1",
+            "image": {
+                "scr": "",
+                "alt": ""
+            },
             "correct": 0.25
         }
     ]
