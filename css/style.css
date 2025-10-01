@@ -129,7 +129,7 @@ tr:nth-child(even) {
     /* Thêm đổ bóng */
 }
 
-.answer-option {
+.answer-option-part1 {
     display: block;
     width: 100%;
     font-size: 18px;
@@ -143,7 +143,54 @@ tr:nth-child(even) {
     transition: background-color 0.2s, border-color 0.2s;
 }
 
-.answer-option img {
+.answer-row-part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+    gap: 10px;
+    /* Khoảng cách giữa các phần tử trong hàng */
+}
+
+.answer-option-part2 {
+    display: inline-block;
+    width: 90%;
+    font-size: 18px;
+    text-align: left;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.true-false-buttons-part2 {
+    display: inline-block;
+    width: 5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #f6f6f6;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.true-button-part2 {
+    color: rgb(82, 160, 64);
+}
+
+.false-button-part2 {
+    color: rgb(200, 77, 77);
+}
+
+.answer-option-part1 img,
+.answer-option-part2 img {
     /* Giới hạn kích thước của ảnh bên trong nút */
     max-width: 50px;
     max-height: 50px;
@@ -151,19 +198,21 @@ tr:nth-child(even) {
     /* Đảm bảo ảnh không bị méo */
 }
 
-.answer-option:hover {
+.answer-option-part1:hover {
     background-color: #e9ecef;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* Thêm đổ bóng nhẹ */
 }
 
-.answer-option.correct {
+.answer-option-part1 .correct,
+.answer-option-part2 .correct {
     background-color: #d4edda;
     border-color: #c3e6cb;
     font-weight: bold;
 }
 
-.answer-option.incorrect {
+.answer-option-part1 .incorrect,
+.answer-option-part2 .incorrect {
     background-color: #f8d7da;
     border-color: #f5c6cb;
     font-weight: bold;
