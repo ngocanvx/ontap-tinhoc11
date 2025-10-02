@@ -169,20 +169,20 @@
     ],
     "part_3": [
         {
-            "question": "Nội dung câu hỏi 1",
+            "question": "Nội dung câu hỏi 1 - 1.25",
             "image": {
                 "src": "",
                 "alt": ""
             },
-            "correct": 1.25
+            "answer": 1.25
         },
         {
-            "question": "Nội dung câu hỏi 1",
+            "question": "Nội dung câu hỏi 2 - 0.25",
             "image": {
                 "src": "",
                 "alt": ""
             },
-            "correct": 0.25
+            "answer": 0.25
         }
     ]
 }

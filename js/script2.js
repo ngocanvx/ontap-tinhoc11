@@ -324,8 +324,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
 
                     // Thêm sự kiện cho nút Đúng/Sai
-                    true_button.addEventListener('click', () => handleAnswerClick_Part2(true_button, answer, answer_option));
-                    false_button.addEventListener('click', () => handleAnswerClick_Part2(false_button, answer, answer_option));
+                    true_button.addEventListener('click', () => handleAnswerClick_Part2(true_button, false_button, answer, answer_option));
+                    false_button.addEventListener('click', () => handleAnswerClick_Part2(false_button, true_button, answer, answer_option));
                     // Nút phương án cũng có thể click để chọn
                     //answer_option.addEventListener('click', () => handleAnswerClick_Part2(answer_option, { correct: false }, answer_option));
 
@@ -341,11 +341,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
 
             case 2:
-                const answer_option = document.createElement('input');
-                answer_option.className = 'answer-option';
-                answer_option.type = 'number';
-                answer_option.addEventListener('click', () => handleAnswerClick(answer_option, question_data.answer));
-                answers_container.appendChild(answer_option);
+                const answer_row = document.createElement('div');
+                answer_row.className = 'answer-row-part3';
+
+                const answer_input = document.createElement('input');
+                answer_input.className = 'answer-input-part3';
+                //answer_input.type = 'number';
+                answer_row.appendChild(answer_input);
+
+                const answer_check_button = document.createElement('button');
+                answer_check_button.className = 'answer-check-part3';
+                answer_check_button.textContent = 'Kiểm tra';
+                answer_check_button.addEventListener('click', () => handleAnswerClick_Part3(answer_input, question_data.answer));
+                answer_row.appendChild(answer_check_button);
+                answers_container.appendChild(answer_row);
                 break;
 
             default:
@@ -362,7 +371,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Handle user's answer
     // Hàm kiểm tra đáp án phần 1
     function handleAnswerClick_Part1(selected_option, answer) {
-        const all_options = answers_container.querySelectorAll('.answer-option_part1');
+        const all_options = answers_container.querySelectorAll('.answer-option-part1');
         all_options.forEach(option => option.disabled = true); // Disable all buttons after a choice
 
         // Kiểm tra phương án chọn có đúng không
@@ -401,9 +410,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Hàm kiểm tra đáp án phần 2
-    function handleAnswerClick_Part2(true_false_button, answer, selected_option) {
-        if (true_false_button.value === answer.correct.toString()) {
+    function handleAnswerClick_Part2(true_false_selected_button, true_false_another_button, answer, selected_option) {
+
+        // Tô màu cho biết nút nào được chọn
+        true_false_selected_button.classList.add('selected');
+        true_false_another_button.classList.remove('selected');
+
+        if (true_false_selected_button.value === answer.correct.toString()) {
+
+            // Thay đổi màu sắc và nội dung thông báo
             selected_option.classList.add('correct');
+            selected_option.classList.remove('incorrect');
             feedback_message.textContent = '👏 Chính xác! Chúc mừng bạn!';
             feedback_message.classList.add('correct');
             feedback_message.classList.remove('incorrect');
@@ -421,6 +438,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         } else {
             selected_option.classList.add('incorrect');
+            selected_option.classList.remove('correct');
             feedback_message.textContent = '💔 Chưa đúng! Vui lòng chọn lại.';
             feedback_message.classList.add('incorrect');
             feedback_message.classList.remove('correct');
@@ -434,6 +452,43 @@ document.addEventListener('DOMContentLoaded', () => {
             // Cập nhật biến trạng thái không phải lần đầu
             is_first_attempt = false;
         }
+    }
+
+    // Hàm kiểm tra đáp án phần 3
+    function handleAnswerClick_Part3(answer_input, answer) {
+
+        // Lấy ra giá trị người dùng nhập vào
+        const user_answer = answer_input.value.trim();
+
+        // Kiểm tra phương án chọn có đúng không
+        if (user_answer === answer.toString()) {
+            feedback_message.classList.add('correct');
+            feedback_message.classList.remove('incorrect');
+            feedback_message.textContent = '👏 Chính xác! Chúc mừng bạn!';
+
+            // Kích hoạt nút qua câu tiếp theo
+            next_button.disabled = false;
+            completed_questions[current_question_part_number]++;
+
+            // Kiểm tra nếu đây là lần trả lời đầu tiên
+            if (is_first_attempt) {
+                first_correct_count[current_question_part_number]++;
+
+                // Cập nhật biến trạng thái không phải lần đầu
+                is_first_attempt = false;
+            }
+        } else {
+            feedback_message.classList.add('incorrect');
+            feedback_message.classList.remove('correct');
+            feedback_message.textContent = '💔 Chưa đúng! Vui lòng chọn lại.';
+
+            // Cập nhật số câu hỏi chọn sai
+            incorrect_questions[current_question_part_number]++;
+
+            // Cập nhật biến trạng thái không phải lần đầu
+            is_first_attempt = false;
+        }
+        feedback_message.style.display = 'block';
     }
 
     // Start the quiz
