@@ -190,6 +190,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             current_question_index = 0; // Bắt đầu từ câu hỏi đầu tiên của phần 1
 
+            // Reset các biến thống kê
+            first_correct_count = [0, 0, 0];
+            incorrect_questions = [0, 0, 0];
+            completed_questions = [0, 0, 0];
+            time_spent_part = [0, 0, 0];
+
             // Hiển thị câu hỏi
             displayQuestion(); // Bắt đầu với phần 1 (biến current_question_part_number)
 
@@ -202,6 +208,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Display current question
     function displayQuestion() {
+        // Cập nhật nút bấm từng phần dựa trên biến theo dõi phần câu hỏi hiện tại
+        // Nếu đang ở phần 1, disable nút phần 1, enable nút phần 2 và 3
+        // Nếu đang ở phần 2, disable nút phần 2, enable nút phần 1 và 3
+        // Nếu đang ở phần 3, disable nút phần 3, enable nút phần 1 và 2
+        part1_button.disabled = current_question_part_number === 0;
+        part2_button.disabled = current_question_part_number === 1;
+        part3_button.disabled = current_question_part_number === 2;
+
         // Kiểm tra nếu chỉ số câu hỏi hiện lớn hơn số lượng hoặc nằm cuối cùng danh sách
         if (current_question_index >= current_questions_list.length) {
 
@@ -219,14 +233,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Cập nhật danh sách câu hỏi hiện tại sang phần mới
                 current_questions_list = question_part[`part_${current_question_part_number + 1}`];
-
-                // Cập nhật nút bấm từng phần dựa trên biến theo dõi phần câu hỏi hiện tại
-                // Nếu đang ở phần 1, disable nút phần 1, enable nút phần 2 và 3
-                // Nếu đang ở phần 2, disable nút phần 2, enable nút phần 1 và 3
-                // Nếu đang ở phần 3, disable nút phần 3, enable nút phần 1 và 2
-                part1_button.disabled = current_question_part_number === 0;
-                part2_button.disabled = current_question_part_number === 1;
-                part3_button.disabled = current_question_part_number === 2;
 
                 // Đặt lại chỉ số câu hỏi về 0 để bắt đầu từ câu đầu tiên của phần mới
                 current_question_index = 0;
@@ -426,6 +432,8 @@ document.addEventListener('DOMContentLoaded', () => {
             feedback_message.classList.remove('incorrect');
             feedback_message.style.display = 'block';
             next_button.disabled = false;
+
+            // Cập nhật số câu hỏi hoàn thành
             completed_questions[current_question_part_number]++;
 
             // Kiểm tra nếu đây là lần trả lời đầu tiên
@@ -444,9 +452,7 @@ document.addEventListener('DOMContentLoaded', () => {
             feedback_message.classList.remove('correct');
             feedback_message.style.display = 'block';
 
-            // Re-enable options for a new attempt
-            all_options.forEach(option => option.disabled = false);
-            selected_option.disabled = true; // Keep the incorrect option disabled
+            // Cập nhật số câu hỏi chọn sai
             incorrect_questions[current_question_part_number]++;
 
             // Cập nhật biến trạng thái không phải lần đầu
@@ -562,9 +568,9 @@ document.addEventListener('DOMContentLoaded', () => {
         incorrect_count_total.textContent = incorrect_questions[0] + incorrect_questions[1] + incorrect_questions[2];
 
         // Cập nhật thời gian làm bài của từng phần
-        total_time_part1.textContent = `${Math.floor(time_spent_part[0] / 60)} phút ${time_spent_part[0] % 60} giây`;
-        total_time_part2.textContent = `${Math.floor(time_spent_part[1] / 60)} phút ${time_spent_part[1] % 60} giây`;
-        total_time_part3.textContent = `${Math.floor(time_spent_part[2] / 60)} phút ${time_spent_part[2] % 60} giây`;
+        //total_time_part1.textContent = `${Math.floor(time_spent_part[0] / 60)} phút ${time_spent_part[0] % 60} giây`;
+        //total_time_part2.textContent = `${Math.floor(time_spent_part[1] / 60)} phút ${time_spent_part[1] % 60} giây`;
+        //total_time_part3.textContent = `${Math.floor(time_spent_part[2] / 60)} phút ${time_spent_part[2] % 60} giây`;
         total_time_total.textContent = `${minutes} phút ${seconds} giây`;
     }
 
