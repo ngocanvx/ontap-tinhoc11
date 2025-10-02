@@ -3,38 +3,38 @@
         {
             "question": "Nội dung câu hỏi 1",
             "image": {
-                "scr": "",
+                "src": "./img/q.01.01.jpg",
                 "alt": ""
             },
             "answers": [
                 {
                     "text": "Phương án A",
                     "image": {
-                        "scr": "",
+                        "src": "./img/q.01.01.jpg",
                         "alt": ""
                     },
                     "correct": true
                 },
                 {
-                    "text": "Phương án A",
+                    "text": "Phương án B",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": false
                 },
                 {
-                    "text": "Phương án A",
+                    "text": "Phương án C",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": false
                 },
                 {
-                    "text": "Phương án A",
+                    "text": "Phương án D",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": false
@@ -44,14 +44,14 @@
         {
             "question": "Nội dung câu hỏi 2",
             "image": {
-                "scr": "",
+                "src": "",
                 "alt": ""
             },
             "answers": [
                 {
                     "text": "Phương án A",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": false
@@ -59,7 +59,7 @@
                 {
                     "text": "Phương án B",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": false
@@ -67,7 +67,7 @@
                 {
                     "text": "Phương án C",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": false
@@ -75,7 +75,7 @@
                 {
                     "text": "Phương án D",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": true
@@ -87,14 +87,14 @@
         {
             "question": "Nội dung câu hỏi 1",
             "image": {
-                "scr": "",
+                "src": "",
                 "alt": ""
             },
             "answers": [
                 {
                     "text": "Phương án A",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": true
@@ -102,7 +102,7 @@
                 {
                     "text": "Phương án B",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": true
@@ -110,7 +110,7 @@
                 {
                     "text": "Phương án C",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": false
@@ -118,7 +118,7 @@
                 {
                     "text": "Phương án D",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": false
@@ -128,14 +128,14 @@
         {
             "question": "Nội dung câu hỏi 2",
             "image": {
-                "scr": "",
+                "src": "",
                 "alt": ""
             },
             "answers": [
                 {
                     "text": "Phương án A",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": false
@@ -143,7 +143,7 @@
                 {
                     "text": "Phương án B",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": false
@@ -151,7 +151,7 @@
                 {
                     "text": "Phương án C",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": true
@@ -159,7 +159,7 @@
                 {
                     "text": "Phương án D",
                     "image": {
-                        "scr": "",
+                        "src": "",
                         "alt": ""
                     },
                     "correct": true
@@ -169,20 +169,20 @@
     ],
     "part_3": [
         {
-            "question": "Nội dung câu hỏi 1",
+            "question": "Nội dung câu hỏi 1 - 1.25",
             "image": {
-                "scr": "",
+                "src": "",
                 "alt": ""
             },
-            "correct": 1.25
+            "answer": 1.25
         },
         {
-            "question": "Nội dung câu hỏi 1",
+            "question": "Nội dung câu hỏi 2 - 0.25",
             "image": {
-                "scr": "",
+                "src": "",
                 "alt": ""
             },
-            "correct": 0.25
+            "answer": 0.25
         }
     ]
 }
