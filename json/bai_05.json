@@ -1,0 +1,1442 @@
+{
+    "part_1": [
+        {
+            "question": "Các thiết bị vào ra là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhóm thiết bị chứa dữ liệu tạm thời",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhóm thiết bị chứa các dữ liệu lâu dài",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhóm các thiết bị ngoại vi đa dạng và phong phú nhất của máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhóm các thiết bị có khả năng xử lý thông tin",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các thiết bị vào cho phép?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chuyển thông tin từ máy tính ra ngoài",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhập dữ liệu vào máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trao đổi thông tin hai chiều",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thiết bị xử lý thông tin",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các thiết bị ra là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chuyển thông tin từ máy tính ra ngoài",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhập dữ liệu vào máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trao đổi thông tin hai chiều",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thiết bị xử lý thông tin",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu không phải là thiết bị vào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bàn phím",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chuột",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Máy đọc mã vạch",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu không phải là thiết bị ra?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Máy in",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Máy chiếu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chuột",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu vừa là thiết bị vào vừa là thiết bị ra?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Máy in",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Máy quét ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "USB",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Máy chiếu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bàn phím là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thiết bị ra phổ biến",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thiết bị thông dụng nhất để nhập dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thiết bị chỉ định đối tượng làm việc trên màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thiết bị chứa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chuột là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thiết bị thông dụng nhất để nhập dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thiết bị ra phổ biến",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thiết bị chỉ định đối tượng làm việc trên màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thiết bị chứa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Thông số quan trọng nhất của chuột là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Kích thước, độ phân giải",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phương thức kết nối, độ phân giải",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phương thức kết nối, kích thước",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kích thước, hình dạng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tốc độ của chuột được thể hiện bằng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tỉ lệ khoảng cách con trỏ màn hình di chuyển được so với khoảng cách di chuyển của chuột trên mặt bàn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khoảng cách di chuyển được của chuột trên màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tốc độ di chuyển trên giây của chuột trên mặt bàn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kích thước chuột nhỏ hay lớn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Thiết bị ra phổ biến nhất là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Máy in",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Loa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Máy chiếu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Loại màn hình nào sử dụng công nghệ đèn chân không?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "LCD",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "LED",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "CRT",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Plasma",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Độ phân giải màn hình thể hiện bằng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Số điểm ảnh theo chiều ngang và chiều dọc của màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Độ dài đường chéo trên màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình ảnh trên màn hình được tạo liên tục",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khoảng thời gian cần thiết để có thể đổi màu một điểm ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tần số quét là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Số điểm ảnh theo chiều ngang và chiều dọc của màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Độ dài đường chéo trên màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình ảnh trên màn hình được tạo liên tục",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khoảng thời gian cần thiết để có thể đổi màu một điểm ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Thời gian phản hồi là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Số điểm ảnh theo chiều ngang và chiều dọc của màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Độ dài đường chéo trên màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình ảnh trên màn hình được tạo liên tục",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khoảng thời gian cần thiết để có thể đổi màu một điểm ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Kích thước của màn hình được đo bằng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Số điểm ảnh theo chiều ngang và chiều dọc của màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Độ dài đường chéo trên màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hình ảnh trên màn hình được tạo liên tục",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khoảng thời gian cần thiết để có thể đổi màu một điểm ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Máy in kim dùng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Một hàng kim gõ vào băng mực để lại vết trên giấy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dùng tia laser để tạo ra sự thay đổi điện áp trên bề mặt của một trống tĩnh điện tương tự với hình cần in",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phun các hạt mực màu nước siêu nhỏ để tạo ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "In trên giấy cảm ứng nhiệt, vùng giấy bị nóng chuyển sang màu đen",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Máy in laser dùng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Một hàng kim gõ vào băng mực để lại vết trên giấy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dùng tia laser để tạo ra sự thay đổi điện áp trên bề mặt của một trống tĩnh điện tương tự với hình cần in",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phun các hạt mực màu nước siêu nhỏ để tạo ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "In trên giấy cảm ứng nhiệt, vùng giấy bị nóng chuyển sang màu đen",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Máy in phun dùng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Một hàng kim gõ vào băng mực để lại vết trên giấy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dùng tia laser để tạo ra sự thay đổi điện áp trên bề mặt của một trống tĩnh điện tương tự với hình cần in",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phun các hạt mực màu nước siêu nhỏ để tạo ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "In trên giấy cảm ứng nhiệt, vùng giấy bị nóng chuyển sang màu đen",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Máy in nhiệt in như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Một hàng kim gõ vào băng mực để lại vết trên giấy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dùng tia laser để tạo ra sự thay đổi điện áp trên bề mặt của một trống tĩnh điện tương tự với hình cần in",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phun các hạt mực màu nước siêu nhỏ để tạo ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "In trên giấy cảm ứng nhiệt, vùng giấy bị nóng chuyển sang màu đen",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Không thể kết nối với máy in bằng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cáp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mạng có dây",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mạng không dây",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giọng nói",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Cổng kết nối nào dùng để truyền hình ảnh?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "HDMI",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "VGA",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "USB",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mạng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Cổng kết nối nào có thể truyền đồng thời cả âm thanh và hình ảnh?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "VGA",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "USB",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mạng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "HDMI",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Trước khi kết nối thì máy tính hay điện thoại thông minh cần phải",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mở cổng kết nối",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đóng cổng kết nối",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ghép đôi với thiết bị đó",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đáp án khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Ghép đôi với thiết bị trước khi kết nối để?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Có môi trường trung gian kết nối",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dễ dàng kết nối",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trao đổi tham số kết nối",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉ cần có kết nối mạng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Thiết bị vào – ra là các thiết bị ngoại vi dùng để tương tác với máy tính. Hãy xác định các nhận định sau đây là đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bàn phím dùng để nhập dữ liệu và chuột dùng để điều khiển là các thiết bị ra phổ biến.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Màn hình dùng để hiển thị hình ảnh và máy in dùng để in tài liệu ra giấy là các thiết bị vào.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một thiết bị có thể đồng thời là thiết bị vào và thiết bị ra, ví dụ như máy in đa chức năng vừa có thể in (ra), vừa có thể quét ảnh (vào).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cổng USB là một chuẩn kết nối phổ biến cho cả thiết bị vào và thiết bị ra.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Chuột và bàn phím là hai thiết bị nhập liệu cơ bản. Hãy đánh giá tính đúng/sai của các nhận định về thông số và đặc điểm của chúng.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Độ phân giải của chuột (dpi) là số điểm ảnh mà chuột xác định được khi di chuyển một inch. Chỉ số dpi càng cao thì con trỏ chuột di chuyển trên màn hình càng nhanh và nhạy.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bàn phím của máy tính xách tay là một bộ phận được tích hợp sẵn, không thể tháo rời.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tốc độ của chuột là một thông số cố định của nhà sản xuất và người dùng không thể thay đổi được.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cả chuột và bàn phím hiện nay chỉ có thể kết nối với máy tính thông qua dây cắm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Màn hình là thiết bị ra không thể thiếu để giao tiếp với máy tính. Dưới đây là các nhận định về các thông số kĩ thuật của màn hình, hãy cho biết chúng đúng hay sai.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Độ phân giải của màn hình là số điểm ảnh (pixel) theo chiều ngang và chiều dọc, độ phân giải càng lớn thì hình ảnh càng mịn và sắc nét.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tần số quét, tính bằng Hz, là số lần hình ảnh được làm mới trong một giây. Tần số quét cao giúp hình ảnh ổn định, không bị giật, đỡ mỏi mắt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thời gian phản hồi, tính bằng mili giây (ms), là thời gian cần để một điểm ảnh thay đổi màu sắc. Thời gian phản hồi càng ngắn càng tốt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kích thước màn hình được tính bằng tổng chiều dài và chiều rộng của nó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Máy in là thiết bị dùng để đưa dữ liệu từ máy tính ra bản giấy. Hãy xác định tính đúng/sai của các phát biểu về các loại máy in.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Máy in laser có tốc độ in nhanh và chất lượng bản in văn bản sắc nét, thường được dùng trong văn phòng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Máy in phun thường được sử dụng để in ảnh màu nhờ khả năng phối màu tốt hơn máy in kim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Độ phân giải của máy in được đo bằng dpi, chỉ số này càng cao thì bản in càng chi tiết và rõ nét.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mọi máy in khi kết nối với máy tính đều có thể sử dụng ngay lập tức mà không cần cài đặt phần mềm điều khiển (driver).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Máy tính có nhiều loại cổng kết nối khác nhau để giao tiếp với các thiết bị số. Hãy đánh giá các nhận định về các cổng này.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cổng VGA là cổng truyền tín hiệu hình ảnh dạng tương tự (analog), thường cho chất lượng hình ảnh không cao bằng các cổng kĩ thuật số.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cổng HDMI có thể truyền đồng thời cả tín hiệu hình ảnh và âm thanh với chất lượng cao.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cổng USB là cổng kết nối đa năng, dùng để kết nối nhiều loại thiết bị và đã thay thế cho nhiều cổng cũ như COM hay Parallel.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cổng mạng (Ethernet) chỉ dùng để kết nối máy tính với Internet, không thể kết nối với các thiết bị khác trong mạng nội bộ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc kết nối máy tính với các thiết bị số ngày nay đã trở nên dễ dàng hơn. Dựa vào kiến thức đã học, hãy cho biết các nhận định sau đúng hay sai.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khi kết nối máy ảnh với máy tính qua USB, máy tính sẽ nhận diện máy ảnh như một ổ đĩa ngoài, cho phép truy cập và sao chép ảnh từ thư mục DCIM.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bluetooth là một công nghệ kết nối không dây tầm xa, cho phép các thiết bị giao tiếp với nhau ở khoảng cách vài trăm mét.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để hai thiết bị có thể trao đổi dữ liệu qua Bluetooth, chúng cần phải được \"ghép đôi\" (pairing) với nhau trước.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cơ chế \"Plug & play\" giúp hệ điều hành tự động nhận diện và cấu hình thiết bị mới được cắm vào, giúp đơn giản hoá việc cài đặt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "So sánh các phương thức kết nối có dây và không dây. Hãy xác định tính đúng/sai của các phát biểu.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Kết nối có dây như USB và HDMI thường cho tốc độ truyền dữ liệu ổn định và nhanh hơn kết nối không dây như Bluetooth.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kết nối không dây như Bluetooth mang lại sự tiện lợi và gọn gàng vì không cần đến dây cáp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc ghép đôi thiết bị Bluetooth chỉ cần thực hiện một lần duy nhất cho mỗi cặp thiết bị.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mọi thiết bị số hiện nay đều hỗ trợ cả kết nối có dây và không dây.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các thông số kĩ thuật là yếu tố quan trọng khi lựa chọn thiết bị. Hãy đánh giá các nhận định sau.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khi mua máy in cho văn phòng cần in nhiều, tốc độ in (số trang/phút) là một thông số quan trọng cần cân nhắc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đối với màn hình dùng để chơi game hoặc xem phim hành động, thời gian phản hồi thấp và tần số quét cao là các yếu tố được ưu tiên.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Độ phân giải dpi của chuột càng cao thì càng phù hợp cho mọi công việc, từ văn phòng đến thiết kế đồ hoạ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Độ phân giải (dpi) của máy in không ảnh hưởng đến chất lượng của ảnh được in ra.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Xét về chức năng và phân loại các thiết bị ngoại vi. Các nhận định sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Webcam và microphone là các thiết bị vào, dùng để thu nhận hình ảnh và âm thanh từ bên ngoài.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Máy chiếu là một thiết bị ra, có chức năng tương tự như màn hình nhưng dùng để hiển thị hình ảnh trên một bề mặt lớn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bàn di chuột (trackpad) trên máy tính xách tay là một dạng thiết bị trỏ, có chức năng tương đương một con chuột máy tính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tất cả các thiết bị số khi kết nối với máy tính đều sử dụng chung một loại cổng kết nối duy nhất.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về việc cài đặt và sử dụng các thiết bị số. Hãy cho biết các phát biểu sau là đúng hay sai.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Driver là một phần mềm đặc biệt giúp hệ điều hành giao tiếp và điều khiển một thiết bị phần cứng cụ thể.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để kết nối điện thoại với máy tính qua Bluetooth, cả hai thiết bị đều phải được bật chức năng Bluetooth.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi ghép đôi thành công, người dùng có thể truyền tệp tin hoặc phát âm thanh từ máy tính đến thiết bị Bluetooth đã kết nối.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một máy tính có thể kết nối đồng thời với nhiều thiết bị Bluetooth khác nhau, ví dụ như chuột, bàn phím và tai nghe.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_3": []
+}
