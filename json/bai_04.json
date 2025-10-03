@@ -1,0 +1,1237 @@
+{
+    "part_1": [
+        {
+            "question": "Bộ cấu trúc chung của máy tính gồm?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bộ xử lý trung tâm, bộ nhớ trong, các thiết bị vào/ra",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bộ xử lý trung tâm, bộ nhớ ngoài, các thiết bị vào/ra",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bộ xử lý trung tâm, bộ nhớ trong/ngoài, các thiết bị vào",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bộ xử lý trung tâm, bộ nhớ trong/ngoài, các thiết bị vào/ra",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu là các thiết bị bên ngoài máy tính?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Màn hình, bàn phím, chuột",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Màn hình, bàn phím, CPU",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Màn hình, bàn phím, bộ nhớ Rom",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Màn hình, bàn phím, bộ nhớ Ram",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bộ xử lý trung tâm là",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thành phần nằm trong máy tính và thực hiện các chương trình máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thành phần quan trọng nhất của máy tính và thực hiện các chương trình máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bộ nhớ của máy tính và thực hiện các chương trình máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thành phần quan trọng nhất của máy tính và nơi để hiển thị kết quả",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "CPU được cấu tạo từ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bộ số học và lôgic, bộ điều khiển",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bộ số học và lôgic, bộ nhớ Rom",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bộ số học và lôgic, bộ nhớ Ram",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bộ số học và lôgic, đĩa cứng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bộ phận nào thực hiện tất cả các phép tính số học và logic trong máy tính?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bộ điều khiển",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bộ nhớ trong",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bộ số học và logic",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bộ nhớ ROM",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bộ phận nào phối hợp đồng bộ các thiết bị của máy tính, đảm bảo máy tính thực hiện đúng chương trình?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bộ nhớ Ram",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bộ số học và logic",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bộ điều khiển",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bộ nhớ ROM",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đồng hồ xung được dùng để?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phối hợp đồng bộ các thiết bị của máy tính, đảm bảo máy tính thực hiện đúng chương trình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thực hiện tất cả các phép tính số học và logic trong máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tạo ra các xung điện áp gửi đến mọi thành phần của máy để đồng bộ các hoạt động",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thể hiện thời gian các xung tạo ra điện áp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tần số đồng hồ xung là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hz",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "kHz",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "GHz",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "nHZ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tần số đồng hồ xung được dùng để?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tạo ra các xung điện áp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đánh giá tốc độ của CPU",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phối hợp đồng bộ các thiết bị của máy tính, đảm bảo máy tính thực hiện đúng chương trình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thực hiện tất cả các phép tính số học và logic trong máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Thanh ghi là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Vùng nhớ đặc biệt dùng để lưu trữ tạm thời các lệnh và dữ liệu đang được xử lý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Vùng nhớ đặc biệt dùng để lưu trữ các lệnh và dữ liệu đang được xử lý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vùng xử lý dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "là thành phần quan trọng nhất của CPU",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "RAM không có đặc điểm",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bộ nhớ có thể ghi được",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dùng để ghi dữ liệu tạm thời trong khi chạy các chương trình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không giữ được lâu dài các dữ liệu tạm thời",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có thể vừa đọc vừa ghi dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "ROM không có đặc điểm",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bộ nhớ được ghi bằng phương tiện chuyên dùng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các chương trình ứng dụng chỉ có thể đọc mà không thể ghi hay xóa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không cần nguồn nuôi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Không chứa các chương trình kiểm tra khi khởi động máy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bộ nhớ ngoài có thể đặt ở đâu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bên ngoài thân máy hoặc bên trong thân máy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bên ngoài thân máy hoặc bên trong CPU",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bên ngoài thân máy hoặc bên trong đĩa cứng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bên ngoài thân máy hoặc bên trong màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu không là bộ nhớ ngoài?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đĩa từ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đĩa thể rắn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đĩa quang",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bộ nhớ Ram",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Bộ nhớ ngoài dùng để?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lưu trữ dữ liệu lâu dài, không cần nguồn nuôi, có dung lượng lớn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lưu trữ dữ liệu lâu dài, không cần nguồn nuôi, có dung lượng nhỏ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Lưu trữ dữ liệu tạm thời, không cần nguồn nuôi, có dung lượng lớn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Lưu trữ dữ liệu tạm thời, không cần nguồn nuôi, có dung lượng nhỏ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bộ nhớ ngoài thường được tính theo?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "MB, GB",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "GB, TB",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hz",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "GHz",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Thiết bị quan trọng nhất bên trong thân máy là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "CPU",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bộ nhớ ngoài",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bộ nhớ trong",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đĩa cứng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Cách thức xử lí dữ liệu của CPU được dựa trên cơ sở hoạt động của?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các mạch logic",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dữ liệu trong bộ nhớ ngoài",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dữ liệu trong bộ nhớ trong",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các mạch điện trở",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hệ nhị phân dùng chữ số nào dưới đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "0 và 1",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "0 và 1,2",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "1,2,3",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "0 và 3,4",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Mọi cổng logic đều có thể tổng hợp được từ cổng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "AND, OR",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "AND, NOT",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "OR, NOT",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "AND, OR, NOT",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Xét các thành phần cơ bản được lắp ráp bên trong một thùng máy tính điển hình. Các nhận định sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tất cả các thiết bị bên trong thùng máy như CPU, RAM, ổ cứng đều được gắn với một bảng mạch chính (mainboard).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bộ xử lí trung tâm (CPU) và bộ nhớ trong (RAM) là những thiết bị được gắn trên bảng mạch chính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bộ nhớ ngoài như đĩa cứng hay đĩa SSD cũng là một loại bộ nhớ trong vì nó nằm bên trong thùng máy.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bảng mạch chính là nơi chứa dữ liệu lâu dài của máy tính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bộ xử lí trung tâm (CPU) là thành phần quan trọng nhất của máy tính. Hãy xác định tính đúng/sai của các nhận định về cấu tạo và chức năng của nó.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "CPU được cấu tạo từ hai bộ phận chính là bộ số học và logic (ALU) và bộ điều khiển (CU).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tốc độ của CPU được đo bằng tần số đồng hồ, thường tính bằng GHz.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "\"Thanh ghi\" (register) và \"bộ nhớ đệm\" (cache) là các thành phần bộ nhớ có tốc độ truy cập rất nhanh nằm trong CPU.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mọi CPU hiện đại chỉ có một đơn vị xử lí duy nhất, được gọi là lõi (core).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bộ nhớ trong của máy tính bao gồm RAM và ROM, mỗi loại có một vai trò riêng. Các nhận định sau đây về chúng là đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "RAM là bộ nhớ có thể đọc và ghi dữ liệu trong khi máy hoạt động, nhưng dữ liệu sẽ bị xoá khi tắt máy.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "ROM là bộ nhớ chỉ đọc, không cần nguồn nuôi và chứa các chương trình giúp khởi động hệ thống.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "So với RAM, bộ nhớ ROM thường có dung lượng lớn hơn và thời gian truy cập nhanh hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dung lượng của RAM thường được tính bằng đơn vị MB hoặc GB, ví dụ 8 GB, 16 GB.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Bộ nhớ ngoài được dùng để lưu trữ dữ liệu lâu dài. Hãy đánh giá các nhận định về các loại bộ nhớ ngoài.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đĩa từ (đĩa cứng), đĩa rắn (SSD) và đĩa quang là các dạng bộ nhớ ngoài phổ biến.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bộ nhớ ngoài không cần nguồn điện để lưu trữ dữ liệu lâu dài và thường có giá thành rẻ hơn RAM.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thời gian truy cập trung bình của bộ nhớ ngoài nhanh hơn đáng kể so với bộ nhớ trong.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dung lượng của bộ nhớ ngoài thường được đo bằng đơn vị GB hoặc TB.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các mạch logic là nền tảng của mọi thiết bị điện tử số, thực hiện các phép toán logic cơ bản. Hãy xác định các nhận định đúng/sai về chúng.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phép toán logic AND cho kết quả là 1 khi và chỉ khi cả hai đại lượng tham gia đều bằng 1.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phép toán logic OR cho kết quả là 1 khi có ít nhất một trong hai đại lượng tham gia bằng 1.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phép toán logic NOT thực hiện đảo ngược giá trị, tức là 1 thành 0 và 0 thành 1.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phép toán logic XOR cho kết quả là 1 khi và chỉ khi hai đại lượng tham gia có giá trị giống nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Mạch logic đóng vai trò quan trọng trong việc xử lí dữ liệu nhị phân bên trong máy tính. Đánh giá các nhận định sau đây về vai trò và ứng dụng của chúng.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mạch logic là một mạch điện tử có một hoặc nhiều đầu vào và chỉ có một đầu ra, dùng để thực hiện các phép toán logic.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tất cả các thiết bị số, gồm cả máy tính, đều được chế tạo từ các mạch logic.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Có thể xây dựng một mạch điện thực hiện phép cộng hai số nhị phân bằng cách kết hợp các cổng logic cơ bản như AND, OR, NOT.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "CPU xử lí dữ liệu dựa trên cơ sở hoạt động của các mạch logic.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "So sánh các loại bộ nhớ khác nhau được sử dụng trong máy tính. Hãy xác định các nhận định sau là đúng hay sai.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Về tốc độ, thời gian truy cập của bộ nhớ trong (RAM) nhanh hơn bộ nhớ ngoài (đĩa cứng).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cả RAM và ROM đều là bộ nhớ trong, nhưng RAM dùng để ghi dữ liệu tạm thời còn ROM chứa chương trình cố định.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bộ nhớ ngoài là nơi chứa dữ liệu khi máy tính hoạt động, trong khi bộ nhớ trong dùng để lưu trữ lâu dài.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đĩa rắn SSD có tốc độ truy cập nhanh hơn nhiều so với đĩa cứng từ thông thường.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về hệ nhị phân và các phép toán trên đó. Các nhận định sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Trong hệ nhị phân, phép cộng 1 + 1 cho kết quả là 10 (tức là kết quả bằng 0 và nhớ 1).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mạch logic là thiết bị điện tử thực hiện các phép toán trên các biến chỉ nhận hai giá trị 0 và 1.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giá trị logic \"Đúng\" và \"Sai\" có thể được biểu diễn tương ứng bởi các bit 1 và 0.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phép cộng trong hệ thập phân và hệ nhị phân tuân theo các quy tắc hoàn toàn giống nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Xem xét các thông số kĩ thuật của các linh kiện máy tính. Hãy cho biết các phát biểu sau là đúng hay sai.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bộ xử lí là một đơn vị xử lí, cho phép thực hiện đồng thời nhiều nhiệm vụ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tốc độ của CPU phụ thuộc vào tần số xung nhịp, tính theo đơn vị GHz.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bộ nhớ trong là nơi chứa dữ liệu khi máy hoạt động.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các thông số quan trọng của bộ nhớ ngoài là dung lượng lưu trữ (GB, TB) và thời gian truy cập trung bình.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Việc thực hiện phép cộng nhị phân có thể được minh hoạ bằng cách sử dụng các cổng logic cơ bản. Xét mạch cộng 2 bit với đầu vào là x, y.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mạch cộng 2 bit này sẽ có hai đầu ra: một là bit tổng (sum), một là bit nhớ (carry).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bit nhớ (carry) của phép cộng x + y được tạo ra bởi cổng logic x AND y.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bit tổng (sum) của phép cộng x + y được tạo ra bởi cổng logic x XOR y.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mọi mạch logic, dù phức tạp đến đâu, đều có thể được xây dựng từ ba cổng logic cơ bản là AND, OR và NOT.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_3": []
+}
