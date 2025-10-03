@@ -175,6 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const result = shuffleArray(question.answers);
                 question.answers = result.shuffled_array;
             });
+
             // Xáo trộn danh sách đáp án của từng câu hỏi trong phần 2
             question_part.part_2.forEach(question => {
                 const result = shuffleArray(question.answers);
@@ -205,16 +206,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-
-    // Display current question
-    function displayQuestion() {
-        // Cập nhật nút bấm từng phần dựa trên biến theo dõi phần câu hỏi hiện tại
-        // Nếu đang ở phần 1, disable nút phần 1, enable nút phần 2 và 3
-        // Nếu đang ở phần 2, disable nút phần 2, enable nút phần 1 và 3
-        // Nếu đang ở phần 3, disable nút phần 3, enable nút phần 1 và 2
+    // Cập nhật hiển thị các nút chọn phần câu hỏi
+    function updatePartButtons() {
         part1_button.disabled = current_question_part_number === 0;
         part2_button.disabled = current_question_part_number === 1;
         part3_button.disabled = current_question_part_number === 2;
+    }
+
+    // Display current question
+    function displayQuestion() {
 
         // Kiểm tra nếu chỉ số câu hỏi hiện lớn hơn số lượng hoặc nằm cuối cùng danh sách
         if (current_question_index >= current_questions_list.length) {
@@ -238,6 +238,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 current_question_index = 0;
             }
         }
+
+        // Cập nhật nút bấm từng phần dựa trên biến theo dõi phần câu hỏi hiện tại
+        // Nếu đang ở phần 1, disable nút phần 1, enable nút phần 2 và 3
+        // Nếu đang ở phần 2, disable nút phần 2, enable nút phần 1 và 3
+        // Nếu đang ở phần 3, disable nút phần 3, enable nút phần 1 và 2
+        updatePartButtons();
 
         // Lấy câu hỏi hiện tại để hiển thị
         const question_data = current_questions_list[current_question_index];
@@ -510,6 +516,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         home_page.classList.remove('active');
         quiz_page.classList.add('active');
+
         lesson_title.textContent = selected_lesson_name;
 
         quiz_start_time = Date.now();

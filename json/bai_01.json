@@ -1,22 +1,63 @@
 {
     "part_1": [
         {
-            "question": "Nội dung câu hỏi 1",
+            "question": "Đâu không là chức năng của hệ điều hành các máy tính nói chung?",
             "image": {
-                "src": "./img/q.01.01.jpg",
+                "src": "",
                 "alt": ""
             },
             "answers": [
                 {
-                    "text": "Phương án A",
+                    "text": "Tổ chức thực hiện các chương trình, điều phối tài nguyên cho các tiến trình xử lý trên máy tính",
                     "image": {
-                        "src": "./img/q.01.01.jpg",
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cung cấp môi trường giao tiếp với người sử dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cung cấp một số tiện ích giúp nâng cao hiệu quả sử dụng máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Luôn cung cấp sẵn các chương trình ứng dụng cần thiết",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Hệ điều hành quản lý thiết bị nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "CPU, Bộ nhớ, thiết bị ngoại vi",
+                    "image": {
+                        "src": "",
                         "alt": ""
                     },
                     "correct": true
                 },
                 {
-                    "text": "Phương án B",
+                    "text": "CPU, bộ nhớ ngoài, thiết bị vào",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -24,7 +65,7 @@
                     "correct": false
                 },
                 {
-                    "text": "Phương án C",
+                    "text": "CPU, bộ nhớ ngoài, thiết bị ra",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -32,7 +73,7 @@
                     "correct": false
                 },
                 {
-                    "text": "Phương án D",
+                    "text": "CPU, bộ nhớ trong, thiết bị vào",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -42,14 +83,14 @@
             ]
         },
         {
-            "question": "Nội dung câu hỏi 2",
+            "question": "Hệ điều hành quản lý việc lưu trữ dữ liệu bằng cách nào?",
             "image": {
                 "src": "",
                 "alt": ""
             },
             "answers": [
                 {
-                    "text": "Phương án A",
+                    "text": "Quản lý CPU",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -57,7 +98,7 @@
                     "correct": false
                 },
                 {
-                    "text": "Phương án B",
+                    "text": "Quản lý bộ nhớ hay thiết bị ngoại vi",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -65,7 +106,40 @@
                     "correct": false
                 },
                 {
-                    "text": "Phương án C",
+                    "text": "Quản lý tệp và quản lý thư mục",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quản lý văn bản",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hệ điều hành cung cấp tiện ích nào để nâng cao hiệu quả sử dụng máy tính?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Định dạng đĩa, nén tệp, kiểm tra lỗi đĩa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Định dạng đĩa, nén tệp, kiểm tra chuột",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -73,7 +147,835 @@
                     "correct": false
                 },
                 {
-                    "text": "Phương án D",
+                    "text": "Định dạng đĩa, nén tệp, kiểm tra bàn phím",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Định dạng đĩa, nén tệp, kiểm tra bộ nhớ trong",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hệ điều hành là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần mềm để chạy các ứng dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thiết bị trung gian để chạy các ứng dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Môi trường để chạy các ứng dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bộ nhớ máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Theo em, nhóm chức năng nào thể hiện rõ nhất đặc thù của hệ điều hành máy tính cá nhân?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cung cấp môi trường giao tiếp với người sử dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cung cấp một số tiện ích giúp nâng cao hiệu quả sử dụng máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tổ chức thực hiện các chương trình điều phối tài nguyên cho các tiến trình xử lý trên máy tính. Nói cách khác, hệ điều hành là môi trường để chạy các ứng dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quản lý thiết bị",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Máy tính cá nhân có điểm gì khác với các siêu máy tính, các máy chủ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sự thân thiện, giá đắc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sự thân thiện, dễ sử dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khó sử dụng, giá đắc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dễ sử dụng, giá đắc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Sự thân thiện và dễ sử dụng của máy tính cá nhân được thể hiện ở?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sử dụng chuột hoặc các nút điều khiển.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giao diện đồ họa, cơ chế plug & play để tự động nhận biết thiết bị ngoại vi khi khởi động m/t",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giao diện đẹp, có nhiều biểu tượng ngoài màn hình desktop.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có thanh công việc và nút lệnh Start.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Cơ chế plug & play có thể hiểu là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khởi động ứng dụng và chạy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cắm vào là chạy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Gõ câu lệnh sẽ chạy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có thể mở nhiều ứng dụng cùng lúc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bước phát triển quan trọng của hệ điều hành máy tính cá nhân là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cơ chế plug & play",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giao diện dễ sử dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có hệ điều hành",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có thanh công việc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các thiết bị di động thường không được trang bị?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Màn hình cảm ứng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bàn phím ảo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhiều cảm biến",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bút cảm ứng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Cơ chế plug & play có tác dụng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Giúp hệ điều hành nhận biết các thiết bị ngoại vi ngay khi khởi động máy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Điều khiển các thiết bị ngoại vi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giúp các thiết bị ngoại vi hoạt động nhanh hơn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giúp khởi động máy tính nhanh hơn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Giao diện ban đầu của hệ điều hành máy tính cá nhân là",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Giao diện dòng lệnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giao diện dòng chữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giao diện đồ họa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giao diện dòng lệnh đơn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Giao diện đồ họa thể hiện các đối tượng bằng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Số",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kí hiệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu không phải là thành phần cơ bản của giao diện đồ họa?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cửa sổ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Biểu tượng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chuột",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kí hiệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Cửa sổ là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cho phép quan sát đối tượng dưới dạng đồ họa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phương tiện chỉ định điểm làm việc trên màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một vùng hình chữ nhật trên màn hình dành cho một ứng dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Là nơi có thể lưu trữ dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chọn đáp án chưa đúng.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Có thể phóng to cửa sổ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có thể thu nhỏ cửa sổ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có thể ẩn đi hoặc đóng lại cửa sổ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không thể thay đổi kích thước cửa sổ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Biểu tượng dễ gợi nhớ cho phép?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Quan sát đối tượng dưới dạng đồ họa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phóng to, thu nhỏ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thể hiện bởi một con trỏ màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Làm việc nhanh chóng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Chuột là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phương tiện chỉ định điểm làm việc trên màn hình, thể hiện bởi một con trỏ màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phương tiện chỉ sử dụng cho máy tính để bàn, thể hiện bởi một con trỏ màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phương tiện chỉ định dùng để chọn dữ liệu, thể hiện bởi một con trỏ màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phương tiện chỉ định sử dụng cho máy tính xách tay, thể hiện bởi một con trỏ màn hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Dòng máy tính PC sử dụng hệ điều hành nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ điều hành đồ họa macOS",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hệ điều hành DOS",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hệ điều hành đồ họa Windows",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ điều hành Android",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chức năng kéo thả tiện lợi của hệ điều hành Windows có từ phiên bản nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phiên bản 3.1",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phiên bản 1",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phiên bản 2",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phiên bản 3.2",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phiên bản Win 95 không có",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bảng chọn Start",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thanh trạng thái (Status bar)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thanh công việc (Taskbar)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "bộ xử lí tiên tiến thế hệ 64 bit.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu là một trong những hệ điều hành thành công nhất của Microsoft",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Windows 3.1",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Windows 95",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Windows XP",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Windows 11",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "LINUX có nguồn gốc từ hệ điều hành nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Windows",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "mac OS",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "DOS",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "UNIX",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -85,14 +987,14 @@
     ],
     "part_2": [
         {
-            "question": "Nội dung câu hỏi 1",
+            "question": "Chức năng của hệ điều hành trên máy tính cá nhân",
             "image": {
                 "src": "",
                 "alt": ""
             },
             "answers": [
                 {
-                    "text": "Phương án A",
+                    "text": "Quản lý và phân phối tài nguyên của máy tính như CPU, bộ nhớ và các thiết bị ngoại vi.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -100,7 +1002,7 @@
                     "correct": true
                 },
                 {
-                    "text": "Phương án B",
+                    "text": "Cung cấp môi trường giao tiếp cho người dùng và là môi trường để chạy các ứng dụng.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -108,15 +1010,15 @@
                     "correct": true
                 },
                 {
-                    "text": "Phương án C",
+                    "text": "Quản lý việc lưu trữ dữ liệu trong bộ nhớ ngoài thông qua việc quản lí tệp và thư mục.",
                     "image": {
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 },
                 {
-                    "text": "Phương án D",
+                    "text": "Cung cấp các công cụ soạn thảo văn bản và bảng tính như một chức năng cốt lõi.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -126,30 +1028,14 @@
             ]
         },
         {
-            "question": "Nội dung câu hỏi 2",
+            "question": "Về giao diện của hệ điều hành",
             "image": {
                 "src": "",
                 "alt": ""
             },
             "answers": [
                 {
-                    "text": "Phương án A",
-                    "image": {
-                        "src": "",
-                        "alt": ""
-                    },
-                    "correct": false
-                },
-                {
-                    "text": "Phương án B",
-                    "image": {
-                        "src": "",
-                        "alt": ""
-                    },
-                    "correct": false
-                },
-                {
-                    "text": "Phương án C",
+                    "text": "Ban đầu, các hệ điều hành máy tính cá nhân sử dụng giao diện dòng lệnh, người dùng phải gõ các lệnh để điều khiển.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -157,7 +1043,351 @@
                     "correct": true
                 },
                 {
-                    "text": "Phương án D",
+                    "text": "Giao diện đồ hoạ (GUI) cho phép người dùng giao tiếp với máy tính một cách trực quan và thân thiện hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ điều hành Windows là hệ điều hành duy nhất trên máy tính cá nhân sử dụng giao diện đồ họa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giao diện trên các thiết bị di động hoàn toàn giống với giao diện trên máy tính cá nhân.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Lịch sử phát triển của hệ điều hành Windows",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phiên bản đầu tiên của Windows ra đời năm 1985 với giao diện đồ hoạ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Windows 95 (phát hành năm 1995) là phiên bản có nhiều cải tiến như nút Start, thanh Taskbar và cơ chế plug & play.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ điều hành Windows 11 được phát hành vào năm 2021 là một thế hệ mới với nhiều thay đổi lớn so với Windows XP.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tất cả các phiên bản Windows đều là hệ điều hành mã nguồn mở.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về hệ điều hành LINUX",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "LINUX có nguồn gốc từ hệ điều hành UNIX và phiên bản đầu tiên do Linus Torvalds viết năm 1991.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "LINUX là hệ điều hành mã nguồn mở, cho phép cộng đồng người dùng tự do sử dụng, sửa đổi và phát triển.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ubuntu là một biến thể phổ biến của hệ điều hành LINUX.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ điều hành Android dành cho điện thoại di động không có liên quan gì đến LINUX.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đặc điểm của hệ điều hành cho thiết bị di động",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "iOS và Android là hai hệ điều hành phổ biến nhất cho các thiết bị di động.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giao diện của hệ điều hành di động thường được thiết kế thân thiện, dễ dàng kết nối mạng và hỗ trợ các tiện ích cá nhân.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các thiết bị di động thường được trang bị màn hình cảm ứng, bàn phím ảo và nhiều cảm biến để tạo các giao tiếp hay ứng dụng độc đáo.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ điều hành cho thiết bị di động và máy tính cá nhân có các đặc điểm hoàn toàn giống nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Mối quan hệ giữa phần cứng, hệ điều hành và phần mềm ứng dụng",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ điều hành là môi trường trung gian giúp phần mềm ứng dụng khai thác phần cứng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phần mềm ứng dụng có thể chạy trực tiếp trên phần cứng mà không cần hệ điều hành.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hệ điều hành cung cấp các dịch vụ như tìm kiếm, truy cập vào bộ nhớ, mở tệp, ghi dữ liệu,... cho các ứng dụng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phần cứng như CPU, bộ nhớ, thiết bị ngoại vi là các thành phần thuộc hệ điều hành.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các hệ điều hành máy tính cá nhân",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ điều hành máy tính cá nhân ngày nay thường có giao diện đồ họa và cơ chế \"plug & play\" để tự động nhận biết thiết bị ngoại vi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "macOS là hệ điều hành của Apple, được sử dụng trên các dòng máy tính như MacBook, iMac.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ban đầu, để sử dụng máy tính, người dùng phải dùng các chương trình được nạp sẵn trên băng giấy hoặc đĩa đục lỗ vì chưa có hệ điều hành.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ điều hành chỉ có chức năng duy nhất là quản lý CPU.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "So sánh các hệ điều hành",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cả Windows và macOS đều là các hệ điều hành mã nguồn đóng, thương mại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "LINUX chỉ có phiên bản giao diện dòng lệnh, không có giao diện đồ họa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một trong những khác biệt của hệ điều hành di động so với hệ điều hành máy tính cá nhân là giao diện thân thiện nhờ nhận dạng người dùng qua cảm biến.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ubuntu là một hệ điều hành thuộc họ Windows.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về sự phát triển của hệ điều hành",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sự ra đời của hệ điều hành đã giúp khắc phục được tình trạng người dùng phải can thiệp vào hầu hết quá trình hoạt động của máy tính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các hệ điều hành ngày càng phát triển theo hướng giao diện thân thiện và tích hợp nhận dạng tiếng nói.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hơn 86% người dùng máy tính cá nhân trên thị trường vào năm 2018 sử dụng hệ điều hành macOS.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hệ điều hành cho máy tính cá nhân không có khả năng nhận biết thiết bị ngoại vi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các khái niệm liên quan đến hệ điều hành",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ điều hành là một tập hợp các chương trình điều khiển, quản lí, điều hành và phối hợp hoạt động của các thành phần trong máy tính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "\"Plug & play\" là cơ chế giúp hệ điều hành tự động nhận biết và cấu hình thiết bị ngoại vi mới được kết nối.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mọi hệ điều hành máy tính cá nhân đều có nguồn gốc từ UNIX.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giao diện dòng lệnh (command-line interface) sử dụng các lệnh văn bản để tương tác với hệ điều hành.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -167,22 +1397,5 @@
             ]
         }
     ],
-    "part_3": [
-        {
-            "question": "Nội dung câu hỏi 1 - 1.25",
-            "image": {
-                "src": "",
-                "alt": ""
-            },
-            "answer": 1.25
-        },
-        {
-            "question": "Nội dung câu hỏi 2 - 0.25",
-            "image": {
-                "src": "",
-                "alt": ""
-            },
-            "answer": 0.25
-        }
-    ]
+    "part_3": []
 }
