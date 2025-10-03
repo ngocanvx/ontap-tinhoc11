@@ -552,9 +552,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Cập nhật thống kê số câu hoàn thành
         complete_count_part1.textContent = completed_questions[0] + "/" + question_part.part_1.length;
-        complete_count_part2.textContent = completed_questions[1] + "/" + question_part.part_2.length;
+        complete_count_part2.textContent = completed_questions[1] + "/" + question_part.part_2.length * 4;
         complete_count_part3.textContent = completed_questions[2] + "/" + question_part.part_3.length;
-        complete_count_total.textContent = completed_questions[0] + completed_questions[1] + completed_questions[2] + "/" + (question_part.part_1.length + question_part.part_2.length + question_part.part_3.length);
+        complete_count_total.textContent = completed_questions[0] + completed_questions[1] + completed_questions[2] + "/" + (question_part.part_1.length + question_part.part_2.length * 4 + question_part.part_3.length);
 
         // Cập nhật thống kê số câu trả lời đúng lần đầu
         first_correct_count_part1.textContent = first_correct_count[0];
