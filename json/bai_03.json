@@ -1,0 +1,1442 @@
+{
+    "part_1": [
+        {
+            "question": "Với ngôn ngữ lập trình bậc cao thì chương trình được viết dưới dạng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Văn bản khác với ngôn ngữ tự nhiên",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kí tự gần giống với văn bản",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Văn bản gần với ngôn ngữ tự nhiên",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Văn bản gồm các kí hiệu 0 và 1",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Văn bản gần với ngôn ngữ tự nhiên trong ngôn ngữ lập trình bậc cao được gọi là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mã máy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mã nguồn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kí hiệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để máy tính có thể chạy trực tiếp thì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chương trình được dịch thành ngôn ngữ lập trình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chương trình được dịch thành mã nguồn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chương trình được dịch thành dãy lệnh máy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Không cần phải dịch",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc dịch chương trình sang mã máy giúp?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Máy có thể hiểu được và chống đánh cắp ý tưởng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Máy có thể hiểu được và giúp sửa đổi phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bảo vệ chống đánh cắp ý tưởng và giúp sửa đổi phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bảo vệ chống đánh cắp ý tưởng, sửa đổi phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Vì sao việc dịch sang mã máy giúp chống sửa đối phần mềm và chống đánh cắp ýtưởng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mã máy dễ đọc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mã máy có tính bảo mật cao",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mã máy rất khó đọc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mã máy có nhiều kí tự đặc biệt",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Nguyên nhân dẫn đến sự ra đời của phần mềm nguồn mở là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Không chia sẻ mã nguồn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cùng nhau tạo ra mã nguồn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chia sẻ mã nguồn để cùng phát triển",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Vì mục đích thương mại",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Cách thức chuyển giao phần mềm cho người sử dụng theo chiều hướng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ngăn dần",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đóng dần",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bí mật dần",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mở dần",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm thương mại là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần mềm để bán, loại nguồn mở",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm để bán, loại nguồn đóng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phần mềm không bán, loại nguồn mở",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm không bán, loại nguồn đóng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm nào dưới đây là phần mềm thương mại?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Inkscape",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "GIMP",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Microsoft Word",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Môi trường lập trình cho ngôn ngữ Python",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm tự do không có đặc điểm?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Là phần mềm miễn phí",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Được tự do sử dụng mà không cần xin phép",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có thể ở dạng mã máy hoặc mã nguồn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mã nguồn đóng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm nguồn mở không có đặc điểm",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần mềm được cung cấp cả mã nguồn để người dùng có thể tự sửa đổi, cải tiến, phát triển, phân phối lại theo một quy định",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm nguồn mở là tự do",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm nguồn mở không được bảo hành",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm để bán",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu không là phần mềm nguồn mở?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Inkscape",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "GIMP",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Môi trường lập trình cho ngôn ngữ Python",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Photoshop",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm thương mại thường được dùng để?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bán",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trao đổi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tạo ra các chương trình mới lạ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hỗ trợ các phần mềm khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hầu hết, phần mềm thương mại được bán ở dạng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mã nguồn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mã máy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mã code",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mã vạch",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Giấy phép công cộng GNU GPL là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Giấy phép điển hình với phần nguồn mở",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giấy phép điển hình với phần nguồn đóng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giấy phép điển hình với phần nguồn mở và đóng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giấy phép kinh doanh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chọn đáp án Sai. Giấy phép công cộng GNU GPL bảo đảm?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Quyền tiếp cận của người sử dụng đối với mã nguồn để dùng, thay đổi hoặc phân phối lại",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quyền miễn trừ của tác giả về hậu quả sử dụng phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quyền đứng tên của các tác giả tham gia phát triển",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có thể không công bố rõ ràng các thay đổi của các phiên bản",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Giấy phép công cộng GNU GPL bảo đảm sự phát triển của các phần mềm nguồnmở bằng cách?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Công bố rõ ràng các thay đổi của các phiên bản, buộc phần phát triển dựa trên phần mềm nguồn mở theo giấy phép GPL cũng phải mở theo GPL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công bố rõ ràng các thay đổi của các phiên bản, buộc phần phát triển dựa trên phần mềm nguồn mở theo giấy phép GPL không cần phải mở theo GPL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công bố có thể không rõ ràng các thay đổi của các phiên bản, buộc phần phát triển dựa trên phần mềm nguồn mở theo giấy phép GPL cũng phải mở theo GPL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công bố có thể không rõ ràng các thay đổi của các phiên bản, buộc phần phát triển dựa trên phần mềm nguồn mở theo giấy phép GPL không cần phải mở theo GPL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu không phải là ý nghĩa của yêu cầu “người sửa đổi, nâng cấp phần mềm nguồn mở phải côngbố rõ ràng phần nào đã sửa, sửa thế nào so với bản gốc”?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đảm bảo tính minh bạch, trung thực và đáng tin cậy của phần mềm nguồn mở",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công bố các thay đổi giúp người dùng hiểu rõ về những thay đổi trong phần mềm, giúp họ quyết định xem có nên cập nhật hay không và giúp họ biết được nguồn gốc và lịch sử của phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giúp đảm bảo tính tương thích của phần mềm giữa các phiên bản.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để xem và định giá bán cho phù hợp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Ưu điểm của phần mềm nguồn mở là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Miễn phí, mã nguồn đóng, hỗ trợ nhiều hệ điều hành và định dạng tệp khác nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Miễn phí, mã nguồn mở, hỗ trợ nhiều hệ điều hành và định dạng tệp khác nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bán, mã nguồn mở, hỗ trợ nhiều hệ điều hành và định dạng tệp khác nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bán, mã nguồn đóng, hỗ trợ nhiều hệ điều hành và định dạng tệp khác nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Do mã nguồn của phần mềm nguồn mở có thể được tùy chỉnh nên?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhiều phiên bản phần mềm khác nhau có thể được phát triển và sử dụng theo nhu cầu của người dùng, đem lại sự đa dạng và lựa chọn cho người dùng khi lựa chọn phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhiều phiên bản phần mềm khác nhau có thể được phát triển và sử dụng theo nhu cầu của người dùng, đem lại sự đa dạng và lựa chọn cho người dùng khi lựa chọn phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhiều phiên bản phần mềm khác nhau có thể được phát triển và sử dụng theo nhu cầu của người dùng, đem lại sự đa dạng và lựa chọn cho người dùng khi lựa chọn phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhiều phiên bản phần mềm khác nhau có thể được phát triển và sử dụng theo nhu cầu của người dùng, đem lại sự đa dạng và lựa chọn cho người dùng khi lựa chọn phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm nào dưới đây thuộc phần mềm thương mại?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần mềm đặt hàng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phần mềm miễn phí",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm tự do",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm nguồn mở",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm thương mại bị phụ thuộc vào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhà sáng tạo ra phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhà cung cấp về giải pháp kĩ thuật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhà kiểm soát phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trình độ người sử dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm nào có thể thay thế hệ Windows?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Android",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Writer",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "LINUX",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "My SQL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hệ quản trị dữ cơ sở dữ liệu mở nào có thể thay thế so Oracle, SQL server?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Android",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Writer, Calc và Impress",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "LINUX",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "My SQL, postGreSQL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm đặt hàng được thiết kế?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Dựa trên những yêu cầu chung của nhiều người",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Theo yêu cầu của từng khách hàng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dựa trên phần mềm nguồn mở",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Theo đặt điểm vùng miền",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Về các loại hình phần mềm",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần mềm thương mại là phần mềm được bán để thu lợi nhuận và thường không đi kèm mã nguồn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phần mềm miễn phí (freeware) luôn được cung cấp kèm mã nguồn để người dùng tự do sửa đổi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm nguồn mở là phần mềm cung cấp mã nguồn để người dùng có thể sử dụng, sửa đổi và phát triển.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mọi phần mềm miễn phí (freeware) đều là phần mềm nguồn mở.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các loại giấy phép phần mềm",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Giấy phép sử dụng phần mềm là một tập hợp các điều kiện mà người dùng cần tuân thủ khi sử dụng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giấy phép công cộng GNU GPL cho phép người dùng sửa đổi mã nguồn nhưng yêu cầu phải công bố công khai mã nguồn của phiên bản sửa đổi đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phần mềm thương mại thường được gọi là phần mềm nguồn đóng vì không cung cấp mã nguồn cho người dùng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người dùng có thể sử dụng phần mềm nguồn mở cho mọi mục đích mà không cần tuân theo bất kỳ giấy phép nào.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "So sánh giữa phần mềm thương mại và phần mềm nguồn mở",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần mềm thương mại thường có chi phí mua và chuyển giao cao hơn so với phần mềm nguồn mở.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hỗ trợ kĩ thuật cho phần mềm nguồn mở chủ yếu đến từ cộng đồng, trong khi phần mềm thương mại được hỗ trợ bởi nhà cung cấp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phần mềm nguồn mở được coi là kém minh bạch hơn phần mềm thương mại vì mã nguồn của nó không được kiểm soát.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng phần mềm thương mại thường bị phụ thuộc vào nhà cung cấp về các giải pháp và hỗ trợ kỹ thuật.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Ví dụ về các loại phần mềm",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các hệ điều hành như Windows và macOS là ví dụ về phần mềm thương mại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ quản trị cơ sở dữ liệu MySQL và hệ điều hành Linux là các ví dụ về phần mềm nguồn mở.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "GIMP là một phần mềm chỉnh sửa ảnh thương mại, có thể thay thế cho Photoshop.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Google Docs là một phần mềm trực tuyến, có thể được sử dụng để tạo các tài liệu tương tự như Microsoft Word.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Phân loại phần mềm theo mục đích sử dụng",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần mềm \"đặt hàng\" là phần mềm được thiết kế theo yêu cầu riêng của một khách hàng cụ thể.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phần mềm \"đóng gói\" như Microsoft Word được thiết kế để phục vụ nhu cầu của một nhóm người dùng rất nhỏ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm thương mại và phần mềm nguồn mở không thể thay thế cho nhau trong bất kỳ lĩnh vực nào.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm nguồn mở giúp những người có kinh phí hạn hẹp được sử dụng các phần mềm chất lượng tốt với chi phí thấp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về phần mềm chạy trên Internet",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần mềm chạy trên Internet (phần mềm trực tuyến) yêu cầu người dùng phải cài đặt lên máy tính của mình.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một trong những lợi ích của phần mềm trực tuyến là sự tiện dụng, có thể truy cập từ bất kỳ đâu miễn là có kết nối Internet.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Google Docs, Google Sheets là các ví dụ về phần mềm chạy trên Internet.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dữ liệu làm việc trên các phần mềm trực tuyến thường được lưu tự động trên không gian lưu trữ đám mây.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Lịch sử và khái niệm cơ bản",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Máy tính chỉ có thể thực thi trực tiếp các chương trình viết bằng ngôn ngữ lập trình bậc cao.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chương trình dịch có chức năng chuyển đổi chương trình viết bằng ngôn ngữ lập trình bậc cao sang mã máy.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Vào những năm 1970, một xu hướng chia sẻ mã nguồn đã hình thành và có ảnh hưởng lớn đến sự phát triển của công nghệ phần mềm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phần mềm nguồn mở thường được bảo vệ bởi một giấy phép quy định các quyền và nghĩa vụ của người dùng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đặc điểm và vai trò của các loại phần mềm",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần mềm thương mại là nguồn thu nhập chính của các tổ chức, giúp họ có kinh phí để nghiên cứu và phát triển sản phẩm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ưu điểm của phần mềm \"đặt hàng\" là đáp ứng chính xác nhu cầu riêng của người dùng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phần mềm nguồn mở thường có chi phí thấp, minh bạch, linh hoạt và không bị phụ thuộc vào một nhà cung cấp duy nhất.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mọi phần mềm nguồn mở đều có thể thay thế hoàn toàn các phần mềm thương mại tương ứng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Sử dụng phần mềm trực tuyến",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để sử dụng các phần mềm trực tuyến của Google như Docs, Sheets, Slides, người dùng cần có tài khoản Google.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phần mềm trực tuyến giúp tiết kiệm dung lượng lưu trữ trên ổ cứng của máy tính người dùng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các tài liệu được tạo bởi Google Docs không thể tương thích với Microsoft Word.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm tại các trạm ATM có thể được xem là một loại phần mềm chạy trên Internet (phần mềm trực tuyến).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khái niệm về mã nguồn và giấy phép",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ngôn ngữ lập trình bậc cao là ngôn ngữ gần với ngôn ngữ tự nhiên và cần có chương trình dịch để máy tính hiểu được.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mã nguồn là dạng văn bản của chương trình được viết bằng ngôn ngữ lập trình bậc cao.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phần mềm thương mại luôn cung cấp mã nguồn cho người dùng để họ kiểm tra.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc sao chép và phân phối lại một phần mềm có mã nguồn tuân theo giấy phép GPL phải đi kèm với việc công khai mã nguồn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_3": []
+}
