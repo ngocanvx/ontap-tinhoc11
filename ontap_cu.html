@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn tập Trắc nghiệm Tin học 11</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="home-page" class="page active">
+        <h2>Chào mừng đến với ôn tập trắc nghiệm Tin học 11</h2>
+        <p>Chọn một bài học từ danh sách dưới đây để bắt đầu.</p>
+        <select id="lesson-select"></select>
+        <button id="start-button">BẮT ĐẦU</button>
+    </div>
+
+    <div id="quiz-page" class="page">
+        <h2 id="lesson-title"></h2>
+        <div id="quiz-container">
+            <p><span id="question-counter"></span> - <span id="time-spent"></span></p>
+            <h3 id="question-text"></h3>
+            <div id="answers-container" class="answers"></div>
+        </div>
+        <div id="feedback-message"></div>
+        <div class="controls">
+            <button id="next-button" disabled>Câu kế tiếp</button>
+            <button id="finish-button">Kết thúc</button>
+        </div>
+    </div>
+
+    <div id="result-page" class="page">
+        <h2>Kết quả của bạn</h2>
+        <p>Số câu hoàn thành: <span id="complete-count"></span></p>
+        <p>Số câu đúng lần đầu: <span id="correct-count"></span></p>
+        <p>Số câu chọn lại: <span id="incorrect-count"></span></p>
+        <p>Tỉ lệ đúng lần đầu: <span id="percent-correct-first"></span></p>
+        <p>Tổng thời gian: <span id="total-time"></span></p>
+        <button id="restart-button">Quay về</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

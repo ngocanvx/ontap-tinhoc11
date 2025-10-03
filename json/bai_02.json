@@ -1,0 +1,1237 @@
+{
+    "part_1": [
+        {
+            "question": "Trên màn hình có các biểu tượng nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tệp, thư mục, biểu tượng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tệp, thư mục, hình ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tệp, thư mục, văn bản",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tệp, biểu tượng, game",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Em có thể truy cập nhanh các phần mềm ứng dụng nhờ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thanh công việc và vào ổ đĩa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nút Start và vào ổ đĩa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thanh công việc và nút Start",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Biểu tượng và vào ổ đĩa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Em có thể sử dụng tiện ích của File Explorer của Window để?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Truy cập nhanh các phần mềm ứng dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quản lý tệp và thư mục",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quan sát trạng thái hiển thị",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quản lý các thiết bị vào ra",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi tệp trên Ubuntu đang mở, em không thể?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đổi tên tệp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đổi tên, xóa và di chuyển tệp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Xóa tệp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Di chuyển tệp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để làm xuất hiện bảng chọn các lệnh có thể thực hiện với tệp thì ta phải?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nháy nút trái chuột",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nháy đúp chuột",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nháy nút phải chuột",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kéo thả chuột",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tiện ích là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Một phần mềm đa năng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một tệp chứa nhiều tệp con",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Những công cụ hỗ trợ nhiều công việc khác nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Là phương tiện có ích máy tính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tiện ích có thể hỗ trợ công việc nào dưới đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ứng dụng tính toán, chụp ảnh màn hình, chơi game",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Gõ tiếng Việt, tính toán, vẽ hình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ứng dụng tính toán, chụp ảnh màn hình, gõ tiếng Việt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chụp ảnh màn hình, sửa lỗi chính tả, tính toán.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đĩa cứng là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Là đĩa kim loại chứa phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Loại đĩa kim loại phủ vật liệu từ tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Là đĩa kim loại chứa các tiện ích",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Là đĩa kim loại cứng như sắt",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Dữ liệu được đọc, được ghi bởi?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các đầu từ theo các đường thẳng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các đầu từ theo các đường tròn đồng tâm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các đầu từ theo các đoạn thẳng nét cong",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các liên cung trên đĩa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Mỗi cung ghi bao nhiêu dữ liệu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "512 B",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "512 KB",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "512 MB",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "512 GB",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc đọc, ghi được thực hiện theo đơn vị?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cung",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Byte",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Liên cung",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bit",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Có thể xảy ra lỗi tệp như",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Một liên cung liên kết nhưng tình trạng chồng chéo cung, một số cung bị hỏng về vật lý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một cung liên kết nhưng tình trạng chồng chéo cung, một số cung bị hỏng về vật lý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một liên cung mất liên kết, tình trạng chồng chéo cung, một số cung bị hỏng về vật lý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một cung mất liên kết, tình trạng chồng chéo cung, một số cung bị hỏng về vật lý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Một liên cung mất liên kết sẽ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Có vài tệp sẽ liên kết đến cùng một cung",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đọc ghi không được, cần phải loại khỏi danh sách sử dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tạo thành các đoạn dữ liệu \"mồ côi\", có trên đĩa nhưng không khai thác được",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Làm cho đĩa không hoạt động",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chức năng hợp mảnh có tác dụng với đĩa nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "CD",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "DVD",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đĩa từ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đĩa mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Thiết bị di động không cung cấp người dùng tiện ích nào dưới đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Quản lý danh bạ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhắn tin",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "hẹn giờ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Gõ văn bản",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Em có thể thực hiện quản lý ứng dụng bằng cách?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Xem các ứng dụng được tải, xóa ứng dụng không cần thiết",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cài trên máy, xóa ứng dụng không cần thiết",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xem các ứng dụng được tải và cài trên máy, xóa ứng dụng không cần thiết",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Xem các ứng dụng được tải và cài trên máy, không xóa ứng dụng có sẵn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Thời kỳ mới có máy tính chưa có hệ điều hành thì người sử dụng phải?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nạp thủ công chương trình vào bộ nhớ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tải các chương trình có sẵn trên Internet",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Truyền các chương trình từ thẻ nhớ vào bộ nhớ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng đến CD",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Ngày nay có nhiều thiết bị được điều khiển bởi các bộ vi xử lý, các chương trình được?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cài sẵn trong bộ nhớ ROM",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cài sẵn trong bộ nhớ RAM",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cài sẵn trong thẻ nhớ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cài sẵn trong đĩa CD",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phần cứng là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thiết bị xử lý thông tin",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Môi trường trung gian giúp phần mềm ứng dụng khai thác phần cứng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nơi cung cấp các dịch vụ điều khiển máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Là bộ nhớ trong của máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hệ điều hành là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thiết bị xử lý thông tin",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Môi trường trung gian giúp phần mềm ứng dụng khai thác phần cứng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nơi cung cấp các dịch vụ điều khiển máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm tiện ích",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Về các chức năng và giao diện cơ bản của hệ điều hành máy tính cá nhân",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ điều hành cung cấp một môi trường giao tiếp đồ hoạ để người dùng tương tác với máy tính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các thành phần phổ biến trên màn hình nền bao gồm tệp, thư mục và các nút lệnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thanh công việc (Taskbar) là một đặc điểm chỉ có trên hệ điều hành Windows, không xuất hiện trên các hệ điều hành khác như Ubuntu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các thao tác cơ bản với chuột bao gồm nháy chuột, nháy đúp chuột, nháy nút phải chuột và kéo thả.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Quản lí tệp và thư mục trên máy tính",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "File Explorer là một tiện ích trong Windows được sử dụng để quản lí tệp và thư mục.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để xem nội dung bên trong một thư mục, người dùng cần nháy nút phải chuột vào biểu tượng của thư mục đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các thao tác quản lý thư mục thông thường là tạo mới, đổi tên, di chuyển và xóa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc nháy nút phải chuột vào một đối tượng thường sẽ làm xuất hiện một bảng chọn các lệnh có thể thực hiện với đối tượng đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về các tiện ích của hệ điều hành máy tính cá nhân",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tiện ích là những chương trình máy tính hỗ trợ người dùng thực hiện các công việc như diệt virus, chụp ảnh màn hình, hay gõ tiếng Việt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dữ liệu trên đĩa cứng được tổ chức thành các đường ghi (track), cung (sector) và liên cung (cluster).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chức năng Tối ưu hoá đĩa (Defragment) có tác dụng kiểm tra và sửa các cung bị hỏng trên đĩa cứng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trong Windows, để truy cập các tiện ích kiểm tra và tối ưu hoá đĩa, ta có thể vào Properties của ổ đĩa và chọn thẻ Tools.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các khái niệm liên quan đến lưu trữ trên đĩa cứng",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Liên cung (cluster) là một nhóm các cung (sector) và là đơn vị cơ bản để hệ điều hành cấp phát cho việc lưu trữ tệp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khi một tệp được lưu trữ, nó luôn được ghi vào các liên cung nằm liền kề nhau trên đĩa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tình trạng một tệp bị phân mảnh xảy ra khi các phần của nó nằm ở những vùng không liền kề nhau trên đĩa, làm chậm tốc độ truy cập.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc tối ưu hoá (dồn đĩa) giúp sắp xếp lại các tệp để chúng chiếm các vùng liền kề, từ đó cải thiện hiệu suất của máy tính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các tiện ích trên hệ điều hành của thiết bị di động",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các hệ điều hành di động như Android hay iOS không có sẵn tiện ích, người dùng phải tự cài đặt tất cả.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tiện ích quản lý danh bạ trên điện thoại thông minh cho phép người dùng thêm, sửa, xóa và nhóm các liên hệ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ điều hành di động cho phép người dùng xem danh sách các ứng dụng đã cài đặt và xóa đi những ứng dụng không cần thiết.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các tiện ích như đặt lịch, hẹn giờ và nhắc việc là những tính năng phổ biến trên các thiết bị di động hiện nay.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Thao tác với hệ điều hành",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cả Windows và Ubuntu đều cung cấp cách thức để người dùng truy cập danh mục ứng dụng và khởi chạy chúng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giao diện đồ hoạ chủ yếu sử dụng văn bản và các dòng lệnh để người dùng tương tác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thanh trạng thái (Status bar) thường hiển thị các thông tin về trạng thái hiện tại của máy tính hoặc của ứng dụng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cửa sổ File Explorer trong Windows hiển thị các vùng như vùng lệnh, các thư mục thường dùng và nội dung của thư mục đang được chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "So sánh tiện ích trên hệ điều hành máy tính và di động",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cả hệ điều hành máy tính và di động đều có chức năng quản lí tệp và thư mục.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tối ưu hoá đĩa (dồn đĩa) là một tiện ích cần thiết và được sử dụng thường xuyên trên các điện thoại thông minh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quản lí danh bạ là một tiện ích cốt lõi của hệ điều hành máy tính cá nhân như Windows.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các thiết bị di động cung cấp nhiều tiện ích phục vụ các nhu cầu cá nhân như quản lí lịch hẹn và đặt báo thức.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Mục đích của các tiện ích bảo trì đĩa",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tiện ích \"Check\" dùng để tìm các lỗi logic và lỗi vật lí (bad sector) trên ổ đĩa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tiện ích \"Optimize\" (Tối ưu hoá) giúp tập hợp các đoạn dữ liệu bị phân tán của một tệp lại với nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đường ghi (track) trên đĩa là một vòng tròn đồng tâm nơi dữ liệu được lưu trữ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mục tiêu chính của việc kiểm tra và tối ưu hoá đĩa là để giải phóng không gian lưu trữ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quản lý dữ liệu và ứng dụng",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Trong Windows, tiện ích File Explorer cho phép thực hiện các thao tác như đổi tên và di chuyển thư mục.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc quản lí tệp và thư mục trên Ubuntu chỉ có thể được thực hiện thông qua giao diện dòng lệnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các tiện ích trên thiết bị di động bao gồm việc quản lí danh bạ liên lạc và gỡ bỏ các ứng dụng đã cài đặt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trên điện thoại, người dùng có thể thêm liên hệ mới vào danh bạ, chia sẻ thông tin liên hệ và tạo nhóm liên hệ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các khái niệm tổng quan trong nội dung thực hành sử dụng hệ điều hành",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mục tiêu của bài học là giúp học sinh sử dụng được các chức năng và tiện ích cơ bản trên cả hệ điều hành máy tính và thiết bị di động.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một số tiện ích đã được tích hợp sẵn trong hệ điều hành máy tính, trong khi một số khác cần người dùng cài đặt thêm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tất cả các thiết bị được coi là máy tính cá nhân đều chạy hệ điều hành Windows.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đồng hồ bấm giờ có thể được xem là một tiện ích cơ bản của hệ điều hành di động.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_3": []
+}
