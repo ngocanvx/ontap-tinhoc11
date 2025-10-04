@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn tập Trắc nghiệm</title>
+    <link rel="stylesheet" href="./css/kiemtra.css">
+</head>
+
+<body>
+    <div id="home-page" class="page active">
+        <h2>Chào mừng đến với ôn tập trắc nghiệm Tin học 11</h2>
+        <p>Chọn một bài học từ danh sách dưới đây để bắt đầu.</p>
+        <select id="lesson-select"></select>
+        <button id="start-button">BẮT ĐẦU</button>
+    </div>
+
+    <div id="quiz-page" class="page">
+        <!-- Tiêu đề bài học -->
+        <h2 id="lesson-title"></h2>
+
+        <!-- Thêm các nút chọn phần câu hỏi -->
+        <button id="part1-button" disabled>Phần 1</button>
+        <button id="part2-button">Phần 2</button>
+        <button id="part3-button">Phần 3</button>
+
+        <!-- Thêm các nội dung số câu hỏi hiện tại, nội dung câu hỏi và phương án trả lời -->
+        <div id="quiz-container">
+            <p><span id="question-counter"></span> - <span id="time-spent"></span></p>
+            <h3 id="question-text"></h3>
+            <img id="question-image" alt="Ảnh minh họa câu hỏi" />
+            <div id="answers-container" class="answers"></div>
+        </div>
+
+        <!-- Phản hồi kết quả đã chọn là đúng hay sai -->
+        <div id="feedback-message"></div>
+
+        <!-- Thêm các nút điều khiển -->
+        <div class="controls">
+            <button id="prev-button" disabled>Câu trước</button>
+            <button id="next-button" disabled>Câu kế tiếp</button>
+            <button id="finish-button">Kết thúc</button>
+
+        </div>
+    </div>
+
+    <!-- Thống kê kết quả -->
+    <div id="result-page" class="page">
+        <h2>Kết quả của bạn</h2>
+
+        <table>
+            <tr>
+                <th></th>
+                <th>Phần 1</th>
+                <th>Phần 2</th>
+                <th>Phần 3</th>
+                <th>Tổng</th>
+            </tr>
+            <tr>
+                <td>Số lệnh trả lời đúng</td>
+                <td id="complete-count-part1"></td>
+                <td id="complete-count-part2"></td>
+                <td id="complete-count-part3"></td>
+                <td id="complete-count-total"></td>
+            </tr>
+            <tr>
+                <td>Tổng thời gian</td>
+                <td id="total-time-total" colspan="4" style="text-align: center; font-weight: bold;"></td>
+            </tr>
+        </table>
+        <p></p>
+        <button id="restart-button">Quay về</button>
+    </div>
+
+    <script src="./js/kiemtra.js"></script>
+</body>
+
+</html>
