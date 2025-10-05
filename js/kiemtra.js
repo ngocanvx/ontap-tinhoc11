@@ -44,6 +44,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Nút nhấn quay về trang chủ
     const restart_button = document.getElementById('restart-button');
 
+    // Số lượng câu hỏi cần lấy ra từng phần
+    const questions_per_part = [6, 1, 0]; // Phần 1: 6 câu, Phần 2: 1 câu (4 phương án), Phần 3: 0 câu
+
     // Global variables
     // Biến toàn cục lưu trữ trạng thái làm bài
     let completed_test = false;
@@ -62,25 +65,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Biến lưu danh sách câu hỏi từng phần
     let question_part = {
-        part_1: [],
-        part_2: [],
-        part_3: []
+        part_1: [], part_2: [], part_3: []
     }
 
-    // Lưu số câu hỏi trả lời đúng lần đầu
-    let first_correct_count = [0, 0, 0];
+    // Lưu câu trả lời của học sinh
+    let answered_questions = {
+        part_1: [], part_2: [], part_3: []
+    };
 
-    // Biến lưu trạng thái kiểm tra có phải câu trả lời đầu tiên không
-    let is_first_attempt = true;
-
-    // Lưu số câu hỏi chọn sai của từng phần
-    let incorrect_questions = [0, 0, 0];
+    // Lưu câu trả lời của học sinh theo mẫu sau
+    // answered_questions = {
+    //     part_1: [0, 2, null, 1, ...], // Mảng lưu chỉ số phương án đã chọn của phần 1
+    //     part_2: [[true, false, ...],...],   // Mảng lưu giá trị đúng/sai đã chọn của phần 2
+    //     part_3: ['42', '100', ...]    // Mảng lưu giá trị nhập vào của phần 3
+    // };
 
     // Lưu số câu hỏi đã hoàn thành của từng phần
     let completed_questions = [0, 0, 0];
-
-    // Lưu thời gian làm bài của từng phần
-    let time_spent_part = [0, 0, 0];
 
     // Lưu thời gian thực hiện bài quiz
     let quiz_start_time;
@@ -96,10 +97,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // Phân tích nội dung JSON
             const data = await response.json();
 
-            // Lưu danh sách bài học và hiển thị trong thẻ select
+            // Lưu danh sách bài học vào biến toàn cục
             lessons = data.lessons;
 
-            // Duyệt danh sách bài học, add vào select
+            // Duyệt danh sách bài học, add vào select (dropdown)
             lessons.forEach((lesson, index) => {
                 const option = document.createElement('option');
                 option.value = lesson.file;
@@ -149,10 +150,10 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log("File câu hỏi: ", fileName);
 
             // Đọc và XÁO TRỘN danh sách câu hỏi các phần
-            //question_part.part_1 = data.part_1;
-            question_part.part_1 = shuffleArray(data.part_1).shuffled_array.slice(0, 6); // Chỉ lấy 6 câu hỏi phần 1
-            question_part.part_2 = shuffleArray(data.part_2).shuffled_array.slice(0, 1);
-            question_part.part_3 = shuffleArray(data.part_3).shuffled_array.slice(0, 0);
+            // Lấy ra số lượng câu hỏi cần kiểm tra từng phần
+            question_part.part_1 = shuffleArray(data.part_1).shuffled_array.slice(0, questions_per_part[0]);
+            question_part.part_2 = shuffleArray(data.part_2).shuffled_array.slice(0, questions_per_part[1]);
+            question_part.part_3 = shuffleArray(data.part_3).shuffled_array.slice(0, questions_per_part[2]);
 
             // Xáo trộn danh sách đáp án của từng câu hỏi trong phần 1
             question_part.part_1.forEach(question => {
@@ -160,26 +161,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 question.answers = result.shuffled_array;
             });
 
-            // Xáo trộn danh sách đáp án của từng câu hỏi trong phần 2
-            question_part.part_2.forEach(question => {
-                const result = shuffleArray(question.answers);
-                question.answers = result.shuffled_array;
-            });
+            // Khởi tạo biến ghi nhận câu trả lời của học sinh
+            // Ban đầu tất cả đều có giá trị null (chưa trả lời)
+            answered_questions.part_1 = Array(question_part.part_1.length).fill(null);
+            answered_questions.part_2 = Array(question_part.part_2.length).fill(Array(4).fill(null));
+            answered_questions.part_3 = Array(question_part.part_3.length).fill(null);
 
             // Cập nhật vị trí bắt đầu ôn tập
             current_question_part_number = 0; // Bắt đầu từ phần 1
 
             // Bắt đầu với phần 1
-            //current_questions_list = question_part.part_1;
             current_questions_list = question_part[`part_${current_question_part_number + 1}`];
 
             current_question_index = 0; // Bắt đầu từ câu hỏi đầu tiên của phần 1
 
             // Reset các biến thống kê
-            first_correct_count = [0, 0, 0];
-            incorrect_questions = [0, 0, 0];
             completed_questions = [0, 0, 0];
-            time_spent_part = [0, 0, 0];
+            correct_questions = [0, 0, 0];
 
             // Hiển thị câu hỏi
             displayQuestion(); // Bắt đầu với phần 1 (biến current_question_part_number)
@@ -240,7 +238,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Đặt lại giao diện người dùng
         answers_container.innerHTML = '';
         feedback_message.style.display = 'none';
-        next_button.disabled = true;
 
         // Update question info
         // Cập nhật thông tin câu hỏi
@@ -248,10 +245,12 @@ document.addEventListener('DOMContentLoaded', () => {
         question_text.textContent = question_data.question;
 
         // Kiểm tra xem đối tượng image có tồn tại không VÀ src có giá trị hay không
+        // Nếu câu hỏi có hình ảnh thì hiển thị hình ảnh sau text, nếu không có ảnh thì ẩn thẻ <img>
         if (!question_data.image || !question_data.image.src) {
             // Nếu không có image hoặc không có src, ẩn phần tử đi
             question_image.style.display = "none";
         } else {
+            question_image.style.display = "block";
             question_image.src = question_data.image.src;
         }
 
@@ -281,7 +280,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Dòng textContent cũ không còn cần thiết
                     // answer_option.textContent = answer.text;
 
-                    answer_option.addEventListener('click', () => handleAnswerClick_Part1(answer_option, answer));
+                    answer_option.addEventListener('click', () => handleAnswerClick_Part1(answer_option, index));
+
+                    // Kiểm tra câu hỏi này học sinh có trả lời chưa
+                    if (answered_questions.part_1[current_question_index] === index) {
+                        answer_option.classList.add('selected');
+                        feedback_message.style.display = 'block';
+                        feedback_message.textContent = 'Bạn đã chọn phương án. Nhấn nút "Câu tiếp theo" để tiếp tục.';
+                        feedback_message.classList.add('selected');
+                        feedback_message.classList.remove('alert');
+                    }
+
                     answers_container.appendChild(answer_option);
                 });
                 break;
@@ -301,6 +310,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     false_button.textContent = 'S';
                     true_button.value = 'true';
                     false_button.value = 'false';
+
+                    // Kiểm tra câu hỏi này học sinh có trả lời chưa
+                    if (answered_questions.part_2[current_question_index][index] === true) {
+                        true_button.classList.add('selected');
+                        false_button.classList.remove('selected');
+                    } else if (answered_questions.part_2[current_question_index][index] === false) {
+                        false_button.classList.add('selected');
+                        true_button.classList.remove('selected');
+                    }
 
                     // Thêm nút chứa nội dung phương án
                     const answer_option = document.createElement('button');
@@ -324,10 +342,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
 
                     // Thêm sự kiện cho nút Đúng/Sai
-                    true_button.addEventListener('click', () => handleAnswerClick_Part2(true_button, false_button, answer, answer_option));
-                    false_button.addEventListener('click', () => handleAnswerClick_Part2(false_button, true_button, answer, answer_option));
-                    // Nút phương án cũng có thể click để chọn
-                    //answer_option.addEventListener('click', () => handleAnswerClick_Part2(answer_option, { correct: false }, answer_option));
+                    true_button.addEventListener('click', () => handleAnswerClick_Part2(true_button, false_button, index, answer_option));
+                    false_button.addEventListener('click', () => handleAnswerClick_Part2(false_button, true_button, index, answer_option));
 
                     // Tạo dòng gồm 3 nút (Đ, S, nội dung phương án)
                     answer_row.appendChild(true_button);
@@ -370,66 +386,43 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Handle user's answer
     // Hàm kiểm tra đáp án phần 1
-    function handleAnswerClick_Part1(selected_option, answer) {
+    function handleAnswerClick_Part1(selected_option, index) {
 
         // Tô màu cho biết nút nào được chọn
         const all_options = answers_container.querySelectorAll('.answer-option-part1');
         all_options.forEach(option => option.classList.remove('selected')); // Disable all buttons after a choice
         selected_option.classList.add('selected');
 
+        // Thông báo đã chọn phương án
+        feedback_message.style.display = 'block';
+        feedback_message.textContent = 'Bạn đã chọn phương án. Nhấn nút "Câu tiếp theo" để tiếp tục.';
+        feedback_message.classList.add('selected');
+        feedback_message.classList.remove('alert');
+
         // Kiểm tra phương án chọn có đúng không
-        if (answer.correct === true) {
-
-
-        } else {
-
-
-        }
+        answered_questions.part_1[current_question_index] = index; // Lưu câu trả lời của học sinh
     }
 
     // Hàm kiểm tra đáp án phần 2
-    function handleAnswerClick_Part2(true_false_selected_button, true_false_another_button, answer, selected_option) {
+    function handleAnswerClick_Part2(true_false_selected_button, true_false_another_button, index, selected_option) {
 
         // Tô màu cho biết nút nào được chọn
         true_false_selected_button.classList.add('selected');
         true_false_another_button.classList.remove('selected');
+        selected_option.classList.add('selected');
 
-        if (true_false_selected_button.value === answer.correct.toString()) {
+        // Lưu câu trả lời của học sinh
+        const answer_value = true_false_selected_button.value === 'true';
+        answered_questions.part_2[current_question_index][index] = answer_value;
 
-            // Thay đổi màu sắc và nội dung thông báo
-            selected_option.classList.add('correct');
-            selected_option.classList.remove('incorrect');
-            feedback_message.textContent = '👏 Chính xác! Chúc mừng bạn!';
-            feedback_message.classList.add('correct');
-            feedback_message.classList.remove('incorrect');
-            feedback_message.style.display = 'block';
-            next_button.disabled = false;
+        // Thông báo đã chọn phương án
+        feedback_message.style.display = 'block';
+        feedback_message.textContent = 'Bạn đã chọn phương án. Nhấn nút "Câu tiếp theo" để tiếp tục.';
+        feedback_message.classList.add('selected');
+        feedback_message.classList.remove('alert');
 
-            // Cập nhật số câu hỏi hoàn thành
-            completed_questions[current_question_part_number]++;
+        // Ghi nhận câu trả lời của học sinh
 
-            // Kiểm tra nếu đây là lần trả lời đầu tiên
-            if (is_first_attempt) {
-                first_correct_count[current_question_part_number]++;
-
-                // Cập nhật biến trạng thái không phải lần đầu
-                is_first_attempt = false;
-            }
-
-        } else {
-            selected_option.classList.add('incorrect');
-            selected_option.classList.remove('correct');
-            feedback_message.textContent = '💔 Chưa đúng! Vui lòng chọn lại.';
-            feedback_message.classList.add('incorrect');
-            feedback_message.classList.remove('correct');
-            feedback_message.style.display = 'block';
-
-            // Cập nhật số câu hỏi chọn sai
-            incorrect_questions[current_question_part_number]++;
-
-            // Cập nhật biến trạng thái không phải lần đầu
-            is_first_attempt = false;
-        }
     }
 
     // Hàm kiểm tra đáp án phần 3
@@ -445,7 +438,7 @@ document.addEventListener('DOMContentLoaded', () => {
             feedback_message.textContent = '👏 Chính xác! Chúc mừng bạn!';
 
             // Kích hoạt nút qua câu tiếp theo
-            next_button.disabled = false;
+
             completed_questions[current_question_part_number]++;
 
             // Kiểm tra nếu đây là lần trả lời đầu tiên
@@ -502,6 +495,20 @@ document.addEventListener('DOMContentLoaded', () => {
         const minutes = Math.floor(timeElapsed / 60);
         const seconds = timeElapsed % 60;
         time_spent.textContent = `Thời gian: ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    }
+
+    // Move to the previous question
+    function prevQuestion() {
+        // Kiểm tra nếu không phải câu hỏi đầu tiên
+        if (current_question_index > 0) {
+            current_question_index--;
+            displayQuestion();
+        } else {
+            feedback_message.style.display = 'block';
+            feedback_message.textContent = 'Đây là câu hỏi đầu tiên của phần này.';
+            feedback_message.classList.add('alert');
+            feedback_message.classList.remove('selected');
+        }
     }
 
     // Move to the next question
@@ -597,7 +604,7 @@ document.addEventListener('DOMContentLoaded', () => {
             displayQuestion();
         }
     });
-
+    prev_button.addEventListener('click', prevQuestion);
     next_button.addEventListener('click', nextQuestion);
     finish_button.addEventListener('click', endQuiz);
     restart_button.addEventListener('click', () => {

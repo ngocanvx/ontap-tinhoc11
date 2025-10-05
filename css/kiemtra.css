@@ -262,14 +262,14 @@ tr:nth-child(even) {
     display: none;
 }
 
-#feedback-message.correct {
+#feedback-message.selected {
     background-color: #d4edda;
     color: #155724;
 }
 
-#feedback-message.incorrect {
-    background-color: #f8d7da;
-    color: #721c24;
+#feedback-message.alert {
+    background-color: #d815cb;
+    color: #ffffff;
 }
 
 #total-time-total {
