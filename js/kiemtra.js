@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const restart_button = document.getElementById('restart-button');
 
     // Số lượng câu hỏi cần lấy ra từng phần
-    const questions_per_part = [6, 1, 0]; // Phần 1: 6 câu, Phần 2: 1 câu (4 phương án), Phần 3: 0 câu
+    const questions_per_part = [6, 1, 1]; // Phần 1: 6 câu, Phần 2: 1 câu (4 phương án), Phần 3: 0 câu
 
     // Global variables
     // Biến toàn cục lưu trữ trạng thái làm bài
@@ -366,12 +366,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Kiểm tra câu hỏi này học sinh có trả lời chưa
                 if (answered_questions.part_3[current_question_index]) {
                     answer_input.value = answered_questions.part_3[current_question_index];
+                    feedback_message.style.display = 'block';
+                    feedback_message.textContent = 'Bạn đã nhập đáp án.';
+                    feedback_message.classList.add('selected');
+                    feedback_message.classList.remove('alert');
                 }
 
-                // Thêm sự kiện khi người dùng nhập xong
+                // Thêm sự kiện khi người dùng nhập xong đáp án
                 answer_input.addEventListener('change', () => handleAnswerClick_Part3(answer_input));
 
+                // Thêm trường nhập vào dòng câu trả lời
                 answer_row.appendChild(answer_input);
+
+                // Thêm dòng câu trả lời vào container
+                answers_container.appendChild(answer_row);
                 break;
 
             default:
@@ -435,7 +443,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Thông báo đã chọn phương án
         feedback_message.style.display = 'block';
         feedback_message.textContent = 'Bạn đã nhập đáp án.';
-        feedback_message.classList.remove('selected');
+        feedback_message.classList.add('selected');
         feedback_message.classList.remove('alert');
     }
 
@@ -475,6 +483,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Move to the previous question
+    // Chuyển sang câu hỏi trước
     function prevQuestion() {
         // Kiểm tra nếu không phải câu hỏi đầu tiên
         if (current_question_index > 0) {
@@ -489,12 +498,22 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Move to the next question
+    // Chuyển sang câu hỏi tiếp theo
     function nextQuestion() {
         current_question_index++;
         displayQuestion();
     }
 
+    // Tổng hợp kết quả của bài kiểm tra
+    function summarizeResults() {
+        // Tính số câu hoàn thành của từng phần
+        completed_questions[0] = answered_questions.part_1.filter(answer => answer !== null).length;
+        completed_questions[1] = answered_questions.part_2.filter(answerArray => answerArray.some(answer => answer !== null)).length;
+        completed_questions[2] = answered_questions.part_3.filter(answer => answer !== null).length;
+    }
+
     // End the quiz and show results
+    // Kết thúc bài ôn tập và hiển thị kết quả
     function endQuiz() {
         // Xác nhận kết thúc bài làm
         if (!confirm('Bạn có chắc chắn muốn kết thúc bài ôn tập không?')) {

@@ -256,6 +256,7 @@ tr:nth-child(even) {
 
 #feedback-message {
     margin-top: 15px;
+    margin-bottom: 15px;
     padding: 10px;
     border-radius: 4px;
     font-weight: bold;
