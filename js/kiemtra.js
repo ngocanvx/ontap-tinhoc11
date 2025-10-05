@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (endQuiz()) {
                     return;
                 } else {
-                    current_question_part_number--; // Giữ nguyên phần hiện tại nếu không kết thúc được bài
+                    current_question_index--; // Giữ nguyên phần hiện tại nếu không kết thúc được bài
                     return;
                 }
             } else {
@@ -362,15 +362,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const answer_input = document.createElement('input');
                 answer_input.className = 'answer-input-part3';
-                //answer_input.type = 'number';
-                answer_row.appendChild(answer_input);
 
-                const answer_check_button = document.createElement('button');
-                answer_check_button.className = 'answer-check-part3';
-                answer_check_button.textContent = 'Kiểm tra';
-                answer_check_button.addEventListener('click', () => handleAnswerClick_Part3(answer_input, question_data.answer));
-                answer_row.appendChild(answer_check_button);
-                answers_container.appendChild(answer_row);
+                // Kiểm tra câu hỏi này học sinh có trả lời chưa
+                if (answered_questions.part_3[current_question_index]) {
+                    answer_input.value = answered_questions.part_3[current_question_index];
+                }
+
+                // Thêm sự kiện khi người dùng nhập xong
+                answer_input.addEventListener('change', () => handleAnswerClick_Part3(answer_input));
+
+                answer_row.appendChild(answer_input);
                 break;
 
             default:
@@ -420,46 +421,22 @@ document.addEventListener('DOMContentLoaded', () => {
         feedback_message.textContent = 'Bạn đã chọn phương án. Nhấn nút "Câu tiếp theo" để tiếp tục.';
         feedback_message.classList.add('selected');
         feedback_message.classList.remove('alert');
-
-        // Ghi nhận câu trả lời của học sinh
-
     }
 
     // Hàm kiểm tra đáp án phần 3
-    function handleAnswerClick_Part3(answer_input, answer) {
+    function handleAnswerClick_Part3(answer_input) {
 
         // Lấy ra giá trị người dùng nhập vào
         const user_answer = answer_input.value.trim();
 
-        // Kiểm tra phương án chọn có đúng không
-        if (user_answer === answer.toString()) {
-            feedback_message.classList.add('correct');
-            feedback_message.classList.remove('incorrect');
-            feedback_message.textContent = '👏 Chính xác! Chúc mừng bạn!';
+        // Lưu câu trả lời của học sinh
+        answered_questions.part_3[current_question_index] = user_answer;
 
-            // Kích hoạt nút qua câu tiếp theo
-
-            completed_questions[current_question_part_number]++;
-
-            // Kiểm tra nếu đây là lần trả lời đầu tiên
-            if (is_first_attempt) {
-                first_correct_count[current_question_part_number]++;
-
-                // Cập nhật biến trạng thái không phải lần đầu
-                is_first_attempt = false;
-            }
-        } else {
-            feedback_message.classList.add('incorrect');
-            feedback_message.classList.remove('correct');
-            feedback_message.textContent = '💔 Chưa đúng! Vui lòng chọn lại.';
-
-            // Cập nhật số câu hỏi chọn sai
-            incorrect_questions[current_question_part_number]++;
-
-            // Cập nhật biến trạng thái không phải lần đầu
-            is_first_attempt = false;
-        }
+        // Thông báo đã chọn phương án
         feedback_message.style.display = 'block';
+        feedback_message.textContent = 'Bạn đã nhập đáp án.';
+        feedback_message.classList.remove('selected');
+        feedback_message.classList.remove('alert');
     }
 
     // Start the quiz

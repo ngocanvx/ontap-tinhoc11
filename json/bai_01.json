@@ -1397,5 +1397,14 @@
             ]
         }
     ],
-    "part_3": []
+    "part_3": [
+        {
+            "question": "Nội dung câu hỏi 2 - 0.25",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answer": 0.25
+        }
+    ]
 }
