@@ -198,6 +198,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Display current question
     function displayQuestion() {
 
+        // Cập nhật danh sách câu hỏi hiện tại
+        current_questions_list = question_part[`part_${current_question_part_number + 1}`];
+
         // Kiểm tra nếu chỉ số câu hỏi hiện lớn hơn số lượng hoặc nằm cuối cùng danh sách
         if (current_question_index >= current_questions_list.length) {
 
@@ -209,7 +212,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     return;
                 } else {
                     current_question_index--; // Giữ nguyên phần hiện tại nếu không kết thúc được bài
-                    return;
                 }
             } else {
 
@@ -490,10 +492,18 @@ document.addEventListener('DOMContentLoaded', () => {
             current_question_index--;
             displayQuestion();
         } else {
-            feedback_message.style.display = 'block';
-            feedback_message.textContent = 'Đây là câu hỏi đầu tiên của phần này.';
-            feedback_message.classList.add('alert');
-            feedback_message.classList.remove('selected');
+            if (current_question_part_number > 0) {
+                current_question_part_number--;
+                current_questions_list = question_part[`part_${current_question_part_number + 1}`];
+                current_question_index = question_part[`part_${current_question_part_number + 1}`].length - 1;
+                console.log(current_question_index);
+                displayQuestion();
+            } else {
+                feedback_message.style.display = 'block';
+                feedback_message.textContent = 'Đây là câu hỏi đầu tiên của phần này.';
+                feedback_message.classList.add('alert');
+                feedback_message.classList.remove('selected');
+            }
         }
     }
 
