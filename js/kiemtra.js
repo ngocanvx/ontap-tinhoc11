@@ -525,14 +525,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Tính số câu đúng phần 1
         question_part.part_1.forEach((question, index) => {
-            if (question.answer[parseInt(answered_questions.part_1[index]), 10].correct === true) {
+            if (question.answers[parseInt(answered_questions.part_1[index], 10)].correct === true) {
                 question_score[0]++;
             }
         });
 
         // Tính số lệnh hỏi trả lời đúng phần 2
         question_part.part_2.forEach((question, index_i) => {
-            question.answer.forEach((true_false_answer, index_j) => {
+            question.answers.forEach((true_false_answer, index_j) => {
                 if (true_false_answer.correct === answered_questions.part_2[index_i][index_j].correct) {
                     question_score[1]++;
                 }
