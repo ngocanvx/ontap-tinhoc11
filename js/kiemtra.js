@@ -72,13 +72,15 @@ document.addEventListener('DOMContentLoaded', () => {
     let answered_questions = {
         part_1: [], part_2: [], part_3: []
     };
-
     // Lưu câu trả lời của học sinh theo mẫu sau
     // answered_questions = {
     //     part_1: [0, 2, null, 1, ...], // Mảng lưu chỉ số phương án đã chọn của phần 1
     //     part_2: [[true, false, ...],...],   // Mảng lưu giá trị đúng/sai đã chọn của phần 2
     //     part_3: ['42', '100', ...]    // Mảng lưu giá trị nhập vào của phần 3
     // };
+
+    // Lưu điểm từng phần
+    let question_score = [0, 0, 0];
 
     // Lưu số câu hỏi đã hoàn thành của từng phần
     let completed_questions = [0, 0, 0];
@@ -520,6 +522,29 @@ document.addEventListener('DOMContentLoaded', () => {
         completed_questions[0] = answered_questions.part_1.filter(answer => answer !== null).length;
         completed_questions[1] = answered_questions.part_2.filter(answerArray => answerArray.some(answer => answer !== null)).length;
         completed_questions[2] = answered_questions.part_3.filter(answer => answer !== null).length;
+
+        // Tính số câu đúng phần 1
+        question_part.part_1.forEach((question, index) => {
+            if (question.answer[parseInt(answered_questions.part_1[index]), 10].correct === true) {
+                question_score[0]++;
+            }
+        });
+
+        // Tính số lệnh hỏi trả lời đúng phần 2
+        question_part.part_2.forEach((question, index_i) => {
+            question.answer.forEach((true_false_answer, index_j) => {
+                if (true_false_answer.correct === answered_questions.part_2[index_i][index_j].correct) {
+                    question_score[1]++;
+                }
+            })
+        });
+
+        // Tính số lệnh hỏi trả lời đúng phần 3
+        question_part.part_3.forEach((question, index) => {
+            if (question.correct === answered_questions.part_3[index]) {
+                question_score[2]++;
+            }
+        });
     }
 
     // End the quiz and show results
@@ -542,11 +567,14 @@ document.addEventListener('DOMContentLoaded', () => {
         quiz_page.classList.remove('active');
         result_page.classList.add('active');
 
+        // Thực hiện tổng điểm
+        summarizeResults();
+
         // Cập nhật thống kê số câu hoàn thành
-        complete_count_part1.textContent = completed_questions[0] + "/" + question_part.part_1.length;
-        complete_count_part2.textContent = completed_questions[1] + "/" + question_part.part_2.length * 4;
-        complete_count_part3.textContent = completed_questions[2] + "/" + question_part.part_3.length;
-        complete_count_total.textContent = completed_questions[0] + completed_questions[1] + completed_questions[2] + "/" + (question_part.part_1.length + question_part.part_2.length * 4 + question_part.part_3.length);
+        complete_count_part1.textContent = question_score[0] + "/" + question_part.part_1.length;
+        complete_count_part2.textContent = question_score[1] + "/" + question_part.part_2.length * 4;
+        complete_count_part3.textContent = question_score[2] + "/" + question_part.part_3.length;
+        complete_count_total.textContent = question_score[0] + question_score[1] + question_score[2] + "/" + (question_part.part_1.length + question_part.part_2.length * 4 + question_part.part_3.length);
 
         // Cập nhật thời gian làm bài của từng phần
         //total_time_part1.textContent = `${Math.floor(time_spent_part[0] / 60)} phút ${time_spent_part[0] % 60} giây`;
