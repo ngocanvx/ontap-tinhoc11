@@ -80,6 +80,7 @@ tr:nth-child(even) {
 #prev-button,
 #next-button,
 #finish-button,
+#review-button,
 #restart-button {
     padding: 10px 20px;
     border: none;
@@ -122,11 +123,17 @@ tr:nth-child(even) {
     color: #fff;
 }
 
+#review-button {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
 #restart-button {
     background-color: #6c757d;
     color: #fff;
 }
 
+#review-button:hover,
 #restart-button:hover {
     background-color: #0056b3;
     transform: translateY(-2px);

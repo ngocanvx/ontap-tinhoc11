@@ -547,6 +547,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Hiển thị bài làm của học sinh kèm đáp án đúng
+    function displayStudentAnswers() {
+
+    }
+
     // End the quiz and show results
     // Kết thúc bài ôn tập và hiển thị kết quả
     function endQuiz() {
