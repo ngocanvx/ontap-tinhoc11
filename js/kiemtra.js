@@ -163,6 +163,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 question.answers = result.shuffled_array;
             });
 
+            // Xáo trộn danh sách đáp án của từng câu hỏi trong phần 2
+            question_part.part_2.forEach(question => {
+                const result = shuffleArray(question.answers);
+                question.answers = result.shuffled_array;
+            });
+
             // Khởi tạo biến ghi nhận câu trả lời của học sinh
             // Ban đầu tất cả đều có giá trị null (chưa trả lời)
             answered_questions.part_1 = Array(question_part.part_1.length).fill(null);
