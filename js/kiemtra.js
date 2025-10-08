@@ -38,6 +38,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const complete_count_part3 = document.getElementById('complete-count-part3');
     const complete_count_total = document.getElementById('complete-count-total');
 
+    // Số điểm từng phần
+
+
     // Tổng thời gian làm bài
     const total_time_total = document.getElementById('total-time-total');
 
@@ -80,7 +83,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // };
 
     // Lưu điểm từng phần
-    let question_score = [0, 0, 0];
+    let question_score = {
+        part_1: [], part_2: [], part_3: []
+    };
 
     // Lưu số câu hỏi đã hoàn thành của từng phần
     let completed_questions = [0, 0, 0];
@@ -174,6 +179,12 @@ document.addEventListener('DOMContentLoaded', () => {
             answered_questions.part_1 = Array(question_part.part_1.length).fill(null);
             answered_questions.part_2 = Array(question_part.part_2.length).fill(Array(4).fill(null));
             answered_questions.part_3 = Array(question_part.part_3.length).fill(null);
+
+            // Khởi tạo biến ghi nhận điểm số của học sinh
+            // Ban đầu tất cả đều có giá trị 0
+            question_score.part_1 = Array(question_part.part_1.length).fill(0);
+            answered_questions.part_2 = Array(question_part.part_2.length).fill(Array(4).fill(0));
+            answered_questions.part_3 = Array(question_part.part_3.length).fill(0);
 
             // Cập nhật vị trí bắt đầu ôn tập
             current_question_part_number = 0; // Bắt đầu từ phần 1
@@ -531,8 +542,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Tính số câu đúng phần 1
         question_part.part_1.forEach((question, index) => {
-            if (question.answers[parseInt(answered_questions.part_1[index], 10)].correct === true) {
-                question_score[0]++;
+            if (answered_questions.part_1[index] != null) {
+                if (question.answers[parseInt(answered_questions.part_1[index], 10)].correct === true) {
+                    question_score.part_1[index] = 1;
+                }
             }
         });
 
@@ -582,6 +595,7 @@ document.addEventListener('DOMContentLoaded', () => {
         summarizeResults();
 
         // Cập nhật thống kê số câu hoàn thành
+
         complete_count_part1.textContent = question_score[0] + "/" + question_part.part_1.length;
         complete_count_part2.textContent = question_score[1] + "/" + question_part.part_2.length * 4;
         complete_count_part3.textContent = question_score[2] + "/" + question_part.part_3.length;
