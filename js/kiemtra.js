@@ -241,6 +241,9 @@ document.addEventListener('DOMContentLoaded', () => {
         // Cập nhật danh sách câu hỏi hiện tại
         current_questions_list = question_part[`part_${current_question_part_number + 1}`];
 
+        // Nếu danh sách câu hỏi không có nội dung thì dừng
+        if (current_questions_list.length === 0) { return; }
+
         // Kiểm tra nếu chỉ số câu hỏi hiện lớn hơn số lượng hoặc nằm cuối cùng danh sách
         if (current_question_index >= current_questions_list.length) {
 
