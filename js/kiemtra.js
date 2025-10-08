@@ -39,7 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const complete_count_total = document.getElementById('complete-count-total');
 
     // Số điểm từng phần
-
+    const complete_score_part1 = document.getElementById('complete-score-part1');
+    const complete_score_part2 = document.getElementById('complete-score-part2');
+    const complete_score_part3 = document.getElementById('complete-score-part3');
+    const complete_score_total = document.getElementById('complete-score-total');
 
     // Tổng thời gian làm bài
     const total_time_total = document.getElementById('total-time-total');
@@ -183,8 +186,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // Khởi tạo biến ghi nhận điểm số của học sinh
             // Ban đầu tất cả đều có giá trị 0
             question_score.part_1 = Array(question_part.part_1.length).fill(0);
-            answered_questions.part_2 = Array(question_part.part_2.length).fill(Array(4).fill(0));
-            answered_questions.part_3 = Array(question_part.part_3.length).fill(0);
+            question_score.part_2 = Array(question_part.part_2.length).fill(Array(4).fill(0));
+            question_score.part_3 = Array(question_part.part_3.length).fill(0);
 
             // Cập nhật vị trí bắt đầu ôn tập
             current_question_part_number = 0; // Bắt đầu từ phần 1
@@ -442,8 +445,7 @@ document.addEventListener('DOMContentLoaded', () => {
         selected_option.classList.add('selected');
 
         // Lưu câu trả lời của học sinh
-        const answer_value = true_false_selected_button.value === 'true';
-        answered_questions.part_2[current_question_index][index] = answer_value;
+        answered_questions.part_2[current_question_index][index] = true_false_selected_button.value;
 
         // Thông báo đã chọn phương án
         feedback_message.style.display = 'block';
@@ -540,7 +542,10 @@ document.addEventListener('DOMContentLoaded', () => {
         completed_questions[1] = answered_questions.part_2.filter(answerArray => answerArray.some(answer => answer !== null)).length;
         completed_questions[2] = answered_questions.part_3.filter(answer => answer !== null).length;
 
-        // Tính số câu đúng phần 1
+        console.log(answered_questions);
+        console.log(completed_questions);
+
+        // Tính số điểm câu đúng phần 1
         question_part.part_1.forEach((question, index) => {
             if (answered_questions.part_1[index] != null) {
                 if (question.answers[parseInt(answered_questions.part_1[index], 10)].correct === true) {
@@ -552,7 +557,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Tính số lệnh hỏi trả lời đúng phần 2
         question_part.part_2.forEach((question, index_i) => {
             question.answers.forEach((true_false_answer, index_j) => {
-                if (true_false_answer.correct === answered_questions.part_2[index_i][index_j].correct) {
+                if (true_false_answer.correct === answered_questions.part_2[index_i][index_j]) {
                     question_score[1]++;
                 }
             })
@@ -596,10 +601,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Cập nhật thống kê số câu hoàn thành
 
-        complete_count_part1.textContent = question_score[0] + "/" + question_part.part_1.length;
-        complete_count_part2.textContent = question_score[1] + "/" + question_part.part_2.length * 4;
-        complete_count_part3.textContent = question_score[2] + "/" + question_part.part_3.length;
-        complete_count_total.textContent = question_score[0] + question_score[1] + question_score[2] + "/" + (question_part.part_1.length + question_part.part_2.length * 4 + question_part.part_3.length);
+        complete_count_part1.textContent = completed_questions[0] + "/" + question_part.part_1.length;
+        complete_count_part2.textContent = completed_questions[1] + "/" + question_part.part_2.length * 4;
+        complete_count_part3.textContent = completed_questions[2] + "/" + question_part.part_3.length;
+        complete_count_total.textContent = completed_questions[0] + completed_questions[1] + completed_questions[2] + "/" + (question_part.part_1.length + question_part.part_2.length * 4 + question_part.part_3.length);
 
         // Cập nhật thời gian làm bài của từng phần
         //total_time_part1.textContent = `${Math.floor(time_spent_part[0] / 60)} phút ${time_spent_part[0] % 60} giây`;
