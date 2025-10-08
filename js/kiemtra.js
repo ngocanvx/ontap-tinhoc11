@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const restart_button = document.getElementById('restart-button');
 
     // Số lượng câu hỏi cần lấy ra từng phần
-    const questions_per_part = [6, 4, 1]; // Phần 1: 6 câu, Phần 2: 1 câu (4 phương án), Phần 3: 0 câu
+    const questions_per_part = [6, 4, 0]; // Phần 1: 6 câu, Phần 2: 1 câu (4 phương án), Phần 3: 0 câu
 
     // Global variables
     // Biến toàn cục lưu trữ trạng thái làm bài
