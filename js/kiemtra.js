@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const restart_button = document.getElementById('restart-button');
 
     // Số lượng câu hỏi cần lấy ra từng phần
-    const questions_per_part = [6, 1, 1]; // Phần 1: 6 câu, Phần 2: 1 câu (4 phương án), Phần 3: 0 câu
+    const questions_per_part = [6, 4, 1]; // Phần 1: 6 câu, Phần 2: 1 câu (4 phương án), Phần 3: 0 câu
 
     // Global variables
     // Biến toàn cục lưu trữ trạng thái làm bài
@@ -75,20 +75,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Lưu câu trả lời của học sinh
-    let answered_questions = {
-        part_1: [], part_2: [], part_3: []
-    };
     // Lưu câu trả lời của học sinh theo mẫu sau
     // answered_questions = {
     //     part_1: [0, 2, null, 1, ...], // Mảng lưu chỉ số phương án đã chọn của phần 1
     //     part_2: [[true, false, ...],...],   // Mảng lưu giá trị đúng/sai đã chọn của phần 2
     //     part_3: ['42', '100', ...]    // Mảng lưu giá trị nhập vào của phần 3
     // };
+    let answered_questions = {
+        part_1: [], part_2: [], part_3: []
+    };
 
-    // Lưu điểm từng phần
+    // Lưu điểm từng câu
+    // Lưu theo mẫu
+    // question_score = {
+    //     part_1: [1, 0, 0, ...],
+    //     part_2: [[1, 0, 0, 1], ...],
+    //     part_3: [1, 0, ...]
+    // }
     let question_score = {
         part_1: [], part_2: [], part_3: []
     };
+
+    // Lưu điểm tổng
+    let part_score = [0, 0, 0];
 
     // Lưu số câu hỏi đã hoàn thành của từng phần
     let completed_questions = [0, 0, 0];
@@ -179,14 +188,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Khởi tạo biến ghi nhận câu trả lời của học sinh
             // Ban đầu tất cả đều có giá trị null (chưa trả lời)
+            // Lệnh này gây lỗi vì cả 4 mảng con đều cùng trỏ chung địa chỉ
+            // answered_questions.part_2 = Array(question_part.part_2.length).fill(Array(4).fill(null));
+
             answered_questions.part_1 = Array(question_part.part_1.length).fill(null);
-            answered_questions.part_2 = Array(question_part.part_2.length).fill(Array(4).fill(null));
+            answered_questions.part_2 = Array.from(
+                { length: question_part.part_2.length },
+                () => Array(4).fill(null)
+            );
             answered_questions.part_3 = Array(question_part.part_3.length).fill(null);
 
             // Khởi tạo biến ghi nhận điểm số của học sinh
             // Ban đầu tất cả đều có giá trị 0
             question_score.part_1 = Array(question_part.part_1.length).fill(0);
-            question_score.part_2 = Array(question_part.part_2.length).fill(Array(4).fill(0));
+            question_score.part_2 = Array.from(
+                { length: question_part.part_2.length },
+                () => Array(4).fill(0)
+            );
             question_score.part_3 = Array(question_part.part_3.length).fill(0);
 
             // Cập nhật vị trí bắt đầu ôn tập
@@ -199,7 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Reset các biến thống kê
             completed_questions = [0, 0, 0];
-            correct_questions = [0, 0, 0];
+            part_score = [0, 0, 0];
 
             // Hiển thị câu hỏi
             displayQuestion(); // Bắt đầu với phần 1 (biến current_question_part_number)
@@ -332,8 +350,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     false_button.className = 'true-false-buttons-part2 false-button-part2';
                     true_button.textContent = 'Đ';
                     false_button.textContent = 'S';
-                    true_button.value = 'true';
-                    false_button.value = 'false';
+                    true_button.value = true;
+                    false_button.value = false;
 
                     // Kiểm tra câu hỏi này học sinh có trả lời chưa
                     if (answered_questions.part_2[current_question_index][index] === true) {
@@ -434,6 +452,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Kiểm tra phương án chọn có đúng không
         answered_questions.part_1[current_question_index] = index; // Lưu câu trả lời của học sinh
+
+        // Tính điểm cho câu hỏi hiện tại
+        if (question_part.part_1[current_question_index].answers[index].correct) {
+            question_score.part_1[current_question_index] = 1;
+        }
+
+        console.log(index);
+        console.log(question_score.part_1);
     }
 
     // Hàm kiểm tra đáp án phần 2
@@ -447,9 +473,23 @@ document.addEventListener('DOMContentLoaded', () => {
         // Lưu câu trả lời của học sinh
         answered_questions.part_2[current_question_index][index] = true_false_selected_button.value;
 
+        let bool = (true_false_selected_button.value === "true");
+
+        // Kiểm tra phương án đúng không và tính điểm
+        if (bool === question_part.part_2[current_question_index].answers[index].correct) {
+            question_score.part_2[current_question_index][index] = 1;
+        }
+
+        console.log(current_question_index);
+        console.log(index);
+        console.log(question_part.part_2[current_question_index].answers[index].correct)
+        console.log(true_false_selected_button.value);
+
+        console.log(question_score.part_2);
+
         // Thông báo đã chọn phương án
         feedback_message.style.display = 'block';
-        feedback_message.textContent = 'Bạn đã chọn phương án. Nhấn nút "Câu tiếp theo" để tiếp tục.';
+        feedback_message.textContent = 'Bạn đã chọn phương án. Sau khi hoàn thành, nhấn nút "Câu tiếp theo"';
         feedback_message.classList.add('selected');
         feedback_message.classList.remove('alert');
     }
@@ -462,6 +502,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Lưu câu trả lời của học sinh
         answered_questions.part_3[current_question_index] = user_answer;
+
+        // Xác định câu trả lời đúng không và tính điểm
+        if (Number(user_answer) === question_part.part_3[current_question_index].answer) {
+            question_score.part_3[current_question_index] = 1;
+        }
+
+        console.log(user_answer);
+        console.log(question_score.part_3);
 
         // Thông báo đã chọn phương án
         feedback_message.style.display = 'block';
@@ -517,7 +565,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 current_question_part_number--;
                 current_questions_list = question_part[`part_${current_question_part_number + 1}`];
                 current_question_index = question_part[`part_${current_question_part_number + 1}`].length - 1;
-                console.log(current_question_index);
+                console.log('Chỉ số câu hỏi hiện tại: ', current_question_index);
                 displayQuestion();
             } else {
                 feedback_message.style.display = 'block';
@@ -539,36 +587,44 @@ document.addEventListener('DOMContentLoaded', () => {
     function summarizeResults() {
         // Tính số câu hoàn thành của từng phần
         completed_questions[0] = answered_questions.part_1.filter(answer => answer !== null).length;
-        completed_questions[1] = answered_questions.part_2.filter(answerArray => answerArray.some(answer => answer !== null)).length;
+        completed_questions[1] = answered_questions.part_2.flat().filter(answer => answer !== null).length;
         completed_questions[2] = answered_questions.part_3.filter(answer => answer !== null).length;
 
-        console.log(answered_questions);
-        console.log(completed_questions);
+        //console.log(answered_questions);
+        //console.log(completed_questions);
 
-        // Tính số điểm câu đúng phần 1
-        question_part.part_1.forEach((question, index) => {
-            if (answered_questions.part_1[index] != null) {
-                if (question.answers[parseInt(answered_questions.part_1[index], 10)].correct === true) {
-                    question_score.part_1[index] = 1;
-                }
+        // Tính tổng điểm từng phần
+        // Tính điểm phần 1
+        part_score[0] = question_score.part_1.reduce((sum, value) => sum + value, 0);
+
+        // Tính điểm phần 2
+        question_score.part_2.forEach(score => {
+            let total_correct_answer = 0;
+
+            total_correct_answer = score.reduce((sum, score) => sum + score, 0);
+
+            // Tính điểm theo bậc chuẩn 2025
+            switch (total_correct_answer) {
+                case 1:
+                    part_score[1] += 0.1;
+                    break;
+                case 2:
+                    part_score[1] += 0.25;
+                    break;
+                case 3:
+                    part_score[1] += 0.5;
+                    break;
+                case 4:
+                    part_score[1] += 1;
+                    break;
+                default:
+                    part_score[1] += 0;
+                    break;
             }
         });
 
-        // Tính số lệnh hỏi trả lời đúng phần 2
-        question_part.part_2.forEach((question, index_i) => {
-            question.answers.forEach((true_false_answer, index_j) => {
-                if (true_false_answer.correct === answered_questions.part_2[index_i][index_j]) {
-                    question_score[1]++;
-                }
-            })
-        });
-
-        // Tính số lệnh hỏi trả lời đúng phần 3
-        question_part.part_3.forEach((question, index) => {
-            if (question.correct === answered_questions.part_3[index]) {
-                question_score[2]++;
-            }
-        });
+        // Tính điểm phần 3
+        part_score[2] = question_score.part_3.reduce((sum, score) => sum + score, 0);
     }
 
     // Hiển thị bài làm của học sinh kèm đáp án đúng
@@ -605,6 +661,12 @@ document.addEventListener('DOMContentLoaded', () => {
         complete_count_part2.textContent = completed_questions[1] + "/" + question_part.part_2.length * 4;
         complete_count_part3.textContent = completed_questions[2] + "/" + question_part.part_3.length;
         complete_count_total.textContent = completed_questions[0] + completed_questions[1] + completed_questions[2] + "/" + (question_part.part_1.length + question_part.part_2.length * 4 + question_part.part_3.length);
+
+        // Cập nhật điểm số từng phần
+        complete_score_part1.textContent = part_score[0];
+        complete_score_part2.textContent = part_score[1];
+        complete_score_part3.textContent = part_score[2];
+        complete_score_total.textContent = part_score[0] + part_score[1] + part_score[2];
 
         // Cập nhật thời gian làm bài của từng phần
         //total_time_part1.textContent = `${Math.floor(time_spent_part[0] / 60)} phút ${time_spent_part[0] % 60} giây`;
@@ -668,6 +730,8 @@ document.addEventListener('DOMContentLoaded', () => {
             displayQuestion();
         }
     });
+
+    // Gán sự kiện cho các nút
     prev_button.addEventListener('click', prevQuestion);
     next_button.addEventListener('click', nextQuestion);
     finish_button.addEventListener('click', endQuiz);
