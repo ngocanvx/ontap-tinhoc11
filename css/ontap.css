@@ -74,6 +74,7 @@ tr:nth-child(even) {
 }
 
 #start-button,
+#back-button,
 #part1-button,
 #part2-button,
 #part3-button,
@@ -88,12 +89,14 @@ tr:nth-child(even) {
     transition: background-color 0.3s;
 }
 
-#start-button {
+#start-button,
+#back-button {
     background-color: #007bff;
     color: #fff;
 }
 
-#start-button:hover {
+#start-button:hover,
+#back-button:hover {
     background-color: #0056b3;
     transform: translateY(-2px);
     /* Di chuyển nút lên 2px */
