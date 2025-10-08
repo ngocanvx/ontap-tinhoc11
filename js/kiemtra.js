@@ -462,7 +462,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         console.log(index);
-        console.log(question_score.part_1);
+        //console.log(question_score.part_1);
     }
 
     // Hàm kiểm tra đáp án phần 2
@@ -483,12 +483,9 @@ document.addEventListener('DOMContentLoaded', () => {
             question_score.part_2[current_question_index][index] = 1;
         }
 
-        console.log(current_question_index);
-        console.log(index);
-        console.log(question_part.part_2[current_question_index].answers[index].correct)
         console.log(true_false_selected_button.value);
 
-        console.log(question_score.part_2);
+        //console.log(question_score.part_2);
 
         // Thông báo đã chọn phương án
         feedback_message.style.display = 'block';
@@ -512,7 +509,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         console.log(user_answer);
-        console.log(question_score.part_3);
+        //console.log(question_score.part_3);
 
         // Thông báo đã chọn phương án
         feedback_message.style.display = 'block';
