@@ -162,6 +162,13 @@ tr:nth-child(even) {
     transition: background-color 0.2s, border-color 0.2s;
 }
 
+.answer-option-part1.correct {
+    background-color: #7ef692;
+    border-color: #3de748;
+    font-weight: bold;
+    color: #111111;
+}
+
 .answer-row-part2,
 .answer-row-part3 {
     display: flex;
@@ -213,6 +220,13 @@ tr:nth-child(even) {
 .false-button-part2.selected {
     background-color: #8fbdeb;
     border-color: #960eda;
+    font-weight: bold;
+}
+
+.true-button-part2.correct,
+.false-button-part2.correct {
+    background-color: #8df190;
+    border-color: #179f12;
     font-weight: bold;
 }
 

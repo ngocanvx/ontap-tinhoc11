@@ -382,7 +382,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": true
+                    "correct": false
                 },
                 {
                     "text": "Giao diện dễ sử dụng",
@@ -390,7 +390,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 },
                 {
                     "text": "Có hệ điều hành",
