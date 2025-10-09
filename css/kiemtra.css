@@ -5,6 +5,7 @@
 }
 
 body {
+    flex-direction: column;
     font-family: Arial, sans-serif;
     font-size: 18px;
     background-color: #433e22;
@@ -290,4 +291,37 @@ tr:nth-child(even) {
     font-weight: bold;
     margin-top: 20px;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    /* Căn giữa nội dung */
+    margin-top: 10px;
+    /* Tạo khoảng cách với nội dung phía trên */
+    padding: 20px;
+    /* Tạo vùng đệm bên trong footer */
+    color: #b7b5b5;
+    /* Màu chữ xám nhẹ, không quá nổi bật */
+    font-size: 0.9em;
+    /* Cỡ chữ nhỏ hơn một chút so với nội dung chính */
+    border-top: 1px solid #eee;
+    /* Thêm một đường kẻ mỏng phía trên để phân tách */
+}
+
+footer p a {
+    padding: 0;
+    margin: 0;
+}
+
+/* (Tùy chọn) Nếu bạn dùng thẻ a trong footer, bỏ gạch chân cho đẹp */
+footer a {
+    color: #6d6d6d;
+    /* Màu cho link đậm hơn một chút */
+    text-decoration: none;
+    /* Bỏ gạch chân */
+}
+
+footer a:hover {
+    text-decoration: underline;
+    /* Thêm lại gạch chân khi di chuột qua */
 }
