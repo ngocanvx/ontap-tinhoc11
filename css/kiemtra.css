@@ -164,9 +164,6 @@ tr:nth-child(even) {
 
 .answer-option-part1.correct {
     background-color: #7ef692;
-    border-color: #3de748;
-    font-weight: bold;
-    color: #111111;
 }
 
 .answer-row-part2,
@@ -218,15 +215,14 @@ tr:nth-child(even) {
 
 .true-button-part2.selected,
 .false-button-part2.selected {
-    background-color: #8fbdeb;
     border-color: #960eda;
+    border-width: 3px;
     font-weight: bold;
 }
 
 .true-button-part2.correct,
 .false-button-part2.correct {
     background-color: #8df190;
-    border-color: #179f12;
     font-weight: bold;
 }
 
@@ -242,17 +238,16 @@ tr:nth-child(even) {
 .answer-option-part1:hover,
 .answer-option-part2:hover,
 .true-false-buttons-part2:hover {
-    background-color: #e9ecef;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* Thêm đổ bóng nhẹ */
 }
 
 .answer-option-part1.selected,
 .answer-option-part2.selected {
-    background-color: #1b6ced;
-    border-color: #0c2c66;
+    border-color: #580986;
+    border-width: 3px;
     font-weight: bold;
-    color: #fff;
+    color: #171616;
 }
 
 .answer-input-part3 {

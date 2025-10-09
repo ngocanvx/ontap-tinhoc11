@@ -351,7 +351,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         // Nếu đã hoàn thành thì tô màu đáp án đúng
                         if (answer.correct) {
                             answer_option.classList.add('correct');
-                            answer_option.classList.remove('selected');
                         }
                     }
                     answers_container.appendChild(answer_option);
@@ -415,10 +414,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         // Tô màu phương án đúng
                         if (answer.correct) {
                             true_button.classList.add('correct');
-                            true_button.classList.remove('selected');
                         } else {
                             false_button.classList.add('correct');
-                            false_button.classList.remove('selected');
                         }
                     }
 
