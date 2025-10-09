@@ -211,8 +211,8 @@ tr:nth-child(even) {
 
 .true-button-part2.selected,
 .false-button-part2.selected {
-    background-color: #7bade0;
-    border-color: #adb5bd;
+    background-color: #8fbdeb;
+    border-color: #960eda;
     font-weight: bold;
 }
 

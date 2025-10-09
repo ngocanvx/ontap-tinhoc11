@@ -382,12 +382,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     false_button.addEventListener('click', () => handleAnswerClick_Part2(false_button, true_button, index, answer_option));
 
                     // Kiểm tra câu hỏi này học sinh có trả lời chưa
-                    if (answered_questions.part_2[current_question_index][index] === true) {
+                    if (answered_questions.part_2[current_question_index][index] === 'true') {
                         true_button.classList.add('selected');
                         false_button.classList.remove('selected');
-                    } else if (answered_questions.part_2[current_question_index][index] === false) {
+                        answer_option.classList.add('selected');
+                    } else if (answered_questions.part_2[current_question_index][index] === 'false') {
                         false_button.classList.add('selected');
                         true_button.classList.remove('selected');
+                        answer_option.classList.add('selected');
                     }
 
                     // Tạo dòng gồm 3 nút (Đ, S, nội dung phương án)
