@@ -459,6 +459,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Tính điểm cho câu hỏi hiện tại
         if (question_part.part_1[current_question_index].answers[index].correct) {
             question_score.part_1[current_question_index] = 1;
+        } else {
+            question_score.part_1[current_question_index] = 0;
         }
 
         console.log(index);
@@ -481,6 +483,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Kiểm tra phương án đúng không và tính điểm
         if (bool === question_part.part_2[current_question_index].answers[index].correct) {
             question_score.part_2[current_question_index][index] = 1;
+        } else {
+            question_score.part_2[current_question_index][index] = 0;
         }
 
         console.log(true_false_selected_button.value);
@@ -506,6 +510,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Xác định câu trả lời đúng không và tính điểm
         if (Number(user_answer) === question_part.part_3[current_question_index].answer) {
             question_score.part_3[current_question_index] = 1;
+        } else {
+            question_score.part_3[current_question_index] = 0;
         }
 
         console.log(user_answer);
