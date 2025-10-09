@@ -923,7 +923,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": true
+                    "correct": false
                 },
                 {
                     "text": "Windows XP",
@@ -931,7 +931,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 },
                 {
                     "text": "Windows 11",
