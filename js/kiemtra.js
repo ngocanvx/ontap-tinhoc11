@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // DOM Elements
+    // DOM Elements - Sử dụng const cho các biến không thay đổi giá trị
     // Khai báo các biến DOM (Document Object Model) cần thiết
     // Nhằm truy cập và thao tác với các phần tử HTML
 
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Lưu danh sách bài học vào biến toàn cục
             lessons = data.lessons;
 
-            // Duyệt danh sách bài học, add vào select (dropdown)
+            // Duyệt danh sách bài học, thêm vào select (dropdown)
             lessons.forEach((lesson, index) => {
                 const option = document.createElement('option');
                 option.value = lesson.file;
@@ -477,16 +477,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Hàm kiểm tra đáp án phần 1
     function handleAnswerClick_Part1(selected_option, index) {
 
-        // Tô màu cho biết nút nào được chọn
+        // Bỏ chọn tất cả các phương án khác và tô màu phương án được chọn
         const all_options = answers_container.querySelectorAll('.answer-option-part1');
-        all_options.forEach(option => option.classList.remove('selected')); // Disable all buttons after a choice
+        all_options.forEach(option => option.classList.remove('selected'));
         selected_option.classList.add('selected');
 
-        // Thông báo đã chọn phương án
-        feedback_message.style.display = 'block';
-        feedback_message.textContent = 'Bạn đã chọn phương án. Nhấn nút "Câu tiếp theo" để tiếp tục.';
-        feedback_message.classList.add('selected');
-        feedback_message.classList.remove('alert');
+        // Hiển thị thông báo chung
+        showSelectionFeedback('Bạn đã chọn phương án. Nhấn nút "Câu tiếp theo" để tiếp tục.');
 
         // Kiểm tra phương án chọn có đúng không
         answered_questions.part_1[current_question_index] = index; // Lưu câu trả lời của học sinh
@@ -524,13 +521,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         console.log(true_false_selected_button.value);
 
-        //console.log(question_score.part_2);
-
-        // Thông báo đã chọn phương án
-        feedback_message.style.display = 'block';
-        feedback_message.textContent = 'Bạn đã chọn phương án. Sau khi hoàn thành, nhấn nút "Câu tiếp theo"';
-        feedback_message.classList.add('selected');
-        feedback_message.classList.remove('alert');
+        // Hiển thị thông báo chung
+        showSelectionFeedback('Bạn đã chọn phương án. Sau khi hoàn thành, nhấn nút "Câu tiếp theo"');
     }
 
     // Hàm kiểm tra đáp án phần 3
@@ -552,9 +544,14 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(user_answer);
         //console.log(question_score.part_3);
 
-        // Thông báo đã chọn phương án
+        // Hiển thị thông báo chung
+        showSelectionFeedback('Bạn đã nhập đáp án.');
+    }
+
+    // Hàm hiển thị thông báo chung khi người dùng chọn đáp án
+    function showSelectionFeedback(message) {
         feedback_message.style.display = 'block';
-        feedback_message.textContent = 'Bạn đã nhập đáp án.';
+        feedback_message.textContent = message;
         feedback_message.classList.add('selected');
         feedback_message.classList.remove('alert');
     }
@@ -620,6 +617,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Move to the next question
     // Chuyển sang câu hỏi tiếp theo
     function nextQuestion() {
+        // Kiểm tra nếu không phải câu hỏi cuối cùng
         if (current_question_index < current_questions_list.length) {
             current_question_index++;
             displayQuestion();
@@ -732,55 +730,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // Gán sự kiện cho đối tượng
     start_button.addEventListener('click', startQuiz);
 
+    // Hàm chung để xử lý việc chuyển phần
+    function switchPart(partNumber) {
+        if (current_question_part_number !== partNumber) {
+            current_question_part_number = partNumber;
+            current_questions_list = question_part[`part_${current_question_part_number + 1}`];
+            current_question_index = 0;
+            updatePartButtons();
+            displayQuestion();
+        }
+    }
+
     // Gán sự kiện cho các nút bấm chuyển phần câu hỏi
-    part1_button.addEventListener('click', () => {
-        if (current_question_part_number !== 0) {
-            current_question_part_number = 0;
-            current_questions_list = question_part[`part_${current_question_part_number + 1}`];
-            current_question_index = 0;
-
-            part1_button.disabled = current_question_part_number === 0;
-            part2_button.disabled = current_question_part_number === 1;
-            part3_button.disabled = current_question_part_number === 2;
-
-            displayQuestion();
-        }
-    });
-
-    part2_button.addEventListener('click', () => {
-        if (current_question_part_number !== 1) {
-            current_question_part_number = 1;
-            current_questions_list = question_part[`part_${current_question_part_number + 1}`];
-            current_question_index = 0;
-
-            part1_button.disabled = current_question_part_number === 0;
-            part2_button.disabled = current_question_part_number === 1;
-            part3_button.disabled = current_question_part_number === 2;
-
-            displayQuestion();
-        }
-    });
-
-    part3_button.addEventListener('click', () => {
-        if (current_question_part_number !== 2) {
-            current_question_part_number = 2;
-            current_questions_list = question_part[`part_${current_question_part_number + 1}`];
-            current_question_index = 0;
-
-            part1_button.disabled = current_question_part_number === 0;
-            part2_button.disabled = current_question_part_number === 1;
-            part3_button.disabled = current_question_part_number === 2;
-
-            displayQuestion();
-        }
-    });
-
-    part3_button.addEventListener('click', () => {
-        if (current_question_part_number !== 2) {
-            current_question_part_number = 2;
-            displayQuestion();
-        }
-    });
+    part1_button.addEventListener('click', () => switchPart(0));
+    part2_button.addEventListener('click', () => switchPart(1));
+    part3_button.addEventListener('click', () => switchPart(2));
 
     // Gán sự kiện cho các nút
     prev_button.addEventListener('click', prevQuestion);
