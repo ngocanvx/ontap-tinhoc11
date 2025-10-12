@@ -480,7 +480,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": true
+                    "correct": false
                 },
                 {
                     "text": "Không chứa các chương trình kiểm tra khi khởi động máy",
@@ -488,7 +488,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 }
             ]
         },
