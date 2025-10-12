@@ -438,7 +438,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 answer_input.className = 'answer-input-part3';
 
                 // Kiểm tra câu hỏi này học sinh có trả lời chưa
-                if (answered_questions.part_3[current_question_index]) {
+                if (answered_questions.part_3[current_question_index] !== null) {
                     answer_input.value = answered_questions.part_3[current_question_index];
                     feedback_message.style.display = 'block';
                     feedback_message.textContent = 'Bạn đã nhập đáp án.';
@@ -451,9 +451,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Thêm sự kiện khi người dùng nhập xong đáp án
                     answer_input.addEventListener('change', () => handleAnswerClick_Part3(answer_input));
                 } else {
-                    // Hiển thị đáp án
+                    // Hiển thị đáp án nếu đã hoàn thành bài kiểm tra
                     feedback_message.style.display = 'block';
-                    feedback_message.textContent = `Đáp án đúng: ${answer}`;
+                    feedback_message.textContent = `Đáp án đúng: ${question_data.answer}`;
                     feedback_message.classList.add('selected');
                     feedback_message.classList.remove('alert');
                 }
