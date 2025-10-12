@@ -800,7 +800,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": true
+                    "correct": false
                 },
                 {
                     "text": "OR, NOT",
@@ -816,7 +816,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 }
             ]
         }
