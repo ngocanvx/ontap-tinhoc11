@@ -1,0 +1,1155 @@
+{
+    "part_1": [
+        {
+            "question": "Để khởi động công cụ tìm kiếm thì em cần?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mở trình duyệt internet trên máy tính của em",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Gõ địa chỉ URL máy tìm kiếm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Gõ tìm word",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhấn Enter",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu là địa chỉ URL tìm kiếm?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tech12h.com",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "newocr.com",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Google.com",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trình soạn thảo web",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Nếu kết quả tìm kiếm chưa được như ý muốn của em thì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Em sử dụng máy tìm kiếm khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Em sử dụng trình duyệt khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Em quay lại nhập từ khóa khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sử dụng một phần mềm khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để thực hiện tìm kiếm bằng tiếng nói thì cần có?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bàn phím",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Con chuột",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Micro",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Loa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi tìm kiếm thông tin tuyển sinh của một trường đại học thì em nên yêu cầu tìm dưới dạng nào dưới đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tệp .pdf",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hình ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bài báo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tin tức",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi muốn tìm kiếm ảnh về hoa hồng thì en nên chọn tìm kiếm thông tin dạng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bài viết",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tin tức",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Âm thanh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để tìm kiếm thông tin dưới dạng tệp tin pdf thì em cần?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhập từ khóa tìm kiếm và bổ sung cụm từ filetype.docx",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhập từ khóa tìm kiếm và bổ sung cụm từ filetype.jpg",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhập từ khóa tìm kiếm và bổ sung cụm từ filetype:pdf",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhập từ khóa tìm kiếm và bổ sung cụm từ filetype.mp3",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để thu hẹp phạm vi tìm kiếm thì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đặt từ khóa cần tìm trong dấu nháy kép",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đặt từ khóa trong dấu ngoặc đơn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đặt từ khóa trong dấu ngoặc vuông",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Rút gọn từ khóa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đặt từ khóa cần tìm trong dấu nháy kép có tác dụng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Không thu hẹp phạm vi tìm kiếm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không cho kết quả tìm kiếm chính xác hơn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cho kết quả tìm kiếm chính xác hơn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thiếu chính xác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chọn đáp án SAI?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người không biết cách tìm kiếm tài liệu đúng sẽ không tìm kiếm được tài liệu nhanh và chính xác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người biết cách tìm kiếm sẽ tìm được rất nhanh và chính xác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người không biết xây dựng từ khóa tìm kiếm sẽ tìm kiếm nhanh hơn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ngày nay, tất cả mọi thông tin đều có thể tìm thấy trên Internet",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu là cách tìm kiếm thông tin hiệu quả?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đặt từ khóa cần tìm trong dấu nháy kép",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Từ khóa tìm kiếm chưa đầy đủ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cách tìm kiếm tài liệu không đúng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chưa biết cách xây dựng từ khóa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi em muốn tìm kiếm thông tin về tình hình dịch bệnh thì em nên tìm kiếm thông tin dưới dạng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tin tức",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hình ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "File pfd",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Âm thanh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tên nào sau đây là tên của máy tìm kiếm?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Word",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Google",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Window Explorer",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Excel",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Từ khóa là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Là từ mô tả chiếc chìa khóa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Là một biểu tượng trong máy tìm kiếm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Là tập hợp các từ mà máy tìm kiếm quy định trước",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Là một từ hoặc cụm từ liên quan đến nội dung cần tìm kiếm do người sử dụng cung cấp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Điền vào chỗ chấm: Máy tìm kiếm là công cụ hỗ trợ ........ trên Internet theo yêu cầu của người sử dụng",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tìm kiếm thông tin.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Liên kết",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Từ khóa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Danh sách liên kết.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Cách nhanh nhất để tìm thông tin trên WWW mà không biết địa chỉ là:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhờ người khác tìm hộ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng máy tìm kiếm để tìm kiếm với từ khóa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Di chuyển lần theo đường liên kết của các trang web.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hỏi địa chỉ người khác rồi ghi ra giấy, sau đó nhập địa chỉ vào thanh địa chỉ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Máy tìm kiếm là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Một động cơ cung cấp sức mạnh cho Internet.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một chương trình bảo vệ máy tính khỏi virus.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một chương trình sắp xếp dữ liệu trên máy tính của bạn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một website đặc biệt hỗ trợ người sử dụng tìm kiếm thông tin trên Internet.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Ý kiến nào sau đây là SAI?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Kho thông tin trên Internet là khổng lồ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chúng ta có thể sử dụng bất kì thông tin nào trên Internet mà không cần xin phép.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Internet cung cấp môi trường làm việc trực tuyến, giải trí từ xa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người sử dụng có thể tìm kiếm, trao đổi thông tin trên Internet.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Về các bước cơ bản để tìm kiếm thông tin trên Internet:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bước đầu tiên là khởi động công cụ tìm kiếm, ví dụ như mở một trình duyệt Internet trên máy tính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi nhập từ khóa vào ô tìm kiếm, người dùng cần nhấn phím Enter để máy tìm kiếm bắt đầu làm việc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nếu kết quả tìm kiếm chưa như ý muốn, người dùng bắt buộc phải khởi động lại máy tính để tìm lại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng không thể quay lại để thay đổi từ khóa sau khi đã nhận được kết quả tìm kiếm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về chức năng tìm kiếm bằng giọng nói:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để thực hiện tìm kiếm bằng tiếng nói, người dùng cần nháy chuột vào biểu tượng micro bên cạnh ô nhập từ khóa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một trong những yêu cầu để có thể sử dụng chức năng tìm kiếm bằng giọng nói là máy tính cần được trang bị micro.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chức năng tìm kiếm bằng giọng nói chỉ có thể sử dụng trên điện thoại thông minh, không dùng được trên máy tính cá nhân.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Máy tìm kiếm sẽ tự động đọc kết quả thành tiếng khi người dùng sử dụng chức năng tìm kiếm bằng giọng nói.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các lựa chọn để nâng cao hiệu quả tìm kiếm:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người dùng có thể chọn các loại kết quả tìm kiếm cụ thể như hình ảnh, tin tức hay video.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Có thể tìm kiếm thông tin theo một định dạng tệp cụ thể bằng cách bổ sung cú pháp \"filetype:tên_định_dạng\" sau từ khóa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc sử dụng các tiêu chí lựa chọn tìm kiếm sẽ làm giảm độ chính xác và hiệu quả.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cú pháp \"filetype:pdf\" có chức năng tìm kiếm tất cả các loại tệp tin trừ các tệp có định dạng .pdf.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về việc sử dụng từ khóa tìm kiếm hiệu quả:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Xây dựng từ khóa tìm kiếm cẩn thận là một kỹ năng quan trọng giúp tăng độ chính xác, hiệu quả và tiết kiệm thời gian.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc đặt một cụm từ trong dấu nháy kép sẽ giúp máy tìm kiếm hiểu rằng người dùng muốn tìm chính xác cụm từ đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mỗi lần tìm kiếm chỉ nên sử dụng một từ khóa duy nhất để có kết quả tốt nhất.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các máy tìm kiếm không phân biệt việc từ khóa được đặt trong hay ngoài dấu nháy kép.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về trải nghiệm và so sánh các máy tìm kiếm phổ biến:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Một cách để so sánh các máy tìm kiếm là nhập cùng một từ khóa và quan sát, nhận xét về kết quả trả về.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các tính năng có thể dùng để so sánh bao gồm việc có cho phép tìm kiếm bằng hình ảnh, video hay lọc kết quả theo loại tệp tin hay không.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tất cả các máy tìm kiếm phổ biến đều cho ra kết quả hoàn toàn giống nhau cho cùng một từ khóa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc ghi lại địa chỉ URL của các máy tìm kiếm là không cần thiết khi thực hiện so sánh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các phương thức nhập liệu để tìm kiếm:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phương pháp phổ biến để tìm kiếm là gõ từ khóa mong muốn vào ô tìm kiếm trên trang chủ của công cụ tìm kiếm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tìm kiếm bằng tiếng nói là một phương pháp thay thế cho việc gõ từ khóa, yêu cầu thiết bị phải có micro.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bắt buộc phải sử dụng tìm kiếm bằng tiếng nói khi dùng các thiết bị di động thông minh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để tìm kiếm hiệu quả, người dùng nên kết hợp cả gõ bàn phím và nói vào micro cùng một lúc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các thủ thuật tìm kiếm thông tin trên Internet:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Việc kết hợp từ khóa chính với các từ gợi ý như \"công cụ tìm kiếm\" với \"tốt nhất\" hoặc \"phổ biến nhất\" có thể giúp tìm ra các máy tìm kiếm được đánh giá cao.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc sử dụng các tiêu chí tìm kiếm nâng cao giúp người dùng làm tăng độ chính xác và hiệu quả.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tìm kiếm nâng cao chỉ áp dụng cho việc tìm văn bản, không thể dùng để tìm hình ảnh hoặc video.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc thêm các tiêu chí lọc như định dạng tệp sẽ khiến quá trình tìm kiếm trở nên phức tạp và tốn nhiều thời gian hơn một cách không cần thiết.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các dạng thông tin có thể tìm kiếm:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người dùng có thể sử dụng máy tìm kiếm để tìm hiểu thông tin về một nghề nghiệp mơ ước trong tương lai.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thông tin tìm kiếm có thể thuộc nhiều lĩnh vực khác nhau như đội bóng, ban nhạc, thời tiết hay các kì quan thiên nhiên.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Máy tìm kiếm chỉ hữu ích cho việc tìm kiếm thông tin học thuật như \"tuyển sinh đại học\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chỉ có thể tìm thông tin tồn tại dưới dạng văn bản (.pdf) trên Internet.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về quy trình tìm kiếm trên một máy tìm kiếm như Google:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Quy trình bắt đầu bằng việc mở trình duyệt Internet và truy cập vào địa chỉ URL của máy tìm kiếm, ví dụ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người dùng nhập từ khóa mô tả thông tin cần tìm vào ô tìm kiếm rồi nhấn Enter.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi nhập từ khóa, kết quả sẽ tự động hiện ra mà không cần nhấn Enter hay bất kỳ nút nào.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nếu không tìm thấy thông tin, người dùng phải đổi sang một máy tìm kiếm khác chứ không thể sửa đổi từ khóa trên máy tìm kiếm hiện tại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về mục tiêu của việc thực hành tìm kiếm thông tin:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mục tiêu là giúp người dùng sử dụng được máy tìm kiếm trên cả máy tính và thiết bị thông minh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mục tiêu là giúp người dùng biết cách xác lập các lựa chọn theo tiêu chí để nâng cao hiệu quả tìm kiếm thông tin.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mục tiêu là chỉ thực hành tìm kiếm thông tin bằng cách gõ từ khóa, không bao gồm tìm kiếm bằng tiếng nói.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mục tiêu của bài thực hành là so sánh các trình duyệt web, không phải các máy tìm kiếm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_3": []
+}
