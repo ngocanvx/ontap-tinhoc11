@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function loadLessons() {
         try {
             // Đọc nội dung file JSON
-            const response = await fetch('./json/baihoc2.json');
+            const response = await fetch('./json/baihoc.json');
 
             // Phân tích nội dung JSON
             const data = await response.json();
