@@ -22,38 +22,49 @@ async function convertToJson() {
 
         const json = {
             part_1: [],
-            part_2: []
+            part_2: [],
+            part_3: [] // Khởi tạo thêm phần 3
         };
 
         let currentPart = 'part_1';
-        let question = '';
+        let questionTextBuffer = []; // Sử dụng buffer để thu thập các dòng của câu hỏi
         let answers = [];
         let isQuestion = false;
+
+        // Hàm để lưu câu hỏi hiện tại vào JSON
+        function saveCurrentQuestion() {
+            if (questionTextBuffer.length > 0 && answers.length > 0) { // Kiểm tra nếu có nội dung câu hỏi và đáp án
+                json[currentPart].push({
+                    question: questionTextBuffer.join(' ').trim(), // Nối các dòng lại thành nội dung câu hỏi
+                    image: { src: "", alt: "" },
+                    answers: answers.map(ans => ({
+                        text: ans.text,
+                        image: { src: "", alt: "" },
+                        correct: ans.correct
+                    }))
+                });
+            }
+            // Reset state for the next question
+            questionTextBuffer = []; // Xóa buffer câu hỏi
+            answers = [];
+            isQuestion = false;
+        }
 
         for (let i = 0; i < lines.length; i++) {
             const line = lines[i];
 
             // Detect part change
             if (line.includes('Phần 2')) {
+                saveCurrentQuestion(); // Lưu câu hỏi cuối cùng của phần 1
                 currentPart = 'part_2';
                 continue;
             }
 
             // Detect question start: "Câu X:"
-            if (line.match(/^Câu \d+:/)) {
-                if (question) {
-                    // Save previous question
-                    json[currentPart - 0].push({
-                        question: question.trim(),
-                        image: { src: "", alt: "" },
-                        answers: answers.map(ans => ({
-                            text: ans.text,
-                            image: { src: "", alt: "" },
-                            correct: ans.correct
-                        }))
-                    });
-                }
-                question = line.replace(/^Câu \d+:/, '').trim();
+            const questionMatch = line.match(/^Câu\s+\d+:\s*(.*)$/); // Regex linh hoạt hơn với khoảng trắng
+            if (questionMatch) {
+                saveCurrentQuestion(); // Lưu câu hỏi trước đó
+                questionTextBuffer.push(questionMatch[1].trim()); // Lấy phần nội dung câu hỏi sau "Câu X:"
                 answers = [];
                 isQuestion = true;
                 continue;
@@ -83,7 +94,7 @@ async function convertToJson() {
                     }
                 } else if (line.includes('Đáp án:')) {
                     const answerKey = line.replace('Đáp án:', '').trim();
-                    // Map Đ to true, S to false
+                    // Map Đ to true, S to false. Đảm bảo không vượt quá số lượng đáp án đã thu thập
                     for (let j = 0; j < answers.length && j < answerKey.length; j++) {
                         answers[j].correct = answerKey[j] === 'Đ';
                     }
@@ -91,23 +102,13 @@ async function convertToJson() {
             }
 
             // Append to question if not answer
-            if (isQuestion && !line.match(/^[A-D]\.|^[a-d]\./) && !line.includes('Đáp án:')) {
-                question += ' ' + line;
+            if (isQuestion && !line.match(/^[A-D]\./) && !line.match(/^[a-d]\./) && !line.includes('Đáp án:')) {
+                questionTextBuffer.push(line); // Thêm dòng vào buffer câu hỏi nếu không phải đáp án
             }
         }
 
         // Save last question
-        if (question) {
-            json[currentPart - 0].push({
-                question: question.trim(),
-                image: { src: "", alt: "" },
-                answers: answers.map(ans => ({
-                    text: ans.text || ans.letter + '. ' + ans.text,
-                    image: { src: "", alt: "" },
-                    correct: ans.correct
-                }))
-            });
-        }
+        saveCurrentQuestion();
 
         const output = document.getElementById('output');
         output.textContent = JSON.stringify(json, null, 2);
