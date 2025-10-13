@@ -231,7 +231,10 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             console.error('Lỗi khi tải câu hỏi:', error);
             alert('Không thể tải câu hỏi cho bài học này.');
+            return false;
         }
+
+        return true;
     }
 
     // Cập nhật hiển thị các nút chọn phần câu hỏi
@@ -558,7 +561,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Start the quiz
     // Bắt đầu bài ôn tập
-    function startQuiz() {
+    async function startQuiz() {
         const selected_lesson_file = lesson_select.value;
         const selected_lesson_name = lesson_select.options[lesson_select.selectedIndex].text;
 
@@ -567,12 +570,16 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        // Tải câu hỏi trước khi chuyển trang
+        const questionsLoaded = await loadQuestions(selected_lesson_file);
+
+        // Nếu tải câu hỏi thất bại, dừng lại và không chuyển trang
+        if (!questionsLoaded) {
+            return;
+        }
+
         // Reset trạng thái hoàn thành bài làm
         completed_test = false;
-
-        // Chuyển sang trang quiz
-        home_page.classList.remove('active');
-        quiz_page.classList.add('active');
 
         // Cập nhật tiêu đề trang web
         document.title = `Tự kiểm tra - ${selected_lesson_name}`;
@@ -582,7 +589,9 @@ document.addEventListener('DOMContentLoaded', () => {
         quiz_start_time = Date.now();
         quiz_timer = setInterval(updateTimer, 1000);
 
-        loadQuestions(selected_lesson_file);
+        // Chuyển sang trang quiz
+        home_page.classList.remove('active');
+        quiz_page.classList.add('active');
     }
 
     // Update the timer
