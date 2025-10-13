@@ -574,6 +574,9 @@ document.addEventListener('DOMContentLoaded', () => {
         home_page.classList.remove('active');
         quiz_page.classList.add('active');
 
+        // Cập nhật tiêu đề trang web
+        document.title = `Tự kiểm tra - ${selected_lesson_name}`;
+
         lesson_title.textContent = selected_lesson_name;
 
         quiz_start_time = Date.now();
@@ -728,6 +731,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Event Listeners
     // Gán sự kiện cho đối tượng
+
+    // Bắt đầu bài kiểm tra
     start_button.addEventListener('click', startQuiz);
 
     // Hàm chung để xử lý việc chuyển phần
@@ -761,6 +766,7 @@ document.addEventListener('DOMContentLoaded', () => {
         quiz_page.classList.remove('active');
         result_page.classList.remove('active');
         home_page.classList.add('active');
+        document.title = "Chọn bài học";
     });
 
     // Initial load
