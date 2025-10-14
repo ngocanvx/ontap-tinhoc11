@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     const firebaseConfig = {
-        apiKey: "AIzaSyC-o2D2P_CE0B9p5NB7-4qit_ghOtdsk3w",
-        authDomain: "user-gv-thptvx.firebaseapp.com",
-        projectId: "user-gv-thptvx",
-        storageBucket: "user-gv-thptvx.firebasestorage.app",
-        messagingSenderId: "1077037934707",
-        appId: "1:1077037934707:web:8e02d07ad48adbdb5e2206",
-        measurementId: "G-864PFSBYF3"
+        apiKey: "AIzaSyC5jD7rr4ujYn2dECELKod5aKonI5Q9GpU",
+        authDomain: "student-user-thptvx.firebaseapp.com",
+        projectId: "student-user-thptvx",
+        storageBucket: "student-user-thptvx.firebasestorage.app",
+        messagingSenderId: "364790613405",
+        appId: "1:364790613405:web:34db0208a0594792865b74",
+        measurementId: "G-GF1RTVD8LW"
     };
 
     // Khởi tạo Firebase
