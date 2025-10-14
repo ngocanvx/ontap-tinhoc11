@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập / Đăng ký</title>
+    <!-- Sử dụng lại CSS từ trang ôn tập hoặc tạo file CSS riêng cho trang login -->
+    <link rel="stylesheet" href="./css/ontap.css">
+    <style>
+        /* Thêm một vài style riêng cho trang auth */
+        .auth-container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .auth-container input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .auth-container button {
+            width: 100%;
+        }
+
+        .auth-error {
+            color: red;
+            margin-top: 10px;
+            min-height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="auth-page">
+        <div class="auth-container">
+            <!-- Form Đăng nhập -->
+            <div id="login-form">
+                <h2>Đăng Nhập</h2>
+                <input type="email" id="login-email" placeholder="Email" required>
+                <input type="password" id="login-password" placeholder="Mật khẩu" required>
+                <button id="login-button">Đăng Nhập</button>
+                <p id="auth-error-login" class="auth-error"></p>
+                <p>Chưa có tài khoản? <a href="#" id="show-signup">Đăng ký ngay</a></p>
+            </div>
+
+            <!-- Form Đăng ký -->
+            <div id="signup-form" style="display: none;">
+                <h2>Đăng Ký</h2>
+                <input type="email" id="signup-email" placeholder="Email" required>
+                <input type="password" id="signup-password" placeholder="Mật khẩu" required>
+                <button id="signup-button">Đăng Ký</button>
+                <p id="auth-error-signup" class="auth-error"></p>
+                <p>Đã có tài khoản? <a href="#" id="show-login">Đăng nhập</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+
+    <!-- Script xác thực của bạn -->
+    <script src="./js/auth.js"></script>
+</body>
+
+</html>
