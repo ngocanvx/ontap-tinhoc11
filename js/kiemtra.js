@@ -32,6 +32,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const finish_button = document.getElementById('finish-button');
 
     // Các nhãn thống kê cuối bài ôn tập
+    // Tiêu đề trang kết quả
+    const result_title = document.getElementById('result-title');
+
     // Số câu đã hoàn thành
     const complete_count_part1 = document.getElementById('complete-count-part1');
     const complete_count_part2 = document.getElementById('complete-count-part2');
@@ -664,6 +667,10 @@ document.addEventListener('DOMContentLoaded', () => {
         part_score[0] = question_score.part_1.reduce((sum, value) => sum + value, 0);
 
         // Tính điểm phần 2
+        // reset điểm phần 2
+        part_score[1] = 0;
+
+        // Duyệt qua các câu và tính điểm
         question_score.part_2.forEach(score => {
             let total_correct_answer = 0;
 
@@ -716,8 +723,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Thực hiện tổng điểm
         summarizeResults();
 
-        // Cập nhật thống kê số câu hoàn thành
+        // Cập nhật tiêu đề
+        result_title.innerHTML = `Kết quả của bạn<br>${lesson_select.options[lesson_select.selectedIndex].text}`;
 
+        // Cập nhật thống kê số câu hoàn thành
         complete_count_part1.textContent = completed_questions[0] + "/" + question_part.part_1.length;
         complete_count_part2.textContent = completed_questions[1] + "/" + question_part.part_2.length * 4;
         complete_count_part3.textContent = completed_questions[2] + "/" + question_part.part_3.length;
