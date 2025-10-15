@@ -657,7 +657,7 @@
             ]
         },
         {
-            "question": "Giấy phép công cộng GNU GPL bảo đảm sự phát triển của các phần mềm nguồnmở bằng cách?",
+            "question": "Giấy phép công cộng GNU GPL bảo đảm sự phát triển của các phần mềm nguồn mở bằng cách?",
             "image": {
                 "src": "",
                 "alt": ""
@@ -787,7 +787,7 @@
             },
             "answers": [
                 {
-                    "text": "Nhiều phiên bản phần mềm khác nhau có thể được phát triển và sử dụng theo nhu cầu của người dùng, đem lại sự đa dạng và lựa chọn cho người dùng khi lựa chọn phần mềm",
+                    "text": "Nhiều phiên bản phần mềm khác nhau có thể được phát triển để đáp ứng các nhu cầu riêng biệt, tạo ra sự đa dạng và nhiều lựa chọn cho người dùng.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -795,7 +795,7 @@
                     "correct": true
                 },
                 {
-                    "text": "Nhiều phiên bản phần mềm khác nhau có thể được phát triển và sử dụng theo nhu cầu của người dùng, đem lại sự đa dạng và lựa chọn cho người dùng khi lựa chọn phần mềm",
+                    "text": "Phần mềm trở nên kém an toàn hơn vì bất kỳ ai cũng có thể xem mã nguồn để tìm ra lỗ hổng và khai thác.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -803,7 +803,7 @@
                     "correct": false
                 },
                 {
-                    "text": "Nhiều phiên bản phần mềm khác nhau có thể được phát triển và sử dụng theo nhu cầu của người dùng, đem lại sự đa dạng và lựa chọn cho người dùng khi lựa chọn phần mềm",
+                    "text": "Việc tùy chỉnh phần mềm luôn hoàn toàn miễn phí và không đòi hỏi kiến thức kỹ thuật.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -811,7 +811,7 @@
                     "correct": false
                 },
                 {
-                    "text": "Nhiều phiên bản phần mềm khác nhau có thể được phát triển và sử dụng theo nhu cầu của người dùng, đem lại sự đa dạng và lựa chọn cho người dùng khi lựa chọn phần mềm",
+                    "text": "Phần mềm sẽ không còn được nhà phát triển gốc cập nhật hay hỗ trợ nữa.",
                     "image": {
                         "src": "",
                         "alt": ""
