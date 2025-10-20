@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển đổi DOCX sang JSON</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+    <link rel="stylesheet" href="./css/convert2.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📄 Chuyển đổi DOCX sang JSON</h1>
+            <p>Công cụ chuyển đổi file câu hỏi DOCX sang định dạng JSON cho hệ thống kiểm tra trực tuyến</p>
+        </div>
+
+        <div class="content">
+            <div class="upload-section" id="uploadSection">
+                <div class="upload-icon">📎</div>
+                <h3>Kéo thả file DOCX vào đây</h3>
+                <p>hoặc</p>
+                <input type="file" id="fileInput" accept=".docx">
+                <button class="btn" onclick="document.getElementById('fileInput').click()">
+                    Chọn file DOCX
+                </button>
+                <p style="margin-top: 15px; color: #666; font-size: 13px;">
+                    Hỗ trợ định dạng: Phần 1 (1 đáp án đúng), Phần 2 (nhiều đáp án đúng)
+                </p>
+            </div>
+
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Đang xử lý file...</p>
+            </div>
+
+            <div class="results" id="results" style="display: none;">
+                <div class="stats" id="stats"></div>
+
+                <div class="result-tabs">
+                    <div class="tab active" onclick="showTab('json')">JSON Output</div>
+                    <div class="tab" onclick="showTab('preview')">Xem trước</div>
+                </div>
+
+                <div class="result-content">
+                    <div id="jsonTab">
+                        <pre id="jsonOutput"></pre>
+                        <div style="text-align: center; margin-top: 15px;">
+                            <button class="btn" onclick="copyJSON()">📋 Copy JSON</button>
+                            <button class="btn" onclick="downloadJSON()">💾 Tải xuống JSON</button>
+                            <button class="btn btn-secondary" onclick="resetUpload()">🔄 Upload file khác</button>
+                        </div>
+                    </div>
+                    <div id="previewTab" style="display: none;">
+                        <div class="preview-list" id="previewList"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="errorMessage"></div>
+        </div>
+    </div>
+
+    <script src="./js/convert2.js"></script>
+</body>
+
+</html>
