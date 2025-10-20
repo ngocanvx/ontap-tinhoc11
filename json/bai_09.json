@@ -1,0 +1,868 @@
+{
+    "part_1": [
+        {
+            "question": "Đâu là ưu điểm của mạng Internet?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ảnh hưởng xấu tới sức khỏe",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ảnh hưởng xấu đến tinh thần",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhiều rủi ro",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng khai thác, tìm kiếm thông tin thuận tiện hơn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu không phải là rủi ro có thể gặp phải khi sử dụng Internet là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mất thông tin cá nhân",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bị lừa đảo, quấy rối",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đối mặt với các thông tin sai lệch",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Làm cho cuộc sống mọi người trở nên thuận lợi hơn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khi tham gia mạng xã hội thì mọi người không cần trang bị?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Kỹ năng giao tiếp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kỹ năng đối phó với dư luận và vượt qua khủng hoảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kỹ năng nhận biết và phòng tránh lừa đảo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không cần Bảo mật thông tin cá nhân.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu là tình huống không phải lừa đảo thường gặp trên mạng xã hội?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhận được tin nhắn yêu cầu chuyển tiền ngay vào tài khoản **** nếu không muốn gặp những rắc rối liên quan tới bản thân",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhận được tin nhắn trúng thưởng phần quà có giá trị",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhận được thư điện từ từ địa chỉ lạ yêu cầu mở một tài liệu hoặc một đường link đính kèm và thực hiện theo hướng dẫn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chia sẻ, quảng bá thông tin doanh nghiệp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Những kẻ lừa đảo thường hướng tới việc?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hưởng lợi tài chính, gây ảnh hưởng thể xác người bị hại, gây ảnh hưởng tinh thần",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Vì sự phát triển chung của cộng đồng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hỗ trợ nhau trong công việc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giúp đỡ chia sẻ thông tin đến mọi người",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chọn câu sai trong các câu sau. Chúng ta có thể nhận biết và phòng tránh lừa đảo trên nguyên tắc nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hãy chậm lại",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kiểm tra ngay",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dừng lại, không gửi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thực hiện theo yêu cầu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Nguyên tắc Hãy chậm lại là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thực hiện việc tra cứu số điện thoại, địa chỉ cơ quan hoặc tổ chức mà người gửi thông tin mang danh để liên hệ xác minh trực tiếp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mọi yêu cầu thành toán hoặc gửi tiền ngay lập tức đều cần phải đặt dấu hỏi. Vì vậy nếu cảm thấy giao dịch này không đáng tin hãy dừng lại vì nó có thể là lừa đảo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Những kẻ lừa đảo thường tạo ra cảm giác cấp bách để chúng có thể vượt qua khả năng nhận định một cách sáng suốt của nạn nhân",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thực hiện tra cứu thông tin cá nhân của nạn nhân",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Nguyên tắc Dừng lại, không gửi là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thực hiện việc tra cứu số điện thoại, địa chỉ cơ quan hoặc tổ chức mà người gửi thông tin mang danh để liên hệ xác minh trực tiếp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mọi yêu cầu thành toán hoặc gửi tiền ngay lập tức đều cần phải đặt dấu hỏi. Vì vậy nếu cảm thấy giao dịch này không đáng tin hãy dừng lại vì nó có thể là lừa đảo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Những kẻ lừa đảo thường tạo ra cảm giác cấp bách để chúng có thể vượt qua khả năng nhận định một cách sáng suốt của nạn nhân",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thực hiện tra cứu thông tin của nạn nhân",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Nguyên tắc Kiểm tra ngay là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thực hiện việc tra cứu số điện thoại, địa chỉ cơ quan hoặc tổ chức mà người gửi thông tin mang danh để liên hệ xác minh trực tiếp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mọi yêu cầu thành toán hoặc gửi tiền ngay lập tức đều cần phải đặt dấu hỏi. Vì vậy nếu cảm thấy giao dịch này không đáng tin hãy dừng lại vì nó có thể là lừa đảo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Những kẻ lừa đảo thường tạo ra cảm giác cấp bách để chúng có thể vượt qua khả năng nhận định một cách sáng suốt của nạn nhân",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thực hiện tra cứu thông tin cá nhân",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chọn câu sai trong các câu sau. Khi có kẻ lừa đảo hỗ trợ kĩ thuật cố gắng thuyết phục rằng thiết bị của bạn đang gặp sự cố và yêu cầu thanh toán ngay lập tức cho các dịch vụ để khắc phục các sự cố đó mà trên thực tế nó không hề tồn tại. Em có thể thực hiện nguyên tắc hãy chậm lại bằng cách?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tự đặt ra câu hỏi khi thông báo hiện lên có vẻ rất khẩn cấp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cập nhật phần mềm bảo mật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quét virut",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tìm kiếm lời khuyên từ những người có hiểu biết",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi có kẻ lừa đảo hỗ trợ kỹ thuật cố gắng thuyết phục rằng thiết bị của bạn đang gặp sự cố và yêu cầu thanh toán ngay lập tức cho các dịch vụ để khắc phục các sự cố đó mà trên thực tế nó không hề tồn tại. Em có thể thực hiện nguyên tắc kiểm tra ngay bằng cách?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tự đặt ra câu hỏi khi thông báo hiện lên có vẻ rất khẩn cấp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cập nhật phần mềm bảo mật và quét virus",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thử tìm kiếm tên công ty hoặc số điện thoại kèm theo những từ khóa như \" lừa đảo\" hoặc \" khiếu nại\". Tìm đến một đơn vị có uy tín và tin cậy để nhờ hỗ trợ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các đơn vị hỗ trợ công nghệ hợp pháp sẽ không yêu cầu thanh toán ngay dưới dạng thẻ điện thoại, chuyển khoản....... khi mà dịch vụ chưa được thực hiện",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Khi nhận được thông báo yêu cầu chuyển khoản ngay lập tức để giải quyết vấn đề khẩn cấp, bạn nên làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Kiểm tra tính xác thực bằng cách liên lạc với tổ chức được đề cập qua kênh liên lạc chính thức.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chuyển khoản ngay lập tức để tránh mọi rủi ro.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không trả lời, không làm gì cả, mà hãy báo cáo với cơ quan chức năng nếu nghi ngờ có dấu hiệu lừa đảo.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cung cấp thông tin cá nhân để xác minh danh tính của bạn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi gặp tình huống lừa đảo dạng “thông báo tin xấu”, bạn nên làm gì để bảo vệ bản thân khỏi sợ hãi và hành động thiếu suy nghĩ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hãy chậm lại, bình tĩnh và không hành động ngay khi đang sợ hãi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Luôn tin tưởng và làm theo các cảnh báo hiện lên, vì chúng luôn đến từ các nguồn đáng tin cậy.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cách xử lí đúng là tìm kiếm công ty hoặc số điện thoại được cung cấp trên mạng để xác minh uy tín.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nếu thấy có dấu hiệu lừa đảo, nên dừng lại, không thanh toán và không cho phép truy cập thiết bị từ xa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Những khẳng định nào sau đây là đúng về hình thức lừa đảo \"thông báo tin tốt\"?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Kẻ lừa đảo thường thông báo bạn đã trúng thưởng một giải thưởng lớn hoặc nhận được một món quà giá trị cao.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một dấu hiệu lừa đảo là yêu cầu bạn phải thanh toán trước một khoản phí nhỏ để nhận được phần thưởng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc tìm kiếm thông tin về giải thưởng hay chương trình khuyến mại trên Internet là không cần thiết nếu người báo tin có vẻ đáng tin.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Lời khuyên hữu ích là nên hỏi ý kiến người thân, bạn bè nếu không chắc chắn về thông tin nhận được.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Bộ quy tắc ứng xử trên môi trường số do Bộ Thông tin và Truyền thông ban hành bao gồm những quy tắc chính nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Quy tắc tôn trọng, tuân thủ pháp luật: Yêu cầu tôn trọng quyền và lợi ích hợp pháp của tổ chức, cá nhân.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quy tắc lành mạnh: Hành vi ứng xử trên mạng xã hội phải phù hợp với các giá trị đạo đức, văn hoá của dân tộc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quy tắc trách nhiệm: Mỗi cá nhân phải chịu trách nhiệm về các hành vi của mình trên không gian số.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quy tắc tự do tuyệt đối: Cho phép người dùng đăng tải mọi thứ họ muốn mà không bị giới hạn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Theo Bộ quy tắc ứng xử, những hành vi nào được khuyến khích (NÊN) khi tham gia mạng xã hội?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chia sẻ thông tin từ các nguồn tin chính thống, đáng tin cậy.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tìm hiểu và tuân thủ các điều khoản hướng dẫn sử dụng của nhà cung cấp dịch vụ mạng xã hội.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quản lí, bảo mật tài khoản cá nhân của mình và thông báo cho nhà cung cấp khi mất quyền kiểm soát.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đăng tải nội dung vi phạm pháp luật, trái với thuần phong mỹ tục.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Những hành vi nào sau đây bị coi là KHÔNG NÊN làm trên mạng xã hội?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tung tin giả, sai sự thật gây ảnh hưởng xấu tới an ninh, trật tự xã hội.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sử dụng ngôn ngữ phản cảm, vi phạm thuần phong mỹ tục.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thực hiện các hoạt động quảng cáo, kinh doanh dịch vụ trái phép.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chia sẻ những hình ảnh đẹp về đất nước, con người Việt Nam một cách tích cực.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các đặc điểm nào sau đây giúp nhận biết một website thương mại điện tử giả mạo?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Trang web yêu cầu cung cấp các thông tin nhạy cảm như mật khẩu đăng nhập, mã OTP.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nội dung web được trình bày cẩu thả, không chuyên nghiệp, các đánh giá của người dùng có vẻ giả mạo.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kẻ lừa đảo thường không có thời gian chăm chút cho trang web nên nội dung thường có sai sót.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trang web luôn cung cấp đầy đủ thông tin liên hệ chính thức và minh bạch.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi đối mặt với tình huống lừa đảo \"thông báo tin xấu\", bạn nên xử lí như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Không đồng ý với các khoản giao dịch khi không có văn bản đi kèm để có thời gian tra cứu, xác minh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Luôn tin rằng nhân viên cơ quan chức năng sẽ yêu cầu bạn chuyển khoản ngay để giải quyết vấn đề.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hãy liên lạc trực tiếp với tổ chức mà người gọi đề cập đến thông qua các kênh liên lạc chính thức để xác minh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đặt các câu hỏi để làm rõ vấn đề và nếu người gọi tỏ ra cáu kỉnh, đó có thể là dấu hiệu lừa đảo.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Để giao tiếp và ứng xử có văn hoá trong môi trường số, chúng ta cần làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Xây dựng và hành thành các chuẩn mực đạo đức về hành vi, ứng xử trên mạng xã hội.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Coi không gian số là không gian công cộng, nơi mọi người bình đẳng và không bị phân biệt đối xử.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Có ý thức và trách nhiệm của một \"công dân số\" khi tham gia vào môi trường mạng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Có thể tự do lan truyền các mối bi quan, cảm xúc tiêu cực mà không cần cân nhắc đến người khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Những nhận định nào sau đây là đúng về việc phòng tránh lừa đảo trực tuyến?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lừa đảo trực tuyến chỉ nhắm vào những người thiếu hiểu biết về công nghệ thông tin.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kẻ lừa đảo thường khai thác các đặc điểm tâm lí như lòng tham, sự sợ hãi của nạn nhân.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Luôn cần tỉnh táo và bình tĩnh tuân thủ 3 nguyên tắc: \"Hãy chậm lại\", \"Kiểm tra ngay\", \"Dừng lại, không gửi\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lừa đảo qua website giả mạo chỉ chiếm đoạt tiền của khách hàng chứ không đánh cắp thông tin tài khoản.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_3": []
+}
