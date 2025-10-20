@@ -1,0 +1,991 @@
+{
+    "part_1": [
+        {
+            "question": "Chọn đáp án SAI. Các công việc quản lý nào có trong thực tế hiện nay?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Quản lý nhân viên",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quản lý tài chính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quản lý thiết bị",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quản lý đồ dùng cá nhân",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Để quản lý kết quả học tập, em phải quản lý điểm của từng môn học theo?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Điểm đánh giá thường xuyên, điểm đánh giá giữa kì",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Điểm đánh giá thường xuyên, điểm đánh giá cuối kì",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Điểm đánh giá theo tuần, điểm đánh giá theo tháng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Điểm đánh giá thường xuyên, điểm đánh giá giữa kì, điểm đánh giá cuối kì",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Việc ghi chép điểm có thể sai sót, nhầm lẫn vì vậy có thể phải?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Xóa một dữ liệu điểm, ghi một dữ liệu điểm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sửa một dữ liệu điểm, đọc một dữ liệu điểm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xóa một dữ liệu điểm, sửa một dữ liệu điểm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ghi một dữ liệu điểm, đọc một dữ liệu điểm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hãy cho biết, theo lịch sử phát triển, máy tính thay đổi như thế nào về kích thước?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Từ rất lớn cho đến nhỏ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Từ rất nhỏ cho đến nhỏ và rất lớn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không thay đổi kích thước",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chỉ thay đổi được kích thước bộ nhớ ngoài",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc nào không được gọi là cập nhật dữ liệu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thêm dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xóa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chỉnh sửa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sắp xếp dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Chọn đáp án SAI. Việc ghi chép dữ liệu dùng để?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lưu trữ dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khai thác dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Truy xuất dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chỉnh sửa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Việc ghi chép điểm các môn học nhằm?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lưu trữ, lập danh sách học sinh có điểm từ cao xuống thấp, tìm kiếm và lập danh sách học sinh có điểm học kì cao",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lưu trữ, lập danh sách học sinh có điểm từ cao xuống thấp, KHÔNG tìm kiếm và lập danh học học sinh có điểm học kì cao",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Lưu trữ, không lập danh sách học sinh có điểm từ cao xuống thấp, tìm kiếm và lập danh sách học sinh có điểm học kì cao",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Lưu trữ, KHÔNG lập danh sách học sinh có điểm từ cao xuống thấp, KHÔNG tìm kiếm và lập danh sách học sinh có điểm học kì cao",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Truy xuất dữ liệu là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "là quá trình xóa dữ liệu không còn sử dụng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "là quá trình sao lưu dữ liệu vào hệ thống đám mây",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "là quá trình nhập dữ liệu mới vào hệ thống",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "là quá trình tìm kiếm, sắp xếp và lọc dữ liệu theo tiêu chí xác định",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khai thác thông tin từ những dữ liệu đã có là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tính toán dữ liệu, phân tích dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tính toán dữ liệu, thống kê dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phân tích dữ liệu, thống kê dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tính toán dữ liệu, phân tích dữ liệu, thống kê dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Ở bệnh viện KHÔNG cần phải lưu trữ và khai thác dữ liệu nào dưới đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các bệnh nhân đến khám chữa bệnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các loại thuốc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các vật tư y tế được mua",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Số lượng người thân đi nuôi bệnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Ở ngân hàng KHÔNG cần phải lưu trữ và khai thác dữ liệu nào dưới đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khách hàng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Lượng tiền gửi vào rút ra hàng ngày",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Số khách hàng đến mở tài khoản",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khách hàng đi đến bằng phương tiện gì",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Ở các trung tâm dự báo thời tiết cần phải lưu trữ và khai thác dữ liệu nào dưới đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Những thay đổi nhiệt độ, KHÔNG cần lưu trữ thay đổi độ ẩm, những thay đổi hướng và cường độ gió",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Những thay đổi nhiệt độ, những thay đổi độ ẩm, KHÔNG cần lưu trữ những thay đổi hướng và cường độ gió",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Những thay đổi nhiệt độ, những thay đổi độ ẩm, những thay đổi hướng và cường độ gió",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Những thay đổi nhiệt độ, những thay đổi độ ẩm, những thay đổi hướng và KHÔNG cần lưu những thay đổi cường độ gió",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "chọn câu sai. Việc nhập dữ liệu thủ công tại các siêu thị lớn sẽ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mất nhiều thời gian cho mỗi đơn hàng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tắc nghẽn các quầy thanh toán",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Làm giảm năng suất bán hàng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thông tin được nhập nhanh, chính xác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Chọn câu SAI. Để khắc phục tình trạng tắc nghẽn tại các quầy thanh toán do nhập dữ liệu thủ công thì người ta đã?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tạo ra các mã vạch mang thông tin về mặt hàng dán trên bao bì",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thực hiện thanh toán qua đầu đọc mã vạch",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dữ liệu mã vạch được lưu trữ tập trung để phục vụ việc quản lý hàng hóa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng máy tính tiền điện tử để quản lý giao dịch",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Về mục đích và tầm quan trọng của việc quản lí dữ liệu:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Quản lí dữ liệu giúp lưu trữ, cập nhật và khai thác thông tin để hỗ trợ ra quyết định.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các công việc quản lí thực tế bao gồm quản lý nhân viên, tài chính, thiết bị, tồn kho.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc quản lí dữ liệu chỉ cần thiết trong các tổ chức lớn, không áp dụng cho cá nhân.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khai thác thông tin từ dữ liệu bao gồm tính toán, phân tích và thống kê để rút ra thông tin hữu ích.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về các hoạt động cơ bản trong quản lí dữ liệu:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lưu trữ dữ liệu là quá trình ghi chép và bảo quản dữ liệu để sử dụng sau này.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cập nhật dữ liệu bao gồm thêm, sửa, xóa dữ liệu để dữ liệu luôn chính xác và mới nhất.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Truy xuất dữ liệu là việc tìm kiếm, sắp xếp và lọc dữ liệu theo tiêu chí cụ thể.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sắp xếp dữ liệu không phải là một phần của cập nhật dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các ví dụ về quản lí dữ liệu trong thực tế:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ở bệnh viện, lưu trữ dữ liệu bệnh nhân, thuốc, vật tư y tế để quản lý khám chữa bệnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ở ngân hàng, quản lý dữ liệu khách hàng, giao dịch tiền gửi/rút để theo dõi tài chính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ở trung tâm thời tiết, lưu trữ dữ liệu nhiệt độ, độ ẩm, gió để dự báo chính xác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ở siêu thị, quét mã vạch giúp thu thập dữ liệu bán hàng, quản lý tồn kho tự động.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về các nhận định đúng về Khoa học dữ liệu và việc thu thập dữ liệu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khoa học dữ liệu là một lĩnh vực mới nghiên cứu các khía cạnh về dữ liệu, coi dữ liệu như một tài sản.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong bối cảnh Cách mạng công nghiệp 4.0 và kết nối vạn vật (IoT), việc thu thập dữ liệu phần lớn được thực hiện thủ công.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc thu thập dữ liệu tự động mang lại khối lượng dữ liệu lớn, giúp cho việc phân tích và khai thác trở nên hiệu quả hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ở các trung tâm dự báo thời tiết, dữ liệu về nhiệt độ, độ ẩm được thu thập và thay đổi liên tục.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các ví dụ nào sau đây minh hoạ đúng cho hoạt động quản lí, thu thập và khai thác dữ liệu trong thực tế?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ở siêu thị, việc quét mã vạch giúp thu thập dữ liệu về hàng hoá bán ra, từ đó máy tính có thể lập các báo cáo doanh thu, tồn kho.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc ghép dữ liệu điểm của nhiều môn học lại với nhau không giúp ích cho việc đánh giá tổng thể học lực của một học sinh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công tơ điện tử có thể tự động gửi chỉ số tiêu thụ điện về công ty điện lực, đây là một ví dụ về thu thập dữ liệu thủ công.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tại bệnh viện, dữ liệu về bệnh nhân, các loại thuốc, vật tư y tế cần được lưu trữ và khai thác thường xuyên.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Dữ liệu trong các bài toán quản lí có những đặc điểm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Dữ liệu có thể là điểm số của học sinh, thông tin nhân viên, chuyến bay, hoặc hồ sơ bệnh án.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quá trình ghi chép và lưu trữ dữ liệu luôn đảm bảo chính xác tuyệt đối và không bao giờ có sai sót.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dữ liệu từ các nguồn khác nhau (như điểm các môn học) có thể được kết hợp lại để phục vụ một mục đích chung.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cập nhật dữ liệu là một hoạt động không thường xuyên, chỉ thực hiện khi có yêu cầu từ cấp trên.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu là những khẳng định đúng về mục tiêu của việc lưu trữ và khai thác thông tin?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mục tiêu chính là để có được thông tin cần thiết từ dữ liệu đã có thông qua việc phân tích, tính toán.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quản lí dữ liệu chỉ nhằm mục đích lưu trữ lâu dài, không phục vụ các hoạt động hàng ngày.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc quản lí giúp đưa ra các quyết định, chẳng hạn như quyết định về số lượng hàng cần bổ sung vào kho của siêu thị.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các công việc như thêm, xoá, sửa dữ liệu được gọi chung là truy xuất dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về việc quản lí dữ liệu trong học tập, những phát biểu nào là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Việc ghi chép điểm vào sổ điểm môn học là một ví dụ về lưu trữ dữ liệu thủ công.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Từ sổ điểm của từng môn, giáo viên có thể lập bảng điểm tổng hợp cuối kì cho học sinh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc cập nhật điểm chỉ bao gồm việc sửa điểm, không bao gồm việc xoá điểm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kết quả học tập của một học sinh là một ví dụ về dữ liệu cần được quản lí trong nhà trường.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Những nhận định nào sau đây là đúng về tầm quan trọng và sự phát triển của việc quản lí dữ liệu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khối lượng dữ liệu cần lưu trữ và khai thác trong các lĩnh vực như bệnh viện, ngân hàng là rất lớn và ngày càng tăng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc quản lí dữ liệu chỉ quan trọng trong lĩnh vực kinh doanh, không có nhiều ý nghĩa trong giáo dục.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngày nay, dữ liệu đã trở thành đối tượng nghiên cứu của một lĩnh vực khoa học hoàn toàn mới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc thu thập dữ liệu chỉ có thể được thực hiện hiệu quả bằng phương pháp thủ công, ghi chép tay.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các công việc và khái niệm trong quản lí dữ liệu bao gồm những gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cập nhật dữ liệu là quá trình làm cho dữ liệu trở nên đúng đắn và mới nhất thông qua các thao tác thêm, sửa, xoá.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Truy xuất dữ liệu là công việc phức tạp hơn, bao gồm cả việc thống kê, phân loại để rút ra thông tin mới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quản lí là một hoạt động không phổ biến và chỉ có ở các tổ chức chuyên nghiệp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc xử lí thông tin từ dữ liệu thu thập được là mục đích chính của quản lí để hỗ trợ ra quyết định.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_3": []
+}
