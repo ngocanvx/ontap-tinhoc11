@@ -1,0 +1,1032 @@
+{
+    "part_1": [
+        {
+            "question": "SQL có mấy thành phần?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "4",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "3",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "2",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "1",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "DDL là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ngôn ngữ xóa bỏ dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngôn ngữ hình thành dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngôn ngữ trích xuất dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngôn ngữ định nghĩa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "DML là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ngôn ngữ thao tác dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ngôn ngữ bác bỏ dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngôn ngữ trích xuất dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngôn ngữ sao lưu dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "DCL là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ngôn ngữ khai báo dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngôn ngữ xóa bỏ dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngôn ngữ trích xuất dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngôn ngữ kiểm soát dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Ngôn ngữ lập trình được sử dụng trong lập trình máy tính để?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Định nghĩa đối tượng con trỏ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khai báo biến, cấu trúc rẽ nhánh, vòng lặp, bẫy lỗi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thực hiện các thuật toán",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thực hiện thêm, xóa thay đổi dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Mã nguồn của một chương trình máy tính đơn giản được viết bằng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ngôn ngữ lập trình Python",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngôn ngữ lập trình Java",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngôn ngữ lập trình C",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngôn ngữ lập trình SQL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "SQL là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ngôn ngữ truy vấn định chuẩn cho việc định nghĩa, cập nhật, truy xuất và điều khiển dữ liệu từ các CSDL quan hệ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ngôn ngữ thực hiện các thuật toán",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngôn ngữ thực hiện việc thêm, xóa, sửa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngôn ngữ thực hiện các thao tác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Thành phần nào của SQL cung cấp các câu truy vấn cập nhật và truy xuất dữ liệu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "DML",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "DDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "DCL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "DSL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Thành phần nào của SQL cung cấp các câu truy vấn kiểm soát quyền người dùng với CSDL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "DCL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "DDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "DML",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "DSL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Dữ liệu cần lấy có thể là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Danh sách các trường hay hàm nào đó với các biến là các trường trong bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Danh sách các trường hay hàm nào đó với các biến là các dòng trong bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Danh sách các trường hay hàm nào đó với các biến là các hàng trong bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Danh sách các trường hay hàm nào đó với các biến là các cột trong bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Muốn chỉ định chọn các dòng thỏa mãn điều kiện nhất định ta dùng câu truy vấn nào dưới đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "WHERE < điều kiện chọn>",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "ORDER BY < tên trường>",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "INNER JOIN",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "DELETE FROM <tên bảng> WHERE <điều kiện>",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "INNER JOIN có nghĩa là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Liên kết các bảng theo theo phép toán",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Liên kết các bảng theo theo điều kiện",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kiểm soát các bảng theo điều kiện",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kiểm soát các bảng theo yêu cầu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "PRIMARY KEY là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khai báo khóa chính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khai báo khóa phụ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đặt làm khóa chính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đặt làm khóa phụ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Muốn thêm dữ liệu vào bảng <tên bảng> với giá trị lấy từ <danh sách giá trị> ta dùng câu truy vấn nào dưới đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "INSERT INTO < tên bảng> VALUES <danh sách giá trị>",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "ORDER BY < tên trường>",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "INNER JOIN",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "DELETE FROM <tên bảng> WHERE <điều kiện>",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Muốn cập nhật <giá trị> cho trường có tên là <tên trường> trong bảng <tên bảng> thỏa mãn <điều kiện> ta dùng câu truy vấn nào dưới đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "UPDATE <tên bảng> SET <tên trường> = <giá trị> WHERE <điều kiện>",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "ORDER BY <tên trường>",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "INNER JOIN",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "INSERT INTO <tên bảng> VALUES <danh sách giá trị>",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "SQL là gì và có vai trò như thế nào trong việc quản lý cơ sở dữ liệu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "SQL là ngôn ngữ lập trình dùng để viết các phần mềm ứng dụng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "SQL là ngôn ngữ truy vấn có cấu trúc dùng để định nghĩa, cập nhật, truy xuất và kiểm soát dữ liệu trong CSDL quan hệ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "SQL chỉ được sử dụng để truy xuất dữ liệu, không hỗ trợ định nghĩa hay kiểm soát dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "SQL là một hệ quản trị cơ sở dữ liệu, tương tự như MySQL hay Oracle.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các thành phần của SQL, những nhận định nào sau đây là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "DDL (Data Definition Language) được dùng để định nghĩa cấu trúc của cơ sở dữ liệu, ví dụ như tạo hoặc xóa bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "DML (Data Manipulation Language) được dùng để thao tác với dữ liệu, như thêm, sửa, xóa hoặc truy xuất dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "DCL (Data Control Language) được dùng để kiểm soát quyền truy cập và bảo mật của cơ sở dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "SQL chỉ bao gồm DML, các thành phần DDL và DCL không thuộc SQL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về việc định nghĩa cấu trúc CSDL (DDL), các câu lệnh nào được mô tả đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Câu lệnh CREATE TABLE dùng để tạo một bảng mới trong CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Câu lệnh ALTER TABLE dùng để thay đổi cấu trúc của một bảng hiện có, như thêm hoặc xóa cột.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Câu lệnh DROP TABLE dùng để xóa toàn bộ dữ liệu trong một bảng, nhưng giữ lại cấu trúc bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Câu lệnh CREATE INDEX dùng để tạo chỉ mục nhằm tăng tốc độ truy vấn dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về việc thao tác dữ liệu (DML), các câu lệnh nào được mô tả đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Câu lệnh INSERT INTO dùng để thêm dữ liệu mới vào bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Câu lệnh UPDATE dùng để cập nhật giá trị của các dòng trong bảng thỏa mãn một điều kiện cụ thể.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Câu lệnh DELETE dùng để xóa các dòng trong bảng thỏa mãn một điều kiện cụ thể.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Câu lệnh SELECT chỉ dùng để hiển thị toàn bộ dữ liệu trong bảng mà không thể lọc hay sắp xếp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các mệnh đề phổ biến trong câu lệnh SELECT, các phát biểu nào là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mệnh đề FROM chỉ định bảng chứa dữ liệu cần truy xuất.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mệnh đề WHERE được dùng để lọc ra các dòng dữ liệu thỏa mãn một điều kiện cụ thể.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mệnh đề ORDER BY dùng để sắp xếp kết quả truy vấn theo một thứ tự được chỉ định.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mệnh đề INNER JOIN dùng để chỉ định các cột sẽ được hiển thị trong kết quả.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các khẳng định nào sau đây là đúng về các kiểu dữ liệu trong SQL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Kiểu CHAR(n) dùng cho xâu kí tự có độ dài cố định n kí tự.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kiểu BOOLEAN được dùng để biểu diễn giá trị lôgic Đúng (1) hoặc Sai (0).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kiểu DATE được dùng để lưu trữ thời gian theo định dạng 'HH:MM:SS'.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kiểu INTEGER dùng để lưu trữ các giá trị số nguyên.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về việc kiểm soát quyền truy cập (DCL), các câu lệnh nào được mô tả đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lệnh GRANT được sử dụng để cấp quyền cho người dùng, ví dụ như quyền SELECT, CREATE.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lệnh REVOKE được sử dụng để thu hồi các quyền đã được cấp trước đó cho người dùng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Câu lệnh GRANT SELECT ON music.* TO guest; có nghĩa là cấp quyền xem tất cả các bảng trong CSDL music cho người dùng guest.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Câu lệnh REVOKE chỉ có thể được dùng bởi người quản trị cao nhất, người dùng thông thường không thể sử dụng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu là những nhận định đúng về cú pháp của SQL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Câu lệnh ALTER TABLE bannhac ADD PRIMARY KEY (Mid); có chức năng thêm trường Mid làm khóa chính cho bảng bannhac.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dấu chấm phẩy (;) được dùng để kết thúc một câu truy vấn SQL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dấu hoa thị (*) trong lệnh SELECT có nghĩa là lấy ra tất cả các dòng dữ liệu từ bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "FOREIGN KEY ... REFERENCES ... là mệnh đề dùng để khai báo một khóa ngoại, tạo liên kết đến một bảng khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về việc liên kết dữ liệu giữa các bảng, những phát biểu nào là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mệnh đề INNER JOIN cho phép kết hợp các dòng từ hai hay nhiều bảng dựa trên một trường liên quan.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong mệnh đề INNER JOIN, điều kiện kết nối được chỉ định sau từ khóa ON.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Truy vấn SELECT AVG(tb) FROM diemtoan_11A; là một ví dụ về việc truy xuất dữ liệu từ nhiều bảng được liên kết.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ví dụ: ... INNER JOIN nhacsi ON bannhac.Aid = nhacsi.Aid liên kết hai bảng bannhac và nhacsi qua trường chung Aid.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Những khẳng định tổng quát nào sau đây về SQL là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "SQL là một ngôn ngữ truy vấn có cấu trúc, giúp việc tương tác với CSDL trở nên dễ dàng và tường minh hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một câu lệnh DELETE nếu không có mệnh đề WHERE sẽ xóa tất cả các dòng trong bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một câu lệnh INSERT chỉ có thể thêm một dòng dữ liệu vào bảng tại một thời điểm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các hệ quản trị CSDL như SQL Server, PostgreSQL đều sử dụng SQL làm ngôn ngữ truy vấn tiêu chuẩn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_3": []
+}
