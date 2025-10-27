@@ -710,7 +710,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": true
+                    "correct": false
                 },
                 {
                     "text": "Cách sắp xếp công việc thuận tiện hơn",
@@ -726,7 +726,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 },
                 {
                     "text": "Cách sắp xếp công việc nhanh hơn",
