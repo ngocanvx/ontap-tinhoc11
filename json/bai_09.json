@@ -42,7 +42,7 @@
             ]
         },
         {
-            "question": "Đâu không phải là rủi ro có thể gặp phải khi sử dụng Internet là?",
+            "question": "Đâu KHÔNG phải là rủi ro có thể gặp phải khi sử dụng Internet là?",
             "image": {
                 "src": "",
                 "alt": ""
@@ -206,7 +206,7 @@
             ]
         },
         {
-            "question": "Chọn câu sai trong các câu sau. Chúng ta có thể nhận biết và phòng tránh lừa đảo trên nguyên tắc nào sau đây?",
+            "question": "Chọn câu SAI trong các câu sau. Chúng ta có thể nhận biết và phòng tránh lừa đảo trên nguyên tắc nào sau đây?",
             "image": {
                 "src": "",
                 "alt": ""
@@ -443,6 +443,170 @@
                 },
                 {
                     "text": "Các đơn vị hỗ trợ công nghệ hợp pháp sẽ không yêu cầu thanh toán ngay dưới dạng thẻ điện thoại, chuyển khoản....... khi mà dịch vụ chưa được thực hiện",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi có kẻ lừa đảo hỗ trợ kỹ thuật cố gắng thuyết phục rằng thiết bị của bạn đang gặp sự cố và yêu cầu thanh toán ngay lập tức cho các dịch vụ để khắc phục các sự cố đó mà trên thực tế nó không hề tồn tại. Em có thể thực hiện nguyên tắc Dừng lại, không gửi bằng cách?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tự đặt ra câu hỏi khi thông báo hiện lên có vẻ rất khẩn cấp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cập nhật phần mềm bảo mật và quét virus",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thử tìm kiếm tên công ty hoặc số điện thoại kèm theo những từ khóa như \" lừa đảo\" hoặc \" khiếu nại\". Tìm đến một đơn vị có uy tín và tin cậy để nhờ hỗ trợ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các đơn vị hỗ trợ công nghệ hợp pháp sẽ không yêu cầu thanh toán ngay dưới dạng thẻ điện thoại, chuyển khoản....... khi mà dịch vụ chưa được thực hiện",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khi có kẻ lừa đảo em trúng thưởng hay nhận phiếu mua hàng giá trị cao nhưng phải thanh toán trước. Em có thể thực hiện nguyên tắc Hãy chậm lại bằng cách?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tìm kiếm lời khuyên từ người hiểu biết (thành viên trong gia đình, hoặc bạn bè) nếu không chắc đây có phải là thông tin đáng tin cậy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tìm hiểu thêm thông tin về giải thưởng hoặc chương trình khuyến mại liên quan trên Internet, nếu không có thì khả năng cao là lừa đảo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không bao giờ trả phí trước để nhận thưởng sau cho dù mức phí đó rất nhỏ so với phần thưởng sắp nhận được",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hãy tự đặt câu hỏi làm rõ vấn đề",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi có kẻ lừa đảo em trúng thưởng hay nhận phiếu mua hàng giá trị cao nhưng phải thanh toán trước. Em có thể thực hiện nguyên tắc Kiểm tra ngay bằng cách?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tìm kiếm lời khuyên từ người hiểu biết (thành viên trong gia đình, hoặc bạn bè) nếu không chắc đây có phải là thông tin đáng tin cậy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tìm hiểu thêm thông tin về giải thưởng hoặc chương trình khuyến mại liên quan trên Internet, nếu không có thì khả năng cao là lừa đảo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Không bao giờ trả phí trước để nhận thưởng sau cho dù mức phí đó rất nhỏ so với phần thưởng sắp nhận được",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Liên hệ trực tiếp để được giải đáp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi có kẻ lừa đảo em trúng thưởng hay nhận phiếu mua hàng giá trị cao nhưng phải thanh toán trước. Em có thể thực hiện nguyên tắc Dừng lại, không gửi bằng cách?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tìm kiếm lời khuyên từ người hiểu biết (thành viên trong gia đình, hoặc bạn bè) nếu không chắc đây có phải là thông tin đáng tin cậy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tìm hiểu thêm thông tin về giải thưởng hoặc chương trình khuyến mại liên quan trên Internet, nếu không có thì khả năng cao là lừa đảo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không bao giờ trả phí trước để nhận thưởng sau cho dù mức phí đó rất nhỏ so với phần thưởng sắp nhận được",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Liên hệ bạn bè, người thân để được tư vấn",
                     "image": {
                         "src": "",
                         "alt": ""
