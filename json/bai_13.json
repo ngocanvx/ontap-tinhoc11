@@ -122,34 +122,16 @@
                     "correct": true
                 }
             ]
-        }
-    ],
-    "part_2": [
+        },
         {
-            "question": "Nội dung câu hỏi 1",
+            "question": "Bản thu âm trong Hình 13.1d tương ứng với dòng 0005 TN là bản thu âm do nhạc sĩ nào sáng tác?",
             "image": {
-                "src": "",
+                "src": "./img/q.13.02.png",
                 "alt": ""
             },
             "answers": [
                 {
-                    "text": "Phương án A",
-                    "image": {
-                        "src": "",
-                        "alt": ""
-                    },
-                    "correct": true
-                },
-                {
-                    "text": "Phương án B",
-                    "image": {
-                        "src": "",
-                        "alt": ""
-                    },
-                    "correct": true
-                },
-                {
-                    "text": "Phương án C",
+                    "text": "Tân nhân",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -157,7 +139,23 @@
                     "correct": false
                 },
                 {
-                    "text": "Phương án D",
+                    "text": "Văn Cao",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đỗ Nhuận",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hoàng Việt",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -167,14 +165,14 @@
             ]
         },
         {
-            "question": "Nội dung câu hỏi 2",
+            "question": "Mô hình tổ chức dữ liệu thành các bảng dữ liệu của các đối tượng có?",
             "image": {
                 "src": "",
                 "alt": ""
             },
             "answers": [
                 {
-                    "text": "Phương án A",
+                    "text": "Các con chữ giống nhau",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -182,7 +180,7 @@
                     "correct": false
                 },
                 {
-                    "text": "Phương án B",
+                    "text": "Các con số giống nhau",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -190,7 +188,48 @@
                     "correct": false
                 },
                 {
-                    "text": "Phương án C",
+                    "text": "Các kí tự giống nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các thuộc tính giống nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Cơ sở dữ liệu quan hệ là",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "CSDL lưu trữ dữ liệu dưới dạng các cột",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "CSDL lưu trữ dữ liệu dưới dạng các đoạn có quan hệ với nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "CSDL lưu trữ dữ liệu dưới dạng các bảng có quan hệ với nhau",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -198,7 +237,624 @@
                     "correct": true
                 },
                 {
-                    "text": "Phương án D",
+                    "text": "Mô hình phân cấp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bảng Bản thu âm và bảng Ca sĩ có chung thuộc tính nào?",
+            "image": {
+                "src": "./img/q.13.02.png",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chung thuộc tính Aid",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chung thuộc tính Sid",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chung thuộc tính Mid",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chung thuộc tính TenNS",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khoá chính của bảng Ca sĩ và bảng Bản nhạc là?",
+            "image": {
+                "src": "./img/q.13.02.png",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sid và Aid",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sid và Mid",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mid và Aid",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sid",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "CSDL quan hệ tổ chức lưu trữ dữ liệu dưới dạng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các đoạn văn ngắn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các dãy số",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các bảng gồm các hàng và cột",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các chữ cái",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Mỗi hàng của bảng được gọi là một?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Trường",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thuộc tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khóa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bản ghi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Bản ghi là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tập hợp các thông tin về một đối tượng cụ thể được quản lý trong bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tập hợp các thông tin về một đối tượng cụ thể được quản lý trong cột",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tập hợp các thông tin về một đối tượng cụ thể được quản lý trong đoạn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tập hợp các thông tin về một đối tượng cụ thể được quản lý trong bài",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Mỗi cột trong bảng được gọi là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thuộc tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khóa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bản ghi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trường",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Một bảng có thể có?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhiều khóa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉ một khóa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chỉ mười khóa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không có khóa nào",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Người ta thường chọn khóa có?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Số trường ít nhất",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Số trường nhiều nhất",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Số trường lạ nhất",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Số trường ngắn nhất",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Có thể dùng gì để thực hiện ghép nối dữ liệu hai bảng với nhau",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khóa trong",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khóa chính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khóa ngoài",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khóa phụ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Mô hình dữ liệu quan hệ là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mô hình tổ chức dữ liệu thành các bảng dữ liệu của các đối tượng có các thuộc tính khác nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mô hình tổ chức dữ liệu thành các bảng dữ liệu của các đối tượng có các thuộc tính khác nhau có quan hệ với nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mô hình tổ chức dữ liệu thành các bảng dữ liệu của các đối tượng có các thuộc tính giống nhau, có thể có quan hệ với nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mô hình tổ chức dữ liệu thành các bảng dữ liệu của các đối tượng có quan hệ với nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc thực hiện các thao tác dữ liệu sẽ có nhiều thuận lợi nhờ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sự nhất quán về dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sự nhất quán về cách sắp xếp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sự nhất quán về cấu trúc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhất quán về cách tổ chức",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Trong mô hình cơ sở dữ liệu (CSDL) quan hệ, các thuật ngữ và khái niệm cơ bản nào sau đây được định nghĩa đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mỗi hàng của một bảng được gọi là một bản ghi (record), thể hiện thông tin về một đối tượng cụ thể.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mỗi cột của một bảng được gọi là một trường (field), thể hiện một thuộc tính của đối tượng được quản lí.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "CSDL quan hệ là CSDL lưu trữ dữ liệu dưới dạng các bảng có quan hệ với nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Toàn bộ CSDL về một đối tượng luôn được lưu trong một bảng duy nhất để dễ quản lí.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu là những khẳng định đúng về khoá chính (primary key) trong CSDL quan hệ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khoá chính là một hay một nhóm trường mà giá trị của nó cho phép phân biệt các bản ghi khác nhau trong bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một bảng có thể có nhiều khóa chính khác nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giá trị của khóa chính có thể bị trùng lặp giữa các bản ghi khác nhau trong cùng một bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc xác định khoá chính cho bảng là không bắt buộc nhưng rất quan trọng trong việc sắp xếp, truy xuất dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về khoá ngoài (foreign key) và liên kết dữ liệu, những phát biểu nào sau đây là chính xác?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khoá ngoài là một trường ở bảng này đồng thời là khóa chính ở một bảng khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chức năng chính của khoá ngoài là để thiết lập liên kết giữa các bảng với nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc ghép nối các bảng với nhau thông qua khoá được gọi là thao tác liên kết (join).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một trường chỉ có thể là khóa chính hoặc khoá ngoài, không thể vừa là khóa chính của bảng này vừa là khóa ngoài ở bảng khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc tổ chức CSDL thành nhiều bảng riêng lẻ thay vì một bảng lớn duy nhất mang lại những lợi ích nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Làm tăng sự dư thừa dữ liệu vì thông tin phải lặp lại ở nhiều nơi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hạn chế được sự dư thừa dữ liệu, khắc phục những lỗi không nhất quán.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Gây khó khăn khi sửa đổi dữ liệu, ví dụ khi đổi tên một ca sĩ phải sửa ở rất nhiều dòng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giúp cho cấu trúc dữ liệu trở nên gọn gàng, dễ xem và ít tốn không gian lưu trữ hơn.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -209,21 +865,5 @@
         }
     ],
     "part_3": [
-        {
-            "question": "Nội dung câu hỏi 1 - 1.25",
-            "image": {
-                "src": "",
-                "alt": ""
-            },
-            "answer": 1.25
-        },
-        {
-            "question": "Nội dung câu hỏi 2 - 0.25",
-            "image": {
-                "src": "",
-                "alt": ""
-            },
-            "answer": 0.25
-        }
     ]
 }
