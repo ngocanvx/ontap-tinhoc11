@@ -29,13 +29,11 @@ body {
 }
 
 #question-image {
-    max-width: 300px;
-    max-height: 300px;
-    /* Các thuộc tính tùy chọn khác */
-    display: block;
-    /* Giúp căn giữa dễ hơn */
-    margin: 0 auto;
-    /* Tự động căn giữa ảnh */
+    max-width: 100%; /* Không bao giờ rộng hơn khung chứa */
+    height: auto;    /* Tự động tính chiều cao để không bị méo ảnh */
+    display: block;  /* Loại bỏ khoảng trống thừa bên dưới ảnh */
+    margin: 10px auto; /* Căn giữa ảnh */
+    border-radius: 8px; /* Bo góc cho đẹp (tùy chọn) */
 }
 
 .page.active {

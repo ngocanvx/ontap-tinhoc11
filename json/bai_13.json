@@ -1,0 +1,229 @@
+{
+    "part_1": [
+        {
+            "question": "Mô hình cơ sở dữ liệu là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Một loại mô hình dữ liệu xác định một cách cơ bản cách thức dữ liệu có thể được lưu trữ, sắp xếp và thao tác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một loại mô hình dữ liệu xác định cấu trúc logic của cơ sở dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một loại mô hình dữ liệu xác định cấu trúc logic của cơ sở dữ liệu và xác định một cách cơ bản cách thức dữ liệu có thể được lưu trữ, sắp xếp và thao tác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Là một loại mô hình dữ liệu chỉ có thể lưu trữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bản thu âm trong Hình 13.1d tương ứng với dòng 0005 TN là bản thu âm của bản nhạc nào?",
+            "image": {
+                "src": "./img/q.13.02.png",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tình ca",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xa khơi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việt Nam quê hương tôi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Du kích sông Thao",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bản thu âm trong Hình 13.1d tương ứng với dòng 0005 TN là bản thu âm do ca sĩ nào thể hiện?",
+            "image": {
+                "src": "./img/q.13.02.png",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lê Dung",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trần Khánh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quốc Hương",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tân nhân",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Nội dung câu hỏi 1",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phương án A",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phương án B",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phương án C",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phương án D",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Nội dung câu hỏi 2",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phương án A",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phương án B",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phương án C",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phương án D",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_3": [
+        {
+            "question": "Nội dung câu hỏi 1 - 1.25",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answer": 1.25
+        },
+        {
+            "question": "Nội dung câu hỏi 2 - 0.25",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answer": 0.25
+        }
+    ]
+}
