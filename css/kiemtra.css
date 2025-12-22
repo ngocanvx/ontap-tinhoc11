@@ -50,21 +50,23 @@ body {
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    align-items: center;
+    width: 100%;               /* Quan trọng: Buộc bảng chiếm hết 100% chiều rộng khung chứa */
+    max-width: 800px;          /* Tùy chọn: Giới hạn độ rộng tối đa để bảng không bị quá loãng trên màn hình lớn */
+    border-collapse: collapse; /* Giúp các đường viền nhập làm một, trông gọn gàng hơn */
+    margin: 20px auto;         /* Căn giữa bảng và tạo khoảng cách trên dưới */
+    table-layout: fixed;       /* Tùy chọn: Giúp các cột có độ rộng bằng nhau hoặc cố định, tránh xô lệch khi nội dung dài ngắn khác nhau */
+    background-color: #fff;    /* Màu nền trắng cho bảng giống trong ảnh */
 }
 
-th,
-td {
-    padding: 12px 15px;
-    border: 1px solid #dee2e6;
-    text-align: left;
+/* Thêm style cho th và td để giống giao diện bạn mong muốn */
+th, td {
+    border: 1px solid #ddd;    /* Đường kẻ bảng */
+    padding: 12px 8px;         /* Khoảng cách chữ với viền */
+    text-align: center;        /* Căn giữa chữ trong ô */
 }
 
 th {
-    background-color: #f8f9fa;
+    background-color: #f8f9fa; /* Màu nền nhẹ cho dòng tiêu đề */
     font-weight: bold;
 }
 
