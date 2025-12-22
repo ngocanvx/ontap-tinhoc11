@@ -434,12 +434,12 @@
                     "correct": false
                 },
                 {
-                    "text": "Không giữ được lâu dài các dữ liệu tạm thời",
+                    "text": "Giữ được lâu dài các dữ liệu tạm thời",
                     "image": {
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 },
                 {
                     "text": "Có thể vừa đọc vừa ghi dữ liệu",
@@ -447,7 +447,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": true
+                    "correct": false
                 }
             ]
         },
