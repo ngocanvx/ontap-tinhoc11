@@ -1,0 +1,843 @@
+{
+    "part_1": [
+        {
+            "question": "Chọn đáp án sai. Tại sao lại phải thay đổi thói quen quản lí thủ công, chuyển sang sử dụng máy tính với hệ QTCSDL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tiện lợi, kịp thời",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhanh chóng hơn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hạn chế sai sót",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Lưu trữ dữ liệu ít hơn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Hệ thống quản lý dự án giúp?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đồng bộ thông tin giữa các bộ phận khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dự đoán và quản lý nhu cầu cung cấp, cải thiện quy trình đặt hàng và vận chuyển Mạch tích hợp (IC)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đơn giản hóa quá trình tuyển dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cung cấp dữ liệu chính xác về nhân viên",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc ứng dụng CSDL trong quản lí không đem lại lợi ích như:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tiện lợi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kịp thời.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sai sót.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhanh chóng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trước đây khi chưa có máy tính thì việc quản lí dữ liệu thủ công như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "rất tiện lợi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "rất vất vả.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "rất nhanh chóng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "rất kịp thời.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hệ QTCSDL nào sau đây là sản phẩm mã nguồn mở miễn phí?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "ORACLE.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "SQL Server.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "DB2.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "MySQL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Để tải về một trong các bản MySQL, ta truy cập vào địa chỉ nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "https://dev.mysql.com/download/mysql/",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "https://dev.mysqlserver.com/downloads/mysql/",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "https://dev.mysql.com/downloads/mysql",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "https://dev.mysql.com/donloads/mysql/",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để tải về một trong hai bản của HeidiSQL, ta truy cập vào địa chỉ nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "https://www.heidisql.com/download.php",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "https://www.heidisql.com/downloads.php",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "https://www.haidisql.com/download.php",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "https://www.hiedisql.com/download.php",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi nháy đúp chuột vào biểu tượng phần mềm HeidiSQL, một cửa sổ như bên dưới xuất hiện. Để vào cửa sổ làm việc của HeidiSQL, cần thực hiện các công việc nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhập Người dùng và Mật khẩu sau đó nháy vào nút Mới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không cần nhập Người dùng và Mật khẩu, chỉ cần nháy vào nút Mở.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhập Người dùng và Mật khẩu sau đó nháy vào nút Mở.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Không cần nhập Người dùng và Mật khẩu, chỉ cần nháy vào nút Mới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "MySQL và HeidiSQL là các phần mềm có mã nguồn nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "mã nguồn đóng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "thương mại",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "tự do",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "mã nguồn mở",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khi giao diện làm việc của HeidiSQL dùng ngôn ngữ tiếng Anh, nếu muốn thay đổi giao diện của HeidiSQL bằng ngôn ngữ tiếng Việt. Các thao tác nào sau đây là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chọn Tools/Preferences/Data editor/thay đổi trong Application language",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chọn Tools/Preferences/General/thay đổi trong Application language",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chọn Edit/Preferences/General/thay đổi trong Application language",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chọn Go to/Preferences/General/thay đổi trong Application language",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Việc ứng dụng quản trị cơ sở dữ liệu (CSDL) trên máy tính mang lại những lợi ích nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Giúp các giao dịch được thực hiện nhanh chóng, chính xác và kịp thời.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giúp hạn chế tối đa dư thừa dữ liệu và đảm bảo tính nhất quán, an toàn của dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉ phù hợp với các tổ chức quy mô nhỏ, không hiệu quả với các lĩnh vực có lượng giao dịch lớn như ngân hàng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Làm tăng thời gian xử lí và đối chiếu dữ liệu so với phương pháp thủ công.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu là những khẳng định đúng về hệ quản trị CSDL MySQL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "MySQL là một hệ quản trị CSDL quan hệ được sử dụng phổ biến.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đây là một phần mềm mã nguồn mở và miễn phí.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người dùng quản trị mặc định có quyền cao nhất trong MySQL có tên là root.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "MySQL chỉ cung cấp phiên bản cài đặt tự động, không có phiên bản dạng tệp nén (Zip archive).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về phần mềm HeidiSQL, các phát biểu nào sau đây là chính xác?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "HeidiSQL là một phần mềm mã nguồn mở, miễn phí, cung cấp giao diện đồ hoạ để làm việc với CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "HeidiSQL chỉ có thể làm việc với hệ QTCSDL MySQL, không hỗ trợ các hệ QTCSDL khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm này có giao diện rất gọn nhẹ nhưng không thuận tiện bằng giao diện dòng lệnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "HeidiSQL có thể tự động nhận biết và thiết lập giao diện bằng tiếng Việt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi làm việc với MySQL và HeidiSQL, các thao tác nào sau đây là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để làm việc với MySQL, người dùng có thể sử dụng cửa sổ dòng lệnh mysql.exe.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong HeidiSQL, người dùng có thể nhập các câu truy vấn SQL và nhận kết quả trực tiếp trên giao diện.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để kết nối với CSDL trong HeidiSQL, không cần cung cấp thông tin về Tên máy chủ/IP.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cổng (port) mặc định để kết nối với các hệ QTCSDL trong HeidiSQL là 8080.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các đặc điểm nào sau đây là đúng về sự kết hợp giữa MySQL và HeidiSQL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "MySQL là hệ QTCSDL, còn HeidiSQL là phần mềm giao diện giúp tương tác với hệ QTCSDL đó một cách trực quan.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bắt buộc phải cài đặt HeidiSQL để có thể sử dụng được MySQL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giao diện của HeidiSQL hiển thị danh sách các CSDL đã có và cho phép tạo lập, cập nhật, truy xuất dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cả MySQL và HeidiSQL đều là các phần mềm thương mại có tính phí cao.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong quá trình cài đặt và sử dụng MySQL, những điều nào sau đây là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Có hai hình thức cài đặt chính là cài đặt tự động (Installer) và cài đặt từ tệp nén (Zip archive).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phiên bản cài đặt tự động yêu cầu người dùng phải nhập mật khẩu cho tài khoản root.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để đăng nhập vào MySQL từ cửa sổ dòng lệnh, ta dùng lệnh mysql -u root -p.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi cài đặt, MySQL sẽ tự động hoạt động như một dịch vụ hệ thống (Service).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Giao diện của phần mềm HeidiSQL có những thành phần và chức năng nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Vùng danh sách CSDL đã có ở phía bên trái cửa sổ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Vùng làm việc chính ở giữa dùng để tương tác tạo lập, cập nhật và truy xuất dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "HeidiSQL không có chức năng để người dùng tự nhập các câu truy vấn SQL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mọi thông số kết nối như tên máy chủ, người dùng, mật khẩu đều được HeidiSQL tự động điền và không thể thay đổi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu là những khẳng định đúng về việc quản trị CSDL trong thực tiễn?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Quản lí dữ liệu thủ công bằng sổ sách thường đối mặt với các vấn đề như dữ liệu dư thừa, không nhất quán.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc ứng dụng CSDL giúp các ngân hàng có thể kiểm soát và đối chiếu thông tin giao dịch một cách nhanh chóng, chính xác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các hệ thống CSDL hiện đại không cho phép bổ sung các dịch vụ trực tuyến như Internet banking.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc sử dụng CSDL chỉ giới hạn trong một lĩnh vực, không thể mở rộng ra các lĩnh vực khác nhau trong kinh tế - xã hội.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về việc cài đặt phần mềm HeidiSQL, những nhận định nào là chính xác?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người dùng có thể tải về phiên bản cài đặt tự động hoặc phiên bản Portable (dạng nén).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phiên bản Portable có thể chạy trực tiếp từ tệp heidisql.exe sau khi giải nén mà không cần cài đặt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "HeidiSQL là một phần mềm rất khó cài đặt và yêu cầu kiến thức chuyên môn sâu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chỉ có một phiên bản HeidiSQL 32-bit duy nhất, không có phiên bản 64-bit.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định tổng quan nào sau đây là đúng về quản trị CSDL trên máy tính?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cần một hệ QTCSDL như MySQL để khởi tạo, quản lí CSDL và một phần mềm giao tiếp để khai thác thông tin.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sử dụng CSDL trong quản lí là một giải pháp đem lại nhiều lợi ích lớn như: tiện lợi, kịp thời, nhanh chóng và hạn chế sai sót.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giao diện dòng lệnh là cách duy nhất để làm việc với các hệ QTCSDL như MySQL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc quản trị CSDL trên máy tính ngày nay không còn phổ biến do sự phức tạp và chi phí cao.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bạn A sau khi được học kiến thức về hệ quản trị cơ sở dữ liệu MySQL và phần mềm HeidiSQL ở lớp. Sau đó về nhà bạn A đã cài đặt MySQL và HeidiSQL vào máy tính của mình. Quá trình cài đặt và sử dụng bạn A có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "HeidiSQL là một phần mềm quản trị cơ sở dữ liệu mã nguồn mở. HeidiSQL sở hữu nhiều tính năng hữu ích cho người dùng, giúp quản lý cơ sở dữ liệu một cách hiệu quả và thuận tiện hơn. Có một số nhận định về phần mềm HeidiSQL như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}

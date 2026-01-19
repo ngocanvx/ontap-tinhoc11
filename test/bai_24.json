@@ -1,0 +1,433 @@
+{
+    "part_1": [
+        {
+            "question": "Để tổ chức đảm bảo an toàn CSDL phục vụ công tác quản lí của một tổ chức, chúng ta cần làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Xây dựng chính sách truy cập dữ liệu với những kế hoạch về tất cả các phương án sự cố có thể xảy ra và giải pháp hạn chế, khắc phục",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xây dựng chính sách bảo vệ người dùng với những kế hoạch về tất cả các phương án sự cố có thể xảy ra và giải pháp hạn chế, khắc phục",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xây dựng chính sách an toàn dữ liệu với những kế hoạch về tất cả các phương án sự cố có thể xảy ra và giải pháp hạn chế, khắc phục",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Xây dựng chính sách truy cập dữ liệu với những kế hoạch về tất cả các phương án sự cố có thể xảy ra và giải pháp hạn chế, khắc phục",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phát biểu nào sau đây là sai khi nói về việc cần thực hiện khi khai thác và sử dụng nhóm chức năng hỗ trợ sao lưu dữ liệu dự phòng và phục hồi dữ liệu trong các hệ quản trị cơ sở dữ liệu (QTCSDL)?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Xây dựng kế hoạch sao lưu dữ liệu dự phòng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cấu hình tính năng sao lưu dữ liệu dự phòng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kiểm tra và đánh giá tính hoạt động của sao lưu dữ liệu dự phòng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không cần kiểm tra và đánh giá tính hoạt động của sao lưu dữ liệu dự phòng vì hệ thống đã được tự động hóa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Xây dựng kế hoạch sao lưu dữ liệu dự phòng như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thiết lập một kế hoạch định kỳ để sao lưu dữ liệu từ hệ thống chính sang hệ thống dự phòng hoặc kế hoạch cần đảm bảo tính thường xuyên, đúng đắn và đầy đủ của quá trình sao lưu dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kế hoạch cần đảm bảo tính thường xuyên, đúng đắn và đầy đủ của quá trình sao lưu dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thiết lập một kế hoạch định kỳ để sao lưu dữ liệu từ hệ thống chính sang hệ thống dự phòng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kế hoạch cần đảm bảo tính thường xuyên, đúng đắn để sao lưu dữ liệu từ hệ thống chính sang hệ thống dự phòng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Thực hiện cấu hình tính năng sao lưu dữ liệu dự phòng để làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đảm bảo tính nhanh chóng, đúng đắn và đầy đủ của quy trình phục hồi dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đảm bảo tính thường xuyên, đúng đắn và đầy đủ của quá trình sao lưu dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đáp ứng đúng yêu cầu của tổ chức và đảm bảo tính an toàn của dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đảm bảo tính thường xuyên, đúng đắn và đầy đủ của quy trình phục hồi dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phát biểu nào sau đây là sai khi nói về các tính năng hỗ trợ sao lưu dữ liệu dự phòng mà các hệ QTCSDL thường cung cấp?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tính năng sao lưu tự động",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tính năng sao lưu đa điểm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tính năng mã hóa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tính năng sao lưu đa chiều",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Khi thực hiện sao lưu cơ sở dữ liệu (CSDL) mymusic bằng HeidiSQL, các thao tác và lựa chọn nào sau đây là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để bắt đầu, cần nháy chuột phải vào CSDL mymusic và chọn \"Xuất cơ sở dữ liệu dưới dạng SQL\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong mục Dữ liệu, nên chọn Delete + Insert để khi phục hồi, dữ liệu cũ sẽ được xoá đi trước khi chèn dữ liệu đã sao lưu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc đánh dấu vào các ô Drop và Create sẽ tạo ra các lệnh SQL để xoá đối tượng cũ (nếu có) và tạo lại đối tượng mới khi phục hồi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kết quả của quá trình sao lưu là một tệp có định dạng .bak.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về quá trình phục hồi (restore) một CSDL từ tệp sao lưu, những phát biểu nào là chính xác?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để bắt đầu phục hồi, ta cần vào menu \"Tệp tin\" và chọn \"Load SQL file...\" hoặc nhấn tổ hợp phím Ctrl+O.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi nội dung của tệp sao lưu đã được tải vào cửa sổ truy vấn, ta cần nhấn phím F9 để thực thi các lệnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để có thể nhìn thấy CSDL vừa được phục hồi trong danh sách, người dùng phải nhấn phím F5 để làm tươi lại danh sách CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trước khi phục hồi, người dùng bắt buộc phải tạo thủ công một CSDL rỗng có cùng tên với CSDL sắp được phục hồi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu là những khẳng định đúng về bản chất và mục đích của việc sao lưu và phục hồi CSDL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sao lưu và phục hồi CSDL là một phần quan trọng trong kế hoạch đảm bảo an toàn dữ liệu của một tổ chức.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tệp sao lưu .sql thực chất là một tệp văn bản chứa các câu lệnh SQL để có thể tái tạo lại toàn bộ cấu trúc và dữ liệu của CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quá trình di chuyển một CSDL từ máy tính này sang máy tính khác có thể được thực hiện bằng cách sao lưu ở máy cũ và phục hồi ở máy mới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc phục hồi CSDL chỉ khôi phục lại dữ liệu, không khôi phục lại cấu trúc của các bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào sau đây là không chính xác về các chức năng trong bài thực hành?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "HeidiSQL chỉ cho phép sao lưu toàn bộ CSDL, không thể sao lưu một vài bảng riêng lẻ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thao tác phục hồi CSDL thực chất là việc thực thi một tệp kịch bản SQL đã được tạo ra từ quá trình sao lưu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mục đích của việc chọn Drop khi sao lưu là để đảm bảo CSDL cũ sẽ bị xoá đi khi phục hồi, tránh gây ra lỗi nếu CSDL đó đã tồn tại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc phục hồi CSDL không thể thực hiện được nếu CSDL gốc chưa bị xóa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các thao tác nào sau đây được mô tả đúng trong quá trình làm việc với HeidiSQL để sao lưu và phục hồi?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để mô phỏng việc mất dữ liệu, người dùng có thể xóa CSDL mymusic trước khi thực hành phục hồi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phím F5 trong HeidiSQL có chức năng thực thi truy vấn SQL đã được nạp vào.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Toàn bộ các thao tác sao lưu và phục hồi được hướng dẫn trong bài đều sử dụng giao diện đồ hoạ của HeidiSQL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khi chọn xuất CSDL, đầu ra bắt buộc phải là một tệp duy nhất, không thể chọn xuất ra nhiều tệp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Như đã biết, để tổ chức đảm bảo an toàn CSDL phục vụ công tác quản lí của một tổ chức, cần xây dựng chính sách an toàn dữ liệu với những kế hoạch về tất cả các phương án sự cố có thể xảy ra và giải pháp hạn chế, khắc phục. Chính sách an toàn dữ liệu cũng phải bao gồm những quy định về ý thức, trách nhiệm đối với những người vận hành hệ thống. Về giải pháp phần mềm, các hệ QTCSDL đều có chức năng hỗ trợ sao lưu dữ liệu dự phòng một cách thường xuyên theo quy định và phục hồi dữ liệu khi có sự cố. Học sinh sau khi thực hành sao lưu bảng banthuam đã có một số nhận định về các thao tác như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "Như đã biết, để tổ chức đảm bảo an toàn CSDL phục vụ công tác quản lí của một tổ chức, cần xây dựng chính sách an toàn dữ liệu với những kế hoạch về tất cả các phương án sự cố có thể xảy ra và giải pháp hạn chế, khắc phục. Chính sách an toàn dữ liệu cũng phải bao gồm những quy định về ý thức, trách nhiệm đối với những người vận hành hệ thống. Về giải pháp phần mềm, các hệ QTCSDL đều có chức năng hỗ trợ sao lưu dữ liệu dự phòng một cách thường xuyên theo quy định và phục hồi dữ liệu khi có sự cố. Học sinh sau khi thực hành phục hồi dữ liệu bảng banthuam đã có một số nhận định về các thao tác như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}

@@ -1,0 +1,425 @@
+{
+    "part_1": [
+        {
+            "question": "Các bảng liên kết được với nhau thông qua khóa nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khóa chính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khóa phụ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khóa ngoài.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khóa cấm trùng lặp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Có khóa ngoài sẽ giúp chúng ta làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Một thiết bị điện tử có khả năng xử lý dữ liệu theo một tập hợp của các mệnh lệnh máy tính (hay câu lệnh).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Truy xuất dữ liệu từ các bảng khác theo mối quan hệ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một thiết bị điện tử có khả năng xử lý dữ liệu theo một tập hợp của các mệnh lệnh máy tính (hay câu lệnh) đã được chứa sẵn bên trong máy một cách tạm thời.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Truy xuất dữ liệu từ các CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong giao diện của một hệ quản trị CSDL, để truy xuất dữ liệu từ các bảng khác theo mối quan hệ thì người dùng có thể làm gì sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sử dụng các trường dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng các phần mềm truy vấn dữ liệu như truy vấn SQL hoặc các công cụ đồ họa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng các dòng dữ liệu đã được cài đặt sẵn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng các công cụ truy vấn dữ liệu như truy vấn SQL hoặc các công cụ đồ họa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Để truy xuất dữ liệu từ các bảng có mối quan hệ với nhau thì người dùng cần làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người dùng cần sử dụng khóa chính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng cần sử dụng câu lệnh JOIN để kết hợp các bảng với nhau theo khoá ngoài.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người dùng sử dụng các phần mềm thứ ba.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng cần sử dụng khóa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Câu lệnh JOIN cho phép làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Xử lý thông tin hiệu quả.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Liên kết giữa các bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng dữ liệu một cách hợp lý.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Truy xuất dữ liệu từ nhiều bảng cùng một lúc bằng cách ghép các bảng lại với nhau theo khoá ngoài.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Về câu lệnh truy vấn liên kết các bảng (JOIN) trong SQL, các khẳng định nào sau đây là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mệnh đề INNER JOIN được dùng để kết hợp các dòng từ hai hay nhiều bảng lại với nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mệnh đề ON đi sau INNER JOIN dùng để chỉ định điều kiện kết nối giữa các bảng, thường là sự bằng nhau giữa khoá ngoại và khoá chính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để lấy tên bản nhạc và tên nhạc sĩ, ta cần liên kết bảng bannhac và nhacsi thông qua trường chung idNhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khi truy vấn trên các bảng đã liên kết, ta không cần chỉ rõ tên bảng trước tên trường (ví dụ bannhac.tenBannhac) vì hệ thống sẽ tự nhận biết.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi làm việc với truy vấn SQL trong HeidiSQL, những phát biểu nào là chính xác?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "HeidiSQL hỗ trợ người dùng viết truy vấn bằng cách tô màu cú pháp (syntax coloring) để dễ đọc hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để chạy một câu truy vấn, người dùng có thể nhập lệnh vào thẻ Truy vấn và nhấn phím F9.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khi gõ tên bảng và dấu chấm, HeidiSQL sẽ hiển thị ngay một danh sách các tên trường của bảng đó để người dùng lựa chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để đổi tên một cột trong kết quả trả về, ta có thể dùng từ khoá AS.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về việc truy xuất dữ liệu từ nhiều hơn hai bảng, đâu là những nhận định đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để lập danh sách các bản thu âm với đầy đủ tên bản nhạc và tên ca sĩ, ta cần liên kết ba bảng: banthuam, bannhac và casi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cú pháp để liên kết ba bảng A, B, C là sử dụng hai lần mệnh đề INNER JOIN.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khi liên kết ba bảng, điều kiện trong mệnh đề ON thứ hai phải liên kết bảng thứ ba với bảng thứ hai.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Không thể liên kết quá hai bảng trong một câu lệnh truy vấn SQL duy nhất.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các khẳng định nào sau đây là đúng về giao diện ứng dụng \"Quản lý dữ liệu âm nhạc\"?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Giao diện này được thiết kế hướng tới người dùng cuối, giúp họ dễ dàng sử dụng mà không cần biết về cấu trúc CSDL bên dưới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để tìm các bản nhạc của một nhạc sĩ, người dùng chỉ cần chọn tên nhạc sĩ từ danh sách có sẵn thay vì phải viết lệnh SQL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đằng sau các thao tác đơn giản trên giao diện, ứng dụng sẽ thực thi các câu lệnh truy vấn SQL phức tạp để lấy dữ liệu từ CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người dùng bắt buộc phải biết tên các bảng như bannhac, nhacsi để có thể sử dụng được ứng dụng này.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi giải quyết các bài toán truy xuất dữ liệu cụ thể trong bài thực hành, các phát biểu nào là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để lập danh sách các bản nhạc của nhạc sĩ \"Đỗ Nhuận\", ta có thể thêm mệnh đề WHERE tenNhacsi = 'Đỗ Nhuận' vào sau câu lệnh JOIN.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nếu hai bảng được liên kết có các trường cùng tên, việc đổi tên cột bằng từ khoá AS sẽ giúp phân biệt chúng trong kết quả trả về.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Câu lệnh SELECT chỉ có thể lấy ra dữ liệu từ một bảng tại một thời điểm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để lấy danh sách bản thu âm của ca sĩ \"Lê Dung\" có kèm theo thể loại, cần phải liên kết 4 bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Bạn Nam được giao nhiệm vụ thực hiện câu lệnh SQL để lấy danh sách các bản nhạc gồm các thông tin tenBannhac, tenNhacsi của nhạc sĩ Văn Cao. Sau khi thực hiện xong Nam có một số nhận định về cách viết câu lệnh SQL để truy xuất thông tin tenBannhac, tenNhacsi như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}

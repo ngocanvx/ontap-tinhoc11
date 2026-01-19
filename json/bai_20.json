@@ -1,0 +1,843 @@
+{
+    "part_1": [
+        {
+            "question": "Khoá ngoài có tác dụng gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thể hiện dữ liệu chính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Liên kết các dữ liệu trong bảng với nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Liên kết dữ liệu giữa các bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thể hiện dữ liệu các bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc thiết lập khóa ngoài được thực hiện như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Việc thiết lập khoá ngoài được thực hiện bằng cách xác định cột trong bảng hiện tại là khoá ngoài",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc thiết lập khoá ngoài được thực hiện bằng cách chỉ định bảng mà khoá ngoài này tham chiếu đến (bảng gốc)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc thiết lập khoá ngoài được thực hiện bằng cách xác định cột trong bảng hiện tại là khoá ngoài, và chỉ định bảng mà khoá ngoài này tham chiếu đến (bảng gốc)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc thiết lập khoá ngoài được thực hiện bằng cách xác định hàng trong bảng hiện tại là khoá ngoài",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để chọn giá trị mặc định là AUTO_INCREMENT thì nháy chuột vào ô nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Allow NULL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Add column",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "No default",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Add Row",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các trường là khóa ngoài của bảng là các trường như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các trường trong một cột liên kết đến một cột của bảng khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các trường trong bảng liên kết đến một ô của bảng khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các trường tham chiếu đến một trường khóa chính của bảng khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các trường trong một hàng liên kết đến một cột của bảng khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Cần khai báo giá trị mặc định phù hợp với giá trị nào trong bảng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Giá trị tương ứng của hàng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giá trị tương ứng của cột",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giá trị tương ứng của K",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giá trị mặc định",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tên các trường không được trùng lặp giá trị nên phải khai báo khóa nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khóa chính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khóa ngoài",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khóa cấm trùng lặp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Không cần khai báo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để khai báo khóa cấm trùng lặp ta thực hiện như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chọn Create new index -> Primary",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chọn Create new index -> Key",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chọn Create new index -> Unique",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chọn Create new index -> Fulltext",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để khai báo khóa ngoài chọn thẻ nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Create database",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Create new",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Root",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Foreign keys",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Để chọn bảng tham chiếu ta chọn ô nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Create database",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Create new",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Reference table",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Foreign keys",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để tạo bảng mới trong HeidiSQL, ta chọn lệnh nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Create database",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Root",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Create new",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Print",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong CSDL MyMusic, bảng banthuam không có các trường nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "idbanthuam",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "idbannhac",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "idcasi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "idNhacSi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Sau khi đặt tên bảng, tiếp theo nháy chọn để thêm trường thì một trường mới hiện ra với tên mặc định là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cột mới",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trường mới",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Column 1",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Row 1",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để thêm khai báo trường tiếp theo ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhấn Ctrl+Insert hoặc nháy nút phải chuột dưới dòng tên trường và chọn Add column",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhấn Shift+Insert hoặc nháy nút phải chuột dưới dòng tên trường và chọn Add column",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhấn Insert hoặc nháy nút phải chuột dưới dòng tên trường và chọn Add column",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhấn Alt+Insert hoặc nháy nút phải chuột dưới dòng tên trường và chọn Add column",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi tạo lập bảng huyện/quận trong CSDL quản lí tên huyện/quận, Tỉnh/Thành phố, bảng huyenquan sẽ không bao gồm trường nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Idhuyenquan",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "tenhuyenquan",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "idTinh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "DacSan",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khi lập CSDL quản lí tên các huyện/quận, Tỉnh/Thành phố của Việt Nam. Tạo bảng Tỉnh/Thành phố thì cần có các trường nào dưới đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "IdTinhThanh, tenTinhThanh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "tenquan , idTenquan",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "tenhuyen, idTenhuyen",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "DacSanHuyen",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Về việc khai báo các trường cho bảng bannhac, các thao tác nào sau đây là đúng theo hướng dẫn?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tạo bảng mới có tên là bannhac.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khai báo trường idBannhac với kiểu dữ liệu INT và thiết lập giá trị mặc định là AUTO_INCREMENT.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khai báo trường tenBannhac với kiểu dữ liệu VARCHAR và độ dài 255.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khai báo trường idNhacsi với kiểu dữ liệu VARCHAR.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu là những khẳng định đúng về việc khai báo các loại khoá cho bảng bannhac?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Trường idBannhac được khai báo là khoá chính của bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trường idNhacsi là một khoá ngoại, tham chiếu đến trường khoá chính của bảng nhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cặp trường (tenBannhac, idNhacsi) được khai báo một khoá cấm trùng lặp (UNIQUE) để đảm bảo không có bản nhạc nào trùng tên của cùng một nhạc sĩ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một bảng chỉ có thể có khoá chính, không thể có thêm khoá cấm trùng lặp giá trị.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi tạo một khoá ngoại trong HeidiSQL để liên kết bảng bannhac với bảng nhacsi, các bước nào sau đây là chính xác?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Trong giao diện thiết kế bảng bannhac, chọn thẻ Foreign keys.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong mục Columns của khoá ngoại, chọn trường idNhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong mục Reference table, chọn bảng tham chiếu là casi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sau khi chọn bảng tham chiếu, HeidiSQL sẽ tự động chọn trường khoá chính của bảng đó để làm cột tham chiếu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào sau đây là đúng về bản chất và vai trò của khoá ngoại trong bài thực hành này?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khoá ngoại là các trường trong một bảng mà giá trị của nó tham chiếu đến trường khoá chính của một bảng khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc tạo khoá ngoại cho trường idNhacsi nhằm mục đích liên kết dữ liệu giữa bảng bannhac và bảng nhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giá trị của trường idNhacsi trong bảng bannhac có thể là một số bất kỳ, không cần tồn tại trong bảng nhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khoá ngoại giúp đảm bảo rằng mỗi bản nhạc trong bảng bannhac phải được sáng tác bởi một nhạc sĩ đã có trong bảng nhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Những phát biểu tổng quan nào sau đây là đúng về nội dung bài thực hành?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhiệm vụ chính là tạo bảng bannhac và khai báo khoá ngoại cho nó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thao tác khai báo khoá cấm trùng lặp (UNIQUE) cũng được thực hiện trên bảng bannhac.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bài thực hành không yêu cầu tạo khoá chính cho bảng bannhac vì đã có khoá ngoại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sau khi hoàn thành, người học được yêu cầu tự thực hành tạo tiếp bảng banthuam.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Trong CSDL MyMusic bảng bannhac gồm có 3 trường gồm idBannhac, tenBannhac, idNhacsi. Bảng đã được nhóm 1 tạo và cập nhật dữ liệu. Hôm nay, nhóm 2 mở bài thực hành của nhóm 1 xem và có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "Trong CSDL MyMusic bảng bannhac gồm có 3 trường gồm idBannhac, tenBannhac, idNhacsi. Bảng đã được nhóm 1 tạo và cập nhật dữ liệu. Hôm nay, nhóm 2 mở bài thực hành của nhóm 1 xem và có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}

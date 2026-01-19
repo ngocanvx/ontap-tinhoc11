@@ -1,0 +1,474 @@
+{
+    "part_1": [
+        {
+            "question": "Chỉnh sửa các hình ảnh hay video clip tại các phân đoạn của phim với các thao tác thường dùng bao gồm: bổ sung, thay thế hoặc xóa; căn chỉnh hướng, góc quay; tạo hiệu ứng cho ảnh hoặc video clip. Các thao tác chỉnh sửa này có thể thực hiện bởi các lệnh trong",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "ngăn tư liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "ngăn tiến trình.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "ngăn xem trước.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "thanh công cụ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Một đoạn phim có thể chứa nhiều lớp băng hình, lớp âm thanh, lớp chữ hay phụ đề khác nhau, việc căn chỉnh thời gian xuất hiện giữa phân cảnh trên các lớp này cần được thực hiện sao cho khớp với kịch bản mà ta mong muốn. Những thao tác này được hỗ trợ thực hiện tại … của phần mềm làm phim. Hãy điền cụm từ còn thiếu vào dấu ba chấm.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "ngăn tiến trình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "ngăn tư liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "ngăn xem trước",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "con trỏ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để căn chỉnh khoảng thời gian xuất hiện một clip, hiệu ứng, chữ, hình ảnh, âm thanh... xuất hiện trong video, ta gõ vào thời lượng mong muốn tại:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Duration",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cursor",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Add",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Maximize.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để tạo ảnh làm hiệu ứng cho phân cảnh mở đầu của đoạn phim, ta chọn:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Outro / Image Effects.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Intro / Text Effects.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Intro / Image Effects",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Intro / Audio Effects.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tạo phụ đề để chú thích cho các ảnh trong đoạn phim, ta chọn:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Clips / Subtitles",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Audio / Subtitles",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sequence / Subtitles",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sequence / Video Effects",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để tạo hiệu ứng cho đoạn phim, ta chọn:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Audio Effects",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Text Effects",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Image Effects",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Video Effects",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Các nhận định nào sau đây là đúng về các công cụ biên tập phim cơ bản?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các công cụ chỉnh sửa hình ảnh cho phép người dùng thực hiện các thao tác như bổ sung, thay thế, xoá hoặc điều chỉnh hướng, góc quay của các video clip.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tạo phụ đề là một tính năng quan trọng giúp truyền tải thông tin tốt hơn, làm cho đoạn phim trở nên chuyên nghiệp hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hiệu ứng chuyển cảnh được tạo ra để làm cho việc chuyển tiếp giữa các phân cảnh trở nên mượt mà và hấp dẫn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một khi đã thêm tư liệu vào phim, thời lượng của các phân cảnh là cố định và không thể thay đổi được nữa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các thao tác chỉnh sửa âm thanh và hình ảnh trong VideoPad, các phát biểu sau đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để thay thế một hình ảnh trong phim, người dùng cần nháy chuột phải vào ảnh trong ngăn Tư liệu, sau đó chọn lệnh Replace file....",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hiệu ứng âm thanh nhỏ dần (Fade Out) có thể được áp dụng ở cuối đoạn phim bằng cách thiết lập trong bảng lệnh Fade Out tại ngăn tiến trình ở chế độ Dòng thời gian (Timeline).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉnh sửa âm thanh chỉ bao gồm việc ghép nối và thay đổi độ dài, không bao gồm việc điều chỉnh âm lượng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mọi thao tác chỉnh sửa hình ảnh hoặc video clip đều có thể được xem lại kết quả ngay lập tức trong ngăn xem trước.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào đúng về việc điều chỉnh thời gian và tạo phụ đề?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Trong chế độ Phác cảnh (Storyboard), người dùng có thể nháy chọn một phân cảnh và thay đổi giá trị trong ô Duration để điều chỉnh thời lượng của nó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ở chế độ Dòng thời gian (Timeline), để thay đổi thời lượng của phân cảnh, người dùng phải xoá đi làm lại chứ không thể kéo thả để điều chỉnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ tạo phụ đề (Subtitles) cho phép người dùng gõ nội dung, căn chỉnh thời gian bắt đầu và kết thúc để khớp với từng phân cảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lệnh Format trong hộp thoại Subtitles được dùng để định dạng chữ cho phụ đề, giúp nó hiển thị phù hợp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khi thực hiện các nhiệm vụ trong bài thực hành, các nhận định sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để tạo hiệu ứng chuyển cảnh, người dùng cần mở chế độ Dòng thời gian (Timeline) và chọn lệnh X tại phần cảnh muốn thực hiện.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc thêm hiệu ứng chuyển cảnh là không cần thiết vì các phần mềm làm phim hiện đại sẽ tự động thêm vào một cách ngẫu nhiên.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc điều chỉnh âm lượng cho nhạc nền nên phù hợp với nội dung đoạn phim, ví dụ như nhỏ dần ở cuối phim để tạo cảm giác kết thúc trọn vẹn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để bắt đầu biên tập một bộ phim, người dùng cần khởi động phần mềm và mở lại tệp dự án đã lưu từ bài học trước.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về các tính năng và thao tác biên tập phim nâng cao, các phát biểu sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chỉnh sửa hình ảnh, chỉnh sửa âm thanh, tạo hiệu ứng chuyển cảnh, điều chỉnh thời gian và tạo phụ đề là những công cụ cơ bản mà các phần mềm làm phim thường cung cấp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để xem đoạn phim sau khi chỉnh sửa, người dùng phải xuất (export) phim ra thành tệp video mới hoàn toàn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có thể thay đổi vị trí của các phân cảnh trong ngăn tiến trình để sắp xếp lại bố cục của phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Âm thanh và hình ảnh là hai thành phần độc lập, do đó việc thay thế nhạc nền cho phim là một thao tác có thể thực hiện được.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Biên tập phim là quá trình sử dụng các công cụ chỉnh sửa để làm cho đoạn phim trở nên chuyên nghiệp và hấp dẫn hơn. Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "Các công cụ biên tập phim trong phần mềm làm phim giúp người dùng chỉnh sửa nội dung phim để tạo ra sản phẩm cuối cùng chất lượng cao. Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}

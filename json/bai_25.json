@@ -1,0 +1,556 @@
+{
+    "part_1": [
+        {
+            "question": "Một megapixel tương đương bao nhiêu pixel?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mười triệu pixel",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một triệu pixel",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một trăm triệu pixel",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một trăm nghìn pixel",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong ngữ cảnh của máy ảnh, số megapixel được đề cập đến thường là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Độ phân giải của hình ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Số lượng điểm ảnh (pixel) được ghi nhận trong một bức ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Số lượng màu được ghi nhận trong một bức ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Số lượng màu các đối tượng được ghi nhận trong một bức ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Độ phân giải của ảnh càng cao thì ảnh như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ảnh càng rõ nét.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ảnh càng mờ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ảnh càng sáng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ảnh càng tối",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Độ phân giải (dpi) là số lượng điểm ảnh (pixel) được ghi trên bao nhiêu inch của ảnh?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "mười inch của ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "một inch của ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "một ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "một ppi của ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi một hình ảnh được in với độ phân giải khác nhau thì kích thước thay đổi như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Kích thước của hình ảnh sẽ không thay đổi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kích thước của hình ảnh sẽ thay đổi tương ứng để đạt được độ phân giải mong muốn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kích thước hình ảnh tăng đều theo chiều ngang",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kích thước hình giảm đều theo chiều cao",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để xử lí một bức ảnh thiếu sáng em sử dụng phần mềm nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "PowerPoint",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Inkscape",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "GIMP",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Google Doc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm chỉnh sửa ảnh GIMP không có đặc điểm nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chuyên nghiệp và miễn phí",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cung cấp nhiều công cụ và tính năng mạnh mẽ để chỉnh sửa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Điều chỉnh độ sáng, độ tương phản và màu sắc của ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chuyên nghiệp và mất phí",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khi sử dụng phần mềm GIMP, thay đổi giao diện để xử lý một bức ảnh thiếu sáng, ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Vào Tools, chọn Single-Window Mode",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vào Windows, chọn Single-Window Mode",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Vào Image, chọn Single-Window Mode",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vào View, chọn Single-Window Mode",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Về các khái niệm cơ bản của ảnh số, những khẳng định nào sau đây là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Độ phân giải (resolution) của ảnh thường được xác định bằng số điểm ảnh trên mỗi inch (dpi).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một bức ảnh có kích thước 600 x 600 pixel ở độ phân giải 100 dpi sẽ có kích thước gấp đôi một ảnh ở độ phân giải 200 dpi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Megapixel là đơn vị đo số lượng điểm ảnh của một bức ảnh, được tính bằng cách nhân số điểm ảnh chiều rộng và chiều cao.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ảnh bitmap là loại ảnh được tạo thành từ các điểm ảnh (pixel), mỗi điểm ảnh có một bộ giá trị thể hiện màu sắc và cường độ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu là những phát biểu chính xác về phần mềm chỉnh sửa ảnh GIMP?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "GIMP là một phần mềm chỉnh sửa ảnh bitmap miễn phí.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giao diện của GIMP bao gồm các thành phần chính như Bảng công cụ, Vùng hiển thị ảnh và Hộp tuỳ chọn công cụ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lệnh File → Save trong GIMP được dùng để lưu tệp tin đang làm việc ở định dạng .xcf.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "GIMP chỉ có thể mở và làm việc với các tệp ảnh có định dạng .xcf.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các thao tác cơ bản trong GIMP, những nhận định nào là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Công cụ Zoom được dùng để phóng to hoặc thu nhỏ ảnh, có thể kích hoạt bằng cách giữ phím Ctrl và lăn nút cuộn của chuột.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Rotate (phím tắt Shift+R) dùng để xoay và làm cho các đối tượng trong ảnh không còn bị nghiêng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Crop (phím tắt Shift+C) dùng để cắt một phần ảnh, giữ lại phần đã chọn và loại bỏ phần còn lại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi thực hiện cắt ảnh bằng công cụ Crop, người dùng phải nhấn phím Esc để hoàn thành thao tác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi thay đổi kích thước và độ phân giải của ảnh bằng lệnh Image → Scale Image, các khẳng định nào là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khi thay đổi độ phân giải của ảnh, số điểm ảnh của ảnh vẫn được giữ nguyên.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tăng độ phân giải (dpi) của một bức ảnh sẽ làm cho kích thước ảnh khi in ra (ví dụ tính bằng inch) trở nên nhỏ hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nếu một bức ảnh có kích thước 3120 x 3120 điểm ảnh được in ở độ phân giải 300 dpi, nó sẽ có kích thước là 10,4 x 10,4 inch.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc thay đổi chiều rộng hoặc chiều cao của ảnh sẽ không làm thay đổi độ phân giải nếu không có thiết lập khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các thao tác nào sau đây được mô tả đúng trong quá trình xử lí một bức ảnh bị nghiêng trong GIMP?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để xử lí ảnh bị nghiêng, ta sử dụng công cụ Rotate.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi xoay ảnh, để loại bỏ các phần thừa không mong muốn, ta có thể dùng công cụ Crop.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để lưu kết quả cuối cùng ra một tệp ảnh định dạng JPG, ta sử dụng lệnh File → Export.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hộp thoại Export Image cho phép người dùng đặt tên tệp tin, chọn đường dẫn và định dạng cho tệp ảnh xuất ra.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Ảnh số được xác định bởi tập hợp các điểm ảnh. Ảnh bitmap là một trong các loại ảnh số phổ biến với nhiều định dạng khác nhau như jpeg, png, gif… Ảnh bitmap thường được chụp từ camera hay máy quét, … Có một số nhận định về ảnh như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "Phần mềm chỉnh sửa ảnh GIMP cho phép người dùng thực hiện nhiều thao tác khác nhau trên ảnh bitmap để điều chỉnh và cải thiện hình ảnh và có thể cắt bỏ những phần không cần thiết hay thêm vào các chi tiết khác. Có một số nhận định về phần mềm như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}

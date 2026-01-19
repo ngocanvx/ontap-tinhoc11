@@ -1,0 +1,474 @@
+{
+    "part_1": [
+        {
+            "question": "Công cụ Clone được sử dụng để làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sao chép chính xác và nhân bản một vùng chọn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Loại bỏ các khuyết điểm trên ảnh một cách tự động và mịn màng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giá trị màu nổi sẽ được sử dụng trong các công cụ hoạt động với màu nổi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giá trị màu nền sẽ được sử dụng trong các công cụ hoạt động với màu nền",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong GIMP các công cụ vẽ được cung cấp trong menu nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tools -> Selection Tools",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tools -> Toolbox.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tools -> Paint Tools.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tools -> Transform Tools.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Nêu chức năng của công cụ Paint Brush là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Vẽ thêm cho lớp đang chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Vẽ bằng cách sao chép chính xác một vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vẽ bằng cách sao chép một vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tô màu vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chức năng của công cụ Clone là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Vẽ bằng cách sao chép một vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xóa điểm ảnh trên lớp đang chọn hoặc một vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vẽ bằng cách sao chép chính xác một vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tô màu chuyển sắc vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chức năng của công cụ Bucket fill là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tô màu chuyển sắc vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vẽ thêm cho lớp đang chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vẽ bằng cách sao chép một vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tô màu vùng chọn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Healing được sử dụng để làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Loại bỏ các khuyết điểm trên ảnh một cách tự động và mịn màng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vẽ bằng cách sao chép một vùng chọn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giá trị màu nổi sẽ được sử dụng trong các công cụ hoạt động với màu nổi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giá trị màu nền sẽ được sử dụng trong các công cụ hoạt động với màu nền",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Các nhận định nào sau đây là đúng về Lớp ảnh (Layer) trong chỉnh sửa ảnh?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lớp ảnh giúp xử lí các phần riêng biệt của bức ảnh mà không làm ảnh hưởng đến các phần khác của ảnh tổng thể.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Có thể thêm, xóa hoặc thay đổi thứ tự hiển thị của các lớp ảnh bằng cách kéo thả chúng lên trên hoặc xuống dưới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mỗi lớp ảnh chứa một số đối tượng của ảnh để có thể được xử lí một cách riêng biệt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một khi đã tạo, thứ tự của các lớp ảnh là cố định và không thể thay đổi được nữa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các công cụ vẽ và chỉnh sửa ảnh trong GIMP, các phát biểu sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Công cụ Clone dùng để sao chép nguyên gốc một vùng ảnh, còn công cụ Healing kết hợp việc sao chép với chỉnh sửa để hình ảnh trông tự nhiên hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Paint Brush dùng để tô màu cho một vùng chọn, còn Bucket Fill dùng để vẽ các nét cọ lên lớp đang chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ Eraser dùng để xóa các điểm ảnh trên lớp đang chọn, nếu lớp có kênh alpha thì vùng bị xóa sẽ trở nên trong suốt, nếu không thì sẽ hiển thị màu nền.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các công cụ vẽ như Paint Brush, Bucket Fill là phương tiện để thêm chi tiết hoặc loại bỏ các nhược điểm trên ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào đúng về kênh alpha và màu sắc?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ngoài ba kênh màu cơ bản R, G, B, một lớp ảnh có thể có thêm kênh alpha để lưu trữ thông tin về độ trong suốt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Màu nổi (Foreground) được mặc định là màu vẽ, còn màu nền (Background) là màu được tô vào khi dùng công cụ Eraser trên lớp không có kênh alpha.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nếu lớp không có kênh alpha, nó sẽ là lớp mờ đục hoàn toàn và không thể nhìn thấy các lớp ảnh ở dưới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mọi lớp ảnh được tạo trong GIMP đều tự động có sẵn kênh alpha.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi thực hành xoá chi tiết thừa trên ảnh bằng công cụ Clone và Healing, các nhận định sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để xoá một chi tiết, người dùng cần xác định vùng nguồn bằng cách giữ phím Ctrl và nháy chuột, sau đó di chuyển chuột đến vùng cần sửa để sao chép điểm ảnh từ vùng nguồn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Healing luôn cho kết quả tốt hơn công cụ Clone trong mọi trường hợp, vì nó có khả năng kết hợp màu sắc một cách tự nhiên.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khi xóa gạch đen trên nền ảnh sát với lá cây, công cụ Healing có thể làm lem màu của lá cây vào vùng ảnh hưởng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cả hai công cụ Clone và Healing đều có thể được dùng để xóa các chi tiết thừa như dây điện trên ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về các bước thực hành tách nền và thay nền trời cho ảnh, các phát biểu sau đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để tách nền, cần nhân đôi lớp ảnh gốc và thêm kênh alpha cho lớp ảnh mới để có thể xoá nền và làm nó trong suốt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Eraser được dùng để tách các phần của tiền cảnh, giúp làm nổi bật đối tượng chính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để tạo nền trời mới, ta tạo một lớp mới nằm trên lớp tiền cảnh và dùng công cụ Gradient để tô màu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sau khi tách nền, phần nền cũ sẽ tự động được thay bằng màu trắng hoặc đen tuỳ vào cài đặt của người dùng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Lớp ảnh (Layer) trong GIMP là một thành phần quan trọng cho phép người dùng xử lý các phần khác nhau của ảnh một cách riêng biệt. Có một số nhận định về lớp ảnh như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "Các tác vụ cơ bản trên lớp ảnh trong GIMP cho phép người dùng tạo, xóa và sao chép các lớp để quản lý nội dung của ảnh. Có một số nhận định về ảnh như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}

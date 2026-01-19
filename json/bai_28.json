@@ -1,0 +1,605 @@
+{
+    "part_1": [
+        {
+            "question": "Trong GIMP để mở nhiều tệp ảnh tạo lớp ảnh, ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "File -> Open as Layers.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "File -> Open.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "File -> Open Location.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "File -> Export As",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Sau khi tạo hiệu ứng cho các lớp ảnh, để xem ảnh chuyển động ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Filters-> Animation -> Blend.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Filters -> Animation -> Optimize (for GIF).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Filters -> Animation -> Playback.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Filters -> Animation -> Waves.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Ta có thể thiết lập thời gian xuất hiện của mỗi khung hình bằng cách thêm vào phía sau tên lớp tương ứng cụm “(Xms)” trong đó X là … mà ta muốn hiển thị khung hình trước khi chuyển sang lớp tiếp theo. Hãy điền cụm từ còn thiếu vào dấu ba chấm.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "số mili-giây",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "số giây",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "số phút",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "số giờ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi gộp lớp thì lớp được chọn sẽ được gộp với lớp phía dưới nó. Để thực hiện gộp lớp, ta nháy chuột phải vào tên lớp và chọn:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Merge Visible Layers",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Duplicate Layer",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Merge Down",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "New Layer",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để xuất ra tệp ảnh động, ta chọn File / Export As và gõ tên tệp với phần mở rộng là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "png",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "gif",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "bmp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "pas",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Nếu giá trị của \"Delay between frames where unspecified\" là 2000 (ms), thì thời gian xuất hiện của mỗi khung ảnh sẽ là bao nhiêu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "2000 ms",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "10 giây",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "1000 ms",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "20 giây",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "\"Delay between frames where unspecified\" là 2000 (ms) có nghĩa là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mỗi khung ảnh sẽ được hiển thị trong 10 giây trước khi chuyển sang khung ảnh tiếp theo trong ảnh động",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mỗi khung ảnh sẽ được hiển thị trong 20 giây trước khi chuyển sang khung ảnh tiếp theo trong ảnh động",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mỗi khung ảnh sẽ được hiển thị trong 1 giây trước khi chuyển sang khung ảnh tiếp theo trong ảnh động",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mỗi khung ảnh sẽ được hiển thị trong 2 giây trước khi chuyển sang khung ảnh tiếp theo trong ảnh động",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Một tệp ảnh mở trong GIMP có 5 lớp ảnh. Nếu dùng hiệu ứng Blend với số khung hình trung gian là 5 thì số lượng khung hình do GIMP tạo ra đề làm trung gian là bao nhiêu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "55",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "35",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "25",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "15",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để tạo một tệp ảnh mới trong GIMP ta thao tác như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "File -> Save",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "File -> Open as Layers",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "File -> Export As",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "File -> New",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Để tô màu cho quả bóng, ta sử dụng công cụ nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ellipse",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình tròn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Fill",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Clone",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Các nhận định nào sau đây là đúng về nguyên tắc cơ bản tạo ảnh động trong GIMP? a. Mỗi lớp ảnh (layer) trong tệp tin ảnh động tương ứng với một khung hình (frame) của ảnh động đó. b. GIMP hỗ trợ tạo ảnh GIF từ các lớp ảnh mà ta đưa vào. c. Để xem trước ảnh động, người dùng có thể sử dụng lệnh Filters → Animation → Playback. d. Thời gian hiển thị của mỗi khung hình là cố định và không thể thay đổi được. Đáp án: ĐĐĐS",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "Về các thao tác xử lí lớp ảnh để tạo ảnh động, các phát biểu sau đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lệnh File → Open as Layers được dùng để mở nhiều tệp ảnh, mỗi tệp sẽ trở thành một lớp riêng biệt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lệnh Merge Down dùng để gộp lớp ảnh hiện tại với lớp ảnh nằm ngay phía trên nó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "\"Khoá lớp\" là một thao tác giúp ngăn không cho lớp ảnh bị sửa nhầm sau khi đã hoàn thành.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tên của lớp ảnh có thể được dùng để thiết lập thời gian hiển thị cho khung hình tương ứng, ví dụ Frame 1 (1000ms) có nghĩa là khung hình sẽ hiển thị trong 1000 mili-giây.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khi xuất tệp ảnh động trong GIMP, các nhận định sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để xuất ảnh động, cần dùng lệnh File → Export As và chọn định dạng tệp là GIF.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong hộp thoại xuất tệp, phải đánh dấu vào tùy chọn As animation để tạo ảnh động.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tùy chọn Loop forever nếu được chọn sẽ làm cho ảnh động chỉ chạy một lần duy nhất rồi dừng lại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nếu thời gian giữa các khung hình chưa được đặt trong tên lớp, ta có thể thiết lập giá trị này trong hộp thoại xuất tệp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào đúng về việc sử dụng hiệu ứng để tạo ảnh động?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "GIMP cung cấp các hiệu ứng có sẵn để thêm vào ảnh động, ví dụ như hiệu ứng Bend.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hiệu ứng Blend dùng để tạo ra các khung hình trung gian giữa hai lớp ảnh được chọn, giúp tạo chuyển động mượt mà.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để sử dụng hiệu ứng Blend, người dùng cần ít nhất 3 lớp ảnh: lớp nguồn, lớp đích và lớp nền.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mọi hiệu ứng ảnh động trong GIMP đều yêu cầu cài đặt thêm từ bên ngoài chứ không có sẵn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Dựa vào các bài thực hành trong bài 28, các phát biểu sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Trong bài thực hành tạo hình tròn bằng các nét, công cụ Flip được sử dụng để lật ảnh theo chiều dọc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong bài thực hành tạo biểu tượng chờ, công cụ Fuzzy Select Tool được dùng để chọn các nét gạch có màu tương tự nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để tạo ra chuyển động quay của biểu tượng chờ, các lớp ảnh được nhân bản và tô màu lần lượt cho các nét gạch theo thứ tự ngược chiều kim đồng hồ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sau khi hoàn thành các lớp ảnh, bước cuối cùng là gộp tất cả các lớp lại thành một lớp duy nhất bằng lệnh Merge Down trước khi xuất ảnh động.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tạo và xuất ảnh động từ các lớp ảnh trong GIMP yêu cầu thực hiện một số thao tác và thiết lập nhất định. Có một số nhận định về ảnh động như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "Hiệu ứng và tùy chỉnh ảnh động trong GIMP là các tính năng giúp người dùng tạo ra các ảnh động hấp dẫn và sinh động.Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}

@@ -1,0 +1,761 @@
+{
+    "part_1": [
+        {
+            "question": "Phát biểu nào sau đây là sai khi nói về MySQL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "MySQL là một hệ quản trị CSDL mã nguồn mở được phát triển bởi Oracle orporation",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "MySQL được cộng đồng nguồn mở hỗ trợ và phát triển",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "MySQL là một trong những hệ quản trị CSDL phổ biến nhất trên thế giới, được sử dụng rộng rãi trong các ứng dụng web, từ các trang web cá nhân, blog, cho đến các công ty công nghệ lớn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "MySQL là hệ thống quản lí dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Phát biểu nào sau đây là sai khi nói về MySQL là một trong những hệ quản trị CSDL phổ biến nhất trên thế giới, được sử dụng rộng rãi trong các ứng dụng web, từ các trang web cá nhân, blog, cho đến các công ty công nghệ lớn?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Do miễn phí",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Do dễ sử dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Do tính ổn định và đáng tin cậy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Do có khả năng lưu được nhiều dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu không là đặc điểm của MySQL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "MySQL hỗ trợ khả năng mở rộng lên đến hàng triệu bản ghi và hàng nghìn người dùng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có giao diện quản lý đồ họa (MySQL Workbench) giúp dễ dàng quản lý và tương tác với CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cho phép phát triển ứng dụng lớn và có khả năng mở rộng trong tương lai",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thực hiện tính toán nhanh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các hệ QTCSDL không phổ biến hiện nay là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "ORACLE",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "MySQL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Microsoft SQL Server",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Access",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "MySQL có hạn chế nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Dễ sử dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Miễn phí",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khó lưu dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giao diện dòng lệnh không thuận tiện với người dùng mới",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "HeidiSQL không có ưu điểm nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần mềm mã nguồn mở, miễn phí",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giúp kết nối, làm việc với nhiều hệ QTCSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có hỗ trợ tiếng Việt",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Lập trình giải toán trên máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Nếu muốn quản lí thêm thông tin nơi sinh của nhạc sĩ, ca sĩ (tên tỉnh/thành phố), CSDL cần thay đổi như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cần xóa bỏ cấu trúc CSDL và thay bằng cấu trúc khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thêm các trường vào CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cần thay đổi cấu trúc CSDL bằng cách thêm một trường mới để lưu trữ thông tin này",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Xóa trường mới",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để thêm thông tin ngày sinh của các nhạc sĩ, ca sĩ vào CSDL, bạn cần?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cần thay đổi cấu trúc CSDL bằng cách thêm một bảng mới để lưu trữ thông tin này",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thêm một trường mới vào bảng nhacsi và bảng casi để lưu trữ thông tin ngày sinh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cần xóa bỏ cấu trúc CSDL và thay bằng cấu trúc khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xóa trường trùng lặp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Khi xem xét bài toán quản lí các bản thu âm, việc lưu trữ tất cả thông tin vào một bảng duy nhất (như Bảng 18.1) gây ra những vấn đề gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Dữ liệu bị dư thừa, lặp lại nhiều lần, ví dụ như tên nhạc sĩ và tên ca sĩ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Gây khó khăn và dễ gây lỗi không nhất quán khi cần sửa chữa dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cấu trúc bảng gọn gàng, dễ xem và tiết kiệm không gian lưu trữ nhất.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Là cách tổ chức dữ liệu tối ưu nhất để truy vấn và cập nhật.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quá trình tổ chức lại CSDL từ một bảng thành nhiều bảng có mục đích gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để hạn chế tối đa việc lặp lại dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để tạo ra các bảng riêng cho các đối tượng quản lí khác nhau như casi (ca sĩ) và nhacsi (nhạc sĩ).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giúp việc sửa đổi thông tin trở nên đơn giản hơn, ví dụ khi sửa tên ca sĩ chỉ cần sửa ở một nơi duy nhất trong bảng casi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Làm cho việc truy vấn thông tin trở nên phức tạp hơn mà không mang lại lợi ích gì.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về việc xác định các trường khoá chính trong CSDL âm nhạc sau khi đã được tổ chức lại, các khẳng định nào sau đây là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mỗi bảng casi, nhacsi, bannhac, banthuam đều có một trường khoá chính riêng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khoá chính của bảng casi là trường idCasi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khoá chính của bảng bannhac được xác định là cặp trường (tenBannhac, tenNhacsi).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trường idBanthuam được chọn làm khoá chính của bảng banthuam để phân biệt các bản thu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các khoá ngoại trong CSDL âm nhạc được thiết lập như thế nào để tạo liên kết?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Trường idCasi trong bảng banthuam là khoá ngoại, tham chiếu đến khoá chính của bảng casi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trường idNhacsi trong bảng bannhac là khoá ngoại, tham chiếu đến khoá chính của bảng nhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bảng banthuam không chứa khoá ngoại nào vì nó là bảng trung tâm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khoá ngoại được sử dụng để đảm bảo mối quan hệ và tính toàn vẹn dữ liệu giữa các bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu là những khẳng định đúng về việc lựa chọn kiểu dữ liệu cho các trường trong CSDL âm nhạc?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các trường khoá chính như idCasi, idNhacsi nên được chọn kiểu INT và tự động tăng giá trị (AUTO_INCREMENT) để đơn giản hoá.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các trường lưu tên như tenCasi, tenNhacsi có thể chọn kiểu xâu kí tự VARCHAR với độ dài tối đa là 255.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc chọn đúng kiểu dữ liệu chỉ nhằm mục đích làm đẹp, không ảnh hưởng đến việc lưu trữ hay kiểm soát dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tất cả các trường trong CSDL đều nên có kiểu dữ liệu là xâu kí tự để linh hoạt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong cấu trúc CSDL cuối cùng, bảng nhacsi và bảng casi có những đặc điểm nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bảng nhacsi bao gồm hai trường là idNhacsi và tenNhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bảng casi bao gồm hai trường là idCasi và tenCasi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bảng nhacsi cũng lưu trữ tên các bản nhạc do nhạc sĩ đó sáng tác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bảng casi cũng lưu trữ tên các bản thu âm mà ca sĩ đó thể hiện.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Bảng bannhac và bảng banthuam sau khi tổ chức lại có cấu trúc và vai trò như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bảng bannhac chứa các trường idBannhac, tenBannhac, và idNhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bảng banthuam đóng vai trò là bảng trung gian, thể hiện việc một ca sĩ (idCasi) thể hiện một bản nhạc (idBannhac).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bảng banthuam lưu đầy đủ tên bản nhạc, tên nhạc sĩ, và tên ca sĩ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tên nhạc sĩ tenNhacsi được thay thế bằng mã nhạc sĩ idNhacsi trong bảng bannhac để giảm dư thừa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu là các nhận định đúng về khoá cấm trùng lặp giá trị (Unique)?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khoá cấm trùng lặp đảm bảo rằng một giá trị hoặc một cặp giá trị không được phép lặp lại trong bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cặp (tenBannhac, idNhacsi) trong bảng bannhac có thể được đặt khoá cấm trùng lặp để đảm bảo không có bản nhạc trùng tên của cùng một nhạc sĩ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khoá cấm trùng lặp và khoá chính là hai khái niệm hoàn toàn giống nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một bảng chỉ có thể có một khoá cấm trùng lặp duy nhất.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc xác định và đặt tên cho các trường trong bảng banthuam được thực hiện như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tên các trường được đề xuất là idBanthuam, tenBannhac, tenNhacsi, tenCasi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tên trường được viết tắt, ngắn gọn và không có dấu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các trường này có thể được dùng làm khoá chính của bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để tối ưu, bảng banthuam nên được thay thế các trường tên bằng các trường mã (ID) tương ứng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Những khẳng định nào sau đây là không đúng về quá trình xác định cấu trúc CSDL âm nhạc?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Việc đầu tiên là xem xét bài toán và dữ liệu ban đầu để nhận ra các bất cập.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quá trình này bao gồm việc tạo lập các bảng, sau đó tổ chức lại dữ liệu bằng cách tách bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc xác định các loại khoá (khoá chính, khoá ngoại) là bước không cần thiết sau khi đã tách bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cuối cùng, cần xác định kiểu dữ liệu phù hợp cho từng trường để hoàn thiện cấu trúc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Hôm nay thực hành, nhóm của Nam đã tạo xong CSDL MyMusic. CSDL MyMusic có 4 bảng: bảng casi, bảng nhacsi, bảng bannhac và bảng banthuam, ở mỗi bảng đã được cập nhật dữ liệu. Trong quá trình thao tác trên máy, nhóm Nam có đưa ra một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "CSDL MyMusic gồm 4 bảng như: bảng casi, bảng nhacsi, bảng bannhac và bảng banthuam, ở mỗi bảng đã được cập nhật dữ liệu. Trong quá trình thực hành một số học sinh có đưa ra một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}

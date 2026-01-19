@@ -1,0 +1,548 @@
+{
+    "part_1": [
+        {
+            "question": "Đâu không là công việc chính của thao tác cập nhật dữ liệu khi làm việc với một CSDL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thêm mới dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chỉnh sửa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sắp xếp dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Xóa dòng dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "HeidiSQL hỗ trợ việc thực hiện cập nhật dữ liệu như thế nào với những bảng đơn giản, không có khoá ngoài?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bằng cách chọn bảng cần chỉnh sửa, bạn có thể thêm mới, chỉnh sửa hoặc truy xuất dữ liệu trong bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bằng cách chọn bảng cần truy xuất và sử dụng truy vấn SQL, bạn có thể truy xuất dữ liệu trong bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "HeidiSQL cung cấp giao diện đồ họa cho phép bạn chỉnh sửa, thêm mới hoặc xóa dữ liệu trong các bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "HeidiSQL cung cấp giao diện đồ họa cho phép truy vấn dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "HeidiSQL hỗ trợ việc thực hiện truy xuất dữ liệu như thế nào với những bảng đơn giản, không có khoá ngoài?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bằng cách chọn bảng cần chỉnh sửa, bạn có thể thêm mới, chỉnh sửa hoặc truy xuất dữ liệu trong bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "HeidiSQL cung cấp giao diện đồ họa cho phép bạn chỉnh sửa, thêm mới hoặc xóa dữ liệu trong các bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bằng cách chọn bảng cần truy xuất và sử dụng truy vấn SQL, bạn có thể truy xuất dữ liệu trong bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "HeidiSQL cung cấp giao diện đồ họa, cho phép thêm dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu không là công việc chính của thao tác truy xuất dữ liệu từ bảng khi làm việc với một CSDL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Truy xuất đơn giản",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Truy xuất và sắp xếp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xóa các bản ghi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tìm kiếm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phát biểu nào sau đây là sai khi nói về thao tác thêm vào một dòng dữ liệu mới?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhấn phím Insert",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhấn Ctrl+Insert",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chọn biểu tượng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nháy nút phải chuột lên vùng dữ liệu của bảng và chọn Chèn hàng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để chỉnh sửa dữ liệu trong bảng ta thực hiện?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nháy đúp chuột vào ô dữ liệu cần sửa và nhập lại",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhấn phím Insert",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nháy nút phải chuột vào ô cần sửa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nháy nút trái chuột vào ô dữ liệu cần sửa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phát biểu nào sau đây là sai khi xóa các dòng dữ liệu trong bảng, ta thực hiện…..và chọn OK?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đánh dấu những dòng muốn chọn và nhấn Ctrl+Delete",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đánh dấu những dòng muốn chọn và chọn biểu tượng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đánh dấu những dòng muốn chọn và nháy phải chuột chọn lệnh Delete Selected Row",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đánh dấu những dòng muốn chọn và nhấn phím Delete",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Để đánh dấu những dòng muốn chọn tách rời nhau ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhấn giữ phím Shift và nháy chuột để chọn những dòng liền nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhấn giữ phím Ctrl và nháy chuột để chọn những dòng tách rời nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhấn giữ phím Alt và nháy chuột để chọn những dòng tách rời nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Các thao tác nào sau đây là đúng khi thêm mới dữ liệu vào bảng nhacsi bằng HeidiSQL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để thêm một hàng dữ liệu mới, có thể nháy chuột phải vào vùng dữ liệu và chọn Chèn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Vì trường idNhacsi được thiết lập AUTO_INCREMENT, người dùng không cần phải nhập dữ liệu cho trường này.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi nhập tên nhạc sĩ vào ô tenNhacsi, cần nhấn phím Enter để hoàn tất việc nhập.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người dùng phải tự nhập một số nguyên duy nhất cho trường idNhacsi mỗi khi thêm một nhạc sĩ mới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về việc chỉnh sửa và xoá dữ liệu trong một bảng, những phát biểu nào là chính xác?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để sửa dữ liệu bị sai trong một ô, chỉ cần nháy đúp chuột vào ô đó rồi nhập lại cho đúng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để chọn nhiều dòng dữ liệu không liền kề nhau nhằm mục đích xoá, ta giữ phím Shift và nháy chuột vào các dòng cần chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phím tắt Ctrl+Delete có thể được sử dụng để xoá các dòng dữ liệu đã được chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trước khi xoá vĩnh viễn dữ liệu, HeidiSQL sẽ hiển thị một hộp thoại để yêu cầu người dùng xác nhận lại thao tác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khi truy xuất và sắp xếp dữ liệu bằng giao diện đồ hoạ của HeidiSQL, các khẳng định nào là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để xem toàn bộ dữ liệu của bảng nhacsi, cách duy nhất là phải chọn bảng và thẻ Dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc nháy chuột vào tiêu đề của một cột sẽ sắp xếp dữ liệu trong bảng theo thứ tự tăng dần hoặc giảm dần của cột đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dữ liệu sau khi sắp xếp sẽ được làm nổi bật bằng một màu riêng để phân biệt với dữ liệu chưa sắp xếp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chức năng sắp xếp dữ liệu chỉ áp dụng cho các cột có kiểu dữ liệu là số, không áp dụng cho cột kiểu kí tự.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các thao tác tìm kiếm và lọc dữ liệu nào sau đây được thực hiện đúng trong HeidiSQL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để lọc ra các dòng dữ liệu thoả mãn một yêu cầu, có thể nháy chuột phải vào vùng dữ liệu và chọn Quick Filter.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi áp dụng bộ lọc, để xoá bộ lọc và xem lại toàn bộ dữ liệu, người dùng cần đóng và mở lại chương trình.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "HeidiSQL cho phép người dùng nhập trực tiếp các câu lệnh truy vấn SQL vào thẻ Truy vấn để truy xuất dữ liệu một cách linh hoạt hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thao tác lọc dữ liệu bằng giao diện đồ hoạ và viết câu lệnh SQL trong thẻ \"Truy vấn\" đều cho ra cùng một kết quả nếu điều kiện là như nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về cú pháp và ý nghĩa của câu lệnh truy vấn SELECT trong SQL, những nhận định nào là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mệnh đề WHERE được dùng để chỉ định các điều kiện logic mà các dòng dữ liệu phải thoả mãn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Từ khoá ASC trong mệnh đề ORDER BY có nghĩa là sắp xếp kết quả theo thứ tự tăng dần.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để lấy ra tất cả các cột trong một bảng, ta phải liệt kê đầy đủ tên của tất cả các cột đó sau từ khoá SELECT.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mệnh đề FROM được dùng để chỉ định bảng mà từ đó dữ liệu sẽ được truy xuất.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Trong CSDL MyMusic bảng nhacsi đã được cập nhật các dòng dữ liệu như hình bên dưới. Thao tác xóa các dòng dữ liệu có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "Trong CSDL MyMusic, việc truy xuất dữ liệu từ bảng nhacsi có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}

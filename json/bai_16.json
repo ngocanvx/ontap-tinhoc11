@@ -42,7 +42,7 @@
             ]
         },
         {
-            "question": "Chọn câu sai. Hoạt động quản trị CSDL tương ứng gồm những công việc nào dưới đây?",
+            "question": "Chọn câu SAI. Hoạt động quản trị CSDL tương ứng gồm những công việc nào dưới đây?",
             "image": {
                 "src": "",
                 "alt": ""
@@ -83,7 +83,7 @@
             ]
         },
         {
-            "question": "Chọn câu sai. Quản trị CSDL chịu trách nhiệm chính về?",
+            "question": "Chọn câu SAI. Quản trị CSDL chịu trách nhiệm chính về?",
             "image": {
                 "src": "",
                 "alt": ""
@@ -177,7 +177,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": true
+                    "correct": false
                 },
                 {
                     "text": "Từ không tiêu thụ điện năng đến tiêu thụ nhiều điện và đến tiêu thụ ít điện năng",
@@ -193,7 +193,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 },
                 {
                     "text": "Từ tiêu thụ nhiều điện đến không tiêu thụ điện",
@@ -247,7 +247,7 @@
             ]
         },
         {
-            "question": "Chọn câu sai. Tại sao nhu cầu nhân lực về quản trị CSDL ngày một tăng?",
+            "question": "Chọn câu SAI. Tại sao nhu cầu nhân lực về quản trị CSDL ngày một tăng?",
             "image": {
                 "src": "",
                 "alt": ""
@@ -329,7 +329,7 @@
             ]
         },
         {
-            "question": "Chọn câu sai. Cơ hội việc làm tại những nơi có điều kiện làm việc tốt và thu nhập cao sẽ mở ra khi?",
+            "question": "Chọn câu SAI. Cơ hội việc làm tại những nơi có điều kiện làm việc tốt và thu nhập cao sẽ mở ra khi?",
             "image": {
                 "src": "",
                 "alt": ""
@@ -344,7 +344,7 @@
                     "correct": false
                 },
                 {
-                    "text": "Có trong tay các chứng chỉ chuyên môn về CSDL",
+                    "text": "Có trong tay các chứng chỉ về quản trị CSDL của các hãng danh tiếng",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -352,7 +352,7 @@
                     "correct": false
                 },
                 {
-                    "text": "Có kinh nghiệm thực tế trong việc quản trị CSDL",
+                    "text": "Có kinh nghiệm thực tế sử dụng các hệ QTCSDL",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -360,7 +360,7 @@
                     "correct": false
                 },
                 {
-                    "text": "Chỉ cần có kiến thức cơ bản về lập trình",
+                    "text": "Tốt nghiệp loại Giỏi",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -370,14 +370,22 @@
             ]
         },
         {
-            "question": "Chọn câu sai. Các phẩm chất quan trọng của một nhà quản trị CSDL là gì?",
+            "question": "Các hiểu biết về kĩ năng CSDL sẽ hết sức hữu ích cho?",
             "image": {
                 "src": "",
                 "alt": ""
             },
             "answers": [
                 {
-                    "text": "Tính cẩn thận, kiên trì",
+                    "text": "Những ai có nhu cầu phát triển năng lực chuyên môn ở những bậc học cao hơn liên quan đến tin học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Những công nhân viên chức",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -385,7 +393,7 @@
                     "correct": false
                 },
                 {
-                    "text": "Khả năng phân tích và giải quyết vấn đề",
+                    "text": "Những nhân viên văn phòng",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -393,7 +401,24 @@
                     "correct": false
                 },
                 {
-                    "text": "Khả năng làm việc nhóm và giao tiếp",
+                    "text": "Những nhân viên kế toán",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chọn câu sai. Người quản trị CSDL cần có?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tính cách tỉ mỉ",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -401,7 +426,515 @@
                     "correct": false
                 },
                 {
-                    "text": "Chỉ cần khả năng lập trình tốt",
+                    "text": "Cẩn thận, kiên nhẫn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có kĩ năng phân tích",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tư duy toán học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Để trở thành người QTCSDL tốt thì ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cần được học kiến thức một cách khoa học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Rèn luyện kĩ năng trong các khóa học nghề nghiệp về QTCSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Rèn luyện kỹ năng lập trình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Rèn luyện kỹ năng logic",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Ở bậc đại học, các chuyên ngành nào có liên quan nhiều đến nghề QTCSDL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Truyền thông đa phương tiện",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công nghệ phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tin học ứng dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thiết kế đồ hoạ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khả năng học tập suốt đời giúp người quản trị CSDL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phát triển khả năng chuyên môn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nâng cao bản lĩnh nghề nghiệp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phát triển sáng tạo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tư duy logic tốt",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để QTCSDL thì điều quan trọng nhất là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phải làm chủ được một hệ QTCSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Có khả năng ham học hỏi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có kiến thức chuyên môn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thành thạo ngôn ngữ quản trị",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Người QTCSDL phải?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thành thạo ngôn ngữ quản trị",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Biết cài đặt các tham số cần thiết",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Biết thiết lập các tham số cần thiết",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có khả năng ham học hỏi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Chọn câu sai. Cài đặt các hệ QTCSDL là làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phối hợp với các chuyên viên tin học cài đặt phần mềm ứng dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tạo lập và làm hồ sơ về CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chuyển đổi dữ liệu khi nâng cấp công nghệ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xác định khối lượng lưu trữ dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Chọn câu sai. Phối hợp với những người thiết kế ứng dụng tin học để hoạch định tài nguyên cần thiết cho hoạt động CSDL như?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Công suất máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khối lượng lưu trữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Băng thông mạng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nâng cấp hệ thống",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Chọn câu sai. Phối hợp với những người thiết kế hệ thống và các bộ phận nghiệp vụ để?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phân quyền sử dụng dữ liệu đến từng nhóm người dùng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng hệ QTCSDL để thiết lập quyền sử dụng dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Điều chỉnh quyền sử dụng dữ liệu khi có biến động về nhân sự hay nghiệp vụ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sao lưu dữ liệu thành File dự phòng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Vì sao người quản trị CSDL cần thường xuyên tạo các bản sao dữ liệu dự phòng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phù hợp với sự phát triển",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tiết kiện điện",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để khi gặp sự cố có thể khôi phục dữ liệu kịp thời",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tiết kiệm chi phí nâng cấp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Vì sao người quản trị CSDL cần nắm bắt sự phát triển của công nghệ, đánh giá hoạt động của hệ thống?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nâng cấp công nghệ khi cần thiết",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để khi gặp sự cố có thể khôi phục dữ liệu kịp thời",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phù hợp với sự phát triển",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phù hợp nhu cầu người dùng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Vì sao người quản trị CSDL cần thường xuyên theo dõi các số liệu thống kê về tình hình sử dụng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phù hợp với sự phát triển",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để nắm bắt biến động nhu cầu tài nguyên để điều chỉnh hoặc bổ sung",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để khi gặp sự cố có thể khôi phục dữ liệu kịp thời",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sao lưu dữ liệu kịp thời",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Vì sao người quản trị CSDL  tạo lập và làm hồ sơ về CSDL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để nắm bắt biến động nhu cầu tài nguyên để điều chỉnh hoặc bổ sung",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để khi gặp sự cố có thể khôi phục dữ liệu kịp thời",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phù hợp với sự phát triển",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để phục vụ hoạt động duy trì và nâng cấp hệ thống sau này",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -413,14 +946,14 @@
     ],
     "part_2": [
         {
-            "question": "Về công việc của một nhà quản trị CSDL, đâu là các phát biểu đúng?",
+            "question": "Các nhiệm vụ chính của một nhà quản trị cơ sở dữ liệu (CSDL) bao gồm những công việc nào sau đây?",
             "image": {
                 "src": "",
                 "alt": ""
             },
             "answers": [
                 {
-                    "text": "Nhà quản trị CSDL chịu trách nhiệm cài đặt và nâng cấp các hệ QTCSDL.",
+                    "text": "Cài đặt và cập nhật các hệ quản trị CSDL (HQTCSDL) để vá lỗi và bổ sung tính năng mới.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -428,15 +961,7 @@
                     "correct": true
                 },
                 {
-                    "text": "Nhà quản trị CSDL không cần thiết kế cơ sở dữ liệu, đó là công việc của nhà phát triển phần mềm.",
-                    "image": {
-                        "src": "",
-                        "alt": ""
-                    },
-                    "correct": false
-                },
-                {
-                    "text": "Nhà quản trị CSDL phải đảm bảo an ninh, an toàn dữ liệu và tối ưu hóa hiệu suất của CSDL.",
+                    "text": "Đảm bảo các tài nguyên phần cứng như máy tính, bộ nhớ lưu trữ đủ lớn để hệ thống hoạt động.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -444,7 +969,15 @@
                     "correct": true
                 },
                 {
-                    "text": "Công việc quản trị CSDL chỉ cần thiết cho các tổ chức lớn, không cần cho các tổ chức nhỏ.",
+                    "text": "Phối hợp với các bộ phận nghiệp vụ để thiết lập và điều chỉnh quyền truy cập dữ liệu cho người dùng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉ chịu trách nhiệm về phần mềm CSDL, không tham gia vào việc tạo lập hay điều chỉnh cấu trúc CSDL.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -454,14 +987,14 @@
             ]
         },
         {
-            "question": "Về yêu cầu kiến thức và kĩ năng của một nhà quản trị CSDL, đâu là các phát biểu đúng?",
+            "question": "Những phẩm chất và năng lực nào là cần thiết cho một nhà quản trị CSDL?",
             "image": {
                 "src": "",
                 "alt": ""
             },
             "answers": [
                 {
-                    "text": "Cần có kiến thức về các hệ QTCSDL như Oracle, MySQL, SQL Server.",
+                    "text": "Cần có kiến thức nền tảng tốt về CSDL, hiểu được các mô hình CSDL và sử dụng thành thạo hệ QTCSDL.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -469,15 +1002,7 @@
                     "correct": true
                 },
                 {
-                    "text": "Cần có kĩ năng sử dụng ngôn ngữ truy vấn SQL để quản lý và khai thác dữ liệu.",
-                    "image": {
-                        "src": "",
-                        "alt": ""
-                    },
-                    "correct": true
-                },
-                {
-                    "text": "Nhà quản trị CSDL không cần biết về mạng hoặc hệ điều hành vì đó không phải là công việc của họ.",
+                    "text": "Chỉ cần thành thạo ngôn ngữ truy vấn SQL là đủ để làm tốt công việc quản trị CSDL.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -485,7 +1010,15 @@
                     "correct": false
                 },
                 {
-                    "text": "Kĩ năng phân tích và giải quyết vấn đề là rất quan trọng để xử lý các sự cố trong CSDL.",
+                    "text": "Tinh thần ham học hỏi cùng với các phẩm chất như cẩn thận, tỉ mỉ, kiên trì là rất quan trọng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cần có kỹ năng về hệ điều hành và mạng máy tính để có thể cài đặt và quản trị HQTCSDL hiệu quả.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -495,14 +1028,14 @@
             ]
         },
         {
-            "question": "Về vai trò của nhà quản trị CSDL trong một tổ chức, đâu là các phát biểu đúng?",
+            "question": "Về cơ hội việc làm và nhu cầu nhân lực trong lĩnh vực quản trị CSDL, các khẳng định nào sau đây là đúng?",
             "image": {
                 "src": "",
                 "alt": ""
             },
             "answers": [
                 {
-                    "text": "Nhà quản trị CSDL phối hợp với các bộ phận khác để đảm bảo CSDL đáp ứng được nhu cầu của tổ chức.",
+                    "text": "Nhu cầu nhân lực quản trị CSDL ngày càng tăng nhanh do sự phát triển của các ứng dụng tin học và quá trình chuyển đổi số.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -510,15 +1043,7 @@
                     "correct": true
                 },
                 {
-                    "text": "Nhà quản trị CSDL chịu trách nhiệm sao lưu và phục hồi dữ liệu khi có sự cố.",
-                    "image": {
-                        "src": "",
-                        "alt": ""
-                    },
-                    "correct": true
-                },
-                {
-                    "text": "Nhà quản trị CSDL chỉ cần tập trung vào việc tối ưu hóa hiệu suất, không cần quan tâm đến bảo mật.",
+                    "text": "Công việc quản trị CSDL chỉ tồn tại ở các công ty công nghệ thông tin lớn.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -526,7 +1051,15 @@
                     "correct": false
                 },
                 {
-                    "text": "Nhà quản trị CSDL cần đảm bảo tính sẵn sàng và độ tin cậy của hệ thống CSDL.",
+                    "text": "Các tổ chức tài chính, ngân hàng, bảo hiểm và cơ quan nhà nước đều cần nhà quản trị CSDL để đảm bảo hệ thống thông tin hoạt động ổn định.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Có thể dễ dàng tìm thấy nhiều địa chỉ tuyển dụng vị trí quản trị CSDL thông qua các công cụ tìm kiếm trên Internet.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -536,14 +1069,14 @@
             ]
         },
         {
-            "question": "Về các chứng chỉ chuyên môn liên quan đến quản trị CSDL, đâu là các phát biểu đúng?",
+            "question": "Đâu là các nhận định đúng về vai trò và mục đích của công tác quản trị CSDL?",
             "image": {
                 "src": "",
                 "alt": ""
             },
             "answers": [
                 {
-                    "text": "Các chứng chỉ như Oracle Certified Professional hoặc Microsoft Certified: Azure Data Fundamentals được công nhận rộng rãi.",
+                    "text": "Mục đích chính của quản trị CSDL là đảm bảo cho các hoạt động liên quan đến CSDL được thông suốt, an toàn và hiệu quả cao.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -551,15 +1084,7 @@
                     "correct": true
                 },
                 {
-                    "text": "Chứng chỉ chuyên môn giúp nhà quản trị CSDL nâng cao uy tín và cơ hội việc làm.",
-                    "image": {
-                        "src": "",
-                        "alt": ""
-                    },
-                    "correct": true
-                },
-                {
-                    "text": "Chỉ cần có chứng chỉ là đủ để trở thành nhà quản trị CSDL, không cần kinh nghiệm thực tế.",
+                    "text": "Người thực thi công việc quản trị CSDL thường được gọi là người quản trị dự án.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -567,7 +1092,15 @@
                     "correct": false
                 },
                 {
-                    "text": "Các chứng chỉ thường yêu cầu kiến thức về cả lý thuyết và thực hành quản trị CSDL.",
+                    "text": "Đảm bảo an toàn và bảo mật cho dữ liệu là một trong những hoạt động quan trọng hàng đầu trong quản trị CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quản trị CSDL là một hoạt động hỗ trợ song song với các hoạt động cơ bản của một tổ chức để giúp các hoạt động đó được thực hiện tốt nhất.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -577,14 +1110,14 @@
             ]
         },
         {
-            "question": "Về nhu cầu nhân lực quản trị CSDL trong thời đại công nghệ số, đâu là các phát biểu đúng?",
+            "question": "Các hoạt động nào sau đây thuộc về việc đảm bảo an toàn và bảo mật CSDL của nhà quản trị?",
             "image": {
                 "src": "",
                 "alt": ""
             },
             "answers": [
                 {
-                    "text": "Sự phát triển của Big Data làm tăng nhu cầu về các nhà quản trị CSDL có kĩ năng chuyên môn cao.",
+                    "text": "Thường xuyên tạo các bản sao lưu dữ liệu dự phòng để có thể khôi phục khi gặp sự cố.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -592,7 +1125,7 @@
                     "correct": true
                 },
                 {
-                    "text": "Nhu cầu bảo mật và an ninh dữ liệu là một trong những lý do chính khiến vai trò quản trị CSDL trở nên quan trọng.",
+                    "text": "Giám sát các sự cố có thể xảy ra để có biện pháp phục hồi kịp thời.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -600,7 +1133,7 @@
                     "correct": true
                 },
                 {
-                    "text": "Các hệ thống trí tuệ nhân tạo đã thay thế hoàn toàn vai trò của nhà quản trị CSDL.",
+                    "text": "Phân quyền truy cập dữ liệu một lần duy nhất khi hệ thống mới được thiết lập và không cần thay đổi sau đó.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -608,7 +1141,7 @@
                     "correct": false
                 },
                 {
-                    "text": "Toàn cầu hóa và số hóa làm tăng nhu cầu về các nhà quản trị CSDL có khả năng tích hợp các hệ thống khác nhau.",
+                    "text": "Cài đặt các bản vá lỗi của HQTCSDL để khắc phục các lỗ hổng bảo mật.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -618,14 +1151,14 @@
             ]
         },
         {
-            "question": "Về việc học tập và phát triển kĩ năng quản trị CSDL, đâu là các phát biểu đúng?",
+            "question": "Về con đường học tập và phát triển để trở thành nhà quản trị CSDL, những phát biểu nào là đúng?",
             "image": {
                 "src": "",
                 "alt": ""
             },
             "answers": [
                 {
-                    "text": "Nhà quản trị CSDL cần liên tục học hỏi để nắm bắt các công nghệ mới như điện toán đám mây, Big Data.",
+                    "text": "Bằng cấp đại học từ các ngành như Công nghệ thông tin, Công nghệ phần mềm có thể cung cấp kiến thức nền tảng cho công việc này.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -633,7 +1166,7 @@
                     "correct": true
                 },
                 {
-                    "text": "Tham gia các khóa học hoặc thi chứng chỉ chuyên môn là một cách để bồi dưỡng kiến thức và rèn luyện kĩ năng chuyên sâu.",
+                    "text": "Các khóa học và chứng chỉ của các hãng lớn như IBM, Microsoft, Oracle là một cách để bồi dưỡng kiến thức và rèn luyện kĩ năng chuyên sâu.",
                     "image": {
                         "src": "",
                         "alt": ""

@@ -1,0 +1,425 @@
+{
+    "part_1": [
+        {
+            "question": "Khi cập nhật một bảng có khóa ngoài, dữ liệu của trường khoá ngoài phải như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Biểu thức logic một bảng khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Biểu thức kí tự liên kết với một ô trong bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dữ liệu tham chiếu được đến một trường khóa chính của một bảng tham chiếu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Biểu thức giá trị số để thực hiện liên kết",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "HeidiSQL hỗ trợ kiểm soát việc cập nhật dữ liệu của trường khóa ngoài bằng cách nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đảm bảo rằng giá trị của trường khóa chính phải là giá trị tham chiếu đến một trường khóa chính của bảng tham chiếu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đảm bảo rằng giá trị của trường khoá ngoài phải là giá trị tham chiếu đến một bảng khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đảm bảo rằng giá trị của trường khoá ngoài phải là giá trị tham chiếu đến một trường khóa chính của bảng tham chiếu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đảm bảo rằng giá trị của trường khoá ngoài phải là giá trị tham chiếu đến một bảng của CSDL khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Nếu giá trị của trường khóa ngoài không hợp lệ thì phần mềm HeidiSQL sẽ như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "HeidiSQL sẽ thông báo lỗi, không cho phép bạn thực hiện thao tác cập nhật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "HeidiSQL sẽ không thông báo lỗi, không cho phép bạn thực hiện thao tác cập nhật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "HeidiSQL sẽ thông báo lỗi và cho phép bạn thực hiện thao tác cập nhật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "HeidiSQL sẽ không thông báo lỗi và cho phép bạn thực hiện thao tác cập nhật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để truy vấn dữ liệu trong SQL ta sử dụng cú pháp nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mệnh đề ORDER BY",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cú pháp câu lệnh SELECT",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dùng toán tử BETWEEN…AND",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cú pháp câu lệnh Grant",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hệ QTCSDL không ngăn chặn được các lỗi nào dưới đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lỗi theo logic đã được khai báo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các lỗi không liên quan đến logic nào",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lỗi theo logic chưa được khai báo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Lỗi theo ký tự đã được khai báo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Khi thêm mới một bản ghi vào bảng bannhac trong HeidiSQL, các thao tác nào sau đây là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người dùng phải tự gõ chính xác giá trị số cho trường khoá ngoại idNhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "HeidiSQL cung cấp một danh sách thả xuống cho trường idNhacsi, hiển thị tên các nhạc sĩ từ bảng nhacsi để người dùng lựa chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc chọn nhạc sĩ từ danh sách có sẵn giúp đảm bảo tính nhất quán và toàn vẹn dữ liệu tham chiếu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tương tự idNhacsi, trường idBannhac cũng được nhập bằng cách chọn từ một danh sách có sẵn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về việc xoá dữ liệu trong các bảng có liên kết tham chiếu, những khẳng định nào là chính xác?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người dùng có thể tự do xóa một nhạc sĩ trong bảng nhacsi ngay cả khi nhạc sĩ đó có sáng tác được lưu trong bảng bannhac.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hệ quản trị CSDL sẽ ngăn chặn việc xóa một dòng trong bảng nhacsi nếu giá trị idNhacsi của dòng đó đang được tham chiếu bởi một dòng trong bảng bannhac.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khi cố gắng thực hiện một thao tác xoá không hợp lệ, hệ thống sẽ báo lỗi vi phạm ràng buộc khoá ngoại (foreign key constraint).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lỗi ngăn chặn việc xóa chỉ là một tính năng của HeidiSQL, không phải của hệ quản trị CSDL MySQL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Giao diện \"Quản lí dữ liệu âm nhạc\" trong Hình 22.7 có những đặc điểm và mục đích gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đây là giao diện được thiết kế cho người dùng cuối (end-user), không đòi hỏi họ phải biết về cấu trúc CSDL bên trong.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giao diện này cung cấp đầy đủ các chức năng nghiệp vụ như tìm kiếm, sửa và xóa bản nhạc một cách trực quan.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để tìm kiếm, người dùng phải nhập đầy đủ cả tên bản nhạc và tên nhạc sĩ mới có thể tìm được.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ứng dụng này giúp che giấu sự phức tạp của việc tương tác trực tiếp với CSDL, làm cho việc quản lí dữ liệu trở nên dễ dàng hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các thao tác tương tác với giao diện \"Quản lí dữ liệu âm nhạc\" (Hình 22.7) được mô tả đúng như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để sửa thông tin của một bản nhạc, người dùng nháy chuột vào nút radio (◯) ở dòng tương ứng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để xoá một bản nhạc, người dùng cần nháy chuột vào ô checkbox (□) ở đầu dòng đó rồi chọn nút \"Xoá\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Danh sách các bản nhạc được hiển thị trên nhiều trang, người dùng có thể nháy chuột vào hộp danh sách trang để chọn trang muốn xem.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng không thể vừa tìm theo tên bản nhạc, vừa tìm theo tên nhạc sĩ cùng lúc. Đáp án: ĐĐĐS",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Những nhận định nào sau đây là đúng về bản chất của việc cập nhật dữ liệu có tham chiếu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Việc hệ quản trị CSDL ngăn chặn xoá dữ liệu ở bảng được tham chiếu là một logic đã được thiết lập sẵn khi khai báo khoá ngoại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nếu không có ràng buộc khoá ngoại, việc xoá một nhạc sĩ sẽ làm cho dữ liệu về các bản nhạc của ông trong bảng bannhac trở nên không nhất quán (không rõ tác giả).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc cập nhật dữ liệu trong bảng bannhac (ví dụ sửa idNhacsi) cũng tương tự như việc thêm mới, tức là người dùng có thể chọn idNhacsi mới từ danh sách thả xuống.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Truy xuất dữ liệu từ bảng bannhac hoàn toàn giống với truy xuất dữ liệu từ bảng nhacsi và không có gì khác biệt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong CSDL MyMusic, khi thực hiện cập nhật bảng bannhac có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}

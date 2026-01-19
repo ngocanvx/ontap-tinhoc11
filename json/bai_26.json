@@ -1,0 +1,638 @@
+{
+    "part_1": [
+        {
+            "question": "Trong GIMP để chỉnh độ sáng và độ tương phản cho ảnh, ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Colors -> Brightness-Contrast",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Colors-> Color Balance",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Colors -> Hue-Saturation",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Colors -> Shadows-Highlights",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong GIMP để cân bằng màu cho ảnh, ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Colors -> Brightness-Contrast",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Colors -> Color Balance",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Colors -> Hue-Saturation",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Colors -> Shadows-Highlights",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong GIMP để chỉnh màu sắc cho ảnh, ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Colors -> Color Balance",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Colors -> Brightness-Contrast",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Colors -> Hue-Saturation",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Colors -> Shadows-Highlights",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Split Tone dùng để làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tách màu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thay đổi giá trị của các kênh màu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chỉnh màu trên toàn bộ ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tăng độ bão hòa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Nếu ảnh có hình một chiếc đĩa hình tròn, để chọn chiếc đĩa đó ta dùng công cụ nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Rectangle Select Tool",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Free Select Tool",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ellipse Select Tool",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Fuzzy Select Tool",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Rectangle Select Tool được dùng để tạo vùng chọn có hình dạng nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tùy ý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình elip",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình chữ nhật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hình vuông",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Ellipse Select Tool được dùng để tạo vùng chọn có hình dạng nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tùy ý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình elip",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hình chữ nhật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình vuông",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Free Select Tool được dùng để tạo vùng chọn có hình dạng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tùy ý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hình elip",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình chữ nhật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình vuông",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Select by Color Tool là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Công cụ lựa chọn tự do",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ lựa chọn hình elip",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ lựa chọn hình chữ nhật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ lựa chọn theo màu sắc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Fuzzy Select Tool là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Công cụ lựa chọn màu tự do",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ lựa chọn hình elip",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ lựa chọn vùng có màu sắc tương đồng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ lựa chọn theo màu sắc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Các công cụ tinh chỉnh màu sắc trong GIMP có những chức năng nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Brightness-Contrast dùng để điều chỉnh độ sáng và độ tương phản của lớp hoặc vùng ảnh được chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Color Balance giúp điều chỉnh cân bằng màu của các vùng tối (Shadows), vùng trung bình (Midtones) và vùng sáng (Highlights).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hue-Saturation được sử dụng để điều chỉnh tông màu (Hue), độ bão hoà (Saturation) và độ sáng (Lightness) của một dải màu trong lớp ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Levels và Curves là các công cụ chính dùng để tạo vùng chọn trong ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các công cụ tạo vùng chọn và cách sử dụng chúng, những khẳng định nào là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Công cụ Rectangle Select Tool (phím tắt R) dùng để tạo một vùng chọn hình chữ nhật.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Ellipse Select Tool (phím tắt E) được sử dụng để tạo một vùng chọn hình elip hoặc hình tròn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để cộng thêm một vùng chọn mới vào vùng chọn đã có, ta cần giữ phím Shift.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Free Select Tool chỉ cho phép tạo các vùng chọn có hình dạng đa giác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi thực hiện chỉnh sửa màu sắc cho một phần cụ thể của bức ảnh, các thao tác nào sau đây là hợp lí?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để chỉ làm cho những bông hoa trong ảnh trở nên rực rỡ hơn, trước tiên cần tạo một vùng chọn bao quanh những bông hoa đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi đã chọn vùng chứa hoa, có thể dùng công cụ Hue-Saturation để thay đổi màu sắc của chúng mà không làm ảnh hưởng đến các phần còn lại của bức ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cách duy nhất để chỉnh màu cho một vùng là áp dụng công cụ Color Balance cho toàn bộ bức ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vùng chọn giúp giới hạn các thao tác chỉnh sửa chỉ trong phạm vi của vùng đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào sau đây là đúng về các thông số trong các công cụ chỉnh màu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Trong công cụ Hue-Saturation, Hue là giá trị thay đổi tông màu, Saturation là độ bão hoà và Lightness là độ sáng của màu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong công cụ Brightness-Contrast, việc tăng giá trị Contrast sẽ làm cho các vùng sáng càng sáng hơn và các vùng tối càng tối hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Color Balance chỉ cho phép điều chỉnh các màu cơ bản là Đỏ, Xanh lục và Xanh lam.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để làm cho một bức ảnh có màu lạnh trở nên ấm áp hơn, ta có thể dùng Color Balance để tăng giá trị màu Đỏ và giảm giá trị màu Xanh lam.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Dựa trên các bước thực hành trong bài, các phát biểu nào là chính xác?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để cải thiện một bức ảnh bình minh bị mờ và lạnh, bước đầu tiên là dùng công cụ Colors → Brightness-Contrast để tăng độ sáng và tương phản.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để làm màu sắc của ảnh bình minh trở nên ấm hơn, ta có thể dùng Colors → Color Balance để điều chỉnh các dải màu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc tạo vùng chọn là bắt buộc ngay cả khi muốn chỉnh sửa màu sắc cho toàn bộ bức ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để làm màu của vùng hoa vi-ô-lét trở nên đậm hơn, ta có thể chọn dải màu Midtones trong công cụ Color Balance và điều chỉnh các thanh trượt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Công cụ tinh chỉnh màu sắc trong GIMP cung cấp các lệnh để điều chỉnh các yếu tố như độ sáng, độ tương phản, cân bằng màu và màu sắc tổng thể của ảnh. Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "Vùng chọn có vai trò trong việc chỉnh sửa ảnh. Vùng chọn cho phép chia nhỏ hình ảnh để thực hiện các thao tác khác nhau trên từng phần riêng. Nếu không có vùng chọn thì các lệnh chỉnh sửa ảnh được thực hiện cho toàn bộ ảnh. Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}

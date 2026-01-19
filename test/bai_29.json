@@ -1,0 +1,359 @@
+{
+    "part_1": [
+        {
+            "question": "Để tải phần mềm làm phim Videopad, truy cập vào địa chỉ nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "https://www.nchsftwae.in/videopad.com",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "https://www.nchsoftware.com/videopad",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "https://www.nch.com/videopad/index.html",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "https://www.nchsoftware.com/videopad.html",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Giao diện chung của một phần mềm làm phim thường có bố cục với mấy thành phần chính?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "5",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "4",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "3",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "2",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Ngăn tiến trình là khu vực giúp theo dõi, quản lý toàn bộ trình tự cũng như các thành phần của phim. Có mấy chế độ hiển thị trong ngăn tiến trình?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "2",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "3",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "4",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "5",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi làm việc với phần mềm làm phim Videopad, nếu lưu lại (Save Project) dự án làm phim của minh thì tên dự án có phần mở rộng là:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": ".vpj",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": ".3gp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": ".avi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": ".mp4",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Các nhận định nào sau đây là đúng về giao diện của phần mềm làm phim?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thanh công cụ chứa các nút lệnh để thiết lập các tính năng hay thực hiện các thao tác chỉnh sửa phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ngăn tư liệu là nơi quản lý toàn bộ tiến trình của phim, bao gồm các lớp video và âm thanh được sắp xếp theo thời gian.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngăn tiến trình có thể hiển thị ở hai chế độ: Phác cảnh (Storyboard) để sắp xếp trực quan và Dòng thời gian (Timeline) để hiển thị chi tiết các thành phần theo từng lớp (track).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một đoạn phim chỉ có thể bao gồm một lớp (track) hình ảnh và một lớp âm thanh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về quy trình tạo và biên tập một đoạn phim, các phát biểu sau đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người dùng có thể tạo ra các đoạn phim bằng cách sắp xếp các tư liệu (ảnh, video clip, âm thanh) theo một trình tự, xác định thời lượng cho các phân cảnh để tạo thành một đoạn phim hoàn chỉnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lệnh Export Video được dùng để lưu lại dự án phim, cho phép người dùng mở ra và chỉnh sửa tiếp vào lần sau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các phần mềm làm phim như VideoPad cho phép người dùng thêm các tệp ảnh, video và âm thanh từ máy tính vào dự án.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thứ tự của các tư liệu như ảnh, video được sắp xếp tự động bởi phần mềm nên người dùng không cần xây dựng kịch bản từ trước.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào đúng về các thành phần và khái niệm trong làm phim?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chế độ hiển thị Phác cảnh (Storyboard) là một chế độ đơn giản, giúp người dùng quan sát trực quan chuỗi các phân cảnh trong phim một cách dễ dàng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chế độ Dòng thời gian (Timeline) hiển thị chi tiết tất cả các thành phần phim như hình ảnh, âm thanh dưới dạng các lớp (track) trên một trục thời gian.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Con trỏ thời điểm (playhead) trên ngăn tiến trình cho biết tổng thời lượng của đoạn phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mỗi đoạn phim có thể có nhiều lớp khác nhau, ví dụ một lớp cho hình ảnh và video, một lớp khác cho âm thanh, nhạc nền.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Dựa vào các bước thực hành trong bài với phần mềm VideoPad, các nhận định sau đây đúng hay sai? a. Để bắt đầu tạo phim, người dùng có thể sử dụng tính năng Video Wizard để chọn mẫu có sẵn và tạo phim một cách đơn giản, nhanh chóng. b. Sau khi thêm ảnh và video, phần mềm sẽ tự động chọn nhạc nền và người dùng không thể thay đổi. c. Sau khi hoàn thành các bước tạo phim, người dùng có thể xem lại kết quả trong ngăn xem trước và lưu lại dự án để chỉnh sửa thêm sau này. d. Để hoàn thành và chia sẻ đoạn phim, người dùng cần chọn lệnh Export Video và chọn định dạng tệp video, ví dụ như .mp4. Đáp án: ĐSĐĐ",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "Về các khái niệm chung của phần mềm làm phim, các phát biểu sau đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ngày nay, việc tạo các đoạn phim chỉ dành cho các tổ chức, cá nhân chuyên nghiệp và yêu cầu các phần mềm trả phí đắt tiền.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để tạo nên một đoạn phim, người dùng cần chuẩn bị các tư liệu đầu vào như ảnh, video clip, sau đó xây dựng ý tưởng và kịch bản cho phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ngăn xem trước là nơi hiển thị kết quả của quá trình tạo phim, cho phép người dùng xem lại đoạn phim đang được biên tập.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các đoạn phim mở đầu (Intro) và kết thúc (Outro) là những thành phần có thể được biên tập và thêm vào trong quá trình làm phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khám phá phần mềm làm phim là quá trình giúp người dùng tạo ra các đoạn phim từ các tư liệu như ảnh, video clip, và âm thanh. Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "Giao diện phần mềm làm phim được thiết kế để giúp người dùng sắp xếp, chỉnh sửa và xem trước các tư liệu làm phim một cách hiệu quả. Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}

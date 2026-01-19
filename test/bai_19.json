@@ -1,0 +1,474 @@
+{
+    "part_1": [
+        {
+            "question": "Việc đầu tiên để làm việc với một CSDL là gì ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thu thập",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xử lý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tạo lập",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thêm thông tin",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc đầu tiên để tạo lập một CSDL quan hệ là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thu thập dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xử lý dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tạo ra một hay nhiều bảng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉnh sửa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để ấn định khóa chính thì ta thực hiện thao tác như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chọn Create new index -> Primary",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chọn Create new index -> Key",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chọn Create new index -> Unique",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chọn Create new index -> Fulltext",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để thực hiện mô hình quản lí danh sách tên huyện/quận của các tỉnh/thành phố chúng ta phải xác định mối quan hệ như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tỉnh/thành phố và Huyện/Quận",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tỉnh và Thị trấn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tỉnh và thị xã",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Huyện và thị trấn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để thực hiện mô hình quản lí danh sách tên huyện/quận của các tỉnh/thành phố, chúng ta có thể xác định khóa chính trong trong bảng Tỉnh/thành phố là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mã của huyện",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mã của thị trấn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mã của tỉnh/thành phố",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mã của thị xã",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để tạo lập bảng thì chúng ta cần làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tổng kết tất cả các thông tin cần quản lí",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phân tích và sắp xếp lại dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cùng xem xét lại các bài toán quản lí",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xuất dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Các thao tác và thông số nào sau đây là đúng khi tạo mới cơ sở dữ liệu (CSDL) mymusic bằng HeidiSQL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nháy chuột phải vào vùng danh sách CSDL, chọn \"Tạo mới\" rồi chọn \"Cơ sở dữ liệu\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đặt tên cho CSDL mới là mymusic.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bộ mã kí tự được chọn là utf8mb4 và phần đối chiếu được chọn là utf8mb4_general_ci.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi tạo CSDL, HeidiSQL sẽ tự động tạo các bảng đã được thiết kế ở Bài 18.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi khai báo các trường cho bảng nhacsi trong HeidiSQL, những hành động nào là chính xác theo hướng dẫn?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thêm trường idNhacsi với kiểu dữ liệu INT và bỏ đánh dấu ở ô Allow NULL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thêm trường tenNhacsi, chọn kiểu dữ liệu VARCHAR, và đặt độ dài là 255.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Có thể nhấn tổ hợp phím Ctrl+Insert hoặc nháy nút phải chuột để thêm một trường mới vào bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trường idNhacsi cần được thiết lập Mặc định là NULL để dễ dàng nhập liệu sau này.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về việc khai báo khóa chính cho bảng nhacsi, các khẳng định nào sau đây là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để khai báo idNhacsi là khóa chính, ta nháy chuột phải vào trường này rồi chọn Create new index → PRIMARY.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Có thể khai báo khóa chính cho cả trường tenNhacsi nếu cần.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi khai báo khóa chính, phải nháy chuột vào ô bên cạnh PRIMARY KEY để chọn lại tên trường một lần nữa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cuối cùng, cần chọn Lưu để lưu lại toàn bộ cấu trúc của bảng nhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các thuộc tính đặc biệt nào được thiết lập cho trường idNhacsi của bảng nhacsi?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Kiểu dữ liệu được chọn là VARCHAR với độ dài 255.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trường được thiết lập thuộc tính AUTO_INCREMENT để giá trị tự động tăng khi thêm bản ghi mới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trường idNhacsi là khóa chính của bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trường idNhacsi cho phép giá trị NULL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Những nhận định tổng quan nào sau đây là đúng khi thực hành với HeidiSQL trong bài 19?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khi thực hiện các thao tác trên giao diện đồ hoạ, HeidiSQL sẽ hiển thị câu lệnh SQL tương ứng ở vùng mã lệnh phía dưới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi tạo và lưu bảng nhacsi, bảng này sẽ xuất hiện trong danh sách các bảng thuộc CSDL mymusic ở vùng bên trái.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "HeidiSQL không cho phép tạo khóa chính cho một trường có kiểu dữ liệu là VARCHAR.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Theo yêu cầu của bài học, sau khi tạo xong bảng nhacsi, người dùng cần tiếp tục tạo bảng casi với cấu trúc tương tự.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Sau khi đã được học cách xác định cấu trúc bảng và các trường khóa học sinh sẽ được thực hành tạo lập cơ sở dữ liệu và các bảng. Với HeidiSQL, việc tạo lập CSDL và các bảng rất dễ dàng. Trong quá trình thực hành tạo CSDl MyMusic và các bảng tương ứng, một số học sinh có một số nhận định về các bước tạo bảng nhacsi như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        },
+        {
+            "question": "Trong CSDL MyMusic bảng nhacsi có 2 trường gồm idnhacsi và tennhacsi. Sau khi học sinh tạo xong bảng nhacsi thì giáo viên yêu cầu các em thêm trường năm sinh. Trong quá trình thêm trường mới thì một số học sinh có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": []
+        }
+    ],
+    "part_3": []
+}
