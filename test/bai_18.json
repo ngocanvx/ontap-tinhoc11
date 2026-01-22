@@ -748,7 +748,15 @@
             },
             "answers": [
                 {
-                    "text": "Trường idNhacsi trong bảng bannhac tham chiếu đến bảng nhacsi. (đ)",
+                    "text": "Trường idNhacsi trong bảng bannhac tham chiếu đến bảng nhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bảng bannhac có thể chứa nhiều bản ghi có cùng idBannhac.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -756,7 +764,7 @@
                     "correct": false
                 },
                 {
-                    "text": "Bảng bannhac có thể chứa nhiều bản ghi có cùng idBannhac.(s)",
+                    "text": "Trường tenBannhac trong bảng bannhac có kiểu dữ liệu INT.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -764,20 +772,12 @@
                     "correct": false
                 },
                 {
-                    "text": "Trường tenBannhac trong bảng bannhac có kiểu dữ liệu INT.(s)",
+                    "text": "Trường idNhacsi trong bảng bannhac có thể trùng lặp giá trị.",
                     "image": {
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
-                },
-                {
-                    "text": "Trường idNhacsi trong bảng bannhac có thể trùng lặp giá trị.(đ)",
-                    "image": {
-                        "src": "",
-                        "alt": ""
-                    },
-                    "correct": false
+                    "correct": true
                 }
             ]
         },
@@ -789,7 +789,15 @@
             },
             "answers": [
                 {
-                    "text": "idCasi là khóa chính trong bảng casi và cũng là khóa ngoại trong bảng banthuam. (đ)",
+                    "text": "idCasi là khóa chính trong bảng casi và cũng là khóa ngoại trong bảng banthuam.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trường tenBannhac trong bảng bannhac là khóa cấm trùng lặp giá trị.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -797,28 +805,20 @@
                     "correct": false
                 },
                 {
-                    "text": "Trường tenBannhac trong bảng bannhac là khóa cấm trùng lặp giá trị. (s)",
+                    "text": "idBannhac trong bảng banthuam tham chiếu đến idBannhac trong bảng bannhac.",
                     "image": {
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 },
                 {
-                    "text": "idBannhac trong bảng banthuam tham chiếu đến idBannhac trong bảng bannhac. (đ)",
+                    "text": "Mỗi bản ghi trong bảng nhacsi phải có một idNhacsi duy nhất.",
                     "image": {
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
-                },
-                {
-                    "text": "Mỗi bản ghi trong bảng nhacsi phải có một idNhacsi duy nhất.(đ)",
-                    "image": {
-                        "src": "",
-                        "alt": ""
-                    },
-                    "correct": false
+                    "correct": true
                 }
             ]
         }

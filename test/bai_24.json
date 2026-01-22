@@ -418,7 +418,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Chọn thẻ \"Các công cụ\" và chọn \"Xuất cơ sở dữ liệu dưới dạng SQL\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nháy chuột để đánh dấu vào bảng banthuam ở phía trái và đánh dấu vào ô Drop.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ở dòng Data chọn \"Delete + insert\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lưu tệp sao lưu với tên _banthuam.sql và chọn \"Import\" để thực hiện việc sao lưu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         },
         {
             "question": "Như đã biết, để tổ chức đảm bảo an toàn CSDL phục vụ công tác quản lí của một tổ chức, cần xây dựng chính sách an toàn dữ liệu với những kế hoạch về tất cả các phương án sự cố có thể xảy ra và giải pháp hạn chế, khắc phục. Chính sách an toàn dữ liệu cũng phải bao gồm những quy định về ý thức, trách nhiệm đối với những người vận hành hệ thống. Về giải pháp phần mềm, các hệ QTCSDL đều có chức năng hỗ trợ sao lưu dữ liệu dự phòng một cách thường xuyên theo quy định và phục hồi dữ liệu khi có sự cố. Học sinh sau khi thực hành phục hồi dữ liệu bảng banthuam đã có một số nhận định về các thao tác như sau:",
@@ -426,7 +459,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Xóa bảng banthuam trước khi thực hiện phục hồi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chọn thẻ \"Tools\" và chọn \"Load SQL file...\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tải tệp sao lưu banthuam.sql vào cửa sổ truy vấn và thực hiện truy vấn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi truy vấn thành công, nhấn F5 để làm tươi lại danh sách CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
         }
     ],
     "part_3": []

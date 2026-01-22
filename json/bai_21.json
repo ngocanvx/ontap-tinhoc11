@@ -533,7 +533,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Để xóa dòng dữ liệu, cần đánh dấu những dòng muốn xóa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉ xóa được các dòng dữ liệu liền nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sau khi chọn dòng muốn xóa, nhấn phím Delete.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sau khi chọn lệnh xóa, sẽ xuất hiện hộp thoại yêu cầu khẳng định muốn xóa trước khi xóa dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
         },
         {
             "question": "Trong CSDL MyMusic, việc truy xuất dữ liệu từ bảng nhacsi có một số nhận định như sau:",
@@ -541,7 +574,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Truy xuất dữ liệu từ bảng nhacsi có thể thực hiện qua giao diện đồ họa hoặc câu truy vấn SQL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bộ lọc dữ liệu giúp lấy ra danh sách dữ liệu thỏa mãn yêu cầu cụ thể.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi sử dụng bộ lọc, không cần xóa bộ lọc vì nó tự động làm mới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Truy xuất bằng câu truy vấn SQL thường được sử dụng cho các yêu cầu truy xuất phức tạp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
         }
     ],
     "part_3": []

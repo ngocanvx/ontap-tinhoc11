@@ -16,7 +16,7 @@
                     "correct": true
                 },
                 {
-                    "text": "Colors-> Color Balance",
+                    "text": "Colors -> Color Balance",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -623,7 +623,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Khi giá trị độ sáng càng lớn thì giá trị độ tương phản càng nhỏ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cân bằng màu là công cụ giúp điều chỉnh tông màu tổng thể của ảnh để tạo sự cân bằng giữa các màu sắc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ chỉnh màu sắc cho phép thay đổi hoàn toàn màu sắc của từng điểm ảnh trong ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các lệnh chỉnh màu sắc trong GIMP nằm trong bảng chọn Color.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
         },
         {
             "question": "Vùng chọn có vai trò trong việc chỉnh sửa ảnh. Vùng chọn cho phép chia nhỏ hình ảnh để thực hiện các thao tác khác nhau trên từng phần riêng. Nếu không có vùng chọn thì các lệnh chỉnh sửa ảnh được thực hiện cho toàn bộ ảnh. Có một số nhận định như sau:",
@@ -631,7 +664,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Vùng chọn cho phép người dùng giới hạn khu vực chỉnh sửa, giúp tập trung vào phần ảnh cần điều chỉnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "GIMP cho phép tạo ra một vùng chọn hình chữ nhật, hình tròn hay elip, hình dạng tùy ý.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để sao chép và di chuyển vùng chọn tới vị trí mới ta nhấn Ctrl+C.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khi đang có một vùng chọn, ta nhấn giữ phím Shift để tạo vùng chọn mới thì vùng chọn mở rộng thêm vùng chọn mới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
         }
     ],
     "part_3": []

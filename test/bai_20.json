@@ -828,7 +828,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Trường idBannhac được sắp xếp tăng dần.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trường tenBannhac có kiểu dữ liệu VARCHAR.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bảng bannhac có 2 khóa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trường tenBannhac có giá trị mặc định là NULL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         },
         {
             "question": "Trong CSDL MyMusic bảng bannhac gồm có 3 trường gồm idBannhac, tenBannhac, idNhacsi. Bảng đã được nhóm 1 tạo và cập nhật dữ liệu. Hôm nay, nhóm 2 mở bài thực hành của nhóm 1 xem và có một số nhận định như sau:",
@@ -836,7 +869,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Khóa chính của bảng bannhac là trường idBannhac.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trường idNhacsi giá trị được nhập là số thực.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khóa ngoài idNhacsi tham chiếu đến bảng nhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khóa chính idBannhac được đánh dấu là UNIQUE.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         }
     ],
     "part_3": []

@@ -461,7 +461,15 @@
             },
             "answers": [
                 {
-                    "text": "Trường idNhacsi phải được đặt kiểu dữ liệu là INT. (đ)",
+                    "text": "Trường idNhacsi phải được đặt kiểu dữ liệu là INT.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trường tenNhacsi nên có kiểu dữ liệu là CHAR(255).",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -469,28 +477,20 @@
                     "correct": false
                 },
                 {
-                    "text": "Trường tenNhacsi nên có kiểu dữ liệu là CHAR(255). (s)",
+                    "text": "Chọn AUTO_INCREMENT cho trường idNhacsi để tự động tăng giá trị.",
                     "image": {
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 },
                 {
-                    "text": "Chọn AUTO_INCREMENT cho trường idNhacsi để tự động tăng giá trị. (đ)",
+                    "text": "Bỏ chọn ALLOW NULL cho idNhacsi để đảm bảo không có giá trị rỗng.",
                     "image": {
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
-                },
-                {
-                    "text": "Bỏ chọn ALLOW NULL cho idNhacsi để đảm bảo không có giá trị rỗng. (đ)",
-                    "image": {
-                        "src": "",
-                        "alt": ""
-                    },
-                    "correct": false
+                    "correct": true
                 }
             ]
         },
@@ -502,7 +502,15 @@
             },
             "answers": [
                 {
-                    "text": "Sử dụng phím Ctrl+Insert để thêm trường mới. (đ)",
+                    "text": "Sử dụng phím Ctrl+Insert để thêm trường mới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tên trường mới có tên mặc định là Column1.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -510,23 +518,15 @@
                     "correct": false
                 },
                 {
-                    "text": "Tên trường mới có tên mặc định là Column1. (s)",
+                    "text": "Với HeidiSQL, tên trường không phân biệt chữ hoa và chữ thường.",
                     "image": {
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 },
                 {
-                    "text": "Với HeidiSQL, tên trường không phân biệt chữ hoa và chữ thường (đ)",
-                    "image": {
-                        "src": "",
-                        "alt": ""
-                    },
-                    "correct": false
-                },
-                {
-                    "text": "Tên trường mới có thể đặt trùng tên với các trường đã có. (s)",
+                    "text": "Tên trường mới có thể đặt trùng tên với các trường đã có.",
                     "image": {
                         "src": "",
                         "alt": ""

@@ -459,7 +459,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Phần  mềm làm phim cung cấp các công cụ để chỉnh sửa cả hình ảnh và âm thanh trong đoạn phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tạo các hiệu ứng chuyển cảnh giữa các phân đoạn phim là một tính năng quan trọng để làm cho đoạn phim mượt mà hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Căn chỉnh thời gian chỉ áp dụng cho âm thanh, không liên quan đến hình ảnh trong phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tạo phụ đề cho đoạn phim giúp tăng tính tương tác và cung cấp thông tin bổ sung cho người xem.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
         },
         {
             "question": "Các công cụ biên tập phim trong phần mềm làm phim giúp người dùng chỉnh sửa nội dung phim để tạo ra sản phẩm cuối cùng chất lượng cao. Có một số nhận định như sau:",
@@ -467,7 +500,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Phần mềm làm phim chỉ cho phép chỉnh sửa âm thanh, không thể chỉnh sửa hình ảnh trong phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các hiệu ứng chuyển cảnh được thêm vào giữa các đoạn phim để làm cho quá trình chuyển đổi giữa các cảnh trở nên mượt mà.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc tạo phụ đề không quan trọng trong quá trình biên tập phim và chỉ là tùy chọn thêm vào nếu cần thiết.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Căn chỉnh thời gian là một bước quan trọng để đảm bảo các yếu tố trong phim diễn ra một cách hợp lý và đồng bộ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
         }
     ],
     "part_3": []

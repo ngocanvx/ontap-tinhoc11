@@ -344,7 +344,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Phần mềm làm phim có thể sắp xếp các tư liệu theo một trình tự thời lượng nhất định để tạo thành đoạn phim hoàn chỉnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉ có video clip mới có thể được sử dụng trong phần mềm làm phim, không hỗ trợ ảnh hoặc âm thanh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm làm phim cho phép người dùng tạo ra các chuỗi phân cảnh từ các tư liệu khác nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tạo phim bằng phần mềm yêu cầu sắp xếp tư liệu theo thứ tự ngẫu nhiên để tạo nên chuỗi các phân cảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         },
         {
             "question": "Giao diện phần mềm làm phim được thiết kế để giúp người dùng sắp xếp, chỉnh sửa và xem trước các tư liệu làm phim một cách hiệu quả. Có một số nhận định như sau:",
@@ -352,7 +385,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Giao diện phần mềm làm phim thường có các thành phần như thanh công cụ, ngăn tư liệu, và ngăn xem trước.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Con trỏ trong phần mềm làm phim được sử dụng để chọn và sắp xếp các tư liệu trên ngăn tiến trình.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ngăn tiến trình là nơi hiển thị các tư liệu đã sắp xếp theo thứ tự thời gian để tạo thành một đoạn phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ngăn tư liệu là nơi xem trước các phân cảnh đã hoàn chỉnh sau khi tạo phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         }
     ],
     "part_3": []

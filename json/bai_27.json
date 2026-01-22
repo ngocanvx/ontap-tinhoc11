@@ -459,7 +459,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Mỗi lớp ảnh chứa các đối tượng khác nhau và có thể được xử lý riêng biệt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thứ tự sắp xếp các lớp không ảnh hưởng đến kết quả cuối cùng của ảnh sản phẩm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tạo một lớp mới trong GIMP có thể thực hiện bằng lệnh \"New Layer\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc chỉnh sửa một lớp cụ thể trong GIMP yêu cầu người dùng chọn lớp đó trước khi thực hiện thao tác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
         },
         {
             "question": "Các tác vụ cơ bản trên lớp ảnh trong GIMP cho phép người dùng tạo, xóa và sao chép các lớp để quản lý nội dung của ảnh. Có một số nhận định về ảnh như sau:",
@@ -467,7 +500,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Tạo một bản sao của lớp được chọn có thể thực hiện bằng lệnh \"Duplicate Layer\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lệnh \"Delete Layer\" được sử dụng để xóa toàn bộ ảnh, không chỉ lớp được chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "\"Merge Down\" là lệnh dùng để gộp lớp hiện tại với lớp ngay dưới nó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Xóa một lớp ảnh trong GIMP có thể thực hiện mà không ảnh hưởng đến các lớp khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
         }
     ],
     "part_3": []

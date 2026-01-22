@@ -541,7 +541,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Ảnh rõ nét của hình ảnh phụ thuộc vào độ phân giải.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kích thước ảnh càng lớn thì độ phân giải ảnh càng lớn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Độ phân giải của ảnh thường được xác định bởi số điểm ảnh trên một inch.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ảnh dùng để in phải có độ phân giải là 300 dpi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         },
         {
             "question": "Phần mềm chỉnh sửa ảnh GIMP cho phép người dùng thực hiện nhiều thao tác khác nhau trên ảnh bitmap để điều chỉnh và cải thiện hình ảnh và có thể cắt bỏ những phần không cần thiết hay thêm vào các chi tiết khác. Có một số nhận định về phần mềm như sau:",
@@ -549,7 +582,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "GIMP là một phần mềm chỉnh sửa ảnh bitmap miễn phí, cung cấp nhiều công cụ và chức năng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Màn hình làm việc của GIMP luôn là chế độ một cửa sổ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để chỉnh sửa ảnh bắt buộc phải vào bảng công cụ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vùng hiển thị ảnh có thể quan sát, so sánh ảnh trước và sau mỗi bước chỉnh sửa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
         }
     ],
     "part_3": []

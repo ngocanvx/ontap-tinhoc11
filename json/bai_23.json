@@ -418,7 +418,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Câu lệnh truy vấn SQL: Select bannhac.tenBannhac, nhacsi.tenNhacsi from nhacsi inner join bannhac  on bannhac.idNhacsi=nhacsi.IdNhacsi where tenNhacsi=’Văn cao’;;",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Câu lệnh truy vấn SQL: Select bannhac.tenBannhac, nhacsi.tenNhacsi from bannhac inner join nhacsi on bannhac.idNhacsi=nhacsi.IdNhacsi where tenNhacsi=’Văn cao’;",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để truy vấn hai bảng qua liên kết khóa. Câu truy vấn SQL phải có mệnh đề inner join.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bảng bannhac và bảng nhacsi truy vấn dữ liệu thông qua liên kết khóa idBannhac.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         }
     ],
     "part_3": []

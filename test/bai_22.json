@@ -418,7 +418,72 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Trường idNhacsi trong bảng bannhac là một trường khóa chính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trường idNhacsi trong bảng bannhac có kiểu INT và được tự động tăng giá trị (AUTO_INCREMENT).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng không cần nhập giá trị cho trường idNhacsi khi thêm mới bản nhạc vì nó được tham chiếu từ bảng nhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để sửa một bản nhạc trong bảng bannhac, chỉ cần nháy chuột vào ô dữ liệu cần sửa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người dùng có thể xóa tùy ý các dòng trong bảng nhacsi mà không ảnh hưởng đến bảng bannhac.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khi xóa dữ liệu trong bảng bannhac, phải kiểm tra xem có dòng dữ liệu nào tham chiếu đến idNhacsi trong bảng nhacsi hay không.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "MySQL sẽ ngăn chặn việc xóa dòng dữ liệu trong bảng nhacsi nếu idNhacsi của dòng đó tồn tại trong bảng bannhac.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để xóa các dòng dữ liệu trong bảng bannhac, người dùng có thể thực hiện các bước tương tự như khi xóa dòng trong bảng nhacsi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         }
     ],
     "part_3": []

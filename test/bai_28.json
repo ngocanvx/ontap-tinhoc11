@@ -49,7 +49,7 @@
             },
             "answers": [
                 {
-                    "text": "Filters-> Animation -> Blend.",
+                    "text": "Filters -> Animation -> Blend.",
                     "image": {
                         "src": "",
                         "alt": ""
@@ -590,7 +590,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Mỗi lớp ảnh sẽ trở thành một khung hình trong ảnh động khi xuất ra dưới định dạng GIF.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thời gian xuất hiện của mỗi khung hình trong ảnh động không thể thay đổi, tất cả các khung hình sẽ có cùng thời gian xuất hiện mặc định.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để xuất ảnh động, cần chọn File -> Export As và lưu tệp với phần mở rộng .gif.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "GIMP không hỗ trợ xuất ảnh động, người dùng cần sử dụng phần mềm khác để thực hiện thao tác này.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         },
         {
             "question": "Hiệu ứng và tùy chỉnh ảnh động trong GIMP là các tính năng giúp người dùng tạo ra các ảnh động hấp dẫn và sinh động.Có một số nhận định như sau:",
@@ -598,7 +631,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "GIMP cung cấp một số hiệu ứng để làm cho ảnh động trở nên sinh động hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi tạo ảnh động, người dùng không thể thêm hiệu ứng vào các khung hình trong GIMP.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ảnh động được tạo từ các lớp ảnh có thể được xuất dưới định dạng GIF thông qua lệnh \"Export As\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các lớp ảnh trong GIMP không thể được sử dụng để tạo ảnh động, chỉ có thể dùng để chỉnh sửa ảnh tĩnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         }
     ],
     "part_3": []
