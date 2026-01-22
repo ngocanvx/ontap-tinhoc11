@@ -459,7 +459,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Trường idNhacsi phải được đặt kiểu dữ liệu là INT. (đ)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trường tenNhacsi nên có kiểu dữ liệu là CHAR(255). (s)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chọn AUTO_INCREMENT cho trường idNhacsi để tự động tăng giá trị. (đ)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bỏ chọn ALLOW NULL cho idNhacsi để đảm bảo không có giá trị rỗng. (đ)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         },
         {
             "question": "Trong CSDL MyMusic bảng nhacsi có 2 trường gồm idnhacsi và tennhacsi. Sau khi học sinh tạo xong bảng nhacsi thì giáo viên yêu cầu các em thêm trường năm sinh. Trong quá trình thêm trường mới thì một số học sinh có một số nhận định như sau:",
@@ -467,7 +500,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Sử dụng phím Ctrl+Insert để thêm trường mới. (đ)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tên trường mới có tên mặc định là Column1. (s)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Với HeidiSQL, tên trường không phân biệt chữ hoa và chữ thường (đ)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tên trường mới có thể đặt trùng tên với các trường đã có. (s)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         }
     ],
     "part_3": []
