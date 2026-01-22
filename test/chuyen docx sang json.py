@@ -74,8 +74,8 @@ def convert_docx_to_json(file_path):
                 data["part_2"].append(current_question)
             
             # Khớp phương án a, b, c, d
-            elif current_question and re.match(r"^[a-d]\s*[\.]", text):
-                ans_text = re.sub(r"^[a-d]\s*[\.]\s*", "", text).strip()
+            elif current_question and re.match(r"^[a-d]\s*[\.\)]", text, re.IGNORECASE):
+                ans_text = re.sub(r"^[a-d]\s*[\.\)]\s*", "", text, flags=re.IGNORECASE).strip()
                 current_question["answers"].append({
                     "text": ans_text,
                     "image": {"src": "", "alt": ""},
@@ -92,7 +92,7 @@ def convert_docx_to_json(file_path):
     return data
 
 # Thực thi
-file_name = "BÀI 30.docx"
+file_name = "BÀI 17.docx"
 result = convert_docx_to_json(file_name)
 
 if isinstance(result, dict):

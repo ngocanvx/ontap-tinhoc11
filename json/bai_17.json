@@ -828,7 +828,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "MySQL là một hệ quản trị cơ sở dữ liệu mã nguồn mở, miễn phí và được sử dụng phổ biến.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "HeidiSQL chỉ hỗ trợ kết nối và làm việc với hệ quản trị cơ sở dữ liệu MySQL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sau khi cài đặt MySQL, việc nhập mật khẩu cho tài khoản Root là không cần thiết.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "HeidiSQL có hỗ trợ giao diện ngôn ngữ tiếng Việt, giúp người dùng Việt Nam dễ dàng sử dụng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
         },
         {
             "question": "HeidiSQL là một phần mềm quản trị cơ sở dữ liệu mã nguồn mở. HeidiSQL sở hữu nhiều tính năng hữu ích cho người dùng, giúp quản lý cơ sở dữ liệu một cách hiệu quả và thuận tiện hơn. Có một số nhận định về phần mềm HeidiSQL như sau:",
@@ -836,7 +869,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "HeidiSQL chỉ có thể được sử dụng trên hệ điều hành Windows.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "HeidiSQL cho phép người dùng kết nối đồng thời với nhiều hệ quản trị cơ sở dữ liệu khác nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người dùng không thể thay đổi ngôn ngữ giao diện của HeidiSQL sau khi cài đặt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "HeidiSQL có tính năng cho phép người dùng thực hiện các truy vấn SQL trực tiếp trên cơ sở dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
         }
     ],
     "part_3": []
