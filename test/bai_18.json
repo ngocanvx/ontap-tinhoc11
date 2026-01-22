@@ -746,7 +746,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Trường idNhacsi trong bảng bannhac tham chiếu đến bảng nhacsi. (đ)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bảng bannhac có thể chứa nhiều bản ghi có cùng idBannhac.(s)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trường tenBannhac trong bảng bannhac có kiểu dữ liệu INT.(s)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trường idNhacsi trong bảng bannhac có thể trùng lặp giá trị.(đ)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         },
         {
             "question": "CSDL MyMusic gồm 4 bảng như: bảng casi, bảng nhacsi, bảng bannhac và bảng banthuam, ở mỗi bảng đã được cập nhật dữ liệu. Trong quá trình thực hành một số học sinh có đưa ra một số nhận định như sau:",
@@ -754,7 +787,40 @@
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "idCasi là khóa chính trong bảng casi và cũng là khóa ngoại trong bảng banthuam. (đ)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Trường tenBannhac trong bảng bannhac là khóa cấm trùng lặp giá trị. (s)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "idBannhac trong bảng banthuam tham chiếu đến idBannhac trong bảng bannhac. (đ)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mỗi bản ghi trong bảng nhacsi phải có một idNhacsi duy nhất.(đ)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         }
     ],
     "part_3": []
