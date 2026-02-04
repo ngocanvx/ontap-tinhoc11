@@ -343,7 +343,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 },
                 {
                     "text": "Để xoá một bản nhạc, người dùng cần nháy chuột vào ô checkbox (□) ở đầu dòng đó rồi chọn nút \"Xoá\".",
@@ -351,7 +351,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 },
                 {
                     "text": "Danh sách các bản nhạc được hiển thị trên nhiều trang, người dùng có thể nháy chuột vào hộp danh sách trang để chọn trang muốn xem.",
@@ -359,7 +359,7 @@
                         "src": "",
                         "alt": ""
                     },
-                    "correct": false
+                    "correct": true
                 },
                 {
                     "text": "Người dùng không thể vừa tìm theo tên bản nhạc, vừa tìm theo tên nhạc sĩ cùng lúc. Đáp án: ĐĐĐS",
