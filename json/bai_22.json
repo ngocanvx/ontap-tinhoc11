@@ -204,6 +204,88 @@
                     "correct": false
                 }
             ]
+        },
+        {
+            "question": "Khi thực hiện thêm mới một bản ghi vào bảng có chứa khóa ngoài (ví dụ: trường idNhacsi trong bảng bannhac), giá trị của trường khóa ngoài đó phải thỏa mãn điều kiện gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phải là một số nguyên dương bất kỳ do người dùng tự đặt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phải là một chuỗi ký tự không được trùng lặp trong bảng hiện tại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phải đã tồn tại trong trường khóa chính của bảng tham chiếu (bảng nhacsi).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phải luôn có giá trị mặc định là 0 hoặc để trống (NULL).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hệ QTCSDL MySQL sẽ xử lý như thế nào khi người dùng muốn xóa một dòng dữ liệu ở bảng \"mẹ\" (bảng được tham chiếu) mà giá trị khóa chính của dòng đó đang được sử dụng ở bảng \"con\"?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tự động xóa tất cả các bản ghi liên quan ở bảng con.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cho phép xóa bình thường và không đưa ra cảnh báo nào.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngăn chặn việc xóa và hiển thị thông báo lỗi vi phạm ràng buộc khóa ngoại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉ xóa dữ liệu ở bảng mẹ và giữ nguyên dữ liệu ở bảng con.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         }
     ],
     "part_2": [
