@@ -1,0 +1,4 @@
+1. Mở file docx tải về từ google drive
+2. Save as dưới dạng rtf để xóa mất định dạng hộp (gây lỗi khi xử lý bằng python)
+3. Mở file rtf mới, save as lại thành định dạng docx
+4. Chạy file *.py để xử lý file docx -> json
