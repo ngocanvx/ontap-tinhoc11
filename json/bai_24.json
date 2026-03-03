@@ -204,6 +204,211 @@
                     "correct": true
                 }
             ]
+        },
+        {
+            "question": "Mục đích chính của việc xây dựng chính sách sao lưu dữ liệu dự phòng thường xuyên là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để tăng tốc độ xử lý của Hệ quản trị CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để đảm bảo an toàn CSDL và có thể phục hồi dữ liệu khi có sự cố xảy ra.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để thay đổi cấu trúc các bảng và trường khoá của CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để nén dữ liệu giúp tiết kiệm dung lượng ổ cứng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong phần mềm HeidiSQL, để thực hiện sao lưu CSDL, người dùng cần chọn lệnh nào trong bảng chọn \"Các công cụ\"?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhập từ file CSV...",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xuất cơ sở dữ liệu dưới dạng SQL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trình chỉnh sửa bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quản lý người dùng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi thực hiện sao lưu, tùy chọn \"Drop\" trong hộp thoại xuất dữ liệu của HeidiSQL có ý nghĩa gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tự động sao chép tệp sao lưu sang một máy tính khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chỉ thực hiện sao lưu cấu trúc bảng mà không sao lưu dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xoá các đối tượng cũ (nếu có) trước khi tạo đối tượng mới khi thực hiện phục hồi CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ngăn chặn việc ghi đè lên các tệp sao lưu đã tồn tại từ trước.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để nạp một tệp sao lưu có đuôi .sql vào HeidiSQL phục vụ cho việc phục hồi dữ liệu, ta sử dụng thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Vào thẻ \"Các công cụ\" -> Chọn \"Phục hồi dữ liệu\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nháy chuột phải vào CSDL và chọn \"Save\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vào thẻ \"Tập tin\" -> Chọn \"Load SQL file...\" (hoặc nhấn Ctrl + O).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kéo thả tệp .sql trực tiếp vào danh sách các bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Sau khi đã nạp nội dung tệp sao lưu vào cửa sổ \"Truy vấn\", bước cuối cùng để hoàn tất việc phục hồi dữ liệu trên HeidiSQL là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhấn phím F9 (hoặc biểu tượng nút Play màu xanh) để thực hiện các câu lệnh truy vấn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhấn phím F5 để làm tươi danh sách CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chọn lệnh \"Export\" để xuất tệp ra định dạng mới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đóng phần mềm HeidiSQL để hệ thống tự động cập nhật.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         }
     ],
     "part_2": [
@@ -404,6 +609,129 @@
                 },
                 {
                     "text": "Khi chọn xuất CSDL, đầu ra bắt buộc phải là một tệp duy nhất, không thể chọn xuất ra nhiều tệp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong phần mềm HeidiSQL, khi thực hiện nhiệm vụ \"Xuất cơ sở dữ liệu dưới dạng SQL\" (sao lưu), những thiết lập nào sau đây là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chọn CSDL cần sao lưu ở khung bên trái và đánh dấu vào các ô Drop để xóa đối tượng cũ trước khi tạo mới khi phục hồi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tại dòng dữ liệu, chọn Delete + insert để khi phục hồi sẽ xóa dữ liệu cũ (nếu có) trước khi chèn dữ liệu đã sao lưu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kiểu output nên chọn là Single .sql file để xuất ra một tệp duy nhất chứa các câu lệnh truy vấn SQL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi nhấn Export, dữ liệu sẽ tự động được gửi lên lưu trữ đám mây của HeidiSQL mà không cần lưu vào máy tính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Những thao tác nào sau đây nằm trong quy trình \"Phục hồi (restore) CSDL\" từ một tệp sao lưu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Vào thẻ Tập tin, chọn Load SQL file... hoặc nhấn tổ hợp phím Ctrl + O để mở tệp sao lưu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhấn phím F9 hoặc nháy chuột vào biểu tượng nút Play (màu xanh) để thực thi các câu lệnh SQL trong tệp đã nạp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi thực thi lệnh, cần nháy chuột phải vào danh sách CSDL và chọn Làm tươi (F5) để thấy kết quả phục hồi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉ có thể phục hồi dữ liệu vào một CSDL trống, nếu CSDL đã có dữ liệu thì không thể thực hiện phục hồi được.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc sao lưu dữ liệu dự phòng định kỳ có ý nghĩa và đặc điểm gì sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Giúp bảo vệ thông tin khỏi các sự cố hư hỏng thiết bị lưu trữ (như đĩa cứng bị hỏng) hoặc lỗi hệ thống.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người dùng có thể lựa chọn sao lưu toàn bộ CSDL hoặc chỉ sao lưu một số bảng nhất định tùy theo nhu cầu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tệp sao lưu (đuôi .sql) có thể được sử dụng để di chuyển CSDL từ máy tính này sang máy tính khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tệp .sql sau khi được tạo ra sẽ tự động cập nhật mọi thay đổi mới nhất của CSDL mà không cần thực hiện lại thao tác sao lưu.",
                     "image": {
                         "src": "",
                         "alt": ""

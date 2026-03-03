@@ -2,6 +2,11 @@ import docx
 import json
 import re
 
+
+# Lấy đường dẫn đến thư mục site-packages của Thonny Portable
+# Thay đổi đường dẫn này cho đúng với máy của bạn
+thonny_lib = r"D:\APPS\thonny-4.1.6-windows-portable\lib\site-packages"
+
 def is_underlined(paragraph):
     """Kiểm tra xem paragraph có chứa run nào được gạch chân không"""
     for run in paragraph.runs:
@@ -92,7 +97,7 @@ def convert_docx_to_json(file_path):
     return data
 
 # Thực thi
-file_name = "BÀI 30.docx"
+file_name = "BAI 24.docx"
 result = convert_docx_to_json(file_name)
 
 if isinstance(result, dict):

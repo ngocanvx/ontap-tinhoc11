@@ -204,6 +204,211 @@
                     "correct": true
                 }
             ]
+        },
+        {
+            "question": "Để truy vấn dữ liệu từ hai bảng có liên kết với nhau thông qua khoá ngoài, ta sử dụng mệnh đề nào sau đây trong câu lệnh SQL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "WHERE",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "INNER JOIN",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "GROUP BY",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "ORDER BY",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong cấu trúc câu lệnh SQL liên kết bảng, biểu thức đi sau từ khoá \"ON\" có vai trò gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Xác định danh sách các trường cần lấy dữ liệu để hiển thị.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xác định điều kiện so sánh giữa trường khoá của hai bảng tham gia liên kết.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thiết lập điều kiện lọc để giới hạn các dòng dữ liệu thoả mãn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chỉ định thứ tự sắp xếp tăng dần hoặc giảm dần của kết quả.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc sử dụng từ khoá \"as\" (ví dụ: bannhac.idNhacsi as idNS_BN) trong câu lệnh truy vấn có tác dụng chính là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Dùng để thay đổi kiểu dữ liệu của trường từ số sang chữ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để đổi tên hiển thị (đặt bí danh) cho các cột nhằm phân biệt khi các bảng có trường trùng tên.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để thực hiện phép toán tính tổng giá trị của trường đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để tạo ra một liên kết mới giữa hai bảng dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để lập danh sách bản thu âm đầy đủ thông tin từ ba bảng (banthuam, bannhac, casi), ta cần thực hiện điều gì trong câu lệnh SQL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sử dụng đồng thời ba câu lệnh SELECT riêng biệt cho từng bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng liên tiếp các mệnh đề INNER JOIN để liên kết nối tiếp các bảng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉ cần liệt kê tên cả ba bảng sau từ khoá FROM và ngăn cách bởi dấu phẩy.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không thể thực hiện truy xuất dữ liệu từ ba bảng cùng lúc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm HeidiSQL hỗ trợ tính năng nào sau đây giúp người dùng dễ dàng quan sát và kiểm tra cú pháp câu lệnh SQL khi đang nhập?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tự động dịch câu lệnh sang tiếng Việt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dùng màu sắc để trợ giúp quan sát cú pháp (syntax coloring).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tự động thực thi câu lệnh ngay khi người dùng vừa gõ xong.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tự động sao lưu dữ liệu mỗi khi người dùng viết câu lệnh JOIN.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         }
     ],
     "part_2": [
