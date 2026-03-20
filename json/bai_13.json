@@ -44,7 +44,7 @@
         {
             "question": "Bản thu âm trong Hình 13.1d tương ứng với dòng 0005 TN là bản thu âm của bản nhạc nào?",
             "image": {
-                "src": "img/q_13_02.png",
+                "src": "/img/q_13_02.png",
                 "alt": ""
             },
             "answers": [
@@ -85,7 +85,7 @@
         {
             "question": "Bản thu âm trong Hình 13.1d tương ứng với dòng 0005 TN là bản thu âm do ca sĩ nào thể hiện?",
             "image": {
-                "src": "img/q_13_02.png",
+                "src": "/img/q_13_02.png",
                 "alt": ""
             },
             "answers": [
@@ -126,7 +126,7 @@
         {
             "question": "Bản thu âm trong Hình 13.1d tương ứng với dòng 0005 TN là bản thu âm do nhạc sĩ nào sáng tác?",
             "image": {
-                "src": "img/q_13_02.png",
+                "src": "/img/q_13_02.png",
                 "alt": ""
             },
             "answers": [
@@ -249,7 +249,7 @@
         {
             "question": "Bảng Bản thu âm và bảng Ca sĩ có chung thuộc tính nào?",
             "image": {
-                "src": "img/q_13_02.png",
+                "src": "/img/q_13_02.png",
                 "alt": ""
             },
             "answers": [
@@ -290,7 +290,7 @@
         {
             "question": "Khoá chính của bảng Ca sĩ và bảng Bản nhạc là?",
             "image": {
-                "src": "img/q_13_02.png",
+                "src": "/img/q_13_02.png",
                 "alt": ""
             },
             "answers": [
