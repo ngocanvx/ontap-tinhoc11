@@ -265,6 +265,7 @@ document.addEventListener('DOMContentLoaded', () => {
             question_image.style.display = "none";
         } else {
             question_image.src = question_data.image.src;
+            question_image.style.display = "block";
         }
 
         // Create answer options
