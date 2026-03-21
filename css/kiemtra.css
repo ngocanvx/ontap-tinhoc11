@@ -40,6 +40,34 @@ body {
     display: block;
 }
 
+#home-page label{
+    /*display: flex;*/
+    text-align: left;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #34495e;
+}
+
+#home-page input{
+    padding: 12px;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    box-sizing: border-box; /* Quan trọng: để padding không làm tràn chiều rộng */
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+#fullName{
+    width: 30%;
+}
+#className{
+    width: 10%;
+}
+#codeExam{
+    width: 15%;
+}
+
 #lesson-select {
     padding: 10px;
     width: 100%;
