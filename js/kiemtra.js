@@ -790,7 +790,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const payload = {
             name: input_full_name.value,
             class: input_class_name.value,
-            code: input_code.value,
+            code: String(input_code.value).trim(),
             //code: document.getElementById("codeExam").value,
             score_p1: part_score[0],
             score_p2: part_score[1],
