@@ -121,6 +121,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Lưu thời gian thực hiện bài quiz
     let quiz_start_time;
     let quiz_timer;
+    let minutes;
+    let seconds;
 
     // Load lessons from baihoc.json
     // Tải danh sách bài học từ file JSON
@@ -612,8 +614,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Cập nhật bộ đếm thời gian
     function updateTimer() {
         const timeElapsed = Math.floor((Date.now() - quiz_start_time) / 1000);
-        const minutes = Math.floor(timeElapsed / 60);
-        const seconds = timeElapsed % 60;
+        minutes = Math.floor(timeElapsed / 60);
+        seconds = timeElapsed % 60;
         time_spent.textContent = `Thời gian: ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
     }
 
