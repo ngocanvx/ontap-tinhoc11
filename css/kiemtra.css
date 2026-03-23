@@ -40,7 +40,8 @@ body {
     display: block;
 }
 
-#home-page label{
+#home-page label,
+#quiz-page label{
     /*display: flex;*/
     text-align: left;
     font-weight: 600;

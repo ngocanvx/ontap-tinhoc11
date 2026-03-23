@@ -14,6 +14,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const lesson_title = document.getElementById('lesson-title');
     const question_counter = document.getElementById('question-counter');
     const time_spent = document.getElementById('time-spent');
+    
+    // Thông tin học sinh
+    const input_full_name=document.getElementById('fullName');
+    const input_class_name=document.getElementById('className');
+    const show_student_info=document.getElementById('showStudentInfo');
 
     // Các nút bấm chuyển phần câu hỏi
     const part1_button = document.getElementById('part1-button');
@@ -588,6 +593,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.title = `Tự kiểm tra - ${selected_lesson_name}`;
 
         lesson_title.textContent = selected_lesson_name;
+        show_student_info.textContent='Họ Tên: ' + input_full_name.value + ' - Lớp: ' + input_class_name.value;
 
         quiz_start_time = Date.now();
         quiz_timer = setInterval(updateTimer, 1000);
@@ -724,7 +730,7 @@ document.addEventListener('DOMContentLoaded', () => {
         summarizeResults();
 
         // Cập nhật tiêu đề
-        result_title.innerHTML = `Kết quả của bạn<br>${lesson_select.options[lesson_select.selectedIndex].text}`;
+        result_title.innerHTML = `Kết quả của bạn: ${input_full_name.value} - ${input_class_name.value}<br>${lesson_select.options[lesson_select.selectedIndex].text}`;
 
         // Cập nhật thống kê số câu hoàn thành
         complete_count_part1.textContent = completed_questions[0] + "/" + question_part.part_1.length;
