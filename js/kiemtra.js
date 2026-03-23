@@ -3,8 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Khai báo các biến DOM (Document Object Model) cần thiết
     // Nhằm truy cập và thao tác với các phần tử HTML
 
+    // Lấy thông tin địa chỉ IP
+    let clientIP = "Đang lấy..."; // Biến toàn cục để lưu IP
+
     // Lấy thông tin trình duyệt
-    const browserInfo = navigator.userAgent; 
+    const browserInfo = navigator.userAgent;
     // Kết quả mẫu: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36..."
 
     // Các trang chính
@@ -780,13 +783,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // 1. Lấy IP (phải đợi một chút)
-        const clientIP = await getIP();
-        
-        // 2. Lấy thông tin trình duyệt
-        const browser = navigator.userAgent;
-
-        // 3. Gom dữ liệu gửi đi
+        // Gom dữ liệu gửi đi
         const payload = {
             name: input_full_name.value,
             class: input_class_name.value,
@@ -797,10 +794,10 @@ document.addEventListener('DOMContentLoaded', () => {
             score_p3: part_score[2],
             paytime: `${minutes} phút ${seconds} giây`,
             ip: clientIP,      // Thêm trường IP
-            userAgent: browser // Thêm trường Trình duyệt
+            userAgent: browserInfo // Thêm trường Trình duyệt
         };
 
-        // 4. Gửi fetch đến Apps Script
+        // Gửi fetch đến Apps Script
         try {
         // Thêm các tham số cấu hình vào fetch
         const response = await fetch("https://script.google.com/macros/s/AKfycbykrsDPNcy7CVo-AXKpU9uCaoJFgUGuKveRMQYY__9I6ddyQNlPXsxrvC7WNNq32xWEkw/exec", {
@@ -865,4 +862,49 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initial load
     loadLessons();
+
+    // Lấy IP khi trang được tải
+    window.onload = async function() {
+        // 1. Lấy IP ngay lập tức
+        clientIP = await getIP();        
+        console.log("IP hiện tại:", clientIP);
+
+        // 3. Lấy thông tin trình duyệt
+        browserInfo = navigator.userAgent;
+        console.log("Trình duyệt hiện tại:", browserInfo);
+    };
+
+    // Cảnh báo khi tải lại trang
+    window.onbeforeunload = function() {
+        if (!completed_test) { // Chỉ cảnh báo nếu chưa nhấn nút Kết thúc
+            return "Bạn đang làm bài, nếu tải lại trang kết quả sẽ bị mất!";
+        }else{
+
+        }
+    };
+
+    // Thực hiện nộp bài khi tải lại trang hoặc thoát
+    window.addEventListener('visibilitychange', function() {
+        // Kiểm tra nếu trang bị ẩn (F5, đóng tab, chuyển tab) và bài chưa nộp
+        if (document.visibilityState === 'hidden' && !completed_test) {
+            
+            const payload = {
+                name: (input_full_name.value || "Ẩn danh") + " (Thoát/F5)",
+                class: input_class_name.value || "N/A",
+                code: String(input_code.value || "").toUpperCase(),
+                score_p1: part_score[0],
+                score_p2: part_score[1],
+                score_p3: part_score[2],
+                paytime: "Bị ngắt quãng",
+                ip: clientIP, // Sử dụng IP đã lấy từ đầu
+                userAgent: browserInfo
+            };
+
+            // Chuyển dữ liệu sang dạng Blob để sendBeacon chấp nhận
+            const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
+            
+            // Gửi "tên lửa" dữ liệu đi ngay lập tức
+            navigator.sendBeacon("https://script.google.com/macros/s/AKfycbykrsDPNcy7CVo-AXKpU9uCaoJFgUGuKveRMQYY__9I6ddyQNlPXsxrvC7WNNq32xWEkw/exec", blob);
+        }
+    });
 });
