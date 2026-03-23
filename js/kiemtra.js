@@ -3,6 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Khai báo các biến DOM (Document Object Model) cần thiết
     // Nhằm truy cập và thao tác với các phần tử HTML
 
+    // Lấy thông tin trình duyệt
+    const browserInfo = navigator.userAgent; 
+    // Kết quả mẫu: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36..."
+
     // Các trang chính
     const home_page = document.getElementById('home-page');
     const quiz_page = document.getElementById('quiz-page');
@@ -18,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Thông tin học sinh
     const input_full_name=document.getElementById('fullName');
     const input_class_name=document.getElementById('className');
+    const input_code=document.getElementById('codeExam');
     const show_student_info=document.getElementById('showStudentInfo');
 
     // Các nút bấm chuyển phần câu hỏi
@@ -750,7 +755,70 @@ document.addEventListener('DOMContentLoaded', () => {
         //total_time_part3.textContent = `${Math.floor(time_spent_part[2] / 60)} phút ${time_spent_part[2] % 60} giây`;
         total_time_total.textContent = `${minutes} phút ${seconds} giây`;
 
+        // Gửi kết quả về App Script để lưu vào Google Sheet
+        submitQuiz();
+
         return true;
+    }
+
+    // Sử dụng dịch vụ để lấy IP của Client
+    async function getIP() {
+        try {
+            const response = await fetch('https://api.ipify.org?format=json');
+            const data = await response.json();
+            return data.ip; // Trả về ví dụ: "113.161.x.x"
+        } catch (error) {
+            return "Không xác định";
+        }
+    }
+
+    // Hàm gửi dữ liệu về App Script và lưu vào Google Sheet
+    async function submitQuiz() {
+        if (document.getElementById("fullName").value=="" || document.getElementById("className").value==""){
+            return;
+        }
+
+        // 1. Lấy IP (phải đợi một chút)
+        const clientIP = await getIP();
+        
+        // 2. Lấy thông tin trình duyệt
+        const browser = navigator.userAgent;
+
+        // 3. Gom dữ liệu gửi đi
+        const payload = {
+            name: input_full_name.value,
+            class: input_class_name.value,
+            code: input_code.value,
+            //code: document.getElementById("codeExam").value,
+            score_p1: part_score[0],
+            score_p2: part_score[1],
+            score_p3: part_score[2],
+            paytime: `${minutes} phút ${seconds} giây`,
+            ip: clientIP,      // Thêm trường IP
+            userAgent: browser // Thêm trường Trình duyệt
+        };
+
+        // 4. Gửi fetch đến Apps Script
+        try {
+        // Thêm các tham số cấu hình vào fetch
+        const response = await fetch("https://script.google.com/macros/s/AKfycbykrsDPNcy7CVo-AXKpU9uCaoJFgUGuKveRMQYY__9I6ddyQNlPXsxrvC7WNNq32xWEkw/exec", {
+            method: "POST",
+            mode: "no-cors", // BẮT BUỘC để tránh lỗi CORS
+            cache: "no-cache",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(payload)
+        });
+        
+        // LƯU Ý: Với chế độ "no-cors", bạn sẽ KHÔNG đọc được nội dung trả về (result)
+        // Trình duyệt sẽ trả về một opaque response (phản hồi mờ đục)
+        alert("Đã gửi yêu cầu nộp bài! Vui lòng kiểm tra lại bảng tính.");
+        
+        } catch (error) {
+            console.error("Lỗi chi tiết:", error);
+            alert("Không thể kết nối máy chủ!");
+        }
     }
 
     // Event Listeners
