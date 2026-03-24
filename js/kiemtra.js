@@ -668,6 +668,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // Tính thời gian thực hiện
+    function summarizeTime(){
+        // Dừng bộ đếm thời gian
+        clearInterval(quiz_timer);
+        const totalTimeElapsed = Math.floor((Date.now() - quiz_start_time) / 1000);
+        const minutes = Math.floor(totalTimeElapsed / 60);
+        const seconds = totalTimeElapsed % 60;
+    }
+
     // Tổng hợp kết quả của bài kiểm tra
     function summarizeResults() {
         // Tính số câu hoàn thành của từng phần
@@ -727,11 +736,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Chuyển trạng thái đã hoàn thành bài làm
         completed_test = true;
 
-        // Dừng bộ đếm thời gian
-        clearInterval(quiz_timer);
-        const totalTimeElapsed = Math.floor((Date.now() - quiz_start_time) / 1000);
-        const minutes = Math.floor(totalTimeElapsed / 60);
-        const seconds = totalTimeElapsed % 60;
+        // Cập nhật thời gian
+        summarizeTime();
 
         quiz_page.classList.remove('active');
         result_page.classList.add('active');
@@ -797,6 +803,8 @@ document.addEventListener('DOMContentLoaded', () => {
             userAgent: browserInfo // Thêm trường Trình duyệt
         };
 
+        alert("Hệ thống đang gửi kết quả, xin vui lòng chờ thông báo tiếp theo...");
+
         // Gửi fetch đến Apps Script
         try {
         // Thêm các tham số cấu hình vào fetch
@@ -812,7 +820,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // LƯU Ý: Với chế độ "no-cors", bạn sẽ KHÔNG đọc được nội dung trả về (result)
         // Trình duyệt sẽ trả về một opaque response (phản hồi mờ đục)
-        alert("Đã gửi yêu cầu nộp bài! Vui lòng kiểm tra lại bảng tính.");
+        alert("Đã gửi yêu cầu nộp bài thành công!");
         
         } catch (error) {
             console.error("Lỗi chi tiết:", error);
@@ -869,8 +877,6 @@ document.addEventListener('DOMContentLoaded', () => {
         clientIP = await getIP();        
         console.log("IP hiện tại:", clientIP);
 
-        // 3. Lấy thông tin trình duyệt
-        browserInfo = navigator.userAgent;
         console.log("Trình duyệt hiện tại:", browserInfo);
     };
 
@@ -879,32 +885,39 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!completed_test) { // Chỉ cảnh báo nếu chưa nhấn nút Kết thúc
             return "Bạn đang làm bài, nếu tải lại trang kết quả sẽ bị mất!";
         }else{
-
+            
         }
     };
 
     // Thực hiện nộp bài khi tải lại trang hoặc thoát
     window.addEventListener('visibilitychange', function() {
-        // Kiểm tra nếu trang bị ẩn (F5, đóng tab, chuyển tab) và bài chưa nộp
         if (document.visibilityState === 'hidden' && !completed_test) {
             
-            const payload = {
-                name: (input_full_name.value || "Ẩn danh") + " (Thoát/F5)",
-                class: input_class_name.value || "N/A",
-                code: String(input_code.value || "").toUpperCase(),
-                score_p1: part_score[0],
-                score_p2: part_score[1],
-                score_p3: part_score[2],
-                paytime: "Bị ngắt quãng",
-                ip: clientIP, // Sử dụng IP đã lấy từ đầu
-                userAgent: browserInfo
-            };
+            // Dừng bộ đếm thời gian
+            clearInterval(quiz_timer);
+            const totalTimeElapsed = Math.floor((Date.now() - quiz_start_time) / 1000);
+            const minutes = Math.floor(totalTimeElapsed / 60);
+            const seconds = totalTimeElapsed % 60;
 
-            // Chuyển dữ liệu sang dạng Blob để sendBeacon chấp nhận
-            const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
+            // Thực hiện tổng điểm
+            summarizeResults();
+
+            // Tạo đối tượng FormData
+            const formData = new FormData();
+            formData.append('name', (input_full_name.value || "Ẩn danh") + " (Thoát/F5)");
+            formData.append('class', input_class_name.value || "N/A");
+            formData.append('code', String(input_code.value || "").toUpperCase());
+            formData.append('score_p1', part_score[0]);
+            formData.append('score_p2', part_score[1]);
+            formData.append('score_p3', part_score[2]);
+            formData.append('paytime', `${minutes} phút ${seconds} giây`);
+            formData.append('ip', clientIP);
+            formData.append('userAgent', browserInfo);
+
+            // Gửi trực tiếp formData, không cần Blob
+            navigator.sendBeacon("https://script.google.com/macros/s/AKfycbykrsDPNcy7CVo-AXKpU9uCaoJFgUGuKveRMQYY__9I6ddyQNlPXsxrvC7WNNq32xWEkw/exec", formData);
             
-            // Gửi "tên lửa" dữ liệu đi ngay lập tức
-            navigator.sendBeacon("https://script.google.com/macros/s/AKfycbykrsDPNcy7CVo-AXKpU9uCaoJFgUGuKveRMQYY__9I6ddyQNlPXsxrvC7WNNq32xWEkw/exec", blob);
+            completed_test = true; // Ngăn việc gửi trùng lặp
         }
     });
 });
