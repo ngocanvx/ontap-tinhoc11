@@ -1,6 +1,6 @@
 * {
-    margin: 10;
-    padding: 10;
+    /*margin: 10;
+    padding: 10;*/
     box-sizing: border-box;
 }
 
@@ -257,7 +257,7 @@ tr:nth-child(even) {
 
 .true-false-buttons-part2 {
     display: inline-block;
-    width: 1cm;
+    width: 2.5rem;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
