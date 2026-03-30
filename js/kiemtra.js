@@ -894,6 +894,11 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('visibilitychange', function() {
         if (document.visibilityState === 'hidden' && !completed_test) {
             
+            // Kiểm tra nếu người dùng không nhập thông tin thì thoát, không thực hiện gì
+            if (document.getElementById("fullName").value=="" || document.getElementById("className").value==""){
+                return;
+            }
+            
             // Dừng bộ đếm thời gian
             clearInterval(quiz_timer);
             const totalTimeElapsed = Math.floor((Date.now() - quiz_start_time) / 1000);
