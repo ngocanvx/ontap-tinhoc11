@@ -799,7 +799,7 @@ document.addEventListener('DOMContentLoaded', () => {
             score_p2: part_score[1],
             score_p3: part_score[2],
             paytime: `${minutes} phút ${seconds} giây`,
-            title: lesson_title,
+            title: lesson_title.textContent,
             ip: clientIP,      // Thêm trường IP
             userAgent: browserInfo // Thêm trường Trình duyệt
         };
@@ -912,7 +912,7 @@ document.addEventListener('DOMContentLoaded', () => {
             formData.append('score_p2', part_score[1]);
             formData.append('score_p3', part_score[2]);
             formData.append('paytime', `${minutes} phút ${seconds} giây`);
-            formData.append('title', lesson_title);
+            formData.append('title', lesson_title.textContent);
             formData.append('ip', clientIP);
             formData.append('userAgent', browserInfo);
 
