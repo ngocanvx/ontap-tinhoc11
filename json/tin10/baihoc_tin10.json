@@ -1,0 +1,140 @@
+{
+    "lessons": [
+        {
+            "name": "Bài 1. Thông tin và xử lý thông tin",
+            "file": "bai_01.json"
+        },
+        {
+            "name": "Bài 2. Vai trò của thiết bị thông minh và tin học đối với xã hội",
+            "file": "bai_02.json"
+        },
+        {
+            "name": "Bài 3. Một số kiểu dữ liệu và dữ liệu văn bản",
+            "file": "bai_03.json"
+        },
+        {
+            "name": "Bài 4. Hệ nhị phân và dữ liệu số nguyên",
+            "file": "bai_04.json"
+        },
+        {
+            "name": "Bài 5. Dữ liệu logic",
+            "file": "bai_05.json"
+        },
+        {
+            "name": "Bài 6. Dữ liệu âm thanh và hình ảnh",
+            "file": "bai_06.json"
+        },
+        {
+            "name": "Bài 7. Thực hành sử dụng thiết bị số thông dụng",
+            "file": "bai_07.json"
+        },
+        {
+            "name": "Bài 8. Mạng máy tính trong cuộc sống hiện đại",
+            "file": "bai_08.json"
+        },
+        {
+            "name": "Bài 9. An toàn trên không gian mạng",
+            "file": "bai_09.json"
+        },
+        {
+            "name": "Bài 10. Thực hành khai thác tài nguyên trên internet",
+            "file": "bai_10.json"
+        },
+        {
+            "name": "Bài 11. Ứng xử trên môi trường số. Nghĩa vụ tôn trọng bản quyền",
+            "file": "bai_11.json"
+        },
+        {
+            "name": "Bài 12. Phần mềm thiết kế đồ họa",
+            "file": "bai_12.json"
+        },
+        {
+            "name": "Bài 13. Bổ sung các đối tượng đồ họa",
+            "file": "bai_13.json"
+        },
+        {
+            "name": "Bài 14. Làm việc với đối tượng đường và văn bản",
+            "file": "bai_14.json"
+        },
+        {
+            "name": "Bài 15. Hoàn thiện hình ảnh đồ họa",
+            "file": "bai_15.json"
+        },
+        {
+            "name": "Bài 16. Ngôn ngữ lập trình bậc cao và Python",
+            "file": "bai_16.json"
+        },
+        {
+            "name": "Bài 17. Biến và lệnh gán",
+            "file": "bai_17.json"
+        },
+        {
+            "name": "Bài 18. Các lệnh vào ra đơn giản",
+            "file": "bai_18.json"
+        },
+        {
+            "name": "Bài 19. Câu lệnh rẽ nhánh if",
+            "file": "bai_19.json"
+        },
+        {
+            "name": "Bài 20. Câu lệnh lặp for",
+            "file": "bai_20.json"
+        },
+        {
+            "name": "Bài 21. Câu lệnh lặp while",
+            "file": "bai_21.json"
+        },
+        {
+            "name": "Bài 22. Kiểu dữ liệu danh sách",
+            "file": "bai_22.json"
+        },
+        {
+            "name": "Bài 23. Một số lệnh làm việc với dữ liệu danh sách",
+            "file": "bai_23.json"
+        },
+        {
+            "name": "Bài 24. Xâu ký tự",
+            "file": "bai_24.json"
+        },
+        {
+            "name": "Bài 25. Một số lệnh làm việc với xâu ký tự",
+            "file": "bai_25.json"
+        },
+        {
+            "name": "Bài 26. Hàm trong Python",
+            "file": "bai_26.json"
+        },
+        {
+            "name": "Bài 27. Tham số của hàm",
+            "file": "bai_27.json"
+        },
+        {
+            "name": "Bài 28. Phạm vi của biến",
+            "file": "bai_28.json"
+        },
+        {
+            "name": "Bài 29. Nhận biết lỗi chương trình",
+            "file": "bai_29.json"
+        },
+        {
+            "name": "Bài 30. Kiểm thử và gỡ lỗi chương trình",
+            "file": "bai_30.json"
+        },
+        {
+            "name": "Bài 31. Thực hành viết chương trình đơn giản",
+            "file": "bai_31.json"
+        },
+        {
+            "name": "Bài 32. Ôn tập lập trình python",
+            "file": "bai_32.json"
+        },
+        {
+            "name": "Bài 33. Nghề thiết kế đồ họa máy tính",
+            "file": "bai_33.json"
+        },
+        {
+            "name": "Bài 34. Nghề phát triển phần mềm",
+            "file": "bai_34.json"
+        }
+    ]
+}
