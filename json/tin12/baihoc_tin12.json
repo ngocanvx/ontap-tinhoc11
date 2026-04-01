@@ -1,128 +1,116 @@
 {
     "lessons": [
         {
-            "name": "Bài 1. Hệ điều hành",
+            "name": "Bài 1. Làm quen với trí tuệ nhân tạo",
             "file": "bai_01.json"
         },
         {
-            "name": "Bài 2. Thực hành sử dụng hệ điều hành",
+            "name": "Bài 2. Trí tuệ nhân tạo trong khoa học và đời sống",
             "file": "bai_02.json"
         },
         {
-            "name": "Bài 3. Phần mềm nguồn mở và phần mềm chạy trên internet",
+            "name": "Bài 3. Một số thiết bị mạng thông dụng",
             "file": "bai_03.json"
         },
         {
-            "name": "Bài 4. Bên trong máy tính",
+            "name": "Bài 4. Giao thức mạng",
             "file": "bai_04.json"
         },
         {
-            "name": "Bài 5. Kết nối máy tính với các thiết bị số",
+            "name": "Bài 5. Thực hành chia sẻ tài nguyên trên mạng",
             "file": "bai_05.json"
         },
         {
-            "name": "Bài 6. Lưu trữ và chia sẻ tệp tin trên internet",
+            "name": "Bài 6. Giao tiếp và ứng xử trong không gian mạng",
             "file": "bai_06.json"
         },
         {
-            "name": "Bài 7. Thực hành tìm kiếm thông tin trên internet",
+            "name": "Bài 7. HTML và cấu trúc trang web",
             "file": "bai_07.json"
         },
         {
-            "name": "Bài 8. Thực hành nâng cao sử dụng thư điện tử và mạng xã hội",
+            "name": "Bài 8. Định dạng văn bản",
             "file": "bai_08.json"
         },
         {
-            "name": "Bài 9. Giao tiếp an toàn trên internet",
+            "name": "Bài 9. Tạo danh sách, bảng",
             "file": "bai_09.json"
         },
         {
-            "name": "Bài 10. Lưu trữ dữ liệu và khai thác thông tin phục vụ quản lí",
+            "name": "Bài 10. Tạo liên kết",
             "file": "bai_10.json"
         },
         {
-            "name": "Bài 11. Cơ sở dữ liệu",
+            "name": "Bài 11. Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web",
             "file": "bai_11.json"
         },
         {
-            "name": "Bài 12. Hệ quản trị cơ sở dữ liệu và hệ cơ sở dữ liệu",
+            "name": "Bài 12. Tạo biểu mẫu",
             "file": "bai_12.json"
         },
         {
-            "name": "Bài 13. Cơ sở dữ liệu quan hệ",
+            "name": "Bài 13. Khái niệm, vai trò của CSS",
             "file": "bai_13.json"
         },
         {
-            "name": "Bài 14. SQL - Ngôn ngữ truy vấn có cấu trúc",
+            "name": "Bài 14. Định dạng văn bản bằng CSS",
             "file": "bai_14.json"
         },
         {
-            "name": "Bài 15. Bảo mật và an toàn hệ cơ sở dữ liệu",
+            "name": "Bài 15. Tạo màu cho chữ và nền",
             "file": "bai_15.json"
         },
         {
-            "name": "Bài 16. Công việc quản trị cơ sở dữ liệu",
+            "name": "Bài 16. Định dạng khung",
             "file": "bai_16.json"
         },
         {
-            "name": "Bài 17. Quản trị cơ sở dữ liệu trên máy tính",
+            "name": "Bài 17. Các mức ưu tiên của bộ chọn",
             "file": "bai_17.json"
         },
         {
-            "name": "Bài 18. Thực hành xác định cấu trúc bảng và các trường khóa",
+            "name": "Bài 18. Thực hành tổng hợp thiết kế trang web",
             "file": "bai_18.json"
         },
         {
-            "name": "Bài 19. Thực hành tạo lập cơ sở dữ liệu và các bảng",
+            "name": "Bài 19. Dịch vụ sửa chữa và bảo trì máy tính",
             "file": "bai_19.json"
         },
         {
-            "name": "Bài 20. Thực hành tạo lập các bảng có khóa ngoài",
+            "name": "Bài 20. Nhóm nghề quản trị thuộc ngành Công nghệ thông tin",
             "file": "bai_20.json"
         },
         {
-            "name": "Bài 21. Thực hành cập nhật và truy xuất dữ liệu các bảng",
+            "name": "Bài 21. Hội thảo hướng nghiệp",
             "file": "bai_21.json"
         },
         {
-            "name": "Bài 22. Thực hành cập nhật bảng dữ liệu có tham chiếu",
+            "name": "Bài 22. Thực hành kết nối các thiết bị số",
             "file": "bai_22.json"
         },
         {
-            "name": "Bài 23. Thực hành truy xuất dữ liệu qua liên kết các bảng",
+            "name": "Bài 23. Chuẩn bị xây dựng trang web",
             "file": "bai_23.json"
         },
         {
-            "name": "Bài 24. Thực hành sao lưu dữ liệu",
+            "name": "Bài 24. Xây dựng phần đầu trang web",
             "file": "bai_24.json"
         },
         {
-            "name": "Bài 25. Phần mềm chỉnh sửa ảnh",
+            "name": "Bài 25. Xây dựng phần thân và chân trang web",
             "file": "bai_25.json"
         },
         {
-            "name": "Bài 26. Công cụ tinh chỉnh màu sắc và công cụ chọn",
+            "name": "Bài 26. Liên kết và thanh điều hướng",
             "file": "bai_26.json"
         },
         {
-            "name": "Bài 27. Công cụ vẽ và một số ứng dụng",
+            "name": "Bài 27. Biểu mẫu trên trang web",
             "file": "bai_27.json"
         },
         {
-            "name": "Bài 28. Tạo ảnh động",
+            "name": "Bài 28. Thực hành tổng hợp",
             "file": "bai_28.json"
-        },
-        {
-            "name": "Bài 29. Khám phá phần mềm làm phim",
-            "file": "bai_29.json"
-        },
-        {
-            "name": "Bài 30. Biên tập phim",
-            "file": "bai_30.json"
-        },
-        {
-            "name": "Bài 31. Thực hành tạo phim hoạt hình",
-            "file": "bai_31.json"
         }
     ]
 }
