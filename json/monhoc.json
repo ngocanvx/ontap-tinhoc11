@@ -1,0 +1,16 @@
+{
+    "subject":[
+        {
+            "name": "Tin học 10",
+            "path": "tin10"
+        },
+        {
+            "name": "Tin học 11",
+            "path": "tin11"
+        },
+        {
+            "name": "Tin học 12",
+            "path": "tin12"
+        }
+    ]
+}

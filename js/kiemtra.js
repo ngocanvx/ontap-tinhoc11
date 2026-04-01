@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const result_page = document.getElementById('result-page');
 
     // Các phần tử trong trang quiz
+    const subject_select = document.getElementById('subject-select');
     const lesson_select = document.getElementById('lesson-select');
     const start_button = document.getElementById('start-button');
     const lesson_title = document.getElementById('lesson-title');
@@ -77,6 +78,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let completed_test = false;
 
     // Lưu danh sách bài học và danh sách câu hỏi hiện tại
+    let subject = [];
+    let lesson_path='';
     let lessons = [];
 
     // Đánh dấu phần câu hỏi hiện tại đang ở phần nào
@@ -129,13 +132,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Load lessons from baihoc.json
     // Tải danh sách bài học từ file JSON
-    async function loadLessons() {
+    async function loadSubject() {
         try {
-            // Đọc nội dung file JSON
-            const response = await fetch('./json/baihoc.json');
+
+            // Đọc danh sách môn học
+            const subject_respone = await fetch('./json/monhoc.json');
+
+            // Phân tích json
+            const data_subject = await subject_respone.json();
+
+            // Lưu danh sách môn học ra biến
+            subject=data_subject.subject;
+
+            // Duyệt danh sách bài học, thêm vào select (dropdown)
+            subject.forEach((subject, index) => {
+                const option = document.createElement('option');
+                option.value = subject.path;
+                option.textContent = subject.name;
+                subject_select.appendChild(option);
+            });
+
+        } catch (error) {
+            console.error('Lỗi khi tải danh sách môn học: ', error);
+        }
+    }
+
+    // Load danh sách bài học tương ứng với môn học
+    async function loadLesson(){
+        try{
+            // Đọc nội dung file JSON bài học tương ứng với môn được chọn
+            
+            const lesson_response = await fetch(`./json/${subject_select.value}/baihoc_${subject_select.value}.json`);
 
             // Phân tích nội dung JSON
-            const data = await response.json();
+            const data = await lesson_response.json();
 
             // Lưu danh sách bài học vào biến toàn cục
             lessons = data.lessons;
@@ -147,9 +177,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 option.textContent = lesson.name;
                 lesson_select.appendChild(option);
             });
-
-        } catch (error) {
-            console.error('Lỗi khi tải danh sách bài học:', error);
+        }
+        catch (error){
+            console.error('Lỗi khi tải danh sách bài học: ', error);
         }
     }
 
@@ -869,9 +899,6 @@ document.addEventListener('DOMContentLoaded', () => {
         document.title = "Chọn bài học";
     });
 
-    // Initial load
-    loadLessons();
-
     // Lấy IP khi trang được tải
     window.onload = async function() {
         // 1. Lấy IP ngay lập tức
@@ -927,4 +954,9 @@ document.addEventListener('DOMContentLoaded', () => {
             completed_test = true; // Ngăn việc gửi trùng lặp
         }
     });
+
+    // Initial load
+    loadSubject();
+    //loadLessons();
+
 });
