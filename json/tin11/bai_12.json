@@ -1,0 +1,827 @@
+{
+    "part_1": [
+        {
+            "question": "Chọn câu SAI. Theo em, một phần mềm hỗ trợ làm việc với các CSDL cần thực hiện được những yêu cầu nào dưới đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cập nhật dữ liệu và tự động kiểm tra tính đúng đắn của dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hỗ trợ truy xuất dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cung cấp giao diện để ai cũng có thể xem nội dung của các bảng dữ liệu một cách dễ dàng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các CSDL không có chức năng cung cấp giao diện cho người dùng dễ xem",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm hỗ trợ làm việc với CSDL cần có các chức năng cập nhật dữ liệu và kiểm tra tính đúng đắn của dữ liệu, hỗ trợ truy xuất dữ liệu và cung cấp giao diện đơn giản để?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người dùng dễ dàng truy xuất dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng dễ dàng tra tìm dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng có thể xem nội dung của các bảng dữ liệu một cách dễ dàng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người dùng dễ nhập dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chọn đáp án SAI. Những khó khăn trong việc khai thác CSDL nếu không có hệ QTCSDL là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khó khăn trong việc lưu trữ dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không có tính năng bảo mật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không có tính năng quản lý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có thể đồng bộ dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khó khăn trong việc lưu trữ dữ liệu xảy ra khi?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ thống lưu trữ dữ liệu không có hệ quản trị cơ sở dữ liệu sẽ không có tính năng quản lý dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các hệ thống lưu trữ dữ liệu không có hệ quản trị cơ sở dữ liệu có thể không có tính năng bảo mật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một hệ thống lưu trữ dữ liệu không có hệ quản trị cơ sở dữ liệu sẽ phải tổ chức và lưu trữ dữ liệu một cách thủ công",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người dùng phải thực hiện các hoạt động lọc, sắp xếp và phân tích dữ liệu một cách thủ công",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khó khăn trong việc không có tính năng bảo mật xảy ra khi?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ thống lưu trữ dữ liệu không có hệ quản trị cơ sở dữ liệu sẽ không có tính năng quản lý dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các hệ thống lưu trữ dữ liệu không có hệ quản trị cơ sở dữ liệu có thể không có tính năng bảo mật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một hệ thống lưu trữ dữ liệu không có hệ quản trị cơ sở dữ liệu sẽ phải tổ chức và lưu trữ dữ liệu một cách thủ công",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng phải thực hiện các hoạt động lọc, sắp xếp và phân tích dữ liệu một cách thủ công",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khó khăn trong việc không có tính năng quản lý xảy ra khi?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ thống lưu trữ dữ liệu không có hệ quản trị cơ sở dữ liệu sẽ không có tính năng quản lý dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các hệ thống lưu trữ dữ liệu không có hệ quản trị cơ sở dữ liệu có thể không có tính năng bảo mật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một hệ thống lưu trữ dữ liệu không có hệ quản trị cơ sở dữ liệu sẽ phải tổ chức và lưu trữ dữ liệu một cách thủ công",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng phải thực hiện các hoạt động lọc, sắp xếp và phân tích dữ liệu một cách thủ công",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khó khăn trong việc không thể đồng bộ hóa dữ liệu xảy ra khi?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ thống lưu trữ dữ liệu không có hệ quản trị cơ sở dữ liệu sẽ không có tính năng quản lý dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các hệ thống lưu trữ dữ liệu không có hệ quản trị cơ sở dữ liệu có thể không có tính năng bảo mật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một hệ thống lưu trữ dữ liệu không có hệ quản trị cơ sở dữ liệu sẽ phải tổ chức và lưu trữ dữ liệu một cách thủ công",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng phải thực hiện các hoạt động lọc, sắp xếp và phân tích dữ liệu một cách thủ công",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Hệ quản trị cơ sở dữ liệu (HQTCSDL) là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Là phần mềm chỉ dùng để lưu trữ dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Là phần mềm cung cấp các công cụ để tổ chức, quản lý và khai thác dữ liệu trong CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Là phần mềm chỉ dùng để phân tích dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Là phần mềm để tạo giao diện người dùng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hệ cơ sở dữ liệu (CSDL) là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Là một tập hợp các tệp văn bản",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Là một hệ thống bao gồm HQTCSDL, CSDL, phần mềm ứng dụng và người dùng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Là phần mềm chỉ để lưu trữ dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Là giao diện để người dùng nhập dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chọn đáp án SAI. Các chức năng chính của một HQTCSDL bao gồm?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tạo và quản lý cấu trúc của CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hỗ trợ truy xuất và phân tích dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đảm bảo tính bảo mật và an toàn của dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tự động tạo nội dung dữ liệu cho CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Một số ví dụ về hệ quản trị cơ sở dữ liệu phổ biến hiện nay là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Microsoft Word, Excel, PowerPoint",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Oracle, MySQL, SQL Server, Microsoft Access",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Photoshop, Illustrator, InDesign",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Google Docs, Sheets, Slides",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hệ CSDL tập trung là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ CSDL được lưu trữ và quản lý tại nhiều địa điểm khác nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hệ CSDL được lưu trữ và quản lý tại một địa điểm duy nhất",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ CSDL chỉ cho phép một người dùng truy cập tại một thời điểm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hệ CSDL không sử dụng hệ quản trị cơ sở dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hệ CSDL phân tán là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ CSDL được lưu trữ và quản lý tại một địa điểm duy nhất",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hệ CSDL được lưu trữ và quản lý tại nhiều địa điểm, nhưng vẫn hoạt động như một hệ thống thống nhất",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ CSDL chỉ cho phép một người dùng truy cập",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hệ CSDL không có tính năng bảo mật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Những ưu điểm nào sau đây là đúng khi nói về hệ CSDL phân tán so với hệ CSDL tập trung?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ CSDL phân tán cho phép mở rộng dễ dàng hơn khi khối lượng dữ liệu tăng lên.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ CSDL phân tán giúp tăng tốc độ truy vấn cho người dùng ở các địa điểm khác nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ CSDL phân tán có tính bảo mật cao hơn so với hệ tập trung.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hệ CSDL phân tán thường đơn giản và ít tốn kém hơn hệ tập trung.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hệ quản trị CSDL (HQTCSDL) có những vai trò và chức năng gì đối với việc bảo mật và an toàn dữ liệu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cung cấp các phương tiện để sao lưu (backup) và phục hồi dữ liệu khi có sự cố.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đảm bảo tính nhất quán của dữ liệu, ngay cả khi có nhiều người cùng truy cập đồng thời.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cho phép mọi người dùng đều có quyền truy cập và đọc toàn bộ dữ liệu trong CSDL để đảm bảo tính minh bạch.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kiểm soát và cấp phát quyền truy cập cho người dùng, đảm bảo chỉ người có thẩm quyền mới được xem hoặc sửa dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "So sánh giữa hệ CSDL tập trung và hệ CSDL phân tán, đâu là những nhận định đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ CSDL phân tán dễ dàng mở rộng hơn khi có nhu cầu lưu trữ lớn hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ CSDL tập trung đảm bảo tính nhất quán và an toàn dữ liệu tốt hơn so với hệ phân tán.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chi phí duy trì của hệ CSDL phân tán thường cao hơn so với hệ tập trung.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ CSDL phân tán giúp giảm tốc độ truy xuất dữ liệu cho người dùng ở xa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về tương tác của người dùng và các thành phần trong một hệ CSDL, các phát biểu nào là chính xác?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người dùng cuối thường tương tác trực tiếp với HQTCSDL thông qua giao diện dòng lệnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm ứng dụng CSDL là phần mềm được xây dựng để tương tác với HQTCSDL nhằm hỗ trợ người dùng khai thác thông tin.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong mô hình khách-chủ, phần mềm khách và HQTCSDL có thể được cài đặt trên các máy tính khác nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Có thể có nhiều phần mềm ứng dụng khác nhau cùng khai thác một CSDL thông qua một HQTCSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu là các ví dụ và đặc điểm đúng về các HQTCSDL phổ biến?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Oracle, MySQL, SQL Server, và Microsoft Access là những HQTCSDL được dùng phổ biến hiện nay.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hầu hết các HQTCSDL đều cung cấp giao diện lập trình ứng dụng cho các nhà phát triển.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Microsoft Access chỉ phù hợp với các CSDL phân tán quy mô lớn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một HQTCSDL có thể chạy trên nhiều hệ điều hành khác nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về ưu điểm và nhược điểm của các hệ CSDL, các khẳng định nào đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ưu điểm của hệ CSDL phân tán là có thể xử lí khối lượng công việc lớn và phục vụ nhiều người dùng trên phạm vi địa lí rộng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhược điểm của hệ CSDL tập trung là khó mở rộng khi hệ thống phát triển.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ CSDL phân tán làm tăng tốc độ truy vấn cho người dùng ở các địa điểm khác nhau bằng cách đưa dữ liệu đến gần họ hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc đảm bảo an ninh trong hệ CSDL tập trung khó khăn hơn so với hệ CSDL phân tán.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các khái niệm trong bài học về hệ quản trị CSDL được hiểu như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hệ CSDL là một bộ phần mềm dùng để tạo và quản lí các CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một hệ thống bao gồm người dùng, phần mềm ứng dụng, HQTCSDL và CSDL được gọi là một hệ CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "CSDL tập trung có nghĩa là dữ liệu chỉ được một người dùng truy cập tại một thời điểm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các hệ thống lớn như của Facebook hay Amazon sử dụng mô hình CSDL phân tán để phục vụ khách hàng trên toàn cầu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_3": []
+}

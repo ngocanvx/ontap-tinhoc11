@@ -1,0 +1,1442 @@
+{
+    "part_1": [
+        {
+            "question": "Thói quen cá nhân của người lưu trữ có thể dẫn đến ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sự nhất quán của dữ liệu khi lưu trữ thủ công",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sự không nhất quán của dữ liệu khi lưu trữ tự động",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sự không nhất quán của dữ liệu khi lưu trữ thủ công",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉ nhất quán khi được ghi chép trên giấy",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Em có thể ghi điểm bằng cách nào để dễ nhận biết và tính toán?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ghi bằng chữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ghi bằng các kí hiệu riêng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ghi bằng Số",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ghi theo tên",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi dữ liệu được lưu trữ trên máy tính thì việc lập bảng điểm lớp học từ dữ liệu cơ sở có thể?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thực hiện một cách phức tạp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thực hiện một cách khó khăn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thực hiện một cách dễ dàng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Không thể thực hiện được",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Cần phải tổ chức việc lưu trữ dữ liệu trên máy tính hợp lý để?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Dễ dàng chia sẻ, khắc phục những lỗi không nhất quán về dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dễ dàng bảo trì, khắc phục những lỗi không nhất quán về dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dễ dàng chia sẻ, hạn chế trùng lặp dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hạn chế trùng lặp làm dư thừa dữ liệu, khắc phục những lỗi không nhất quán về dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc lưu trữ dữ liệu không tách rời việc?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Xử lý dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Truy xuất dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khai thác thông tin nhờ các phần mềm ứng dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉnh sửa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc lưu trữ dữ liệu không tách rời việc khai thác thông tin nhờ các phần mềm ứng dụng vì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Xử lý thông tin là mục đích của việc lưu trữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thu thập thông tin là mục đích của việc lưu trữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khai thác thông tin là mục đích của việc lưu trữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉnh sửa thông tin là mục đích của việc lưu trữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc lưu trữ dữ liệu điểm các môn học trên máy tính đòihỏi cần có ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần mềm hỗ trợ soạn thảo văn bản, phần mềm hỗ trợ khai thác thông tin",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm hỗ trợ soạn thảo văn bản, phần mềm hỗ trợ nhập điểm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm hỗ trợ cập nhật dữ liệu điểm, phần mềm hỗ trợ khai thác thông tin",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phần mềm hỗ trợ cập nhật dữ liệu điểm, phần mềm hỗ trợ tính toán",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu KHÔNG là thành phần cần có của phần mềm lưu trữ dữ liệu điểm?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cập nhật điểm môn học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quản lý danh sách lớp học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Lập bảng điểm lớp học từ dữ liệu điểm môn học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Số ngày nghỉ phép của học sinh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các thành phần cần có của phần mềm thường được gọi là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các thiết bị phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các mô đun phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các thành phần phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các phần mềm hỗ trợ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Nếu viết các mô đun phần mềm bằng một ngôn ngữ lập trình thì giải pháp thường được sử dụng là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sử dụng trực tiếp hệ thống tệp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sử dụng trực tiếp các dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng trực tiếp các kí hiệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng gián tiếp hệ thống tệp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi viết mô đun phần mềm thì người lập trình phải?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Biết sử dụng dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Biết phân loại dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Biết cấu trúc của các tệp dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Biết mục đích sử dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Mô đun Danh sách lớp phải ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đọc dữ liệu từ Danh sách lớp học, tạo lập tệp Bảng điểm môn học nếu chưa có, cập nhật tệp Bảng điểm môn học nếu xuất hiện những dòng mới trong danh sách lớp học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đọc và ghi dữ liệu cập nhật vào Bảng điểm môn học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đọc dữ liệu từ Bảng điểm môn học, xử lý dữ liệu để tạo và kết xuất ra bảng điểm lớp học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chịu trách nhiệm đọc và ghi dữ liệu cập nhật vào Danh sách lớp học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chọn đáp ánsai. Mô đun Điểm môn học phải ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đọc dữ liệu từ Danh sách lớp học, tạo lập tệp Bảng điểm môn học nếu chưa có cập nhật tệp Bảng điểm môn học nếu xuất hiện những dòng mới trong danh sách lớp học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đọc và ghi dữ liệu cập nhật vào Bảng điểm môn học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chịu trách nhiệm đọc và ghi dữ liệu vào Danh sách lớp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đọc dữ liệu từ Bảng điểm môn học, xử lý dữ liệu để tạo và kết xuất ra bảng điểm lớp học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Mô đun Lập bảng điểm phải ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Đọc dữ liệu từ Danh sách lớp học, tạo lập tệp Bảng điểm môn học nếu chưa có, cập nhật tệp Bảng điểm môn học nếu xuất hiện những dòng mới trong danh sách lớp học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đọc và ghi dữ liệu cập nhật vào Bảng điểm môn học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đọc dữ liệu từ Bảng điểm môn học, xử lý dữ liệu để tạo và kết xuất ra bảng điểm lớp học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chịu trách nhiệm đọc và ghi dữ liệu cập nhật vào Danh sách lớp học",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi thay đổi cấu trúc các dòng ghi dữ liệu thì các mô đun phần mềm liên quan như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bắt buộc phải chỉnh sửa theo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giữ nguyên giá trị",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tùy dữ liệu mà thay đổi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có thể không thay đổi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi quy định mới về điểm có phần lẻ thập phân, dùng dấu phẩy làm dấu ngăn cách phần nguyên và phần thập phân của điểm dẫn tới việc?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phải dùng dấu phẩy để ngăn cách các thành phần của dòng dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phải dùng dấu khác dấu phẩy để ngăn cách các thành phần của dòng dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phải dùng dấu khác dấu chấm phẩy để ngăn cách các thành phần của dòng dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phải dùng dấu gạch ngang để ngăn cách các thành phần của dòng dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tình trạng phụ thuộc giữa chương trình và dữ liệu dẫn tới việc?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nếu thay đổi cách lưu trữ dữ liệu phải sửa đổi phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nếu thay đổi cách lưu trữ dữ liệu không phải sửa đổi phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nếu không thay đổi cách lưu trữ dữ liệu thì phải sửa đổi phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chương trình và dữ liệu hoạt động độc lập",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc thay đổi cách lưu trữ dữ liệu phải sửa đổi phần mềm dẫn tới?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Việc thiết kế, bảo trì, phát triển phần mềm mất nhiều thời gian và công sức",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc thiết kế, bảo trì, phát triển phần mềm nhanh chóng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc thiết kế, bảo trì, phát triển phần mềm mất nhiều tiền bạc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc thiết kế, bảo trì, phát triển phần mềm ngày càng rộng rãi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Những bài toán quản lý liên quan tới những lĩnh vực lớn hoặc có nhiều biến động sẽ thường xuất hiện?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các yêu cầu khai thác thông tin đa dạng khác nhau từ dữ liệu lưu trữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các yêu cầu xử lý thông tin phức tạp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các yêu cầu thu thập thông tin khó thực hiện",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các yêu cầu chỉnh sửa thông tin ngày càng dễ dàng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Dữ liệu cần được tổ chức lưu trữ như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cùng xây dựng phát triển phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Độc lập với việc xây dựng phát triển phần mềm",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trên nhiều thiết bị nhớ ngoài để tránh bị mất",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chia sẻ cho nhiều người để tránh bị mất",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Dữ liệu được tổ chức lưu trữ cần đảm bảo?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Dễ dàng chia sẻ, khó bảo trì phát triển, hạn chế tối đa việc dữ liệu lặp lại, gây dư thừa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dễ dàng chia sẻ, dễ dàng bảo trì phát triển, hạn chế tối đa việc dữ liệu lặp lại, gây dư thừa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dễ dàng chia sẻ, dễ dàng bảo trì phát triển, cho phép việc dữ liệu lặp lại, gây dư thừa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không được phép chia sẻ, dễ dàng bảo trì phát triển, hạn chế tối đa việc dữ liệu lặp lại, gây dư thừa dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Cơ sở dữ liệu là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Một tập hợp các dữ liệu có liên quan với nhau",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một tập hợp các dữ liệu có liên quan với nhau, được lưu trữ một cách có tổ chức trên hệ thống máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một tập hợp các dữ liệu được lưu trữ một cách có tổ chức trên hệ thống máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một tập hợp các dữ liệu không liên quan với nhau được lưu trữ một cách có tổ chức trên hệ thống máy tính",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Cơ sở dữ liệu có?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tính cấu trúc, tính dư thừa, tính độc lập dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tính cấu trúc, tính không dư thừa, tính không độc lập dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tính cấu trúc, tính không dư thừa, tính độc lập dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tính cấu trúc, tính dư thừa, tính không độc lập dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tính toàn vẹn của cơ sở dữ liệu là",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cơ sở dữ liệu phải được bảo vệ an toàn, ngăn chặn đượcnhững truy xuất trái phép, chống được việc sao chép dữ liệu không hợp lệ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khả năng mô đun phần mềm ứng dụng không cần phải cập nhật khi thay đổi cách thức tổ chức hoặc lưu trữ dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các giá trị dữ liệu phải thỏa mãn những ràng buộc cụ thể tùy thuộc vào thực tế mà nó phản ánh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các giá trị dữ liệu không phải thỏa mãn các ràng buộc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tính bảo mật và an toàn của cơ sở dữ liệu là",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cơ sở dữ liệu phải được bảo vệ an toàn, ngăn chặn đượcnhững truy xuất trái phép, chống được việc sao chép dữ liệu không hợp lệ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khả năng mô đun phần mềm ứng dụng không cần phải cập nhật khi thay đổi cách thức tổ chức hoặc lưu trữ dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các giá trị dữ liệu phải thỏa mãn những ràng buộc cụ thể tùy thuộc vào thực tế mà nó phản ánh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cơ sở dữ liệu phải được bảo vệ an toàn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Đâu là những khẳng định đúng về khái niệm Cơ sở dữ liệu (CSDL)? CSDL là một tập hợp các dữ liệu có liên quan với nhau. Dữ liệu trong CSDL được lưu trữ một cách có tổ chức trên bộ nhớ ngoài của máy tính để phục vụ việc khai thác thông tin. Bất kỳ tệp văn bản nào chứa dữ liệu, ví dụ danh sách lớp, đều được coi là một CSDL. Mục tiêu chính của CSDL là sao chép y nguyên cách lưu trữ trên giấy vào máy tính.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "CSDL là một tập hợp các dữ liệu có liên quan với nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dữ liệu trong CSDL được lưu trữ một cách có tổ chức trên bộ nhớ ngoài của máy tính để phục vụ việc khai thác thông tin.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bất kỳ tệp văn bản nào chứa dữ liệu, ví dụ danh sách lớp, đều được coi là một CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mục tiêu chính của CSDL là sao chép y nguyên cách lưu trữ trên giấy vào máy tính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc lưu trữ dữ liệu thủ công trên giấy hoặc trong các tệp văn bản riêng lẻ có những hạn chế nào? Dễ dẫn đến tình trạng dữ liệu không nhất quán, ví dụ điểm của một học sinh ở các sổ điểm khác nhau lại không giống nhau. Gây ra sự dư thừa dữ liệu khi cùng một thông tin phải lặp lại ở nhiều nơi. Khi lưu trong tệp văn bản, cấu trúc dữ liệu và phần mềm khai thác dữ liệu hoàn toàn độc lập với nhau. Thay đổi cấu trúc của tệp dữ liệu không đòi hỏi phải chỉnh sửa lại chương trình máy tính.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Dễ dẫn đến tình trạng dữ liệu không nhất quán, ví dụ điểm của một học sinh ở các sổ điểm khác nhau lại không giống nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Gây ra sự dư thừa dữ liệu khi cùng một thông tin phải lặp lại ở nhiều nơi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khi lưu trong tệp văn bản, cấu trúc dữ liệu và phần mềm khai thác dữ liệu hoàn toàn độc lập với nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thay đổi cấu trúc của tệp dữ liệu không đòi hỏi phải chỉnh sửa lại chương trình máy tính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các thuộc tính cơ bản của một CSDL bao gồm những gì? Tính không dư thừa, nhằm hạn chế việc các dữ liệu bị trùng lặp một cách không cần thiết. Tính độc lập, nghĩa là cấu trúc của dữ liệu không phụ thuộc vào các phần mềm ứng dụng khai thác nó. Tính bảo mật và an toàn, giúp ngăn chặn truy cập trái phép và bảo vệ dữ liệu không bị mất mát. Tính phụ thuộc, yêu cầu phần mềm phải được viết lại mỗi khi cấu trúc dữ liệu thay đổi.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tính không dư thừa, nhằm hạn chế việc các dữ liệu bị trùng lặp một cách không cần thiết.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tính độc lập, nghĩa là cấu trúc của dữ liệu không phụ thuộc vào các phần mềm ứng dụng khai thác nó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tính bảo mật và an toàn, giúp ngăn chặn truy cập trái phép và bảo vệ dữ liệu không bị mất mát.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tính phụ thuộc, yêu cầu phần mềm phải được viết lại mỗi khi cấu trúc dữ liệu thay đổi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Thế nào là tính nhất quán của dữ liệu trong CSDL? Là thuộc tính đảm bảo dữ liệu luôn được đúng đắn và thống nhất trong toàn bộ CSDL, ngay cả khi có nhiều người cùng cập nhật. Một ví dụ về vi phạm tính nhất quán là hai hành khách khác nhau cùng đặt được một vé cho cùng một số ghế trên một chuyến bay. Tính nhất quán có nghĩa là dữ liệu không bao giờ được phép thay đổi sau khi đã nhập vào. Để đảm bảo tính nhất quán, CSDL không cho phép nhiều người truy cập dữ liệu cùng một lúc.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Là thuộc tính đảm bảo dữ liệu luôn được đúng đắn và thống nhất trong toàn bộ CSDL, ngay cả khi có nhiều người cùng cập nhật.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một ví dụ về vi phạm tính nhất quán là hai hành khách khác nhau cùng đặt được một vé cho cùng một số ghế trên một chuyến bay.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tính nhất quán có nghĩa là dữ liệu không bao giờ được phép thay đổi sau khi đã nhập vào.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để đảm bảo tính nhất quán, CSDL không cho phép nhiều người truy cập dữ liệu cùng một lúc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Những phát biểu nào sau đây là đúng về tính độc lập của CSDL? Dữ liệu có tính độc lập khi việc thay đổi cách tổ chức dữ liệu không làm ảnh hưởng hay đòi hỏi phải sửa đổi các phần mềm ứng dụng. Việc đảm bảo tính độc lập giúp giảm công sức và thời gian cho người lập trình khi cần bảo trì hay nâng cấp hệ thống. Khi lưu dữ liệu vào các tệp riêng lẻ, các chương trình phải biết rõ cấu trúc của tệp, do đó có sự phụ thuộc giữa chương trình và dữ liệu. Tính độc lập chỉ có nghĩa là dữ liệu được lưu trên một máy tính độc lập, không kết nối mạng.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Dữ liệu có tính độc lập khi việc thay đổi cách tổ chức dữ liệu không làm ảnh hưởng hay đòi hỏi phải sửa đổi các phần mềm ứng dụng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc đảm bảo tính độc lập giúp giảm công sức và thời gian cho người lập trình khi cần bảo trì hay nâng cấp hệ thống.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khi lưu dữ liệu vào các tệp riêng lẻ, các chương trình phải biết rõ cấu trúc của tệp, do đó có sự phụ thuộc giữa chương trình và dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tính độc lập chỉ có nghĩa là dữ liệu được lưu trên một máy tính độc lập, không kết nối mạng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Mục tiêu của việc tổ chức dữ liệu một cách khoa học thành CSDL là gì? Để dễ dàng chia sẻ, bảo trì và phát triển, đồng thời hạn chế tối đa việc dữ liệu bị lặp lại. Để hỗ trợ đảm bảo tính nhất quán và tính bảo mật, an toàn cho dữ liệu. Để việc khai thác thông tin qua các phần mềm ứng dụng trở nên thuận tiện và độc lập với cách lưu trữ dữ liệu. Để tạo ra một bản sao lưu trữ dữ liệu y hệt như các văn bản giấy.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để dễ dàng chia sẻ, bảo trì và phát triển, đồng thời hạn chế tối đa việc dữ liệu bị lặp lại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để hỗ trợ đảm bảo tính nhất quán và tính bảo mật, an toàn cho dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để việc khai thác thông tin qua các phần mềm ứng dụng trở nên thuận tiện và độc lập với cách lưu trữ dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để tạo ra một bản sao lưu trữ dữ liệu y hệt như các văn bản giấy.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Đâu là những ví dụ đúng về việc ứng dụng CSDL trong thực tế? Bảng điểm các môn học của một lớp được tổ chức trong máy tính để quản lí và phục vụ việc truy vấn. Dữ liệu về căn cước công dân, số dư tài khoản ngân hàng có thể được tổ chức thành các CSDL. Một tệp văn bản đơn giản chứa danh sách học sinh và điểm số được soạn thảo bằng một ngôn ngữ lập trình như Python. Một bài đăng trên mạng xã hội liệt kê danh sách các thành viên trong nhóm.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bảng điểm các môn học của một lớp được tổ chức trong máy tính để quản lí và phục vụ việc truy vấn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dữ liệu về căn cước công dân, số dư tài khoản ngân hàng có thể được tổ chức thành các CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một tệp văn bản đơn giản chứa danh sách học sinh và điểm số được soạn thảo bằng một ngôn ngữ lập trình như Python.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một bài đăng trên mạng xã hội liệt kê danh sách các thành viên trong nhóm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về tính bảo mật và an toàn của CSDL, những khẳng định nào là đúng? Bảo mật là việc chỉ cho phép những người có thẩm quyền được truy cập và sửa đổi dữ liệu. An toàn là việc đảm bảo dữ liệu không bị sai lạc, mất mát do các sự cố phần cứng hay phần mềm. Việc khôi phục dữ liệu sau sự cố là một phần của việc đảm bảo an toàn cho CSDL. Bảo mật có nghĩa là mọi dữ liệu trong CSDL đều phải được mã hoá và không ai có thể đọc được.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bảo mật là việc chỉ cho phép những người có thẩm quyền được truy cập và sửa đổi dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "An toàn là việc đảm bảo dữ liệu không bị sai lạc, mất mát do các sự cố phần cứng hay phần mềm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc khôi phục dữ liệu sau sự cố là một phần của việc đảm bảo an toàn cho CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bảo mật có nghĩa là mọi dữ liệu trong CSDL đều phải được mã hoá và không ai có thể đọc được.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Sự phụ thuộc giữa phần mềm và dữ liệu trong cách lưu trữ truyền thống gây ra những vấn đề gì? Việc thay đổi cấu trúc dữ liệu đòi hỏi phải sửa đổi lại nhiều phần mềm, gây tốn thời gian và công sứViệc bảo toàn dữ liệu khi có nhiều người cùng khai thác trở nên khó khăn. Dữ liệu khó được chia sẻ và sử dụng trong nhiều lĩnh vực khác nhau do bị ràng buộc vào một phần mềm cụ thể. Giúp cho việc quản lí và truy xuất dữ liệu trở nên đơn giản và hiệu quả hơn.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Việc thay đổi cấu trúc dữ liệu đòi hỏi phải sửa đổi lại nhiều phần mềm, gây tốn thời gian và công sức.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc bảo toàn dữ liệu khi có nhiều người cùng khai thác trở nên khó khăn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dữ liệu khó được chia sẻ và sử dụng trong nhiều lĩnh vực khác nhau do bị ràng buộc vào một phần mềm cụ thể.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giúp cho việc quản lí và truy xuất dữ liệu trở nên đơn giản và hiệu quả hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Những nhận định nào sau đây là không chính xác về CSDL? CSDL là một tập hợp dữ liệu không cần có sự liên quan, miễn là được lưu trên máy tính. Việc lưu trữ dữ liệu trong CSDL làm tăng sự dư thừa thông tin để dễ truy xuất hơn. Các thuộc tính cơ bản của CSDL gồm tính cấu trúc, tính nhất quán, và tính bảo mật. Tính độc lập của dữ liệu có nghĩa là dữ liệu không thể được chia sẻ giữa các ứng dụng khác nhau.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "CSDL là một tập hợp dữ liệu không cần có sự liên quan, miễn là được lưu trên máy tính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc lưu trữ dữ liệu trong CSDL làm tăng sự dư thừa thông tin để dễ truy xuất hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các thuộc tính cơ bản của CSDL gồm tính cấu trúc, tính nhất quán, và tính bảo mật.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tính độc lập của dữ liệu có nghĩa là dữ liệu không thể được chia sẻ giữa các ứng dụng khác nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_3": []
+}

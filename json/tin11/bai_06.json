@@ -1,0 +1,1073 @@
+{
+    "part_1": [
+        {
+            "question": "Internet giúp khắc phục giới hạn lưu trữ bằng ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phân phối bán lẻ bộ nhớ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cho người dùng thuê bộ nhớ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bắt người dùng mua phần mềm thứ 3",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các dịch vụ chia sẻ tệp tin trực tuyến.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu không phải là các nhà cung cấp dịch vụ lưu trữ thông tin, dữ liệu ngày nay là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Google",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Microsoft",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Apple",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hệ điều hành",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khi đăng kí sử dụng dịch vụ lưu trữ thông tin, dữ liêu trực tuyến thì người dùng sẽ được?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cung cấp các dịch vụ xử lý dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cung cấp phần mềm chỉnh sửa dữ liệu trực tuyến",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cung cấp một không gian nhớ trực tuyến",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trao đổi như một kênh chat",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trên nơi lưu trữ trực tuyến cho phép người dùng…?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Không được quyền nhận xét",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tạo thư mục mới, quản lý ổ đĩa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Không được chỉnh sửa trực tuyến",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không được quyền đổi tên",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Ưu điểm của việc lưu trữ thông tin trực tuyến là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cho phép chia sẻ thư mục, tệp cho người dùng khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Không cho phép chia sẻ thư mục, tệp cho người dùng khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bán được thông tin cho nhau để kiếm tiền",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thích vào thư mục của ai cũng được",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chủ sở hữu quyết định quyền của người được chia sẻ với ba chế độ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Xem, xóa, khôi phục",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xem, nhận xét, chỉnh sửa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Xem, mua, bán",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xem, tải về, lấy tài khoản",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Quyền chỉnh sửa là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Là quyền chỉ cho xóa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Là quyền lấy được tài khoản lưu trữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Là quyền chỉ cho xem",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quyền cao nhất cho phép thao tác với thư mục và tệp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu là dịch vụ lưu trữ và chia sẻ thông tin trực tuyến của Google?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "One Drive",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "iCloud",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dropbox",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Google Drive",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Sau khi chia sẻ thư mục, tệp người dùng có thể?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Xóa bỏ tệp đã chia sẽ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hủy bỏ hoặc thay đổi chế độ chia sẻ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Làm mới tệp chia sẻ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tạo một tệp mới",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Internet giúp khắc phục giới hạn lưu trữ bằng ?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các dịch vụ chia sẻ tệp tin trực tuyến",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Phân phối bán lẻ bộ nhớ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cho người dùng thuê bộ nhớ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bắt người dùng mua phần mềm thứ 3",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Người dùng đăng ký sử dụng dịch vụ và được cấp một không gian lưu trữ trực tuyến gọi là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cầu kết nối",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhà lưu trữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đĩa trực tuyến",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bát online",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Ưu điểm của việc lưu trữ thông tin trực tuyến là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cho phép chia sẻ thư mục, tệp cho người dùng khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Không cho phép chia sẻ thư mục, tệp cho người dùng khác",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bán được thông tin cho nhau để kiếm tiền",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Thích vào thư mục của ai cũng được",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Người dùng có thể xem và nhận xét là quyền?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chỉ xem",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chỉnh sửa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Được nhận xét",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đổi tên",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Người dùng có thể xem là quyền?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chỉ xem",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉnh sửa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Được nhận xét",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Được xóa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong quyền được chỉnh sửa thì người dùng có thể?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chỉnh sửa thư mục, xóa thư mục, đổi tên",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quyền chỉ xem",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhận xét",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quyền chia sẻ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi nào thì người dùng được cung cấp một ổ đĩa trực tuyến?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Cài đặt hệ điều hành mới",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mua các phần mềm nguồn mở",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng dịch vụ lưu trữ thư mục và tệp trực tuyến",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bán được thông tin cho nhau để kiếm tiền",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Xét các khái niệm cơ bản về dịch vụ lưu trữ và chia sẻ tệp tin trên Internet, hay còn gọi là \"lưu trữ đám mây\". Các nhận định sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Dịch vụ lưu trữ đám mây giúp khắc phục hạn chế về dung lượng lưu trữ của các thiết bị lưu trữ cục bộ như ổ cứng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Google Drive, Microsoft OneDrive và Dropbox là các ví dụ điển hình về dịch vụ cung cấp ổ đĩa trực tuyến.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ổ đĩa trực tuyến là một không gian lưu trữ trên Internet, cho phép người dùng truy cập và quản lí tệp tin của mình.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để sử dụng dịch vụ lưu trữ đám mây, người dùng bắt buộc phải mua một thiết bị phần cứng đặc biệt từ nhà cung cấp dịch vụ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các dịch vụ ổ đĩa trực tuyến cung cấp nhiều tính năng để quản lí dữ liệu. Hãy xác định tính đúng/sai của các nhận định về các tính năng này.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người dùng có thể tải lên (upload) các tệp hoặc cả thư mục từ máy tính cá nhân lên ổ đĩa trực tuyến.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các dịch vụ này cho phép tạo mới thư mục, sắp xếp và quản lí các tệp tin tương tự như trên máy tính của mình.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ổ đĩa trực tuyến chỉ có chức năng lưu trữ, không hỗ trợ việc tạo mới các tệp văn phòng như văn bản hay bảng tính trực tiếp trên đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sau khi tải tệp lên, người dùng có thể truy cập chúng từ nhiều thiết bị khác nhau miễn là có kết nối Internet và đăng nhập đúng tài khoản.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Chia sẻ là một trong những tính năng nổi bật nhất của lưu trữ đám mây. Hãy đánh giá các nhận định sau về các quyền khi chia sẻ tệp và thư mục.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khi chia sẻ một tệp, người sở hữu có thể thiết lập các quyền truy cập khác nhau cho những người dùng khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quyền \"chỉnh sửa\" (editor) là quyền cao nhất, cho phép người được chia sẻ thực hiện các thao tác như sửa, xóa, thêm và tổ chức tệp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Quyền \"chỉ xem\" (viewer) cho phép người được chia sẻ có thể thay đổi nội dung của tệp gốc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng có quyền \"nhận xét\" (commenter) có thể xem và đưa ra bình luận nhưng không thể chỉnh sửa trực tiếp nội dung.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Để sử dụng Google Drive, người dùng cần thực hiện một số thao tác cơ bản. Dựa vào hướng dẫn trong bài học, hãy cho biết các phát biểu sau đúng hay sai.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người dùng bắt buộc phải có tài khoản Google để có thể đăng nhập và sử dụng dịch vụ Google Drive.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thao tác tải tệp lên máy tính được thực hiện bằng cách nháy vào lệnh \"+\" ở góc trên bên trái của cửa sổ Google Drive.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Google Drive chỉ cho phép người dùng tải lên từng tệp tin riêng lẻ, không thể tải lên cả một thư mục cùng lúc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sau khi đăng nhập, giao diện của Google Drive sẽ hiển thị các tệp và thư mục đã được lưu trữ trong đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Việc chia sẻ tệp tin trên Google Drive cho các thành viên khác cần được thực hiện đúng cách. Hãy xác định các nhận định sau là đúng hay sai.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để bắt đầu chia sẻ một tệp, thao tác phổ biến là nháy nút phải chuột vào tệp đó và chọn \"Chia sẻ\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong hộp thoại chia sẻ, người dùng cần nhập địa chỉ email của người mà mình muốn chia sẻ tệp tin.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi đã chia sẻ một tệp, người sở hữu không thể thay đổi hoặc thu hồi quyền truy cập của người khác được nữa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khi chia sẻ, người dùng có thể lựa chọn có gửi thông báo qua email cho người được chia sẻ hay không.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "So sánh giữa lưu trữ cục bộ (trên máy tính) và lưu trữ trực tuyến (đám mây). Hãy đánh giá các nhận định dưới đây.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Dữ liệu lưu trữ trực tuyến có thể được truy cập từ bất cứ đâu, trong khi dữ liệu lưu trữ cục bộ chỉ có thể truy cập được tại máy tính đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một nhược điểm của lưu trữ trực tuyến là cần phải có kết nối Internet để làm việc với dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lưu trữ cục bộ thường an toàn hơn trước các sự cố về phần cứng (hỏng ổ đĩa) so với lưu trữ đám mây.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc chia sẻ dữ liệu cho nhiều người với các quyền khác nhau thường dễ dàng và linh hoạt hơn khi sử dụng lưu trữ trực tuyến.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Hãy xem xét các tình huống thực tế khi sử dụng ổ đĩa trực tuyến. Các cách xử lí sau đây là đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để các thành viên trong nhóm cùng nhau đóng góp ý kiến cho một tài liệu, bạn nên chia sẻ tệp với quyền \"chỉnh sửa\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để gửi một tài liệu chỉ để người khác đọc mà không được thay đổi, bạn nên cấp cho họ quyền \"chỉ xem\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mọi tệp tin được tải lên Google Drive sẽ tự động được chia sẻ công khai cho tất cả mọi người trên Internet.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người dùng có thể tạo một thư mục chung trên ổ đĩa trực tuyến và chia sẻ cho cả nhóm để mọi người cùng lưu trữ tài liệu dự án.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về các ưu điểm và yêu cầu của dịch vụ lưu trữ trực tuyến. Các phát biểu sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Một trong những ưu điểm nổi bật của lưu trữ trực tuyến là khả năng cho phép nhiều người cùng làm việc trên một tệp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người dùng có thể sử dụng các dịch vụ như Google Drive để tải lên các tệp tin có dung lượng không giới hạn hoàn toàn miễn phí.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc tạo mới và quản lí các thư mục trên ổ đĩa trực tuyến giúp tổ chức dữ liệu một cách khoa học.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để tải một tệp từ ổ đĩa trực tuyến về máy tính, người dùng cần phải có quyền truy cập vào tệp đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về các bước thực hành trên Google Drive. Hãy xác định tính đúng/sai của các thao tác được mô tả.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để tải một tệp lên, sau khi chọn tệp từ máy tính, người dùng cần nháy chọn \"Open\" để bắt đầu quá trình tải.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giao diện chia sẻ của Google Drive cho phép người dùng chọn một trong ba mức phân quyền là Người xem, Người nhận xét, hoặc Người chỉnh sửa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi nhập email và chọn quyền, người dùng nháy nút \"Gửi\" để hoàn tất việc chia sẻ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người dùng có thể xem lại thông tin chi tiết về việc chia sẻ của một tệp để biết ai đang có quyền truy cập.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đánh giá các phát biểu tổng quan về việc lưu trữ và chia sẻ tệp tin trên Internet.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lưu trữ và chia sẻ tệp tin trên Internet đã trở thành một giải pháp phổ biến giúp mọi người làm việc và học tập hiệu quả hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi chia sẻ một thư mục, chủ sở hữu có thể huỷ bỏ việc chia sẻ đó bất kỳ lúc nào.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một số dịch vụ ổ đĩa trực tuyến còn tích hợp cả các ứng dụng văn phòng, cho phép người dùng tạo và soạn thảo tài liệu trực tiếp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tất cả các dịch vụ lưu trữ đám mây đều hoạt động hoàn toàn giống nhau về giao diện và tính năng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_3": []
+}

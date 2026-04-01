@@ -1,0 +1,786 @@
+{
+    "part_1": [
+        {
+            "question": "Việc nào KHÔNG cần phải làm gì để đảm bảo an ninh, an toàn cho các hệ CSDL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Triển khai bảo mật vật lý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tách biệt máy chủ CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tránh sử dụng các cổng mạng mặc định",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khống chế số người sử dụng CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu KHÔNG phải là các quyền của các tài khoản moderator và admin là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Quy định liên quan đến ý thức và trách nhiệm của người dùng đối với tài khoản của mình và dữ liệu trong CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quy định về tổ chức đảm bảo an ninh mạng cùng với hệ thống phần cứng và phần mềm cụ thể",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Danh sách các nhóm người dùng và danh sách tài khoản truy xuất CSDL với quyền hạn tương ứng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Không cung cấp phân quyền cho người dùng truy xuất CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Sự cố có thể xảy ra là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sự cố về nguồn điện: hệ thống cấp điện không đủ công suất",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sự cố do thiết bị lưu trữ có dung lượng thấp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sự cố do người dùng mở nhiều ứng dụng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sự cố do nhà sản xuất",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Có thể khắc phục sự cố về nguồn điện: hệ thống cấp điện không đủ công suất bằng cách?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Quản lí thời gian sử dụng các thiết bị lưu trữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng các thiết bị ít tiêu tốn điện",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xây dựng hệ thống cấp điện đủ công suất",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Không mở nhiều ứng dụng cùng lúc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Có thể khắc phục sự cố hư hỏng thiết bị lưu trữ: thiết bị hư hỏng vì quá tuổi thọ bằng cách?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Xây dựng hệ thống cấp điện đủ công suất",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sử dụng các thiết bị ít tiêu tốn điện",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Quản lí thời gian sử dụng các thiết bị lưu trữ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dùng bộ lưu điện để cấp điện cho hệ thống",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chọn câu sai. Tại sao cần phải có những quy định về ý thức và trách nhiệm của người dùng đối với tài khoản của mình và dữ liệu trong CSDL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nó giúp người dùng thực hiện các biện pháp bảo mật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tránh mất mát dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đảm bảo tính trung thực của dữ liệu và phát hiện lỗ hổng bảo mật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Đảm bảo tính nhất quán dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Chọn câu sai. Tại sao cần có những quy định về ý thức trách nhiệm của những người vận hành hệ thống?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để đảm bảo tính ổn định, an toàn và bảo mật của hệ thống",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giảm thiểu nguy cơ lỗi do con người",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bảo vệ dữ liệu và thông tin, đảm bảo tính pháp lý cũng như tăng hiệu suất và độ tin cậy của hệ thống",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giúp người dùng tạo CSDL dễ dàng hơn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Để xây dựng chính sách bảo mật CSDL thì cần phải?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lập danh sách và xác định quyền hạn các nhóm người dùng đối với hệ CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Khóa tài khoản người dùng CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giám sát người dùng CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khống chế người dùng CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chọn câu sai. Các nhóm người dùng đối với hệ CSDL có thể gồm?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhóm người không cần khai báo",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nhóm người có quyền xóa, sửa dữ liệu nhưng không được thay đổi cấu trúc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhóm người có quyền thay đổi cấu trúc CSDL",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nhóm người chỉ có quyền xem dữ liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Việc giám sát và ghi lại các hoạt động truy cập vào hệ thống được thực hiện thông qua?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhật kí hệ thống (log file)",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Bảng dữ liệu người dùng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm quản lý người dùng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hệ thống bảo mật mạng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Về các biện pháp đảm bảo an ninh, an toàn cho hệ CSDL, đâu là các phát biểu đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Bảo mật vật lý bao gồm việc đặt máy chủ CSDL ở nơi an toàn, kiểm soát ra vào.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tách biệt máy chủ CSDL khỏi các máy chủ khác giúp giảm nguy cơ bị tấn công từ các hệ thống khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sử dụng các cổng mạng mặc định sẽ tăng cường bảo mật cho hệ thống.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sao lưu dữ liệu định kì giúp đảm bảo dữ liệu có thể được phục hồi sau sự cố.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về ý thức và trách nhiệm của người dùng và người vận hành hệ thống, các phát biểu nào đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người dùng cần sử dụng mật khẩu mạnh, không chia sẻ tài khoản để tránh các rủi ro bảo mật.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Người vận hành hệ thống cần thực hiện kiểm tra định kì thiết bị phần cứng để phát hiện sớm các vấn đề tiềm ẩn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc phân quyền chi tiết cho người dùng không quan trọng vì mọi người đều cần truy cập toàn bộ dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Người vận hành cần đảm bảo tuân thủ các quy định pháp lý liên quan đến bảo vệ dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về các sự cố có thể xảy ra đối với hệ CSDL, đâu là các phát biểu đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sự cố phần cứng như hỏng ổ cứng có thể dẫn đến mất mát dữ liệu nếu không có bản sao lưu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sự cố mất điện đột ngột có thể làm gián đoạn hoạt động của hệ CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sự cố do người dùng mở nhiều ứng dụng không ảnh hưởng đến an toàn của hệ CSDL.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sự cố bảo mật như truy cập trái phép có thể xảy ra nếu không có chính sách phân quyền rõ ràng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về các biện pháp khắc phục sự cố trong hệ CSDL, đâu là các phát biểu đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sử dụng bộ lưu điện (UPS) giúp giảm thiểu rủi ro do mất điện đột ngột.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thay thế định kì các thiết bị lưu trữ đã hết tuổi thọ giúp giảm nguy cơ hỏng hóc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tăng dung lượng ổ cứng là cách duy nhất để đảm bảo an toàn dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sao lưu dữ liệu định kì và kiểm tra bản sao lưu giúp phục hồi dữ liệu nhanh chóng sau sự cố.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về vai trò của nhật kí hệ thống (log file) trong việc đảm bảo an toàn CSDL, đâu là các phát biểu đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Nhật kí hệ thống (log file) chỉ cần thiết cho các hệ thống lớn như ngân hàng, chứng khoán.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Dữ liệu trong nhật kí hệ thống cần được lưu lại để có thể kiểm tra, phân tích và điều tra khi có sự cố xảy ra.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc ghi lại nhật kí truy cập của người dùng là không cần thiết vì nó vi phạm quyền riêng tư.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một hệ thống CSDL hoạt động tốt không cần đến nhật kí vì sẽ không bao giờ xảy ra sự cố.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về vai trò của hệ quản trị CSDL (HQTCSDL) trong việc bảo đảm an toàn, đâu là các phát biểu đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Hầu hết các HQTCSDL đều hỗ trợ chức năng sao lưu toàn bộ dữ liệu để phòng các sự cố.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc phục hồi dữ liệu từ bản sao lưu là một chức năng nâng cao mà không phải HQTCSDL nào cũng có.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "HQTCSDL chỉ có thể ngăn chặn các truy cập trái phép, không có khả năng xử lí các sự cố phần cứng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khi phục hồi dữ liệu, người dùng phải kiểm tra để đảm bảo phiên bản sao lưu là phù hợp và cập nhật nhất có thể.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu là những ví dụ đúng về việc vi phạm chính sách bảo mật hoặc an toàn?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Một nhân viên ngân hàng sử dụng tài khoản của mình để xem số dư của một khách hàng không thuộc phạm vi quản lí của mình.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Dữ liệu của một máy chủ bị mất do ổ cứng bị hỏng mà không có bản sao lưu nào.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một người dùng guest tìm cách thực hiện lệnh UPDATE trên một bảng dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hệ thống bị ngưng hoạt động do mất điện đột ngột và không có bộ lưu điện UPS.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về việc bảo mật trong các ứng dụng CSDL thực tế, những nhận định nào là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các ứng dụng CSDL hoạt động tốt có thể trở thành hệ thống với hàng nghìn, hàng trăm nghìn, thậm chí hàng triệu người truy cập đồng thời.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Đối với các hệ thống thời gian thực như đặt vé máy bay hay giao dịch chứng khoán, việc quản trị không biết được các hoạt động đang diễn ra bên trong hệ thống.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Bất kỳ sự cố nào xảy ra trong các hệ thống lớn đều có thể gây ra những tổn thất nặng nề.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc xây dựng một chính sách bảo mật tốt chỉ cần thiết sau khi hệ thống đã đi vào hoạt động một thời gian dài.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Những nhận định nào sau đây là không chính xác về bảo mật và an toàn CSDL?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Dữ liệu chỉ có thể bị mất do các cuộc tấn công từ bên ngoài, không phải do sự cố phần cứng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một chính sách an toàn dữ liệu tốt bao gồm cả việc lên kế hoạch xử lí các sự cố có thể xảy ra và giải pháp hạn chế, khắc phục.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc phân quyền truy cập chi tiết cho từng nhóm người dùng làm tăng tính phức tạp không cần thiết cho hệ thống.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sao lưu dữ liệu định kì là một trong những nhiệm vụ quan trọng nhất để đảm bảo an toàn dữ liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        }
+    ],
+    "part_3": []
+}
