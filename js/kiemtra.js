@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Nhằm truy cập và thao tác với các phần tử HTML
 
     // Lấy thông tin địa chỉ IP
-    let clientIP = "Đang lấy..."; // Biến toàn cục để lưu IP
+    let clientIP = "Đang lấy IP..."; // Biến toàn cục để lưu IP
 
     // Lấy thông tin trình duyệt
     const browserInfo = navigator.userAgent;
@@ -74,6 +74,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const questions_per_part = [6, 4, 0]; // Phần 1: 6 câu, Phần 2: 1 câu (4 phương án), Phần 3: 0 câu
 
     // Global variables
+    // Biến theo dõi trạng thái ôn tập hay kiểm tra
+    // 0: chức năng ôn tập
+    // 1: Chức năng kiểm tra
+    let exam_mode = 0;
+
     // Biến toàn cục lưu trữ trạng thái làm bài
     let completed_test = false;
 
