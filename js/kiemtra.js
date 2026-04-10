@@ -77,6 +77,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Số lượng câu hỏi cần lấy ra từng phần
     const questions_per_part = [6, 4, 0]; // Phần 1: 6 câu, Phần 2: 1 câu (4 phương án), Phần 3: 0 câu
 
+    // Nếu là chế độ ôn tập thì lấy nhiều hơn, đặt tối đa để lấy hết câu hỏi từng phần
+    if (exam_mode === 'review') {
+        quiz_page.style.backgroundColor = '#e8f5e9'; // Màu xanh nhạt dễ chịu dành cho chế độ ôn tập
+        questions_per_part = [9999, 9999, 9999];
+    }
+
     // Global variables
 
     // Biến toàn cục lưu trữ trạng thái làm bài
@@ -231,9 +237,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Đọc và XÁO TRỘN danh sách câu hỏi các phần
             // Lấy ra số lượng câu hỏi cần kiểm tra từng phần
-            question_part.part_1 = shuffleArray(data.part_1).shuffled_array.slice(0, questions_per_part[0]);
-            question_part.part_2 = shuffleArray(data.part_2).shuffled_array.slice(0, questions_per_part[1]);
-            question_part.part_3 = shuffleArray(data.part_3).shuffled_array.slice(0, questions_per_part[2]);
+            if (exam_mode === 'exam') {
+                // CHẾ ĐỘ KIỂM TRA: Xáo trộn và cắt lấy số lượng quy định
+                question_part.part_1 = shuffleArray(data.part_1).shuffled_array.slice(0, questions_per_part[0]);
+                question_part.part_2 = shuffleArray(data.part_2).shuffled_array.slice(0, questions_per_part[1]);
+                question_part.part_3 = shuffleArray(data.part_3).shuffled_array.slice(0, questions_per_part[2]);
+            } else {
+                // CHẾ ĐỘ ÔN TẬP: Lấy toàn bộ và giữ nguyên thứ tự (hoặc tùy thầy có muốn xáo trộn không)
+                question_part.part_1 = data.part_1;
+                question_part.part_2 = data.part_2;
+                question_part.part_3 = data.part_3;
+            }
+
 
             // Xáo trộn danh sách đáp án của từng câu hỏi trong phần 1
             question_part.part_1.forEach(question => {
@@ -538,26 +553,67 @@ document.addEventListener('DOMContentLoaded', () => {
     // Hàm kiểm tra đáp án phần 1
     function handleAnswerClick_Part1(selected_option, index) {
 
-        // Bỏ chọn tất cả các phương án khác và tô màu phương án được chọn
-        const all_options = answers_container.querySelectorAll('.answer-option-part1');
-        all_options.forEach(option => option.classList.remove('selected'));
-        selected_option.classList.add('selected');
+        // Nếu chế độ kiểm tra
+        if (exam_mode === 'exam') {
+            // Bỏ chọn tất cả các phương án khác và tô màu phương án được chọn
+            const all_options = answers_container.querySelectorAll('.answer-option-part1');
+            all_options.forEach(option => option.classList.remove('selected'));
+            selected_option.classList.add('selected');
 
-        // Hiển thị thông báo chung
-        showSelectionFeedback('Bạn đã chọn phương án. Nhấn nút "Câu tiếp theo" để tiếp tục.');
+            // Hiển thị thông báo chung
+            showSelectionFeedback('Bạn đã chọn phương án. Nhấn nút "Câu tiếp theo" để tiếp tục.');
 
-        // Kiểm tra phương án chọn có đúng không
-        answered_questions.part_1[current_question_index] = index; // Lưu câu trả lời của học sinh
+            // Kiểm tra phương án chọn có đúng không
+            answered_questions.part_1[current_question_index] = index; // Lưu câu trả lời của học sinh
 
-        // Tính điểm cho câu hỏi hiện tại
-        if (question_part.part_1[current_question_index].answers[index].correct) {
-            question_score.part_1[current_question_index] = 1;
+            // Tính điểm cho câu hỏi hiện tại
+            if (question_part.part_1[current_question_index].answers[index].correct) {
+                question_score.part_1[current_question_index] = 1;
+            } else {
+                question_score.part_1[current_question_index] = 0;
+            }
+
+            console.log(index);
+            //console.log(question_score.part_1);
         } else {
-            question_score.part_1[current_question_index] = 0;
-        }
+            // Chế độ ôn tập
+            const all_options = answers_container.querySelectorAll('.answer-option-part1');
+            all_options.forEach(option => option.disabled = true); // Disable all buttons after a choice
 
-        console.log(index);
-        //console.log(question_score.part_1);
+            // Kiểm tra phương án chọn có đúng không
+            if (answer.correct === true) {
+                selected_option.classList.add('correct');
+                feedback_message.textContent = '👏 Chính xác! Chúc mừng bạn!';
+                feedback_message.classList.add('correct');
+                feedback_message.classList.remove('incorrect');
+                feedback_message.style.display = 'block';
+                next_button.disabled = false;
+                completed_questions[current_question_part_number]++;
+
+                // Kiểm tra nếu đây là lần trả lời đầu tiên
+                if (is_first_attempt) {
+                    first_correct_count[current_question_part_number]++;
+
+                    // Cập nhật biến trạng thái không phải lần đầu
+                    is_first_attempt = false;
+                }
+
+            } else {
+                selected_option.classList.add('incorrect');
+                feedback_message.textContent = '💔 Chưa đúng! Vui lòng chọn lại.';
+                feedback_message.classList.add('incorrect');
+                feedback_message.classList.remove('correct');
+                feedback_message.style.display = 'block';
+
+                // Re-enable options for a new attempt
+                all_options.forEach(option => option.disabled = false);
+                selected_option.disabled = true; // Keep the incorrect option disabled
+                incorrect_questions[current_question_part_number]++;
+
+                // Cập nhật biến trạng thái không phải lần đầu
+                is_first_attempt = false;
+            }
+        }
     }
 
     // Hàm kiểm tra đáp án phần 2
