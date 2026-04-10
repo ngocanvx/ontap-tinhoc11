@@ -22,12 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const lesson_title = document.getElementById('lesson-title');
     const question_counter = document.getElementById('question-counter');
     const time_spent = document.getElementById('time-spent');
-    
+
     // Thông tin học sinh
-    const input_full_name=document.getElementById('fullName');
-    const input_class_name=document.getElementById('className');
-    const input_code=document.getElementById('codeExam');
-    const show_student_info=document.getElementById('showStudentInfo');
+    const input_full_name = document.getElementById('fullName');
+    const input_class_name = document.getElementById('className');
+    const input_code = document.getElementById('codeExam');
+    const show_student_info = document.getElementById('showStudentInfo');
 
     // Các nút bấm chuyển phần câu hỏi
     const part1_button = document.getElementById('part1-button');
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Lưu danh sách bài học và danh sách câu hỏi hiện tại
     let subject = [];
-    let lesson_path='';
+    let lesson_path = '';
     let lessons = [];
 
     // Đánh dấu phần câu hỏi hiện tại đang ở phần nào
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let seconds;
 
     // Load lessons from baihoc.json
-    // Tải danh sách bài học từ file JSON
+    // Tải danh sách môn học từ file JSON
     async function loadSubject() {
         try {
 
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const data_subject = await subject_respone.json();
 
             // Lưu danh sách môn học ra biến
-            subject=data_subject.subject;
+            subject = data_subject.subject;
 
             // Duyệt danh sách bài học, thêm vào select (dropdown)
             subject.forEach((subject, index) => {
@@ -152,17 +152,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 subject_select.appendChild(option);
             });
 
+            // Tải danh sách bài học trong môn học đã chọn
+            loadLesson();
+
         } catch (error) {
             console.error('Lỗi khi tải danh sách môn học: ', error);
         }
     }
 
     // Load danh sách bài học tương ứng với môn học
-    async function loadLesson(){
-        try{
+    async function loadLesson() {
+        try {
             // Đọc nội dung file JSON bài học tương ứng với môn được chọn
-            
+
             const lesson_response = await fetch(`./json/${subject_select.value}/baihoc_${subject_select.value}.json`);
+            //alert(`./json/${subject_select.value}/baihoc_${subject_select.value}.json`);
 
             // Phân tích nội dung JSON
             const data = await lesson_response.json();
@@ -171,6 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
             lessons = data.lessons;
 
             // Duyệt danh sách bài học, thêm vào select (dropdown)
+            lesson_select.innerHTML = '';
             lessons.forEach((lesson, index) => {
                 const option = document.createElement('option');
                 option.value = lesson.file;
@@ -178,7 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 lesson_select.appendChild(option);
             });
         }
-        catch (error){
+        catch (error) {
             console.error('Lỗi khi tải danh sách bài học: ', error);
         }
     }
@@ -213,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Tải danh sách câu hỏi từ file JSON
     async function loadQuestions(fileName) {
         try {
-            const response = await fetch(`./json/${fileName}`);
+            const response = await fetch(`${fileName}`);
             const data = await response.json();
 
             //alert(fileName);
@@ -610,7 +615,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Start the quiz
     // Bắt đầu bài ôn tập
     async function startQuiz() {
-        const selected_lesson_file = lesson_select.value;
+        //const selected_lesson_file = lesson_select.value;
+        const selected_lesson_file = `./json/${subject_select.value}/${lesson_select.value}`;
+        console.log('file câu hỏi' + selected_lesson_file);
         const selected_lesson_name = lesson_select.options[lesson_select.selectedIndex].text;
 
         if (!selected_lesson_file) {
@@ -633,7 +640,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.title = `Tự kiểm tra - ${selected_lesson_name}`;
 
         lesson_title.textContent = selected_lesson_name;
-        show_student_info.textContent='Họ Tên: ' + input_full_name.value + ' - Lớp: ' + input_class_name.value;
+        show_student_info.textContent = 'Họ Tên: ' + input_full_name.value + ' - Lớp: ' + input_class_name.value;
 
         quiz_start_time = Date.now();
         quiz_timer = setInterval(updateTimer, 1000);
@@ -699,7 +706,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Tính thời gian thực hiện
-    function summarizeTime(){
+    function summarizeTime() {
         // Dừng bộ đếm thời gian
         clearInterval(quiz_timer);
         const totalTimeElapsed = Math.floor((Date.now() - quiz_start_time) / 1000);
@@ -815,7 +822,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Hàm gửi dữ liệu về App Script và lưu vào Google Sheet
     async function submitQuiz() {
-        if (document.getElementById("fullName").value=="" || document.getElementById("className").value==""){
+        if (document.getElementById("fullName").value == "" || document.getElementById("className").value == "") {
             return;
         }
 
@@ -838,21 +845,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Gửi fetch đến Apps Script
         try {
-        // Thêm các tham số cấu hình vào fetch
-        const response = await fetch("https://script.google.com/macros/s/AKfycbykrsDPNcy7CVo-AXKpU9uCaoJFgUGuKveRMQYY__9I6ddyQNlPXsxrvC7WNNq32xWEkw/exec", {
-            method: "POST",
-            mode: "no-cors", // BẮT BUỘC để tránh lỗi CORS
-            cache: "no-cache",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(payload)
-        });
-        
-        // LƯU Ý: Với chế độ "no-cors", bạn sẽ KHÔNG đọc được nội dung trả về (result)
-        // Trình duyệt sẽ trả về một opaque response (phản hồi mờ đục)
-        alert("Đã gửi yêu cầu nộp bài thành công!");
-        
+            // Thêm các tham số cấu hình vào fetch
+            const response = await fetch("https://script.google.com/macros/s/AKfycbykrsDPNcy7CVo-AXKpU9uCaoJFgUGuKveRMQYY__9I6ddyQNlPXsxrvC7WNNq32xWEkw/exec", {
+                method: "POST",
+                mode: "no-cors", // BẮT BUỘC để tránh lỗi CORS
+                cache: "no-cache",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(payload)
+            });
+
+            // LƯU Ý: Với chế độ "no-cors", bạn sẽ KHÔNG đọc được nội dung trả về (result)
+            // Trình duyệt sẽ trả về một opaque response (phản hồi mờ đục)
+            alert("Đã gửi yêu cầu nộp bài thành công!");
+
         } catch (error) {
             console.error("Lỗi chi tiết:", error);
             alert("Không thể kết nối máy chủ!");
@@ -861,6 +868,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Event Listeners
     // Gán sự kiện cho đối tượng
+    subject_select.addEventListener('change', function () {
+        loadLesson();
+    });
 
     // Bắt đầu bài kiểm tra
     start_button.addEventListener('click', startQuiz);
@@ -900,32 +910,32 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Lấy IP khi trang được tải
-    window.onload = async function() {
+    window.onload = async function () {
         // 1. Lấy IP ngay lập tức
-        clientIP = await getIP();        
+        clientIP = await getIP();
         console.log("IP hiện tại:", clientIP);
 
         console.log("Trình duyệt hiện tại:", browserInfo);
     };
 
     // Cảnh báo khi tải lại trang
-    window.onbeforeunload = function() {
+    window.onbeforeunload = function () {
         if (!completed_test) { // Chỉ cảnh báo nếu chưa nhấn nút Kết thúc
             return "Bạn đang làm bài, nếu tải lại trang kết quả sẽ bị mất!";
-        }else{
-            
+        } else {
+
         }
     };
 
     // Thực hiện nộp bài khi tải lại trang hoặc thoát
-    window.addEventListener('visibilitychange', function() {
+    window.addEventListener('visibilitychange', function () {
         if (document.visibilityState === 'hidden' && !completed_test) {
-            
+
             // Kiểm tra nếu người dùng không nhập thông tin thì thoát, không thực hiện gì
-            if (document.getElementById("fullName").value=="" || document.getElementById("className").value==""){
+            if (document.getElementById("fullName").value == "" || document.getElementById("className").value == "") {
                 return;
             }
-            
+
             // Dừng bộ đếm thời gian
             clearInterval(quiz_timer);
             const totalTimeElapsed = Math.floor((Date.now() - quiz_start_time) / 1000);
@@ -950,7 +960,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Gửi trực tiếp formData, không cần Blob
             navigator.sendBeacon("https://script.google.com/macros/s/AKfycbykrsDPNcy7CVo-AXKpU9uCaoJFgUGuKveRMQYY__9I6ddyQNlPXsxrvC7WNNq32xWEkw/exec", formData);
-            
+
             completed_test = true; // Ngăn việc gửi trùng lặp
         }
     });
