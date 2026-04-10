@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const exam_mode = urlParams.get('mode'); // Giá trị sẽ là 'review' hoặc 'exam'
 
     // Số lượng câu hỏi cần lấy ra từng phần
-    const questions_per_part = [6, 4, 0]; // Phần 1: 6 câu, Phần 2: 1 câu (4 phương án), Phần 3: 0 câu
+    let questions_per_part = [6, 4, 0]; // Phần 1: 6 câu, Phần 2: 1 câu (4 phương án), Phần 3: 0 câu
 
     // Nếu là chế độ ôn tập thì lấy nhiều hơn, đặt tối đa để lấy hết câu hỏi từng phần
     if (exam_mode === 'review') {
