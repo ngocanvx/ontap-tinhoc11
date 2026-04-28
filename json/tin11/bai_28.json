@@ -413,12 +413,45 @@
     ],
     "part_2": [
         {
-            "question": "Các nhận định nào sau đây là đúng về nguyên tắc cơ bản tạo ảnh động trong GIMP? a. Mỗi lớp ảnh (layer) trong tệp tin ảnh động tương ứng với một khung hình (frame) của ảnh động đó. b. GIMP hỗ trợ tạo ảnh GIF từ các lớp ảnh mà ta đưa vào. c. Để xem trước ảnh động, người dùng có thể sử dụng lệnh Filters → Animation → Playback. d. Thời gian hiển thị của mỗi khung hình là cố định và không thể thay đổi được. Đáp án: ĐĐĐS",
+            "question": "Các nhận định nào sau đây là đúng về nguyên tắc cơ bản tạo ảnh động trong GIMP?",
             "image": {
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Mỗi lớp ảnh (layer) trong tệp tin ảnh động tương ứng với một khung hình (frame) của ảnh động đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "GIMP hỗ trợ tạo ảnh GIF từ các lớp ảnh mà ta đưa vào.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để xem trước ảnh động, người dùng có thể sử dụng lệnh Filters → Animation → Playback.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thời gian hiển thị của mỗi khung hình là cố định và không thể thay đổi được.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
         },
         {
             "question": "Về các thao tác xử lí lớp ảnh để tạo ảnh động, các phát biểu sau đúng hay sai?",

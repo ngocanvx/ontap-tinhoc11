@@ -290,12 +290,45 @@
             ]
         },
         {
-            "question": "Dựa vào các bước thực hành trong bài với phần mềm VideoPad, các nhận định sau đây đúng hay sai? a. Để bắt đầu tạo phim, người dùng có thể sử dụng tính năng Video Wizard để chọn mẫu có sẵn và tạo phim một cách đơn giản, nhanh chóng. b. Sau khi thêm ảnh và video, phần mềm sẽ tự động chọn nhạc nền và người dùng không thể thay đổi. c. Sau khi hoàn thành các bước tạo phim, người dùng có thể xem lại kết quả trong ngăn xem trước và lưu lại dự án để chỉnh sửa thêm sau này. d. Để hoàn thành và chia sẻ đoạn phim, người dùng cần chọn lệnh Export Video và chọn định dạng tệp video, ví dụ như .mp4. Đáp án: ĐSĐĐ",
+            "question": "Dựa vào các bước thực hành trong bài với phần mềm VideoPad, các nhận định sau đây đúng hay sai?",
             "image": {
                 "src": "",
                 "alt": ""
             },
-            "answers": []
+            "answers": [
+                {
+                    "text": "Để bắt đầu tạo phim, người dùng có thể sử dụng tính năng Video Wizard để chọn mẫu có sẵn và tạo phim một cách đơn giản, nhanh chóng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi thêm ảnh và video, phần mềm sẽ tự động chọn nhạc nền và người dùng không thể thay đổi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sau khi hoàn thành các bước tạo phim, người dùng có thể xem lại kết quả trong ngăn xem trước và lưu lại dự án để chỉnh sửa thêm sau này.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để hoàn thành và chia sẻ đoạn phim, người dùng cần chọn lệnh Export Video và chọn định dạng tệp video, ví dụ như .mp4.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
         },
         {
             "question": "Về các khái niệm chung của phần mềm làm phim, các phát biểu sau đúng hay sai?",

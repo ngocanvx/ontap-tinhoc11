@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
         part_1: [], part_2: [], part_3: []
     }
 
-    // Lưu câu trả lời của học sinh
+    // Lưu câu trả lời của học sinh, sử dụng trong chế độ ôn tập
     // Lưu câu trả lời của học sinh theo mẫu sau
     // answered_questions = {
     //     part_1: [0, 2, null, 1, ...], // Mảng lưu chỉ số phương án đã chọn của phần 1
