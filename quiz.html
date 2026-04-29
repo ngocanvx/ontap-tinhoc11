@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trắc nghiệm kiến thức</title>
-    <link rel="stylesheet" href="./css/quiz.css">
+    <link rel="stylesheet" href="./css/quiz_.css">
 </head>
 
 <body>
     <div id="home-page" class="page active">
-        <h2>Chào mừng đến với website tự đánh giá kiến thức</h2>
+        <h2>Chào mừng đến với website tự ôn tập, tự kiểm tra kiến thức</h2>
         <p>Chọn một bài học từ danh sách dưới đây để bắt đầu.</p>
         <select id="subject-select"></select>
         <select id="lesson-select"></select>
@@ -36,6 +36,36 @@
         <button id="start-button">BẮT ĐẦU</button>
     </div>
 
+    <!-- Khung nội dung dành cho tự ôn tập -->
+    <div id="review-page" class="page">
+        <!-- Tiêu đề bài học -->
+        <h2 id="review-lesson-title"></h2>
+
+        <!-- Thêm các nút chọn phần câu hỏi -->
+        <button id="part1-button" disabled>Phần 1</button>
+        <button id="part2-button">Phần 2</button>
+        <button id="part3-button">Phần 3</button>
+
+        <!-- Thêm các nội dung số câu hỏi hiện tại, nội dung câu hỏi và phương án trả lời -->
+        <div id="quiz-container">
+            <p><span id="question-counter"></span> - <span id="time-spent"></span></p>
+            <h3 id="question-text"></h3>
+            <img id="question-image" alt="Ảnh minh họa câu hỏi" />
+            <div id="answers-container" class="answers"></div>
+        </div>
+
+        <!-- Phản hồi kết quả đã chọn là đúng hay sai -->
+        <div id="feedback-message"></div>
+
+        <!-- Thêm các nút điều khiển -->
+        <div class="controls">
+            <button id="next-button" disabled>Câu kế tiếp</button>
+            <button id="finish-button">Kết thúc</button>
+
+        </div>
+    </div>
+
+    <!-- Khung nội dung dành cho tự kiểm tra -->
     <div id="quiz-page" class="page">
         <!-- Tiêu đề bài học -->
         <h2 id="lesson-title"></h2>
@@ -109,7 +139,7 @@
                 [0382177043]</a></p>
     </footer>
 
-    <script src="./js/quiz.js"></script>
+    <script src="./js/quiz_.js"></script>
 </body>
 
 </html>
