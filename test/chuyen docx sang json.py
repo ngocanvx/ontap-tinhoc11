@@ -97,7 +97,7 @@ def convert_docx_to_json(file_path):
     return data
 
 # Thực thi
-file_name = "BAI 24.docx"
+file_name = "BAI 17.docx"
 result = convert_docx_to_json(file_name)
 
 if isinstance(result, dict):
