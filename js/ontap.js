@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function loadLessons() {
         try {
             // Đọc nội dung file JSON
-            const response = await fetch('./json/baihoc.json');
+            const response = await fetch('./json/tin11/baihoc_tin11.json');
 
             // Phân tích nội dung JSON
             const data = await response.json();
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Tải danh sách câu hỏi từ file JSON
     async function loadQuestions(fileName) {
         try {
-            const response = await fetch(`./json/${fileName}`);
+            const response = await fetch(`./json/tin11/${fileName}`);
             const data = await response.json();
 
             //alert(fileName);
