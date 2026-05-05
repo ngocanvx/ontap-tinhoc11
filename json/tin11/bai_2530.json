@@ -1,0 +1,3533 @@
+{
+    "part_1": [
+        {
+            "question": "Một megapixel tương đương bao nhiêu pixel?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mười triệu pixel",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một triệu pixel",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một trăm triệu pixel",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Một trăm nghìn pixel",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong ngữ cảnh của máy ảnh, số megapixel được đề cập đến thường là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Độ phân giải của hình ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Số lượng điểm ảnh (pixel) được ghi nhận trong một bức ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Số lượng màu được ghi nhận trong một bức ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Số lượng màu các đối tượng được ghi nhận trong một bức ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Độ phân giải của ảnh càng cao thì ảnh như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ảnh càng rõ nét.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ảnh càng mờ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ảnh càng sáng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ảnh càng tối",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Độ phân giải (dpi) là số lượng điểm ảnh (pixel) được ghi trên bao nhiêu inch của ảnh?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "mười inch của ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "một inch của ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "một ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "một ppi của ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi một hình ảnh được in với độ phân giải khác nhau thì kích thước thay đổi như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Kích thước của hình ảnh sẽ không thay đổi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kích thước của hình ảnh sẽ thay đổi tương ứng để đạt được độ phân giải mong muốn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kích thước hình ảnh tăng đều theo chiều ngang",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Kích thước hình giảm đều theo chiều cao",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để xử lí một bức ảnh thiếu sáng em sử dụng phần mềm nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "PowerPoint",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Inkscape",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "GIMP",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Google Doc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm chỉnh sửa ảnh GIMP không có đặc điểm nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chuyên nghiệp và miễn phí",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cung cấp nhiều công cụ và tính năng mạnh mẽ để chỉnh sửa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Điều chỉnh độ sáng, độ tương phản và màu sắc của ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chuyên nghiệp và mất phí",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khi sử dụng phần mềm GIMP, thay đổi giao diện để xử lý một bức ảnh thiếu sáng, ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Vào Tools, chọn Single-Window Mode",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vào Windows, chọn Single-Window Mode",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Vào Image, chọn Single-Window Mode",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vào View, chọn Single-Window Mode",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong GIMP để chỉnh độ sáng và độ tương phản cho ảnh, ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Colors -> Brightness-Contrast",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Colors -> Color Balance",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Colors -> Hue-Saturation",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Colors -> Shadows-Highlights",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong GIMP để cân bằng màu cho ảnh, ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Colors -> Brightness-Contrast",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Colors -> Color Balance",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Colors -> Hue-Saturation",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Colors -> Shadows-Highlights",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong GIMP để chỉnh màu sắc cho ảnh, ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Colors -> Color Balance",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Colors -> Brightness-Contrast",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Colors -> Hue-Saturation",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Colors -> Shadows-Highlights",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Split Tone dùng để làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tách màu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thay đổi giá trị của các kênh màu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Chỉnh màu trên toàn bộ ảnh",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tăng độ bão hòa",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Nếu ảnh có hình một chiếc đĩa hình tròn, để chọn chiếc đĩa đó ta dùng công cụ nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Rectangle Select Tool",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Free Select Tool",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ellipse Select Tool",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Fuzzy Select Tool",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Rectangle Select Tool được dùng để tạo vùng chọn có hình dạng nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tùy ý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình elip",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình chữ nhật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hình vuông",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Ellipse Select Tool được dùng để tạo vùng chọn có hình dạng nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tùy ý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình elip",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hình chữ nhật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình vuông",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Free Select Tool được dùng để tạo vùng chọn có hình dạng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tùy ý",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hình elip",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình chữ nhật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình vuông",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Select by Color Tool là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Công cụ lựa chọn tự do",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ lựa chọn hình elip",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ lựa chọn hình chữ nhật",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ lựa chọn theo màu sắc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Fuzzy Select Tool là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Công cụ lựa chọn màu tự do",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ lựa chọn hình elip",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ lựa chọn vùng có màu sắc tương đồng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ lựa chọn theo màu sắc",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Clone được sử dụng để làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Sao chép chính xác và nhân bản một vùng chọn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Loại bỏ các khuyết điểm trên ảnh một cách tự động và mịn màng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giá trị màu nổi sẽ được sử dụng trong các công cụ hoạt động với màu nổi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giá trị màu nền sẽ được sử dụng trong các công cụ hoạt động với màu nền",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong GIMP các công cụ vẽ được cung cấp trong menu nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tools -> Selection Tools",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tools -> Toolbox.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tools -> Paint Tools.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tools -> Transform Tools.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Nêu chức năng của công cụ Paint Brush là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Vẽ thêm cho lớp đang chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Vẽ bằng cách sao chép chính xác một vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vẽ bằng cách sao chép một vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tô màu vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chức năng của công cụ Clone là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Vẽ bằng cách sao chép một vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Xóa điểm ảnh trên lớp đang chọn hoặc một vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vẽ bằng cách sao chép chính xác một vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tô màu chuyển sắc vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chức năng của công cụ Bucket fill là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tô màu chuyển sắc vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vẽ thêm cho lớp đang chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vẽ bằng cách sao chép một vùng chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tô màu vùng chọn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Công cụ Healing được sử dụng để làm gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Loại bỏ các khuyết điểm trên ảnh một cách tự động và mịn màng",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vẽ bằng cách sao chép một vùng chọn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giá trị màu nổi sẽ được sử dụng trong các công cụ hoạt động với màu nổi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Giá trị màu nền sẽ được sử dụng trong các công cụ hoạt động với màu nền",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Trong GIMP để mở nhiều tệp ảnh tạo lớp ảnh, ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "File -> Open as Layers.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "File -> Open.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "File -> Open Location.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "File -> Export As",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Sau khi tạo hiệu ứng cho các lớp ảnh, để xem ảnh chuyển động ta thực hiện thao tác nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Filters -> Animation -> Blend.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Filters -> Animation -> Optimize (for GIF).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Filters -> Animation -> Playback.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Filters -> Animation -> Waves.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Ta có thể thiết lập thời gian xuất hiện của mỗi khung hình bằng cách thêm vào phía sau tên lớp tương ứng cụm “(Xms)” trong đó X là … mà ta muốn hiển thị khung hình trước khi chuyển sang lớp tiếp theo. Hãy điền cụm từ còn thiếu vào dấu ba chấm.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "số mili-giây",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "số giây",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "số phút",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "số giờ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi gộp lớp thì lớp được chọn sẽ được gộp với lớp phía dưới nó. Để thực hiện gộp lớp, ta nháy chuột phải vào tên lớp và chọn:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Merge Visible Layers",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Duplicate Layer",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Merge Down",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "New Layer",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để xuất ra tệp ảnh động, ta chọn File / Export As và gõ tên tệp với phần mở rộng là gì?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "png",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "gif",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "bmp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "pas",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Nếu giá trị của \"Delay between frames where unspecified\" là 2000 (ms), thì thời gian xuất hiện của mỗi khung ảnh sẽ là bao nhiêu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "2000 ms",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "10 giây",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "1000 ms",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "20 giây",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "\"Delay between frames where unspecified\" là 2000 (ms) có nghĩa là?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mỗi khung ảnh sẽ được hiển thị trong 10 giây trước khi chuyển sang khung ảnh tiếp theo trong ảnh động",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mỗi khung ảnh sẽ được hiển thị trong 20 giây trước khi chuyển sang khung ảnh tiếp theo trong ảnh động",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mỗi khung ảnh sẽ được hiển thị trong 1 giây trước khi chuyển sang khung ảnh tiếp theo trong ảnh động",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mỗi khung ảnh sẽ được hiển thị trong 2 giây trước khi chuyển sang khung ảnh tiếp theo trong ảnh động",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Một tệp ảnh mở trong GIMP có 5 lớp ảnh. Nếu dùng hiệu ứng Blend với số khung hình trung gian là 5 thì số lượng khung hình do GIMP tạo ra đề làm trung gian là bao nhiêu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "55",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "35",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "25",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "15",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để tạo một tệp ảnh mới trong GIMP ta thao tác như thế nào?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "File -> Save",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "File -> Open as Layers",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "File -> Export As",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "File -> New",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Để tô màu cho quả bóng, ta sử dụng công cụ nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ellipse",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Hình tròn",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Fill",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Clone",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để tải phần mềm làm phim Videopad, truy cập vào địa chỉ nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "https://www.nchsftwae.in/videopad.com",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "https://www.nchsoftware.com/videopad",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "https://www.nch.com/videopad/index.html",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "https://www.nchsoftware.com/videopad.html",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Giao diện chung của một phần mềm làm phim thường có bố cục với mấy thành phần chính?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "5",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "4",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "3",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "2",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Ngăn tiến trình là khu vực giúp theo dõi, quản lý toàn bộ trình tự cũng như các thành phần của phim. Có mấy chế độ hiển thị trong ngăn tiến trình?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "2",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "3",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "4",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "5",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi làm việc với phần mềm làm phim Videopad, nếu lưu lại (Save Project) dự án làm phim của minh thì tên dự án có phần mở rộng là:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": ".vpj",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": ".3gp",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": ".avi",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": ".mp4",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Chỉnh sửa các hình ảnh hay video clip tại các phân đoạn của phim với các thao tác thường dùng bao gồm: bổ sung, thay thế hoặc xóa; căn chỉnh hướng, góc quay; tạo hiệu ứng cho ảnh hoặc video clip. Các thao tác chỉnh sửa này có thể thực hiện bởi các lệnh trong",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "ngăn tư liệu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "ngăn tiến trình.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "ngăn xem trước.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "thanh công cụ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Một đoạn phim có thể chứa nhiều lớp băng hình, lớp âm thanh, lớp chữ hay phụ đề khác nhau, việc căn chỉnh thời gian xuất hiện giữa phân cảnh trên các lớp này cần được thực hiện sao cho khớp với kịch bản mà ta mong muốn. Những thao tác này được hỗ trợ thực hiện tại … của phần mềm làm phim. Hãy điền cụm từ còn thiếu vào dấu ba chấm.",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "ngăn tiến trình",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "ngăn tư liệu",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "ngăn xem trước",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "con trỏ",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để căn chỉnh khoảng thời gian xuất hiện một clip, hiệu ứng, chữ, hình ảnh, âm thanh... xuất hiện trong video, ta gõ vào thời lượng mong muốn tại:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Duration",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cursor",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Add",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Maximize.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để tạo ảnh làm hiệu ứng cho phân cảnh mở đầu của đoạn phim, ta chọn:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Outro / Image Effects.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Intro / Text Effects.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Intro / Image Effects",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Intro / Audio Effects.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tạo phụ đề để chú thích cho các ảnh trong đoạn phim, ta chọn:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Clips / Subtitles",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Audio / Subtitles",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sequence / Subtitles",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sequence / Video Effects",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Để tạo hiệu ứng cho đoạn phim, ta chọn:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Audio Effects",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Text Effects",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Image Effects",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Video Effects",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_2": [
+        {
+            "question": "Về các khái niệm cơ bản của ảnh số, những khẳng định nào sau đây là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Độ phân giải (resolution) của ảnh thường được xác định bằng số điểm ảnh trên mỗi inch (dpi).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một bức ảnh có kích thước 600 x 600 pixel ở độ phân giải 100 dpi sẽ có kích thước gấp đôi một ảnh ở độ phân giải 200 dpi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Megapixel là đơn vị đo số lượng điểm ảnh của một bức ảnh, được tính bằng cách nhân số điểm ảnh chiều rộng và chiều cao.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ảnh bitmap là loại ảnh được tạo thành từ các điểm ảnh (pixel), mỗi điểm ảnh có một bộ giá trị thể hiện màu sắc và cường độ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Đâu là những phát biểu chính xác về phần mềm chỉnh sửa ảnh GIMP?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "GIMP là một phần mềm chỉnh sửa ảnh bitmap miễn phí.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Giao diện của GIMP bao gồm các thành phần chính như Bảng công cụ, Vùng hiển thị ảnh và Hộp tuỳ chọn công cụ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lệnh File → Save trong GIMP được dùng để lưu tệp tin đang làm việc ở định dạng .xcf.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "GIMP chỉ có thể mở và làm việc với các tệp ảnh có định dạng .xcf.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các thao tác cơ bản trong GIMP, những nhận định nào là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Công cụ Zoom được dùng để phóng to hoặc thu nhỏ ảnh, có thể kích hoạt bằng cách giữ phím Ctrl và lăn nút cuộn của chuột.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Rotate (phím tắt Shift+R) dùng để xoay và làm cho các đối tượng trong ảnh không còn bị nghiêng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Crop (phím tắt Shift+C) dùng để cắt một phần ảnh, giữ lại phần đã chọn và loại bỏ phần còn lại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi thực hiện cắt ảnh bằng công cụ Crop, người dùng phải nhấn phím Esc để hoàn thành thao tác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi thay đổi kích thước và độ phân giải của ảnh bằng lệnh Image → Scale Image, các khẳng định nào là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khi thay đổi độ phân giải của ảnh, số điểm ảnh của ảnh vẫn được giữ nguyên.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tăng độ phân giải (dpi) của một bức ảnh sẽ làm cho kích thước ảnh khi in ra (ví dụ tính bằng inch) trở nên nhỏ hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nếu một bức ảnh có kích thước 3120 x 3120 điểm ảnh được in ở độ phân giải 300 dpi, nó sẽ có kích thước là 10,4 x 10,4 inch.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc thay đổi chiều rộng hoặc chiều cao của ảnh sẽ không làm thay đổi độ phân giải nếu không có thiết lập khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các thao tác nào sau đây được mô tả đúng trong quá trình xử lí một bức ảnh bị nghiêng trong GIMP?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để xử lí ảnh bị nghiêng, ta sử dụng công cụ Rotate.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi xoay ảnh, để loại bỏ các phần thừa không mong muốn, ta có thể dùng công cụ Crop.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để lưu kết quả cuối cùng ra một tệp ảnh định dạng JPG, ta sử dụng lệnh File → Export.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hộp thoại Export Image cho phép người dùng đặt tên tệp tin, chọn đường dẫn và định dạng cho tệp ảnh xuất ra.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Ảnh số được xác định bởi tập hợp các điểm ảnh. Ảnh bitmap là một trong các loại ảnh số phổ biến với nhiều định dạng khác nhau như jpeg, png, gif… Ảnh bitmap thường được chụp từ camera hay máy quét, … Có một số nhận định về ảnh như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ảnh rõ nét của hình ảnh phụ thuộc vào độ phân giải.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Kích thước ảnh càng lớn thì độ phân giải ảnh càng lớn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Độ phân giải của ảnh thường được xác định bởi số điểm ảnh trên một inch.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ảnh dùng để in phải có độ phân giải là 300 dpi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Phần mềm chỉnh sửa ảnh GIMP cho phép người dùng thực hiện nhiều thao tác khác nhau trên ảnh bitmap để điều chỉnh và cải thiện hình ảnh và có thể cắt bỏ những phần không cần thiết hay thêm vào các chi tiết khác. Có một số nhận định về phần mềm như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "GIMP là một phần mềm chỉnh sửa ảnh bitmap miễn phí, cung cấp nhiều công cụ và chức năng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Màn hình làm việc của GIMP luôn là chế độ một cửa sổ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để chỉnh sửa ảnh bắt buộc phải vào bảng công cụ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vùng hiển thị ảnh có thể quan sát, so sánh ảnh trước và sau mỗi bước chỉnh sửa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các công cụ tinh chỉnh màu sắc trong GIMP có những chức năng nào sau đây?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Brightness-Contrast dùng để điều chỉnh độ sáng và độ tương phản của lớp hoặc vùng ảnh được chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Color Balance giúp điều chỉnh cân bằng màu của các vùng tối (Shadows), vùng trung bình (Midtones) và vùng sáng (Highlights).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hue-Saturation được sử dụng để điều chỉnh tông màu (Hue), độ bão hoà (Saturation) và độ sáng (Lightness) của một dải màu trong lớp ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Levels và Curves là các công cụ chính dùng để tạo vùng chọn trong ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các công cụ tạo vùng chọn và cách sử dụng chúng, những khẳng định nào là đúng?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Công cụ Rectangle Select Tool (phím tắt R) dùng để tạo một vùng chọn hình chữ nhật.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Ellipse Select Tool (phím tắt E) được sử dụng để tạo một vùng chọn hình elip hoặc hình tròn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để cộng thêm một vùng chọn mới vào vùng chọn đã có, ta cần giữ phím Shift.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Free Select Tool chỉ cho phép tạo các vùng chọn có hình dạng đa giác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi thực hiện chỉnh sửa màu sắc cho một phần cụ thể của bức ảnh, các thao tác nào sau đây là hợp lí?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để chỉ làm cho những bông hoa trong ảnh trở nên rực rỡ hơn, trước tiên cần tạo một vùng chọn bao quanh những bông hoa đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi đã chọn vùng chứa hoa, có thể dùng công cụ Hue-Saturation để thay đổi màu sắc của chúng mà không làm ảnh hưởng đến các phần còn lại của bức ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cách duy nhất để chỉnh màu cho một vùng là áp dụng công cụ Color Balance cho toàn bộ bức ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Vùng chọn giúp giới hạn các thao tác chỉnh sửa chỉ trong phạm vi của vùng đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào sau đây là đúng về các thông số trong các công cụ chỉnh màu?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Trong công cụ Hue-Saturation, Hue là giá trị thay đổi tông màu, Saturation là độ bão hoà và Lightness là độ sáng của màu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong công cụ Brightness-Contrast, việc tăng giá trị Contrast sẽ làm cho các vùng sáng càng sáng hơn và các vùng tối càng tối hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Color Balance chỉ cho phép điều chỉnh các màu cơ bản là Đỏ, Xanh lục và Xanh lam.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để làm cho một bức ảnh có màu lạnh trở nên ấm áp hơn, ta có thể dùng Color Balance để tăng giá trị màu Đỏ và giảm giá trị màu Xanh lam.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Dựa trên các bước thực hành trong bài, các phát biểu nào là chính xác?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để cải thiện một bức ảnh bình minh bị mờ và lạnh, bước đầu tiên là dùng công cụ Colors → Brightness-Contrast để tăng độ sáng và tương phản.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để làm màu sắc của ảnh bình minh trở nên ấm hơn, ta có thể dùng Colors → Color Balance để điều chỉnh các dải màu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc tạo vùng chọn là bắt buộc ngay cả khi muốn chỉnh sửa màu sắc cho toàn bộ bức ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để làm màu của vùng hoa vi-ô-lét trở nên đậm hơn, ta có thể chọn dải màu Midtones trong công cụ Color Balance và điều chỉnh các thanh trượt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Công cụ tinh chỉnh màu sắc trong GIMP cung cấp các lệnh để điều chỉnh các yếu tố như độ sáng, độ tương phản, cân bằng màu và màu sắc tổng thể của ảnh. Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Khi giá trị độ sáng càng lớn thì giá trị độ tương phản càng nhỏ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Cân bằng màu là công cụ giúp điều chỉnh tông màu tổng thể của ảnh để tạo sự cân bằng giữa các màu sắc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ chỉnh màu sắc cho phép thay đổi hoàn toàn màu sắc của từng điểm ảnh trong ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các lệnh chỉnh màu sắc trong GIMP nằm trong bảng chọn Color.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Vùng chọn có vai trò trong việc chỉnh sửa ảnh. Vùng chọn cho phép chia nhỏ hình ảnh để thực hiện các thao tác khác nhau trên từng phần riêng. Nếu không có vùng chọn thì các lệnh chỉnh sửa ảnh được thực hiện cho toàn bộ ảnh. Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Vùng chọn cho phép người dùng giới hạn khu vực chỉnh sửa, giúp tập trung vào phần ảnh cần điều chỉnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "GIMP cho phép tạo ra một vùng chọn hình chữ nhật, hình tròn hay elip, hình dạng tùy ý.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để sao chép và di chuyển vùng chọn tới vị trí mới ta nhấn Ctrl+C.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khi đang có một vùng chọn, ta nhấn giữ phím Shift để tạo vùng chọn mới thì vùng chọn mở rộng thêm vùng chọn mới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào sau đây là đúng về Lớp ảnh (Layer) trong chỉnh sửa ảnh?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lớp ảnh giúp xử lí các phần riêng biệt của bức ảnh mà không làm ảnh hưởng đến các phần khác của ảnh tổng thể.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Có thể thêm, xóa hoặc thay đổi thứ tự hiển thị của các lớp ảnh bằng cách kéo thả chúng lên trên hoặc xuống dưới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mỗi lớp ảnh chứa một số đối tượng của ảnh để có thể được xử lí một cách riêng biệt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một khi đã tạo, thứ tự của các lớp ảnh là cố định và không thể thay đổi được nữa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các công cụ vẽ và chỉnh sửa ảnh trong GIMP, các phát biểu sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Công cụ Clone dùng để sao chép nguyên gốc một vùng ảnh, còn công cụ Healing kết hợp việc sao chép với chỉnh sửa để hình ảnh trông tự nhiên hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Paint Brush dùng để tô màu cho một vùng chọn, còn Bucket Fill dùng để vẽ các nét cọ lên lớp đang chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ Eraser dùng để xóa các điểm ảnh trên lớp đang chọn, nếu lớp có kênh alpha thì vùng bị xóa sẽ trở nên trong suốt, nếu không thì sẽ hiển thị màu nền.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các công cụ vẽ như Paint Brush, Bucket Fill là phương tiện để thêm chi tiết hoặc loại bỏ các nhược điểm trên ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào đúng về kênh alpha và màu sắc?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ngoài ba kênh màu cơ bản R, G, B, một lớp ảnh có thể có thêm kênh alpha để lưu trữ thông tin về độ trong suốt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Màu nổi (Foreground) được mặc định là màu vẽ, còn màu nền (Background) là màu được tô vào khi dùng công cụ Eraser trên lớp không có kênh alpha.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Nếu lớp không có kênh alpha, nó sẽ là lớp mờ đục hoàn toàn và không thể nhìn thấy các lớp ảnh ở dưới.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mọi lớp ảnh được tạo trong GIMP đều tự động có sẵn kênh alpha.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Khi thực hành xoá chi tiết thừa trên ảnh bằng công cụ Clone và Healing, các nhận định sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để xoá một chi tiết, người dùng cần xác định vùng nguồn bằng cách giữ phím Ctrl và nháy chuột, sau đó di chuyển chuột đến vùng cần sửa để sao chép điểm ảnh từ vùng nguồn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Healing luôn cho kết quả tốt hơn công cụ Clone trong mọi trường hợp, vì nó có khả năng kết hợp màu sắc một cách tự nhiên.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Khi xóa gạch đen trên nền ảnh sát với lá cây, công cụ Healing có thể làm lem màu của lá cây vào vùng ảnh hưởng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Cả hai công cụ Clone và Healing đều có thể được dùng để xóa các chi tiết thừa như dây điện trên ảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về các bước thực hành tách nền và thay nền trời cho ảnh, các phát biểu sau đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để tách nền, cần nhân đôi lớp ảnh gốc và thêm kênh alpha cho lớp ảnh mới để có thể xoá nền và làm nó trong suốt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Công cụ Eraser được dùng để tách các phần của tiền cảnh, giúp làm nổi bật đối tượng chính.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để tạo nền trời mới, ta tạo một lớp mới nằm trên lớp tiền cảnh và dùng công cụ Gradient để tô màu.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sau khi tách nền, phần nền cũ sẽ tự động được thay bằng màu trắng hoặc đen tuỳ vào cài đặt của người dùng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Lớp ảnh (Layer) trong GIMP là một thành phần quan trọng cho phép người dùng xử lý các phần khác nhau của ảnh một cách riêng biệt. Có một số nhận định về lớp ảnh như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mỗi lớp ảnh chứa các đối tượng khác nhau và có thể được xử lý riêng biệt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thứ tự sắp xếp các lớp không ảnh hưởng đến kết quả cuối cùng của ảnh sản phẩm.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tạo một lớp mới trong GIMP có thể thực hiện bằng lệnh \"New Layer\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc chỉnh sửa một lớp cụ thể trong GIMP yêu cầu người dùng chọn lớp đó trước khi thực hiện thao tác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các tác vụ cơ bản trên lớp ảnh trong GIMP cho phép người dùng tạo, xóa và sao chép các lớp để quản lý nội dung của ảnh. Có một số nhận định về ảnh như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Tạo một bản sao của lớp được chọn có thể thực hiện bằng lệnh \"Duplicate Layer\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lệnh \"Delete Layer\" được sử dụng để xóa toàn bộ ảnh, không chỉ lớp được chọn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "\"Merge Down\" là lệnh dùng để gộp lớp hiện tại với lớp ngay dưới nó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Xóa một lớp ảnh trong GIMP có thể thực hiện mà không ảnh hưởng đến các lớp khác.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào sau đây là đúng về nguyên tắc cơ bản tạo ảnh động trong GIMP?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mỗi lớp ảnh (layer) trong tệp tin ảnh động tương ứng với một khung hình (frame) của ảnh động đó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "GIMP hỗ trợ tạo ảnh GIF từ các lớp ảnh mà ta đưa vào.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để xem trước ảnh động, người dùng có thể sử dụng lệnh Filters → Animation → Playback.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thời gian hiển thị của mỗi khung hình là cố định và không thể thay đổi được.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các thao tác xử lí lớp ảnh để tạo ảnh động, các phát biểu sau đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Lệnh File → Open as Layers được dùng để mở nhiều tệp ảnh, mỗi tệp sẽ trở thành một lớp riêng biệt.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lệnh Merge Down dùng để gộp lớp ảnh hiện tại với lớp ảnh nằm ngay phía trên nó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "\"Khoá lớp\" là một thao tác giúp ngăn không cho lớp ảnh bị sửa nhầm sau khi đã hoàn thành.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tên của lớp ảnh có thể được dùng để thiết lập thời gian hiển thị cho khung hình tương ứng, ví dụ Frame 1 (1000ms) có nghĩa là khung hình sẽ hiển thị trong 1000 mili-giây.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khi xuất tệp ảnh động trong GIMP, các nhận định sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để xuất ảnh động, cần dùng lệnh File → Export As và chọn định dạng tệp là GIF.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong hộp thoại xuất tệp, phải đánh dấu vào tùy chọn As animation để tạo ảnh động.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tùy chọn Loop forever nếu được chọn sẽ làm cho ảnh động chỉ chạy một lần duy nhất rồi dừng lại.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Nếu thời gian giữa các khung hình chưa được đặt trong tên lớp, ta có thể thiết lập giá trị này trong hộp thoại xuất tệp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào đúng về việc sử dụng hiệu ứng để tạo ảnh động?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "GIMP cung cấp các hiệu ứng có sẵn để thêm vào ảnh động, ví dụ như hiệu ứng Bend.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hiệu ứng Blend dùng để tạo ra các khung hình trung gian giữa hai lớp ảnh được chọn, giúp tạo chuyển động mượt mà.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để sử dụng hiệu ứng Blend, người dùng cần ít nhất 3 lớp ảnh: lớp nguồn, lớp đích và lớp nền.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Mọi hiệu ứng ảnh động trong GIMP đều yêu cầu cài đặt thêm từ bên ngoài chứ không có sẵn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Dựa vào các bài thực hành trong bài 28, các phát biểu sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Trong bài thực hành tạo hình tròn bằng các nét, công cụ Flip được sử dụng để lật ảnh theo chiều dọc.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Trong bài thực hành tạo biểu tượng chờ, công cụ Fuzzy Select Tool được dùng để chọn các nét gạch có màu tương tự nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để tạo ra chuyển động quay của biểu tượng chờ, các lớp ảnh được nhân bản và tô màu lần lượt cho các nét gạch theo thứ tự ngược chiều kim đồng hồ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sau khi hoàn thành các lớp ảnh, bước cuối cùng là gộp tất cả các lớp lại thành một lớp duy nhất bằng lệnh Merge Down trước khi xuất ảnh động.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Tạo và xuất ảnh động từ các lớp ảnh trong GIMP yêu cầu thực hiện một số thao tác và thiết lập nhất định. Có một số nhận định về ảnh động như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Mỗi lớp ảnh sẽ trở thành một khung hình trong ảnh động khi xuất ra dưới định dạng GIF.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thời gian xuất hiện của mỗi khung hình trong ảnh động không thể thay đổi, tất cả các khung hình sẽ có cùng thời gian xuất hiện mặc định.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để xuất ảnh động, cần chọn File -> Export As và lưu tệp với phần mở rộng .gif.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "GIMP không hỗ trợ xuất ảnh động, người dùng cần sử dụng phần mềm khác để thực hiện thao tác này.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Hiệu ứng và tùy chỉnh ảnh động trong GIMP là các tính năng giúp người dùng tạo ra các ảnh động hấp dẫn và sinh động.Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "GIMP cung cấp một số hiệu ứng để làm cho ảnh động trở nên sinh động hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi tạo ảnh động, người dùng không thể thêm hiệu ứng vào các khung hình trong GIMP.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ảnh động được tạo từ các lớp ảnh có thể được xuất dưới định dạng GIF thông qua lệnh \"Export As\".",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các lớp ảnh trong GIMP không thể được sử dụng để tạo ảnh động, chỉ có thể dùng để chỉnh sửa ảnh tĩnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào sau đây là đúng về giao diện của phần mềm làm phim?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Thanh công cụ chứa các nút lệnh để thiết lập các tính năng hay thực hiện các thao tác chỉnh sửa phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ngăn tư liệu là nơi quản lý toàn bộ tiến trình của phim, bao gồm các lớp video và âm thanh được sắp xếp theo thời gian.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Ngăn tiến trình có thể hiển thị ở hai chế độ: Phác cảnh (Storyboard) để sắp xếp trực quan và Dòng thời gian (Timeline) để hiển thị chi tiết các thành phần theo từng lớp (track).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một đoạn phim chỉ có thể bao gồm một lớp (track) hình ảnh và một lớp âm thanh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về quy trình tạo và biên tập một đoạn phim, các phát biểu sau đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Người dùng có thể tạo ra các đoạn phim bằng cách sắp xếp các tư liệu (ảnh, video clip, âm thanh) theo một trình tự, xác định thời lượng cho các phân cảnh để tạo thành một đoạn phim hoàn chỉnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lệnh Export Video được dùng để lưu lại dự án phim, cho phép người dùng mở ra và chỉnh sửa tiếp vào lần sau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các phần mềm làm phim như VideoPad cho phép người dùng thêm các tệp ảnh, video và âm thanh từ máy tính vào dự án.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Thứ tự của các tư liệu như ảnh, video được sắp xếp tự động bởi phần mềm nên người dùng không cần xây dựng kịch bản từ trước.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào đúng về các thành phần và khái niệm trong làm phim?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chế độ hiển thị Phác cảnh (Storyboard) là một chế độ đơn giản, giúp người dùng quan sát trực quan chuỗi các phân cảnh trong phim một cách dễ dàng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chế độ Dòng thời gian (Timeline) hiển thị chi tiết tất cả các thành phần phim như hình ảnh, âm thanh dưới dạng các lớp (track) trên một trục thời gian.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Con trỏ thời điểm (playhead) trên ngăn tiến trình cho biết tổng thời lượng của đoạn phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mỗi đoạn phim có thể có nhiều lớp khác nhau, ví dụ một lớp cho hình ảnh và video, một lớp khác cho âm thanh, nhạc nền.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Dựa vào các bước thực hành trong bài với phần mềm VideoPad, các nhận định sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để bắt đầu tạo phim, người dùng có thể sử dụng tính năng Video Wizard để chọn mẫu có sẵn và tạo phim một cách đơn giản, nhanh chóng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Sau khi thêm ảnh và video, phần mềm sẽ tự động chọn nhạc nền và người dùng không thể thay đổi.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Sau khi hoàn thành các bước tạo phim, người dùng có thể xem lại kết quả trong ngăn xem trước và lưu lại dự án để chỉnh sửa thêm sau này.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để hoàn thành và chia sẻ đoạn phim, người dùng cần chọn lệnh Export Video và chọn định dạng tệp video, ví dụ như .mp4.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về các khái niệm chung của phần mềm làm phim, các phát biểu sau đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Ngày nay, việc tạo các đoạn phim chỉ dành cho các tổ chức, cá nhân chuyên nghiệp và yêu cầu các phần mềm trả phí đắt tiền.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Để tạo nên một đoạn phim, người dùng cần chuẩn bị các tư liệu đầu vào như ảnh, video clip, sau đó xây dựng ý tưởng và kịch bản cho phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ngăn xem trước là nơi hiển thị kết quả của quá trình tạo phim, cho phép người dùng xem lại đoạn phim đang được biên tập.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Các đoạn phim mở đầu (Intro) và kết thúc (Outro) là những thành phần có thể được biên tập và thêm vào trong quá trình làm phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khám phá phần mềm làm phim là quá trình giúp người dùng tạo ra các đoạn phim từ các tư liệu như ảnh, video clip, và âm thanh. Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần mềm làm phim có thể sắp xếp các tư liệu theo một trình tự thời lượng nhất định để tạo thành đoạn phim hoàn chỉnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉ có video clip mới có thể được sử dụng trong phần mềm làm phim, không hỗ trợ ảnh hoặc âm thanh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Phần mềm làm phim cho phép người dùng tạo ra các chuỗi phân cảnh từ các tư liệu khác nhau.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tạo phim bằng phần mềm yêu cầu sắp xếp tư liệu theo thứ tự ngẫu nhiên để tạo nên chuỗi các phân cảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Giao diện phần mềm làm phim được thiết kế để giúp người dùng sắp xếp, chỉnh sửa và xem trước các tư liệu làm phim một cách hiệu quả. Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Giao diện phần mềm làm phim thường có các thành phần như thanh công cụ, ngăn tư liệu, và ngăn xem trước.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Con trỏ trong phần mềm làm phim được sử dụng để chọn và sắp xếp các tư liệu trên ngăn tiến trình.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ngăn tiến trình là nơi hiển thị các tư liệu đã sắp xếp theo thứ tự thời gian để tạo thành một đoạn phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ngăn tư liệu là nơi xem trước các phân cảnh đã hoàn chỉnh sau khi tạo phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào sau đây là đúng về các công cụ biên tập phim cơ bản?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Các công cụ chỉnh sửa hình ảnh cho phép người dùng thực hiện các thao tác như bổ sung, thay thế, xoá hoặc điều chỉnh hướng, góc quay của các video clip.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tạo phụ đề là một tính năng quan trọng giúp truyền tải thông tin tốt hơn, làm cho đoạn phim trở nên chuyên nghiệp hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hiệu ứng chuyển cảnh được tạo ra để làm cho việc chuyển tiếp giữa các phân cảnh trở nên mượt mà và hấp dẫn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Một khi đã thêm tư liệu vào phim, thời lượng của các phân cảnh là cố định và không thể thay đổi được nữa.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "Về các thao tác chỉnh sửa âm thanh và hình ảnh trong VideoPad, các phát biểu sau đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để thay thế một hình ảnh trong phim, người dùng cần nháy chuột phải vào ảnh trong ngăn Tư liệu, sau đó chọn lệnh Replace file....",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Hiệu ứng âm thanh nhỏ dần (Fade Out) có thể được áp dụng ở cuối đoạn phim bằng cách thiết lập trong bảng lệnh Fade Out tại ngăn tiến trình ở chế độ Dòng thời gian (Timeline).",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Chỉnh sửa âm thanh chỉ bao gồm việc ghép nối và thay đổi độ dài, không bao gồm việc điều chỉnh âm lượng.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Mọi thao tác chỉnh sửa hình ảnh hoặc video clip đều có thể được xem lại kết quả ngay lập tức trong ngăn xem trước.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các nhận định nào đúng về việc điều chỉnh thời gian và tạo phụ đề?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Trong chế độ Phác cảnh (Storyboard), người dùng có thể nháy chọn một phân cảnh và thay đổi giá trị trong ô Duration để điều chỉnh thời lượng của nó.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Ở chế độ Dòng thời gian (Timeline), để thay đổi thời lượng của phân cảnh, người dùng phải xoá đi làm lại chứ không thể kéo thả để điều chỉnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Công cụ tạo phụ đề (Subtitles) cho phép người dùng gõ nội dung, căn chỉnh thời gian bắt đầu và kết thúc để khớp với từng phân cảnh.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Lệnh Format trong hộp thoại Subtitles được dùng để định dạng chữ cho phụ đề, giúp nó hiển thị phù hợp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Khi thực hiện các nhiệm vụ trong bài thực hành, các nhận định sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Để tạo hiệu ứng chuyển cảnh, người dùng cần mở chế độ Dòng thời gian (Timeline) và chọn lệnh X tại phần cảnh muốn thực hiện.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc thêm hiệu ứng chuyển cảnh là không cần thiết vì các phần mềm làm phim hiện đại sẽ tự động thêm vào một cách ngẫu nhiên.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Việc điều chỉnh âm lượng cho nhạc nền nên phù hợp với nội dung đoạn phim, ví dụ như nhỏ dần ở cuối phim để tạo cảm giác kết thúc trọn vẹn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để bắt đầu biên tập một bộ phim, người dùng cần khởi động phần mềm và mở lại tệp dự án đã lưu từ bài học trước.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Về các tính năng và thao tác biên tập phim nâng cao, các phát biểu sau đây đúng hay sai?",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Chỉnh sửa hình ảnh, chỉnh sửa âm thanh, tạo hiệu ứng chuyển cảnh, điều chỉnh thời gian và tạo phụ đề là những công cụ cơ bản mà các phần mềm làm phim thường cung cấp.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Để xem đoạn phim sau khi chỉnh sửa, người dùng phải xuất (export) phim ra thành tệp video mới hoàn toàn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Có thể thay đổi vị trí của các phân cảnh trong ngăn tiến trình để sắp xếp lại bố cục của phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Âm thanh và hình ảnh là hai thành phần độc lập, do đó việc thay thế nhạc nền cho phim là một thao tác có thể thực hiện được.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Biên tập phim là quá trình sử dụng các công cụ chỉnh sửa để làm cho đoạn phim trở nên chuyên nghiệp và hấp dẫn hơn. Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần  mềm làm phim cung cấp các công cụ để chỉnh sửa cả hình ảnh và âm thanh trong đoạn phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Tạo các hiệu ứng chuyển cảnh giữa các phân đoạn phim là một tính năng quan trọng để làm cho đoạn phim mượt mà hơn.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Căn chỉnh thời gian chỉ áp dụng cho âm thanh, không liên quan đến hình ảnh trong phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Tạo phụ đề cho đoạn phim giúp tăng tính tương tác và cung cấp thông tin bổ sung cho người xem.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "Các công cụ biên tập phim trong phần mềm làm phim giúp người dùng chỉnh sửa nội dung phim để tạo ra sản phẩm cuối cùng chất lượng cao. Có một số nhận định như sau:",
+            "image": {
+                "src": "",
+                "alt": ""
+            },
+            "answers": [
+                {
+                    "text": "Phần mềm làm phim chỉ cho phép chỉnh sửa âm thanh, không thể chỉnh sửa hình ảnh trong phim.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Các hiệu ứng chuyển cảnh được thêm vào giữa các đoạn phim để làm cho quá trình chuyển đổi giữa các cảnh trở nên mượt mà.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                },
+                {
+                    "text": "Việc tạo phụ đề không quan trọng trong quá trình biên tập phim và chỉ là tùy chọn thêm vào nếu cần thiết.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": false
+                },
+                {
+                    "text": "Căn chỉnh thời gian là một bước quan trọng để đảm bảo các yếu tố trong phim diễn ra một cách hợp lý và đồng bộ.",
+                    "image": {
+                        "src": "",
+                        "alt": ""
+                    },
+                    "correct": true
+                }
+            ]
+        }
+    ],
+    "part_3": []
+}

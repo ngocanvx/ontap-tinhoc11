@@ -123,6 +123,10 @@
         {
             "name": "Bài 31. Thực hành tạo phim hoạt hình",
             "file": "bai_31.json"
+        },
+        {
+            "name": "Kiểm tra 15 phút Bài 25 - 30",
+            "file": "bai_2530.json"
         }
     ]
 }
