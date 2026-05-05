@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const restart_button = document.getElementById('restart-button');
 
     // Số lượng câu hỏi cần lấy ra từng phần
-    const questions_per_part = [6, 4, 0]; // Phần 1: 6 câu, Phần 2: 1 câu (4 phương án), Phần 3: 0 câu
+    let questions_per_part = [6, 4, 0]; // Phần 1: 6 câu, Phần 2: 1 câu (4 phương án), Phần 3: 0 câu
 
     // Global variables
     // Biến toàn cục lưu trữ trạng thái làm bài
@@ -620,6 +620,12 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('file câu hỏi' + selected_lesson_file);
         const selected_lesson_name = lesson_select.options[lesson_select.selectedIndex].text;
 
+        // Logic thay đổi số lượng câu hỏi nếu tiêu đề có chữ "Kiểm tra"
+        if (selected_lesson_name.includes("Kiểm tra")) {
+            questions_per_part = [24, 4, 0]; // Cấu hình cho bài kiểm tra
+        }
+
+        // Kiểm tra nếu chưa chọn bài học thì thông báo
         if (!selected_lesson_file) {
             alert('Vui lòng chọn một bài học.');
             return;
