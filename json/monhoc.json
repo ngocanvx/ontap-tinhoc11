@@ -11,6 +11,10 @@
         {
             "name": "Tin học 12",
             "path": "tin12"
+        },
+        {
+            "name": "Kiểm tra 15 phút",
+            "path": "kiemtra15p"
         }
     ]
 }
